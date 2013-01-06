@@ -1,3163 +1,3163 @@
 1
-99:59:59,000 --> 99:59:59,000
+00:00:09,378 --> 00:00:11,441
 Der Mord fällt aus
 
 2
-99:59:59,000 --> 99:59:59,000
+00:00:11,901 --> 00:00:16,119
 wenn er stattfinden würde, wär vielleicht auch nicht schlecht
 
 3
-99:59:59,000 --> 99:59:59,000
+00:00:16,119 --> 00:00:20,533
 Wir werden herausfinden, was das mit dem Namen auf sich hat
 
 4
-99:59:59,000 --> 99:59:59,000
+00:00:20,533 --> 00:00:22,286
 das ist eine lustige Herausforderung an uns alle
 
 5
-99:59:59,000 --> 99:59:59,000
+00:00:22,286 --> 00:00:27,249
 So, die Herausforderung wird euch präsentiert zum einen von Christoph
 
 6
-99:59:59,000 --> 99:59:59,000
+00:00:27,249 --> 00:00:34,132
 Maik, kennt ihr vielleicht (kontext: Open Music Contest, sollte euch allen bekannt sein),
 
 7
-99:59:59,000 --> 99:59:59,000
+00:00:34,132 --> 00:00:39,835
 ja, Meinhard Starostik. Meinhard Starostik hat
 
 8
-99:59:59,000 --> 99:59:59,000
+00:00:39,835 --> 00:00:44,447
 schon einen Riesen gefällt oder einen Feind zermalmt/vernichtet
 
 9
-99:59:59,000 --> 99:59:59,000
+00:00:44,447 --> 00:00:47,004
 nämlich vor'm Bundesverfassungsgericht die
 
 10
-99:59:59,000 --> 99:59:59,000
+00:00:47,004 --> 00:00:49,360
 Vorratsdatenspeicherung zu Fall gebracht
 
 11
-99:59:59,000 --> 99:59:59,000
+00:00:49,360 --> 00:00:53,049
 [Applaus aus dem Publikum]
 
 12
-99:59:59,000 --> 99:59:59,000
+00:00:53,049 --> 00:00:54,912
 Ja
 
 13
-99:59:59,000 --> 99:59:59,000
+00:00:54,912 --> 00:00:59,296
 Ein mehr als richtiger Applaus dafür. Genau.
 
 14
-99:59:59,000 --> 99:59:59,000
+00:00:59,296 --> 00:01:03,736
 Holger ist vom Fach, Holger ist Musikwissenschaftler und genau und jetzt
 
 15
-99:59:59,000 --> 99:59:59,000
+00:01:03,736 --> 00:01:11,244
 bitte ich Maik loszulegen
 
 16
-99:59:59,000 --> 99:59:59,000
+00:01:11,244 --> 00:01:13,613
 Okay
 
 17
-99:59:59,000 --> 99:59:59,000
+00:01:13,613 --> 00:01:16,150
 Hört ihr mich?
 
 18
-99:59:59,000 --> 99:59:59,000
+00:01:16,150 --> 00:01:20,494
 Ein bisschen schade, dass wir jetzt den Tor-Talk nicht hören könne
 
 19
-99:59:59,000 --> 99:59:59,000
+00:01:20,494 --> 00:01:23,825
 weil er zeitgleich in 'nem anderen Raum stattfindet
 
 20
-99:59:59,000 --> 99:59:59,000
+00:01:23,825 --> 00:01:27,984
 bis vor twei Wochen ungefähr sind wir davon ausgegangen, dass wir hier einen Lighning-Talk halten
 
 21
-99:59:59,000 --> 99:59:59,000
+00:01:27,984 --> 00:01:30,912
 dann zeichnete sich langsam ab, dass wir ein bisschen mehr reden sollen
 
 22
-99:59:59,000 --> 99:59:59,000
+00:01:30,912 --> 00:01:35,193
 und jetzt sind wir hier in Saal 1 das wissen wir erst seit ein paar Tagen
 
 23
-99:59:59,000 --> 99:59:59,000
+00:01:35,193 --> 00:01:37,478
 und ihr könnt euch vorstelen, wie wir unser Weihnachten verbracht haben
 
 24
-99:59:59,000 --> 99:59:59,000
+00:01:37,478 --> 00:01:40,469
 und was unsere Verwandschaft dazu gesagt hat.
 
 25
-99:59:59,000 --> 99:59:59,000
+00:01:40,469 --> 00:01:42,016
 Dies ist also kein Lightning Talk
 
 26
-99:59:59,000 --> 99:59:59,000
+00:01:42,016 --> 00:01:46,501
 Und deswegen haben wir die Möglichkeit, am Anfang auch noch einen kleinen Exkurs zu machen
 
 27
-99:59:59,000 --> 99:59:59,000
+00:01:46,501 --> 00:01:51,404
 der allerdings auch anknüpft an die Dinge, die ihr schon in einigen anderen Talks gehört habt
 
 28
-99:59:59,000 --> 99:59:59,000
+00:01:51,404 --> 00:01:54,332
 besonders gestern, fing schon in der Keynote an
 
 29
-99:59:59,000 --> 99:59:59,000
+00:01:54,332 --> 00:02:00,785
 Und zwar: Menschenrechte. Das ist nicht wirklich weit weg von dem Thema, ich mach dann gleich noch die Biegung.
 
 30
-99:59:59,000 --> 99:59:59,000
+00:02:00,785 --> 00:02:03,849
 Wenn von Menschenrechten die Rede ist
 
 31
-99:59:59,000 --> 99:59:59,000
+00:02:03,849 --> 00:02:06,750
 Dann wird im allgemeinen auf die allgemeine Menschenrechtserklärung
 
 32
-99:59:59,000 --> 99:59:59,000
+00:02:06,750 --> 00:02:11,696
 der UN abgezielt. Die die wird dann immer genannt von 1948, war 'ne Reaktion
 
 33
-99:59:59,000 --> 99:59:59,000
+00:02:11,696 --> 00:02:16,968
 auf das, was im 2. Weltkrieg passiert ist und sollte halt verhinden, dass sowas nochmal passiert.
 
 34
-99:59:59,000 --> 99:59:59,000
+00:02:16,968 --> 00:02:22,168
 Das Dumme zu der Zeit war, das gerade der kalte Krieg anfing und sich die Ost- und die Westmächte nicht
 
 35
-99:59:59,000 --> 99:59:59,000
+00:02:22,168 --> 00:02:25,614
 so richtig einigen konnten, welche Menschenrechte denn nun unbedingt
 
 36
-99:59:59,000 --> 99:59:59,000
+00:02:25,614 --> 00:02:29,270
 Völkerrechtlich verbindlich festgelegt werden sollten.
 
 37
-99:59:59,000 --> 99:59:59,000
+00:02:29,270 --> 00:02:33,598
 Der Westen wollte mehr die bürgerlich-politischen Rechte in den Vordergrund stellen
 
 38
-99:59:59,000 --> 99:59:59,000
+00:02:33,598 --> 00:02:35,637
 und der Osten mehr die sozial-kulturellen Rechte.
 
 39
-99:59:59,000 --> 99:59:59,000
+00:02:35,637 --> 00:02:39,240
 Das ist ja im Prinzip eine Teilung, wenn wir die Medien verfolgen, heute
 
 40
-99:59:59,000 --> 99:59:59,000
+00:02:39,240 --> 00:02:42,234
 heute immernoch so ein bisschen "nachspüren"
 
 41
-99:59:59,000 --> 99:59:59,000
+00:02:42,234 --> 00:02:45,700
 Und weil diese erste Menschenrechtserklärung
 
 42
-99:59:59,000 --> 99:59:59,000
+00:02:45,700 --> 00:02:47,204
 völkerrechtlich nicht verbindlich war
 
 43
-99:59:59,000 --> 99:59:59,000
+00:02:47,204 --> 00:02:49,934
 sondern einfach nur 'ne ERklärung ist, die keine rechtliche Auswirkung hat
 
 44
-99:59:59,000 --> 99:59:59,000
+00:02:49,934 --> 00:02:52,999
 hat man dann ist fast 20-jähriger Kleinarbeit
 
 45
-99:59:59,000 --> 99:59:59,000
+00:02:52,999 --> 00:02:56,520
 zusätzlich noch Völkerrechtliche Verträge ausformuliert
 
 46
-99:59:59,000 --> 99:59:59,000
+00:02:56,520 --> 00:02:59,379
 in denen diese Menschenrechte, die in der allgemeinen Menschenrechtserklärung drin sind
 
 47
-99:59:59,000 --> 99:59:59,000
+00:02:59,379 --> 00:03:03,166
 dann eben verbindlich nochmal abgehalten wurden.
 
 48
-99:59:59,000 --> 99:59:59,000
+00:03:03,166 --> 00:03:06,356
 Und wegen der Teilung in die Ost- und die Westmächte
 
 49
-99:59:59,000 --> 99:59:59,000
+00:03:06,356 --> 00:03:09,332
 sind dabei zwei verschiedene Verträge rausgekommen
 
 50
-99:59:59,000 --> 99:59:59,000
-einmal der Sozialpakt für die bürgerlichen Rechte
+00:03:09,332 --> 00:03:14,964
+einmal der Zivilpakt für die bürgerlichen Rechte
 
 51
-99:59:59,000 --> 99:59:59,000
+00:03:14,964 --> 00:03:18,133
 und der Sozialpakt für die sozial-kulturellen Rechte
 
 52
-99:59:59,000 --> 99:59:59,000
+00:03:18,133 --> 00:03:21,530
 die man halt getrennt voneinander unterschreiben und ratifizieren kann.
 
 53
-99:59:59,000 --> 99:59:59,000
+00:03:21,530 --> 00:03:23,682
 die sind wie gesagt völkerrechtlich verbindlich
 
 54
-99:59:59,000 --> 99:59:59,000
+00:03:23,682 --> 00:03:28,215
 und ganz wichtig bei Menschenrechtn ist, dass sie universell und unteilbar sind.
 
 55
-99:59:59,000 --> 99:59:59,000
+00:03:28,215 --> 00:03:32,684
 das heßt, allein aus der Tatsache, dass ich ein Mensch bin, genieße ich
 
 56
-99:59:59,000 --> 99:59:59,000
+00:03:32,684 --> 00:03:34,324
 alle diese Rechte.
 
 57
-99:59:59,000 --> 99:59:59,000
+00:03:34,324 --> 00:03:39,109
 ich habe die alle ohne dass theoretisch überhaupt irgendein Staat dafür einstehen muss
 
 58
-99:59:59,000 --> 99:59:59,000
+00:03:39,109 --> 00:03:40,826
 dass ist die <i>Universalität</i>
 
 59
-99:59:59,000 --> 99:59:59,000
+00:03:40,826 --> 00:03:43,728
 und <i>unteilbar</i> heißt, es gibt keine Hierarchie zwischen diesen Rechten.
 
 60
-99:59:59,000 --> 99:59:59,000
+00:03:43,728 --> 00:03:51,230
 Alle Rechte sind gleich wichtig und alle Rechte müssen in vollem Umfang jedem Menschen gewährt werden.
 
 61
-99:59:59,000 --> 99:59:59,000
+00:03:51,230 --> 00:03:56,541
 Man sieht an dem Ratifikationsstatus, dass die Ost/West-Teilung immernoch
 
 62
-99:59:59,000 --> 99:59:59,000
+00:03:56,602 --> 00:03:57,738
 so'n bisschen spürbar ist.
 
 63
-99:59:59,000 --> 99:59:59,000
+00:03:57,753 --> 00:04:00,884
 Wenn man sich ansieht, dass die USA heute immernoch nur den Zivilpakt
 
 64
-99:59:59,000 --> 99:59:59,000
+00:04:00,884 --> 00:04:03,524
 und China nur den Sozialpakt ratifiziert haben.
 
 65
-99:59:59,000 --> 99:59:59,000
-Und die Bundesrepublik seit 1973 an beide Pakte gebunden ist.
+00:04:03,524 --> 00:04:09,352
+Und die Bundesrepublik Deutschland seit 1973 an beide Pakte gebunden ist.
 
 66
-99:59:59,000 --> 99:59:59,000
+00:04:09,352 --> 00:04:12,469
 Und das ist nur eine kurze Auswahl aus den Rechten, es gibt sehr viel mehr Menschenrechte
 
 67
-99:59:59,000 --> 99:59:59,000
+00:04:12,469 --> 00:04:15,858
 als man spontan erstmal meint.
 
 68
-99:59:59,000 --> 99:59:59,000
+00:04:15,858 --> 00:04:17,738
 Da gehe ich jetzt natürlich im einzelnen nicht drauf ein,
 
 69
-99:59:59,000 --> 99:59:59,000
+00:04:17,738 --> 00:04:18,620
 das wär ein eigener Talk.
 
 70
-99:59:59,000 --> 99:59:59,000
+00:04:18,620 --> 00:04:21,137
 Relevant für diesen Talk ist die Tatsache, dass im
 
 71
-99:59:59,000 --> 99:59:59,000
+00:04:21,137 --> 00:04:26,412
 Sozialpakt, in dem unter Anderem "gleiches Geld für gleiche Arbeit"
 
 72
-99:59:59,000 --> 99:59:59,000
+00:04:26,412 --> 00:04:31,387
 als Menschenrecht festgelegt ist - könnte man ja mal weiterreichen nach Berlin - auch
 
 73
-99:59:59,000 --> 99:59:59,000
+00:04:31,387 --> 00:04:36,376
 das Recht auf Teilhabe am kulturellen Leben als Menschenrecht verbrieft ist
 
 74
-99:59:59,000 --> 99:59:59,000
+00:04:36,376 --> 00:04:37,991
 Und auch das Urheberrecht
 
 75
-99:59:59,000 --> 99:59:59,000
+00:04:37,991 --> 00:04:40,128
 Das wird da nicht Urheberrecht genannt, aber das, was so drinsteht
 
 76
-99:59:59,000 --> 99:59:59,000
+00:04:40,128 --> 00:04:42,995
 ist im Prinzip das, was man als Urheberrecht kennt.
 
 77
-99:59:59,000 --> 99:59:59,000
+00:04:42,995 --> 00:04:47,174
 Und wir haben dann diesen Artikel 15, in dem die beiden Rechte drinstehen,
 
 78
-99:59:59,000 --> 99:59:59,000
+00:04:47,174 --> 00:04:48,958
 als Grundlage genommen
 
 79
-99:59:59,000 --> 99:59:59,000
-für die Gründung eines Gemeinnützien
+00:04:48,958 --> 00:04:52,459
+für die Gründung eines Gemeinnützigen
 
 80
-99:59:59,000 --> 99:59:59,000
+00:04:52,459 --> 00:04:55,225
 Vereines, dem Open Music Contest e.V.
 
 81
-99:59:59,000 --> 99:59:59,000
+00:04:55,225 --> 00:04:59,226
 Weil unserer Meinung nach freie Kultur nur entstehen kann, wenn man
 
 82
-99:59:59,000 --> 99:59:59,000
-so etwas wie die Menschenrecht auch als Grundlage annimmt und auch versucht, zu befördern.
+00:04:59,226 --> 00:05:07,264
+so etwas wie die Menschenrechte auch als Grundlage annimmt und auch versucht, zu befördern.
 
 83
-99:59:59,000 --> 99:59:59,000
+00:05:07,264 --> 00:05:08,162
 So.
 
 84
-99:59:59,000 --> 99:59:59,000
+00:05:08,162 --> 00:05:10,056
 kommen wir also zum eigentlichen Thema.
 
 85
-99:59:59,000 --> 99:59:59,000
+00:05:10,056 --> 00:05:12,063
 Das C3S-Projekt.
 
 86
-99:59:59,000 --> 99:59:59,000
+00:05:12,063 --> 00:05:17,227
 Und da übergebe ich mal an Meinhard Starostik, der etwas über die Grundlagen und Ziele
 
 87
-99:59:59,000 --> 99:59:59,000
+00:05:17,227 --> 00:05:27,924
 von unserem Vorhaben erzählt.
 
 88
-99:59:59,000 --> 99:59:59,000
+00:05:27,924 --> 00:05:30,525
 Ja, was will C3S eigentlich?
 
 89
-99:59:59,000 --> 99:59:59,000
+00:05:30,525 --> 00:05:32,892
 C3S will eine Verwertungsgesellschaft machen.
 
 90
-99:59:59,000 --> 99:59:59,000
+00:05:32,892 --> 00:05:34,127
 Ist das nicht langweiligt?
 
 91
-99:59:59,000 --> 99:59:59,000
+00:05:34,127 --> 00:05:36,828
 Hört sich so an, ist es aber vielleicht doch nicht.
 
 92
-99:59:59,000 --> 99:59:59,000
+00:05:36,828 --> 00:05:41,082
 Das hoffen wir zumindest am Ende dieses Vortrages dargestellt zu haben.
 
 93
-99:59:59,000 --> 99:59:59,000
+00:05:41,082 --> 00:05:46,615
 Es gibt zwölf Verwertungsgesellschaften bereits in Deutschland
 
 94
-99:59:59,000 --> 99:59:59,000
+00:05:46,615 --> 00:05:49,848
 und die bekannteste davon ist die GEMA.
 
 95
-99:59:59,000 --> 99:59:59,000
+00:05:49,848 --> 00:05:56,262
 (Ich muss hier eben mal kucken)
 
 96
-99:59:59,000 --> 99:59:59,000
+00:05:56,262 --> 00:05:58,949
 (der da?, ah ja)
 
 97
-99:59:59,000 --> 99:59:59,000
+00:05:58,949 --> 00:06:05,109
 Die GEMA und die GVL, das sind die beiden Verwertungsgesellschaften, die am bektanntesten sind
 
 98
-99:59:59,000 --> 99:59:59,000
+00:06:05,109 --> 00:06:09,440
 die GEMA nimmt im wesentlichen die Rechte der Komponisten wahr
 
 99
-99:59:59,000 --> 99:59:59,000
+00:06:09,440 --> 00:06:15,260
 und die Rechte auf Vervielfältigung, auf mechanische Verfielfältigung,
 
 100
-99:59:59,000 --> 99:59:59,000
+00:06:15,260 --> 00:06:21,930
 so heißt es im Namen der Gema - so hieß es noch, als Tonträger als Schellack gepresst wurden -
 
 101
-99:59:59,000 --> 99:59:59,000
-Die GEMA ist, um mal eine Größenordnung zu geben, ein Unternehmen
+00:06:21,930 --> 00:06:25,699
+Die GEMA ist, um mal eine Größenvorstellung zu geben, ein Unternehmen
 
 102
-99:59:59,000 --> 99:59:59,000
+00:06:25,699 --> 00:06:30,127
 was ungefähr 860 Millionen im Jahr an Vergütung kassiert
 
 103
-99:59:59,000 --> 99:59:59,000
+00:06:30,127 --> 00:06:33,023
 für die Urheber
 
 104
-99:59:59,000 --> 99:59:59,000
+00:06:33,023 --> 00:06:37,045
 und die GVL ist im wesentlichen dazu da
 
 105
-99:59:59,000 --> 99:59:59,000
+00:06:37,045 --> 00:06:41,010
 die Verwertungsrechte der Aufführenden
 
 106
-99:59:59,000 --> 99:59:59,000
+00:06:41,010 --> 00:06:43,947
 Künstler wahrzunehmen, wenn ihre Aufführung im Radio
 
 107
-99:59:59,000 --> 99:59:59,000
+00:06:43,947 --> 00:06:46,527
 Fernsehen oder sonstwie öffentlich gespielt werden.
 
 108
-99:59:59,000 --> 99:59:59,000
+00:06:46,527 --> 00:06:52,824
 die GVL ist so in der Größenordnung nochmal von 250-260 Millionen Umsatz.
 
 109
-99:59:59,000 --> 99:59:59,000
+00:06:52,824 --> 00:06:57,959
 Reine Rechte, also da gehen nur nochmal die Verwaltungskosten ab, und der Rest
 
 110
-99:59:59,000 --> 99:59:59,000
+00:06:57,959 --> 00:07:01,384
 soll an die Urheber gehen.
 
 111
-99:59:59,000 --> 99:59:59,000
+00:07:01,384 --> 00:07:04,394
 Und da liegt schon das erste Problem
 
 112
-99:59:59,000 --> 99:59:59,000
+00:07:04,394 --> 00:07:06,929
 das die meisten mit der GEMA haben.
 
 113
-99:59:59,000 --> 99:59:59,000
-Was ist nämlich das Problem mit der GEMA, die ja jetzt so ins Gerede gekommen ist mit der drastischen Erhöhung ihrer Tarife?
+00:07:06,929 --> 00:07:14,118
+Was ist nämlich das Problem mit der GEMA, die ja jetzt so ins Gerede gekommen ist wegen der drastischen Erhöhung ihrer Tarife?
 
 114
-99:59:59,000 --> 99:59:59,000
+00:07:14,118 --> 00:07:19,467
 Die GEMA hat zunächst ein strukturelles Problem in ihrer eigenen Organisation
 
 115
-99:59:59,000 --> 99:59:59,000
+00:07:19,467 --> 00:07:23,949
 das besteht darin, dass nur 5% der Mitglieder überhaupt Stimmberechtigt sind.
 
 116
-99:59:59,000 --> 99:59:59,000
+00:07:23,949 --> 00:07:28,818
 Also die GEMA hat ein ganz drastisches Demokratiedefizit.
 
 117
-99:59:59,000 --> 99:59:59,000
+00:07:28,818 --> 00:07:35,908
 in dem nämlich nur die, die die höchsten Umsätze machen, auch tatsächlich stimmberechtigt sind
 
 118
-99:59:59,000 --> 99:59:59,000
+00:07:35,908 --> 00:07:41,527
 als GEMA-Mitglieder, während die Anderen nur das bekommen können
 
 119
-99:59:59,000 --> 99:59:59,000
-aus dem Verteilungsschlüssel, den die Großverdiener festgelegt haben.
+00:07:41,527 --> 00:07:46,176
+aus dem Verteilungsschlüssel, den die Großverdiener in der GEMA festgelegt haben.
 
 120
-99:59:59,000 --> 99:59:59,000
+00:07:46,176 --> 00:07:47,420
 Das ist erste Problem.
 
 121
-99:59:59,000 --> 99:59:59,000
+00:07:47,420 --> 00:07:50,858
 Das Zweite Problem ist, dass nicht die eigentlichen Urheber
 
 122
-99:59:59,000 --> 99:59:59,000
+00:07:50,858 --> 00:07:53,411
 sondern die Verlage und Rechtsnachfolger eine
 
 123
-99:59:59,000 --> 99:59:59,000
+00:07:53,411 --> 00:07:55,846
 relativ starke Stellung in der GEMA haben
 
 124
-99:59:59,000 --> 99:59:59,000
+00:07:55,846 --> 00:07:59,306
 und das Ganze begünstig eben Demokratiedefizite
 
 125
-99:59:59,000 --> 99:59:59,000
+00:07:59,306 --> 00:08:01,257
 und Intransparenz in der GEMA.
 
 126
-99:59:59,000 --> 99:59:59,000
+00:08:01,257 --> 00:08:05,072
 Das sind die beiden Haupt-Vorwürfe, die heute der GEMA gemacht werden.
 
 127
-99:59:59,000 --> 99:59:59,000
+00:08:05,072 --> 00:08:10,978
 Wir als C3S haben aber auch programmatische Differenzen mit der GEMA.
 
 128
-99:59:59,000 --> 99:59:59,000
-Nämlich die GEMA liefert keine Unterstützung für freie Kultir.
+00:08:10,978 --> 00:08:17,083
+Nämlich die GEMA liefert keine Unterstützung für freie Kultur.
 
 129
-99:59:59,000 --> 99:59:59,000
+00:08:17,083 --> 00:08:18,532
 Das ist bereits
 
 130
-99:59:59,000 --> 99:59:59,000
+00:08:18,532 --> 00:08:20,936
 im Gema-Brief 59/2006 dargestellt.
 
 131
-99:59:59,000 --> 99:59:59,000
+00:08:20,936 --> 00:08:26,699
 in zwei weiteren Stellungnahmen. Die GEMA verlangt viel mehr von dem Uhrheber
 
 132
-99:59:59,000 --> 99:59:59,000
+00:08:26,699 --> 00:08:29,699
 dass er mit ihr einen Wahrnehmungsvertrag abschließt
 
 133
-99:59:59,000 --> 99:59:59,000
+00:08:29,699 --> 00:08:32,060
 über sein gesamtes Repertoire.
 
 134
-99:59:59,000 --> 99:59:59,000
+00:08:32,060 --> 00:08:36,815
 Während C3S sich vorstellt, dass die Urheber selber bestimmen sollen
 
 135
-99:59:59,000 --> 99:59:59,000
+00:08:36,815 --> 00:08:42,031
 welches Werk sie uns zum Inkasso geben, und welches sie <i>nicht</i> zum Inkasso geben.
 
 136
-99:59:59,000 --> 99:59:59,000
+00:08:42,031 --> 00:08:46,022
 Und jeweils wie die einzelne Lizenz ausgestaltet sein soll.
 
 137
-99:59:59,000 --> 99:59:59,000
+00:08:46,022 --> 00:08:49,127
 Ob bestimmte Dinge zum freien Gebrauch
 
 138
-99:59:59,000 --> 99:59:59,000
+00:08:49,127 --> 00:08:56,088
 übertragen werden, oder ob grundsätzlich - so wie bei der GEMA - höchstmöglich kassiert
 
 139
-99:59:59,000 --> 99:59:59,000
+00:08:56,088 --> 00:08:58,831
 werden soll.
 
 140
-99:59:59,000 --> 99:59:59,000
-Und deshalb - wegen der wachsenden Zahl der Probleme - fühlt sich
+00:08:58,831 --> 00:09:02,891
+Und deshalb - wegen dieser Probleme innerhalb der GEMA - fühlt sich
 
 141
-99:59:59,000 --> 99:59:59,000
-eine wachsende Zahl in der GEMA nicht vertreten.
+00:09:02,891 --> 00:09:06,576
+eine wachsende Zahl von Urhebern nicht vertreten.
 
 142
-99:59:59,000 --> 99:59:59,000
+00:09:06,576 --> 00:09:11,166
 Das war im Grunde die Ausgangssituation für
 
 143
-99:59:59,000 --> 99:59:59,000
+00:09:11,166 --> 00:09:15,769
 das C3S im letzten Jahr auch eine starke Presse hatte
 
 144
-99:59:59,000 --> 99:59:59,000
+00:09:15,769 --> 00:09:20,469
 und in der Öffentlichkeit vermehrt wahrgenommen wurde.
 
 145
-99:59:59,000 --> 99:59:59,000
+00:09:20,469 --> 00:09:25,594
 Ein Wort noch zur GEMA, weil dieses Wort häufig verwendet wird in der Öfentlichkeit
 
 146
-99:59:59,000 --> 99:59:59,000
+00:09:25,594 --> 00:09:30,120
 das wollte ich kurz vom juristischen her erklären, das ist die sogenannte <i>GEMA-Vermutung</i>
 
 147
-99:59:59,000 --> 99:59:59,000
+00:09:30,120 --> 00:09:33,061
 Die GEMA-Vermutung hat zwei Facetten:
 
 148
-99:59:59,000 --> 99:59:59,000
+00:09:33,061 --> 00:09:40,014
 Das Eine ist eine gesetzliche Regelung im §13c Urheber-Wahrnehmungsgesetz
 
 149
-99:59:59,000 --> 99:59:59,000
+00:09:40,014 --> 00:09:44,144
 das ist das Gesetz, das die Tätigkeit der Verwertunsgesellschaften regelt
 
 150
-99:59:59,000 --> 99:59:59,000
+00:09:44,144 --> 00:09:50,099
 - keine Angst, wir wollen nicht den ganzen fürchterlichen Text dort lesen, sondern ich nehme das 'raus was wichtig ist -
 
 151
-99:59:59,000 --> 99:59:59,000
+00:09:50,099 --> 00:09:51,283
 da steht nämlich drin
 
 152
-99:59:59,000 --> 99:59:59,000
+00:09:51,283 --> 00:09:54,664
 [liest sinngemäß vor] Wenn die Verwertungsgesellschaft einen bestimmten Vergütungsanspruch geltend macht...
 
 153
-99:59:59,000 --> 99:59:59,000
+00:09:54,664 --> 00:09:59,289
 so wird vermutet, dass sie die Rechte aller berechtigten wahrnimmt
 
 154
-99:59:59,000 --> 99:59:59,000
+00:09:59,289 --> 00:10:03,016
 Das gilt aber nur, wenn nur eine Verwertungsgesellschaft da ist.
 
 155
-99:59:59,000 --> 99:59:59,000
+00:10:03,016 --> 00:10:03,851
 [Vorlesen zu Ende]
 
 156
-99:59:59,000 --> 99:59:59,000
+00:10:03,851 --> 00:10:05,736
 Das ist die gesetzliche GEMA-Vermutung.
 
 157
-99:59:59,000 --> 99:59:59,000
+00:10:05,736 --> 00:10:12,450
 Die gilt für Vermietungsrechte, die gilt für die Speicher-Abgabe, die gilt für die Kopierer-Abgabe
 
 158
-99:59:59,000 --> 99:59:59,000
+00:10:12,450 --> 00:10:18,615
 und für die gleichgestellten Rechte der Tonträger-Hersteller und Film-Hersteller.
 
 159
-99:59:59,000 --> 99:59:59,000
+00:10:18,615 --> 00:10:25,199
 sie sagt, im Grunde genommen ist nur eine Verwertungsgesellschaft dann wird vermutet, dass sie <i>alle</i> berechtigten vertritt.
 
 160
-99:59:59,000 --> 99:59:59,000
+00:10:25,199 --> 00:10:29,401
 Daneben gibt es aber noch eine viel weitreichendere GEMA-Vermutung
 
 161
-99:59:59,000 --> 99:59:59,000
+00:10:29,401 --> 00:10:31,323
 und die ist von der Rechtssprechung eingeführt worden.
 
 162
-99:59:59,000 --> 99:59:59,000
+00:10:31,323 --> 00:10:37,027
 Das ist ständige Rechtssprechung des Bundesgerichtshofs und damit auch aller Zivil-Gerichte
 
 163
-99:59:59,000 --> 99:59:59,000
+00:10:37,027 --> 00:10:41,142
 und die besagt, dass die GEMA die Rechte an einem weltweiten
 
 164
-99:59:59,000 --> 99:59:59,000
+00:10:41,142 --> 00:10:44,725
 Repertoire in der Tanz- und Unterhaltungsmusik wahrnimmt
 
 165
-99:59:59,000 --> 99:59:59,000
+00:10:44,725 --> 00:10:49,860
 und das heißt, wenn irgeneine Disco oder bei irgendeiner öffentlichen Aufführung
 
 166
-99:59:59,000 --> 99:59:59,000
+00:10:49,860 --> 00:10:54,908
 Musik gespielt wird, dann wird angenommen, dass die GEMA die Rechte an dieser
 
 167
-99:59:59,000 --> 99:59:59,000
+00:10:54,908 --> 00:10:58,448
 Musik vertritt, und dass sie kassieren kann.
 
 168
-99:59:59,000 --> 99:59:59,000
+00:10:58,448 --> 00:11:03,164
 Das ist die eigentliche GEMA-Vermutung, wenn man von GEMA-Vermutung spricht.
 
 169
-99:59:59,000 --> 99:59:59,000
+00:11:03,164 --> 00:11:05,184
 Das ist ein Konstrukt der Rechtssprechung.
 
 170
-99:59:59,000 --> 99:59:59,000
+00:11:05,184 --> 00:11:08,878
 Dazu muss man aber wissen, dass der BGH bereits in dieser Rechtssprechung
 
 171
-99:59:59,000 --> 99:59:59,000
+00:11:08,878 --> 00:11:16,099
 in der Zweiten, die ich zitiert habe "NJW 86" na komm schon
 
 172
-99:59:59,000 --> 99:59:59,000
+00:11:16,099 --> 00:11:18,980
 also die zweite da oben [zeigt auf die Folien]
 
 173
-99:59:59,000 --> 99:59:59,000
+00:11:18,980 --> 00:11:21,365
 ganz deutlich gesagt hat, dass diese Vermutung nur dann gilt
 
 174
-99:59:59,000 --> 99:59:59,000
+00:11:21,365 --> 00:11:24,750
 wenn die GEMA ein <i>tatsächliches</i> Monopol in diesem Bereich hat.
 
 175
-99:59:59,000 --> 99:59:59,000
+00:11:24,750 --> 00:11:28,637
 Das war auch 1986 schon so, dass bei einer neuen Technik
 
 176
-99:59:59,000 --> 99:59:59,000
+00:11:28,637 --> 00:11:33,252
 die aufgetreten war, nämlich Videokasetten, für den Privatgebrauch
 
 177
-99:59:59,000 --> 99:59:59,000
+00:11:33,252 --> 00:11:35,564
 dass die GEMA da gar kein Monopol hatte an der Musik
 
 178
-99:59:59,000 --> 99:59:59,000
+00:11:35,564 --> 00:11:38,488
 und da hat der BGH gesagt "da hat sie das Monopol nicht".
 
 179
-99:59:59,000 --> 99:59:59,000
-Jedenfalls, wenn jetzt eine weitere Musikgesellschaft käme
+00:11:38,488 --> 00:11:41,733
+Jedenfalls, wenn jetzt eine weitere Verwertungsgesellschaft käme
 
 180
-99:59:59,000 --> 99:59:59,000
-dann würde dieses Monopol auch fallen.
+00:11:41,733 --> 00:11:44,693
+dann würde dieses GEMA-Monopol auch fallen.
 
 181
-99:59:59,000 --> 99:59:59,000
-Das eklige an dem GEMA-Monopol ist, wer freie Musik spielt,
+00:11:44,693 --> 00:11:49,085
+Das eklige an dem GEMA-Monopol ist, wer GEMA-freie Musik spielt,
 
 182
-99:59:59,000 --> 99:59:59,000
+00:11:49,085 --> 00:11:52,063
 der muss nachweisen, dass sie GEMA-frei ist.
 
 183
-99:59:59,000 --> 99:59:59,000
+00:11:52,063 --> 00:11:55,015
 Das ist häufig schwierig und führt zu
 
 184
-99:59:59,000 --> 99:59:59,000
+00:11:55,015 --> 00:12:01,014
 einer als ungerecht empfundenen Lage bei der Wahrnehmung von Verwertungsrechten.
 
 185
-99:59:59,000 --> 99:59:59,000
+00:12:01,014 --> 00:12:03,900
 Soviel zum rechtlichen Rahmen
 
 186
-99:59:59,000 --> 99:59:59,000
+00:12:03,900 --> 00:12:09,947
 dessen, was C3S will, und jetzt kann ich wieder an Maik übergeben. Dankeschön.
 
 187
-99:59:59,000 --> 99:59:59,000
+00:12:09,947 --> 00:12:15,128
 [wechsel]
 
 188
-99:59:59,000 --> 99:59:59,000
+00:12:15,128 --> 00:12:19,301
 Ja, die Probleme haben wir jetzt sozusagen erläutert.
 
 189
-99:59:59,000 --> 99:59:59,000
+00:12:19,301 --> 00:12:22,111
 Und jetzt können wir uns überlegen, was man machen kann um diese Probleme zu beheben
 
 190
-99:59:59,000 --> 99:59:59,000
+00:12:22,111 --> 00:12:26,760
 Erste Option: man könnte gesetzliche Grundlagen ändern, damit sowas
 
 191
-99:59:59,000 --> 99:59:59,000
+00:12:26,760 --> 00:12:32,102
 nicht länger möglich ist. Problem, was wir daran sehen - abgesehen von der Tatsache
 
 192
-99:59:59,000 --> 99:59:59,000
+00:12:32,102 --> 00:12:36,294
 das wir selbst die Gesetze nicht einfach ändern können - das Gesetzänderungen in der Regel sehr
 
 193
-99:59:59,000 --> 99:59:59,000
+00:12:36,294 --> 00:12:41,382
 langwierige Verfahren sind. Gerade wenn man so etwas großes wie das Urheberrecht nochmal aufschraubt.
 
 194
-99:59:59,000 --> 99:59:59,000
+00:12:41,382 --> 00:12:44,120
 Und es ist auch relativ unsicher, was am Ende dabei rauskommt
 
 195
-99:59:59,000 --> 99:59:59,000
+00:12:44,120 --> 00:12:46,996
 weil man sich ja ausrechnen kann, wenn das Urheberrecht neu verhandelt wird
 
 196
-99:59:59,000 --> 99:59:59,000
+00:12:46,996 --> 00:12:49,911
 dann sind wir ja nicht die einzigen, die vortragen, wie wir es gerne hätten
 
 197
-99:59:59,000 --> 99:59:59,000
+00:12:49,911 --> 00:12:53,478
 sondern alle betroffenen Interessengruppen schmeißen dann ihre Lobbyarbeit an
 
 198
-99:59:59,000 --> 99:59:59,000
+00:12:53,478 --> 00:13:00,264
 und in den letzten Urheberrechtsnovellen ist ja jetzt auch nicht unbedingt das Gelbe vom Ei bei rausgekommen.
 
 199
-99:59:59,000 --> 99:59:59,000
+00:13:00,264 --> 00:13:04,931
 Außerdem finden wir, dass das Problem im Prinzip nicht unbedingt ein rechtliches ist
 
 200
-99:59:59,000 --> 99:59:59,000
+00:13:04,931 --> 00:13:08,828
 sondern dass es eher an mangelnder Organisation der Künstlerinnen selbst mangelt.
 
 201
-99:59:59,000 --> 99:59:59,000
+00:13:08,828 --> 00:13:14,536
 Und darin begründet ist, und man an der Stelle eher ansetzen sollte.
 
 202
-99:59:59,000 --> 99:59:59,000
+00:13:14,536 --> 00:13:18,366
 Und die Spielräume, die man hat, um Gesetze zu ändern
 
 203
-99:59:59,000 --> 99:59:59,000
+00:13:18,628 --> 00:13:21,989
 sind auch gar nicht so weit, wie das häufig in der Diskussion den Anschein hat
 
 204
-99:59:59,000 --> 99:59:59,000
+00:13:22,035 --> 00:13:25,417
 es wird von verschiedenen Seiten zum Beispiel gefordert, dass die
 
 205
-99:59:59,000 --> 99:59:59,000
+00:13:25,417 --> 00:13:29,215
 urheberrechtliche Schutzfrist viel stärker gekürzt werden sollte.
 
 206
-99:59:59,000 --> 99:59:59,000
+00:13:29,215 --> 00:13:33,452
 nach dem Tod. Sie gilt ja in Deutschland bis 75 Jahre nach dem Tod.
 
 207
-99:59:59,000 --> 99:59:59,000
+00:13:33,452 --> 00:13:36,806
 Es gibt zum Beispiel die "Berner Übereinkunft", das ist auch
 
 208
-99:59:59,000 --> 99:59:59,000
+00:13:36,806 --> 00:13:38,213
 ein völkerrechtlich bindender Vertrag
 
 209
-99:59:59,000 --> 99:59:59,000
+00:13:38,213 --> 00:13:42,784
 an den über 160 Staaten gebunden sind, der den urheberrechtlichen Schutz bis mindestens
 
 210
-99:59:59,000 --> 99:59:59,000
+00:13:42,784 --> 00:13:46,912
 50 Jahre nach dem Tod festschreibt. Also wenn man daran etwas ändern will
 
 211
-99:59:59,000 --> 99:59:59,000
+00:13:46,912 --> 00:13:50,116
 dann müsste man gleich wieder auf internationaler Ebene arbeiten.
 
 212
-99:59:59,000 --> 99:59:59,000
+00:13:50,116 --> 00:13:53,299
 und dann kommen wir wieder am ersten Punkt an, das würde wahrscheinlich sehr lange dauern.
 
 213
-99:59:59,000 --> 99:59:59,000
+00:13:53,299 --> 00:14:00,077
 Die zweite Option, die man häte, wäre, dass mann tatsächlich versucht, die GEMA selbst zu verändern
 
 214
-99:59:59,000 --> 99:59:59,000
+00:14:00,077 --> 00:14:04,817
 indem man beispielsweise massenhaft Mitglied wird, und dann versucht innerhalb der GEMA
 
 215
-99:59:59,000 --> 99:59:59,000
+00:14:04,817 --> 00:14:09,812
 Reformen anzustoßen. Problem da haben wir gerade schon gesehen: Wenn nur die 5%
 
 216
-99:59:59,000 --> 99:59:59,000
+00:14:09,812 --> 00:14:13,245
 die am meisten Umsatz machen, diejenigen sind, die bestimmen was die GEMA tut
 
 217
-99:59:59,000 --> 99:59:59,000
+00:14:13,245 --> 00:14:18,152
 ist dieses Konstrukt relativ immun gegen Reformen von innen.
 
 218
-99:59:59,000 --> 99:59:59,000
+00:14:18,152 --> 00:14:23,572
 "Reformen von außen" würde heißen, man muss in die Arbeit, in die Interna eines Vereins
 
 219
-99:59:59,000 --> 99:59:59,000
+00:14:23,572 --> 00:14:30,143
 eingreifen. Denn die GEMA ist ein wirtschaftlicher Verein und keine staatliche Stelle oder etwas ähnliches.
 
 220
-99:59:59,000 --> 99:59:59,000
+00:14:30,143 --> 00:14:34,482
 Finden wir auch nicht besonders günstig, einen Präzedenzfall zu schaffen, dass von
 
 221
-99:59:59,000 --> 99:59:59,000
+00:14:34,482 --> 00:14:38,111
 staatlicher Seite geregelt wird, wie sich ein Verein selbst organisiert
 
 222
-99:59:59,000 --> 99:59:59,000
+00:14:38,111 --> 00:14:42,999
 und durch 'ne GEMA-Änderung selbst würde auch das Monopol der GEMA nicht beseitigt werden
 
 223
-99:59:59,000 --> 99:59:59,000
+00:14:42,999 --> 00:14:47,650
 sondern quasi nur weiter bestärkt.
 
 224
-99:59:59,000 --> 99:59:59,000
+00:14:47,650 --> 00:14:53,477
 Wo wir dann davon ausgehen, dass wir nur darauf warten müssten, bis die nächsten Probleme auftauchen.
 
 225
-99:59:59,000 --> 99:59:59,000
+00:14:53,477 --> 00:14:56,861
 Der dritte Weg, und das ist der, den wir jetzt gerade gehen, ist quasi
 
 226
-99:59:59,000 --> 99:59:59,000
+00:14:56,861 --> 00:15:02,932
 wir können Konkurrenz erzeugen, dabei haben wir selbst in der Hand mit welchem Tempo
 
 227
-99:59:59,000 --> 99:59:59,000
+00:15:02,932 --> 00:15:06,212
 wir vorgehen und in welche Richtung sich das bewegt.
 
 228
-99:59:59,000 --> 99:59:59,000
+00:15:06,212 --> 00:15:09,259
 Das ist im Prinzip ein Hack an dem bestehenden System, wenn man 'ne neue
 
 229
-99:59:59,000 --> 99:59:59,000
+00:15:09,259 --> 00:15:13,188
 Verwertungsgesellschaft hinzufügt, bei dem wir einfach das benutzen, was uns der
 
 230
-99:59:59,000 --> 99:59:59,000
+00:15:13,188 --> 00:15:17,207
 Rechtsrahmen und unsere Möglichkeiten einfach jetzt schon bieten.
 
 231
-99:59:59,000 --> 99:59:59,000
+00:15:17,207 --> 00:15:21,053
 Wir wollen halt in dieser Verwertungsgesellschaft vollen Support für Creative-Commons
 
 232
-99:59:59,000 --> 99:59:59,000
+00:15:21,053 --> 00:15:25,909
 Lizenzen und später auch weitere freie Lizenzen. Das ganze soll von Anfang an
 
 233
-99:59:59,000 --> 99:59:59,000
+00:15:25,909 --> 00:15:27,572
 als europäisches Projekt starten
 
 234
-99:59:59,000 --> 99:59:59,000
+00:15:27,572 --> 00:15:32,334
 wir wollen eine europäische Genossenschaft gründen, die dann diese Verwertungsgesellschaft
 
 235
-99:59:59,000 --> 99:59:59,000
+00:15:32,334 --> 00:15:37,154
 sein soll. Genossenschaft heißt mehr oder weniger automatisch, dass das ganze demokratisch
 
 236
-99:59:59,000 --> 99:59:59,000
+00:15:37,154 --> 00:15:41,908
 strukturiert ist, weil dort von Gesetz her jedes Mitglied eine Stimme hat
 
 237
-99:59:59,000 --> 99:59:59,000
+00:15:41,908 --> 00:15:44,508
 egal, wie hoch der Anteil an der Genossenschaft ist.
 
 238
-99:59:59,000 --> 99:59:59,000
+00:15:44,508 --> 00:15:48,854
 Und selbstverständlich wollen wir die Verwaltung und die Abrechnung technisch
 
 239
-99:59:59,000 --> 99:59:59,000
+00:15:48,854 --> 00:15:52,520
 gesehen auf die Höhe der Zeit bringen.
 
 240
-99:59:59,000 --> 99:59:59,000
+00:15:52,520 --> 00:15:56,793
 Was muss man machen wenn man sich selbst 'ne Verwertungsgesellschaft basteln will?
 
 241
-99:59:59,000 --> 99:59:59,000
+00:15:56,793 --> 00:16:02,375
 Ist gar nicht so kompliziert, zumindest von dem Ablauf der Schritte her.
 
 242
-99:59:59,000 --> 99:59:59,000
+00:16:02,375 --> 00:16:05,625
 Natürlich braucht man erstmal 'n Konzept: Wer soll vertreten werden, welche Rechte
 
 243
-99:59:59,000 --> 99:59:59,000
+00:16:05,625 --> 00:16:09,321
 will man vertreten, was will man für 'ne Rechtsform haben und so weiter
 
 244
-99:59:59,000 --> 99:59:59,000
+00:16:09,321 --> 00:16:13,404
 Dann muss man in der Rechtsform, für die man sich entschieden hat, erstmal 'ne Körperschaft
 
 245
-99:59:59,000 --> 99:59:59,000
-gründen, in unserem Fall die Genossenschaft.
+00:16:13,404 --> 00:16:15,858
+gründen, in unserem Fall die europäische Genossenschaft.
 
 246
-99:59:59,000 --> 99:59:59,000
+00:16:15,858 --> 00:16:21,432
 Gegebenenfalls das entsprechende Gründungskapital, was man dafür braucht, erstmal aufbringen.
 
 247
-99:59:59,000 --> 99:59:59,000
+00:16:21,432 --> 00:16:26,073
 Bei unserem Projekt sind das mindestens 30.000 Euro
 
 248
-99:59:59,000 --> 99:59:59,000
+00:16:26,073 --> 00:16:30,513
 Im nächsten Schritt muss man durch die Wahrnehmeungs-Verträge, die man dann mit
 
 249
-99:59:59,000 --> 99:59:59,000
+00:16:30,513 --> 00:16:34,607
 den Mitgliedern abschließt, dann auch echtes Repertoire sammeln das eine gewisse
 
 250
-99:59:59,000 --> 99:59:59,000
+00:16:34,607 --> 00:16:39,482
 wirtschaftliche Bedeutung hat und wenn man dieses Repertoire hat, diese Verträge abgeschlossen hat,
 
 251
-99:59:59,000 --> 99:59:59,000
+00:16:39,482 --> 00:16:43,373
 dann kann man beim deutschen Patent- und Markenamt, was die Staatsaufsicht über
 
 252
-99:59:59,000 --> 99:59:59,000
+00:16:43,373 --> 00:16:47,029
 Verwertungsgesellschaften in Deutschland hat, einen Antrag stellen, dass man als Verwertungsgesellschaft
 
 253
-99:59:59,000 --> 99:59:59,000
+00:16:47,029 --> 00:16:51,579
 arbeiten darf. Und die prüfen dann, ob die Satzung mit dem Gesetz konform geht, ob der
 
 254
-99:59:59,000 --> 99:59:59,000
+00:16:51,579 --> 00:16:57,393
 Vorstand zuverlässig arbeitet - dafür muss man unter Anderem ein polizeiliches Führungszeugnis der Klasse "O" vorlegen -
 
 255
-99:59:59,000 --> 99:59:59,000
+00:16:57,393 --> 00:17:02,376
 Der gesamte Vorstand, das ist für die Vorlage bei Ämtern und Behörden, da
 
 256
-99:59:59,000 --> 99:59:59,000
+00:17:02,376 --> 00:17:05,945
 steht dann 'n bisschen mehr drin, wahrscheinlich, dass wir heute hier 'n Vortrag gehalten haben.
 
 257
-99:59:59,000 --> 99:59:59,000
+00:17:07,130 --> 00:17:12,808
 Und man muss halt nachweisen, dass man tatsächlich wirtschaftliches relevantes Material hat, dass dieser
 
 258
-99:59:59,000 --> 99:59:59,000
+00:17:12,808 --> 00:17:16,398
 ganze Apparat wirtschaftlich arbeiten kann, so dass den Mitgliedern
 
 259
-99:59:59,000 --> 99:59:59,000
+00:17:16,398 --> 00:17:20,808
 auch wirklich was augeschüttet werden kann. Und zum Schluss wird das Ganze
 
 260
-99:59:59,000 --> 99:59:59,000
+00:17:20,808 --> 00:17:23,933
 im Bundesanzeiger bekannt gemacht, und dann ist man quasi am Ziel angekommen.
 
 261
-99:59:59,000 --> 99:59:59,000
+00:17:23,933 --> 00:17:27,248
 Das ist die Strecke, die vor uns liegt.
 
 262
-99:59:59,000 --> 99:59:59,000
+00:17:27,248 --> 00:17:29,874
 Kommen wir zum Titel der Veranstaltung
 
 263
-99:59:59,000 --> 99:59:59,000
+00:17:29,874 --> 00:17:34,358
 Wo ist dieses Projekt, was wir hier machen, politisch einzuordnen?
 
 264
-99:59:59,000 --> 99:59:59,000
+00:17:34,358 --> 00:17:37,877
 Politisch insbesondere im Rahmen der Urheberrechtsdebatte.
 
 265
-99:59:59,000 --> 99:59:59,000
+00:17:37,877 --> 00:17:41,797
 Wenn man sich die Urheberrechtsdiskussion, die ja schon seit längerem läuft
 
 266
-99:59:59,000 --> 99:59:59,000
+00:17:41,797 --> 00:17:44,508
 einfach mal von ihren Extrempunkten her ankuckt,
 
 267
-99:59:59,000 --> 99:59:59,000
+00:17:44,508 --> 00:17:47,929
 dann haben wir auf der einen Seite das, was man vielleicht die Revolutionäre nennen könnte
 
 268
-99:59:59,000 --> 99:59:59,000
+00:17:47,929 --> 00:17:52,278
 die am liebsten vom Urheberrecht bis zu den Verwertungsgesellschaften alles abschaffen
 
 269
-99:59:59,000 --> 99:59:59,000
+00:17:52,278 --> 00:17:57,585
 würden, und den freien Zugang auf alles wollen.
 
 270
-99:59:59,000 --> 99:59:59,000
+00:17:57,585 --> 00:18:01,694
 Am anderen Ende hätten wir das, was wir hier die Oligarchen nennen.
 
 271
-99:59:59,000 --> 99:59:59,000
+00:18:01,694 --> 00:18:04,844
 Denen das Urheberrecht so wie es ist noch nicht scharf genug ist,
 
 272
-99:59:59,000 --> 99:59:59,000
+00:18:04,844 --> 00:18:07,500
 die bei der GEMA eventuell mit Reformen einverstanden wären
 
 273
-99:59:59,000 --> 99:59:59,000
+00:18:07,500 --> 00:18:11,743
 aber ansonsten an dem ganzen Verwertungsgesellschaftssystem nichts ändern wollen.
 
 274
-99:59:59,000 --> 99:59:59,000
+00:18:11,743 --> 00:18:14,029
 Und wir stehen quasi mehr oder weniger in der Mitte.
 
 275
-99:59:59,000 --> 99:59:59,000
+00:18:14,029 --> 00:18:17,264
 Wir brauchen keine Gesetzesänderungen, das Urheberrecht kann unserer Meinung nach
 
 276
-99:59:59,000 --> 99:59:59,000
+00:18:17,264 --> 00:18:21,382
 für diese Zwecke einfach so bleiben wie's ist.
 
 277
-99:59:59,000 --> 99:59:59,000
+00:18:21,382 --> 00:18:26,431
 Der GEMA wollen wir 'ne neue Alternative danebenstellen um quasi über die
 
 278
-99:59:59,000 --> 99:59:59,000
+00:18:26,431 --> 00:18:29,415
 Konkurrenz was an dem Problem zu ändern.
 
 279
-99:59:59,000 --> 99:59:59,000
+00:18:29,415 --> 00:18:32,562
 Wir sehen allerdings inzwischen auch durch die ganzen Gespräche, die wir mit vielen
 
 280
-99:59:59,000 --> 99:59:59,000
+00:18:32,562 --> 00:18:36,015
 anderen Leuten über die letzten zweieinhalb Jahre geführt haben, dass es auch in ganz vielen anderen
 
 281
-99:59:59,000 --> 99:59:59,000
+00:18:36,015 --> 00:18:44,576
 Verwertungsgesellschaften, die nicht so bekannt sind relativ großen Reformbedarf gibt.
 
 282
-99:59:59,000 --> 99:59:59,000
+00:18:44,576 --> 00:18:49,293
 Dann schauen wir mal zurück, was wir 2012 alles so gemacht haben für die
 
 283
-99:59:59,000 --> 99:59:59,000
+00:18:49,293 --> 00:18:54,176
 Öffentlichkeit wahrnehmbar hat das Jahr 2012 erst im Mai begonnen
 
 284
-99:59:59,000 --> 99:59:59,000
+00:18:54,176 --> 00:18:56,833
 Da sind wir nämlich mit ner Informations-Homepage
 
 285
-99:59:59,000 --> 99:59:59,000
+00:18:56,833 --> 00:19:00,882
 ins Netz gegangen, seitdem kann man uns auch flattrn
 
 286
-99:59:59,000 --> 99:59:59,000
+00:19:00,882 --> 00:19:04,894
 und Spenden abgeben, was besonders für Veranstaltungen wie diese gut ist.
 
 287
-99:59:59,000 --> 99:59:59,000
+00:19:04,894 --> 00:19:08,914
 Weil wir nämlich sonst immer die Fahrkosten, überall wo wir hinfahren selbst tragen müssen.
 
 288
-99:59:59,000 --> 99:59:59,000
-Und man kann 'n Newsletter abonnieren und uns über diverse Sovial-Media-Kanäle
+00:19:08,914 --> 00:19:13,066
+Und man kann 'n Newsletter abonnieren und uns über diverse Social-Media-Kanäle
 
 289
-99:59:59,000 --> 99:59:59,000
+00:19:13,066 --> 00:19:16,529
 verfolgen. Wir hatten, als wir die Seite gestartet haben, das Ziel
 
 290
-99:59:59,000 --> 99:59:59,000
-das wir bis zum Jahresende über diese verschiedenen Kanäle bis zu 1000 Leute erreichen
+00:19:16,529 --> 00:19:21,608
+das wir bis zum Jahresende über diese verschiedenen Kanäle 1000 Leute erreichen
 
 291
-99:59:59,000 --> 99:59:59,000
+00:19:21,608 --> 00:19:24,495
 wollen, die unser Projekt regelmäßig verfolgen.
 
 292
-99:59:59,000 --> 99:59:59,000
+00:19:24,495 --> 00:19:28,793
 Und wir haben das jetzt vor ein paar Tagen uns mal angeguckt, und haben diese Ziel auf jeden Fall
 
 293
-99:59:59,000 --> 99:59:59,000
+00:19:28,793 --> 00:19:33,196
 locker übertroffen. Es gibt stetiges Interesse auf jeden Fall an dem, was wir tun
 
 294
-99:59:59,000 --> 99:59:59,000
+00:19:33,196 --> 00:19:36,281
 und das finden wir natürlich großartig.
 
 295
-99:59:59,000 --> 99:59:59,000
+00:19:36,281 --> 00:19:42,576
 [Applaus]
 
 296
-99:59:59,000 --> 99:59:59,000
+00:19:42,576 --> 00:19:45,297
 Es kommt noch mehr.
 
 297
-99:59:59,000 --> 99:59:59,000
+00:19:45,297 --> 00:19:48,749
 Sehr wichtig ist natürlich, dass wir überhaupt darüber informieren, was wir machen.
 
 298
-99:59:59,000 --> 99:59:59,000
-Unser Ansatz ist ja, dass wir schon den ganzen Gründungsprozess öffentlich
+00:19:48,749 --> 00:19:52,540
+Unser Ansatz ist ja, dass wir schon den gesamten Gründungsprozess öffentlich
 
 299
-99:59:59,000 --> 99:59:59,000
-stattfinden lassen und nicht in Hinterzimmern. Damit Leute nicht nachher sagen "Uuh was ist
+00:19:52,540 --> 00:19:57,045
+stattfinden lassen und nicht in Hinterzimmern. Damit hinterher Leute sagen "Uuh was ist
 
 300
-99:59:59,000 --> 99:59:59,000
+00:19:57,045 --> 00:19:59,711
 denn da jetzt plötzlich entstanden?"
 
 301
-99:59:59,000 --> 99:59:59,000
-Wir haben relativ viele Meldungen in diversen Einschlägigen Blogs, Foren und Poralen
+00:19:59,711 --> 00:20:07,823
+Wir haben relativ viele Meldungen in diversen Einschlägigen Blogs, Foren und Portalen
 
 302
-99:59:59,000 --> 99:59:59,000
+00:20:07,823 --> 00:20:16,196
 im Internet gehabt, Golem.de hat uns schon zur Nemensis der GEMA erklärt
 
 303
-99:59:59,000 --> 99:59:59,000
-in den Print-Medien gab es auch reichlich Berichterstattung zu dem Projekt
+00:20:16,196 --> 00:20:21,579
+in den Print-Medien gab es auch reichlich Berichterstattung über das Projekt
 
 304
-99:59:59,000 --> 99:59:59,000
+00:20:21,579 --> 00:20:24,859
 und das heißt nicht nur, dass wir so "mal eben" am Rande miterwähnt wurden
 
 305
-99:59:59,000 --> 99:59:59,000
+00:20:24,859 --> 00:20:30,490
 Sondern, dass wir zum Teil ganze Doppelseiten, wie hier zum Beispiel für ne Titelstory
 
 306
-99:59:59,000 --> 99:59:59,000
+00:20:30,490 --> 00:20:34,138
 in der Jungle-World und sogar ne Doppelseite in der Wirtschafts Woche bekommen haben
 
 307
-99:59:59,000 --> 99:59:59,000
+00:20:34,138 --> 00:20:37,157
 wo wir halt ausführlich auch erklären konnten, was wir vorhaben.
 
 308
-99:59:59,000 --> 99:59:59,000
+00:20:37,157 --> 00:20:44,724
 [applaus]
 
 309
-99:59:59,000 --> 99:59:59,000
+00:20:44,724 --> 00:20:49,730
 Beim rundfunk sieht es ähnlich aus. Die wichtigste Rundfunk-Instanz, das Chaos-Radio, hat uns
 
 310
-99:59:59,000 --> 99:59:59,000
+00:20:49,730 --> 00:20:55,738
 gleich zweimal zum Interview gebeten. Und auch die anderen öffentlich-rechtlichen standen dem nicht nach
 
 311
-99:59:59,000 --> 99:59:59,000
+00:20:55,738 --> 00:20:59,247
 Bis hin zu kleinen, lokalen Radiostationen, wie "Unerhört Marburg" oder
 
 312
-99:59:59,000 --> 99:59:59,000
+00:20:59,247 --> 00:21:05,979
 Berlin FM [Applaus, lacht] Marburger?
 
 313
-99:59:59,000 --> 99:59:59,000
+00:21:05,979 --> 00:21:09,360
 Und zu unserer großen Überraschung bestand das "Spreading the word" nicht nur aus
 
 314
-99:59:59,000 --> 99:59:59,000
+00:21:09,360 --> 00:21:14,039
 den Medien, auf die wir gebaut haben, sondern interessanterweise hat die GEMA selbst
 
 315
-99:59:59,000 --> 99:59:59,000
+00:21:14,039 --> 00:21:19,362
 tatsächlich über uns berichtet, und zwar auch in einem sehr ausführlichen und sehr
 
 316
-99:59:59,000 --> 99:59:59,000
+00:21:19,362 --> 00:21:23,931
 neutralen Bericht für ihre Mitglieder. Und ich finde, das ist auch einen Applaus wert
 
 317
-99:59:59,000 --> 99:59:59,000
+00:21:23,931 --> 00:21:30,856
 [Applaus]
 
 318
-99:59:59,000 --> 99:59:59,000
+00:21:30,856 --> 00:21:35,461
 Und wir waren auf 'ner ganzen Reihe von Konferenzen, Podiums-Diskussionen
 
 319
-99:59:59,000 --> 99:59:59,000
+00:21:35,461 --> 00:21:39,346
 haben 'ne ganze Reihe von Einzel-Gesprächen geführt mit verschiedenen Leuten
 
 320
-99:59:59,000 --> 99:59:59,000
+00:21:39,346 --> 00:21:42,297
 die an entscheidenden Positionen sitzen. Das können wir jetzt natürlich nicht alles
 
 321
-99:59:59,000 --> 99:59:59,000
+00:21:42,297 --> 00:21:44,581
 zusammenfassen und das ist nur 'ne Auswahl.
 
 322
-99:59:59,000 --> 99:59:59,000
-Man sieht, wir sind ganz schön unterwegs gewesen, sind ganz schön rumgekommen bis
+00:21:44,581 --> 00:21:48,639
+Man sieht, wir sind wirklich relativ viel unterwegs gewesen, und ganz schön rumgekommen bis
 
 323
-99:59:59,000 --> 99:59:59,000
+00:21:48,639 --> 00:21:53,269
 hin nach Schweden. Und das ist auch einer der Punkte, das sag' ich gleich mal
 
 324
-99:59:59,000 --> 99:59:59,000
+00:21:53,269 --> 00:21:58,158
 wofür wir halt auch Spenden angewiesen sind. Denn wir bezahlen wirklich alles aus eigener Tasche.
 
 325
-99:59:59,000 --> 99:59:59,000
+00:21:58,158 --> 00:22:01,659
 Und nicht jede von diesen Veranstaltungen übernimmt die Reisekosten, die Hotelkosten
 
 326
-99:59:59,000 --> 99:59:59,000
+00:22:01,659 --> 00:22:06,100
 und manchmal noch nichtmal den Eintritt zur Veranstaltung.
 
 327
-99:59:59,000 --> 99:59:59,000
-Da freuen wir uns natürlich über alles, as kommt, auch wenn's noch so klein ist.
+00:22:06,100 --> 00:22:11,485
+Da freuen wir uns natürlich über alles, was kommt, auch wenn's noch so klein ist.
 
 328
-99:59:59,000 --> 99:59:59,000
+00:22:11,485 --> 00:22:15,895
 Die wichtigsten Veranstaltungen für uns waren aber die, die wir selbst durchgeführt haben.
 
 329
-99:59:59,000 --> 99:59:59,000
-Und das war zum Ersten unser allererstes Barcam, was wir in Berlin im September gemacht haben
+00:22:15,895 --> 00:22:21,094
+Und das war zum Ersten unser allererstes Barcamp, was wir in Berlin im September gemacht haben
 
 330
-99:59:59,000 --> 99:59:59,000
+00:22:21,094 --> 00:22:26,212
 Und dazu wird euch jetzt Holger kurz was erzählen
 
 331
-99:59:59,000 --> 99:59:59,000
+00:22:26,212 --> 00:22:31,273
 [Holger betritt das Podium]
 
 332
-99:59:59,000 --> 99:59:59,000
+00:22:31,273 --> 00:22:34,404
 Ja, wir haben uns überlegt, wenn man schon so 'ne Riesen Bühne hat
 
 333
-99:59:59,000 --> 99:59:59,000
+00:22:34,404 --> 00:22:38,091
 dann muss man die auch irgendwie nutzen, das weiß man ja als Musiker.
 
 334
-99:59:59,000 --> 99:59:59,000
+00:22:38,091 --> 00:22:41,933
 Deshalb laufen wir hier ein bisschen Strecke, heute.
 
 335
-99:59:59,000 --> 99:59:59,000
+00:22:41,933 --> 00:22:47,272
 Ja, was haben wir an eigenen Veranstaltungen gemacht in 2012?
 
 336
-99:59:59,000 --> 99:59:59,000
+00:22:47,272 --> 00:22:53,057
 Wir haben ein Barcamp gemacht in Berlin, anfang September und haben das finanziert über 'n
 
 337
-99:59:59,000 --> 99:59:59,000
+00:22:53,057 --> 00:22:58,851
 Crowdfunding das wir erfolgreich abschließen konnten. Wir haben um 2.000 Euro
 
 338
-99:59:59,000 --> 99:59:59,000
-gebeten, die haben wir auch leicht overfundet bekommen. Wie ihr seht 2.500 Euro.
+00:22:58,851 --> 00:23:04,125
+gebeten, die haben wir auch, wie ihr seht, leicht overfundet bekommen. Wie ihr seht 2.500 Euro.
 
 339
-99:59:59,000 --> 99:59:59,000
+00:23:04,125 --> 00:23:10,392
 Wir hatten 80 Teilnehmer aus dem gesamten Bundesgebiet an einem Tag zusammen im Supermarkt in Berlin.
 
 340
-99:59:59,000 --> 99:59:59,000
+00:23:10,392 --> 00:23:17,680
 Und was da passiert ist, dafür haben wir euch mal 'n kleinen Film gemacht.
 
 341
-99:59:59,000 --> 99:59:59,000
-Premiere heute / genau, der ist heute erst fertig geschnitten. Ist auch noch nicht der Final Cut.
+00:23:17,680 --> 00:23:23,330
+Premiere heute / genau, der ist gerade erst fertig geschnitten. Ist auch noch nicht der Final Cut.
 
 342
-99:59:59,000 --> 99:59:59,000
+00:23:23,330 --> 00:23:24,981
 Viel Spaß.
 
 343
-99:59:59,000 --> 99:59:59,000
+00:23:24,981 --> 00:23:26,914
 [Film beginnt]
 
 344
-99:59:59,000 --> 99:59:59,000
+00:23:26,914 --> 00:23:31,808
 [Titel: C3S Barcamp, 2. September 2012, Supermarkt Berlin]
 
 345
-99:59:59,000 --> 99:59:59,000
+00:23:31,808 --> 00:23:39,224
 Ja hallo, ich bin der Danny Bruder, ich bin Musiker, Musikproduzent und Mit-Inhaber eines Labels.
 
 346
-99:59:59,000 --> 99:59:59,000
+00:23:39,224 --> 00:23:40,517
 -- TODO: Titel des Labels unverständlich --
 
 347
-99:59:59,000 --> 99:59:59,000
+00:23:40,517 --> 00:23:44,111
 'n offenes Label und bin heute hier weil ich zum, also ich bin zum Team der C3S
 
 348
-99:59:59,000 --> 99:59:59,000
+00:23:44,111 --> 00:23:48,446
 gestoßen, weil ich die Idee einer neuen Verwertungsgesellschaft in Deutschland
 
 349
-99:59:59,000 --> 99:59:59,000
+00:23:48,446 --> 00:23:51,868
 und natürlich auch europaweit, für 'ne sehr Gute halte.
 
 350
-99:59:59,000 --> 99:59:59,000
+00:23:51,868 --> 00:23:53,249
 [Personenwechsel]
 
 351
-99:59:59,000 --> 99:59:59,000
+00:23:53,249 --> 00:23:55,865
 Mein Name ist Janina Klabes, ich bin Clustermanagerin der Musikwirtschaft
 
 352
-99:59:59,000 --> 99:59:59,000
+00:23:55,865 --> 00:23:58,659
 Mannheim und Region. Das heißt ich bin Wirtschaftsförderin und ich bin auch
 
 353
-99:59:59,000 --> 99:59:59,000
+00:23:58,659 --> 00:24:02,329
 selbst Musikerin bei der Band
 
 354
-99:59:59,000 --> 99:59:59,000
+00:24:02,329 --> 00:24:03,899
 -- TODO: Bandname unverständlich --
 
 355
-99:59:59,000 --> 99:59:59,000
+00:24:03,899 --> 00:24:04,642
 [Wechsel zurück zu Danny]
 
 356
-99:59:59,000 --> 99:59:59,000
+00:24:04,642 --> 00:24:08,635
 Ich war selber 14 Jahre Mitglied in der GEMA und bin dort ausgetreten - oder <i>musste</i> dort austreten,
 
 357
-99:59:59,000 --> 99:59:59,000
+00:24:08,635 --> 00:24:13,201
 weil ich eben Creative Commons Lizenzen für meine Musik verwende und die GEMA
 
 358
-99:59:59,000 --> 99:59:59,000
+00:24:13,201 --> 00:24:15,811
 mir damals sagte "ja, wenn sie das machen wollen, dann müssen Sie halt austreten".
 
 359
-99:59:59,000 --> 99:59:59,000
+00:24:15,811 --> 00:24:23,277
 Und ich seitdem halt quasi keine Einnahmen mehr habe, außer live Musik zu machen.
 
 360
-99:59:59,000 --> 99:59:59,000
+00:24:23,277 --> 00:24:30,864
 Aber ich bekomme halt keinerlei Tantiemen mehr für Radio-Aufführungen oder Verkäufe
 
 361
-99:59:59,000 --> 99:59:59,000
+00:24:30,864 --> 00:24:35,814
 oder Herstellung von Tonträgern, und das kann's nicht sein.
 
 362
-99:59:59,000 --> 99:59:59,000
+00:24:35,814 --> 00:24:38,730
 Also es kann nicht sein, dass ich mich erst von meinen Einnahmen verabschieden muss
 
 363
-99:59:59,000 --> 99:59:59,000
+00:24:38,730 --> 00:24:43,780
 damit ich freie Lizenzen verwenden kann. Und daher muss eine Alternative zur GEMA her.
 
 364
-99:59:59,000 --> 99:59:59,000
+00:24:43,780 --> 00:24:48,041
 Also es muss 'ne andere Verwertungsgesellschaft geben, das ist ganz wichtig.
 
 365
-99:59:59,000 --> 99:59:59,000
+00:24:48,041 --> 00:24:49,193
 [Wechsel zu Luci van Org]
 
 366
-99:59:59,000 --> 99:59:59,000
+00:24:49,193 --> 00:24:55,711
 Ich heiße Luci van Org, ich bin seit unsäglichen Zeiten - ich bin ja schon alt
 
 367
-99:59:59,000 --> 99:59:59,000
+00:24:55,711 --> 00:25:02,397
 ich bin gestern 41 geworden - mache ich Musik. Ich hab mal Mitte der 90er
 
 368
-99:59:59,000 --> 99:59:59,000
+00:25:02,397 --> 00:25:05,915
 sehr kommerziell erfolgreich Musik gemacht, Mit einer Band die hieß Lucilectric.
 
 369
-99:59:59,000 --> 99:59:59,000
+00:25:05,915 --> 00:25:09,816
 Die hatten einen großen Hit, der hieß "Weil ich ein Mädchen bin"
 
 370
-99:59:59,000 --> 99:59:59,000
+00:25:09,816 --> 00:25:13,881
 Hab vorher Musik gemacht, mache jetzt immernoch Musik, bin auch Autorin, deswegen auch Urheberin
 
 371
-99:59:59,000 --> 99:59:59,000
-Bin ansonsten Bassistin, Schauspielerin manchmal, hab aber auch 'ne Plattenfirma und 'n Musikverlag
+00:25:13,881 --> 00:25:22,665
+Bin ansonsten Bassistin, Schauspielerin ab und zu mal, hab aber auch 'ne Plattenfirma und 'n Musikverlag
 
 372
-99:59:59,000 --> 99:59:59,000
-das heißt ich bin egentlich quasi gleichermaßen Urheber wie Verwerter und deswegen ganz doll
+00:25:22,665 --> 00:25:29,166
+das heißt ich bin egentlich quasi gleichermaßen Urheber wie Verwerter und deshalb ganz doll
 
 373
-99:59:59,000 --> 99:59:59,000
+00:25:29,166 --> 00:25:32,579
 Interessiert an einer neuen Verwertungsgesellschaft, die das ganze etwas moderner angeht.
 
 374
-99:59:59,000 --> 99:59:59,000
+00:25:32,794 --> 00:25:33,348
 [Wechsel]
 
 375
-99:59:59,000 --> 99:59:59,000
+00:25:33,579 --> 00:25:38,820
 Ich bin sehr wütend, weil ich tatsächlich finde, dass in Deutschland eine große Unterscheidung
 
 376
-99:59:59,000 --> 99:59:59,000
+00:25:38,820 --> 00:25:41,294
 gemacht wird zwischen <i>Kunst</i> und <i>Kunst</i>
 
 377
-99:59:59,000 --> 99:59:59,000
+00:25:41,294 --> 00:25:44,272
 und ich muss leider sagen auch "zu Recht", weil es eine gewise Art Kunstsparte gibt
 
 378
-99:59:59,000 --> 99:59:59,000
+00:25:44,272 --> 00:25:47,962
 die sich ihrer Wertigkeit sehr bewusst ist, und eine andere Kunstsparte gibt,
 
 379
-99:59:59,000 --> 99:59:59,000
+00:25:47,962 --> 00:25:52,239
 ich nenne sie mal die "Jetztzeitkultur", die sich vollkommen unter Wert verkauft
 
 380
-99:59:59,000 --> 99:59:59,000
+00:25:52,239 --> 00:25:57,396
 die die eigene Bedeutung nicht kennt, die sich den Po wund arbeitet
 
 381
-99:59:59,000 --> 99:59:59,000
+00:25:57,396 --> 00:26:01,374
 und dafür kaum etwas verlangt, und ich finde, dass sich das ändern muss
 
 382
-99:59:59,000 --> 99:59:59,000
+00:26:01,374 --> 00:26:02,388
 [Wechsel]
 
 383
-99:59:59,000 --> 99:59:59,000
+00:26:02,388 --> 00:26:05,026
 Volker Grassmuck, ich bin Mediensoziologe an der
 
 384
-99:59:59,000 --> 99:59:59,000
+00:26:05,026 --> 00:26:08,129
 -- TODO: Universität unverständlich --
 
 385
-99:59:59,000 --> 99:59:59,000
+00:26:08,129 --> 00:26:11,694
 und hab mich ziemlich lange mit Urheberrecht beschäftigt.
 
 386
-99:59:59,000 --> 99:59:59,000
+00:26:11,694 --> 00:26:22,858
 und seit 2002/2003 habe ich das was die "Kulturflatrate" genannt haben, was
 
 387
-99:59:59,000 --> 99:59:59,000
+00:26:22,858 --> 00:26:27,376
 inzwischen umbenannt worden ist in "Tauschlizenz", verfolgt
 
 388
-99:59:59,000 --> 99:59:59,000
+00:26:27,376 --> 00:26:32,012
 also in Forschung aber auch im Aktivismus in die Urheberrechtsdebatte getragen.
 
 389
-99:59:59,000 --> 99:59:59,000
+00:26:32,012 --> 00:26:34,726
 [Wechsel zu Luci van Org]
 
 390
-99:59:59,000 --> 99:59:59,000
+00:26:34,726 --> 00:26:39,289
 also was mich Frohen Mutes macht, ist, dass ich tatsächlich hingehen konnte und dass
 
 391
-99:59:59,000 --> 99:59:59,000
+00:26:39,289 --> 00:26:46,291
 Einwände gehört wurden, dass wirklich versucht wird, etwas Neues zu machen
 
 392
-99:59:59,000 --> 99:59:59,000
+00:26:46,291 --> 00:26:53,524
 etwas faireres zu machen, etwas transparentes zu machen, das funktionieren kann.
 
 393
-99:59:59,000 --> 99:59:59,000
+00:26:53,524 --> 00:26:59,989
 Ich bin auch mit Zahlen teilweise konfrontiert worden zum Beispiel von der Lehrmedien-Abgabe
 
 394
-99:59:59,000 --> 99:59:59,000
+00:26:59,989 --> 00:27:02,454
 die mir in der Größenordnung überhaupt gar nicht bewusst waren, wo ich dachte
 
 395
-99:59:59,000 --> 99:59:59,000
+00:27:02,454 --> 00:27:05,177
 "Oh mein Gott, wo bleiben diese Gelder eigentlich, wo sind 'n die?"
 
 396
-99:59:59,000 --> 99:59:59,000
+00:27:05,177 --> 00:27:12,344
 Und ich geh' hier ganz frohen Mutes raus, das ich denke vielleicht, wenn es wirklich weiter so
 
 397
-99:59:59,000 --> 99:59:59,000
+00:27:12,344 --> 00:27:18,828
 funktioniert, dass die Leute, die am Ende quasi davon profitieren sollen, nämlich die, denen
 
 398
-99:59:59,000 --> 99:59:59,000
+00:27:18,828 --> 00:27:23,560
 so 'ne Verwertungsgesellschaft was bringt und zwar sowohl die Urheber, als auch die Verwerter, die mit
 
 399
-99:59:59,000 --> 99:59:59,000
+00:27:23,560 --> 00:27:28,878
 dieser Gesellschaft arbeiten, die ja auch arbeiten wollen, dass man da wirklich Lösungen finden
 
 400
-99:59:59,000 --> 99:59:59,000
+00:27:28,878 --> 00:27:31,430
 kann die neu sind, und die funktionieren.
 
 401
-99:59:59,000 --> 99:59:59,000
+00:27:31,430 --> 00:27:32,428
 [Wechsel zu Bruno Kramm]
 
 402
-99:59:59,000 --> 99:59:59,000
+00:27:32,428 --> 00:27:35,289
 Die GEMA braucht endlich 'n Konkurrent, es geht darum dass es unglaublich viele
 
 403
-99:59:59,000 --> 99:59:59,000
+00:27:35,289 --> 00:27:39,858
 kleinteilige Künstler gibt, die von der GEMA nicht vernünftig repräsentiert werden.
 
 404
-99:59:59,000 --> 99:59:59,000
+00:27:39,858 --> 00:27:44,855
 Wir sprechen vom Creative-Commons-Bereich, da muss endlich was passieren. Deshalb
 
 405
-99:59:59,000 --> 99:59:59,000
+00:27:44,855 --> 00:27:48,227
 unterstützen wir natürlich ganz stark die Gründung der C3S.
 
 406
-99:59:59,000 --> 99:59:59,000
+00:27:48,227 --> 00:27:49,164
 [Wechsel zu Luci van Org]
 
 407
-99:59:59,000 --> 99:59:59,000
+00:27:49,164 --> 00:27:53,294
 Ich wusste gar nicht, dass das hier statt findet, ich hatte vom C3S gehört und gehe hier richtig
 
 408
-99:59:59,000 --> 99:59:59,000
+00:27:53,294 --> 00:27:57,579
 euphorisiert raus und denke "Boah mann, vielleicht könnte das ja klappen, das wär so schön".
 
 409
-99:59:59,000 --> 99:59:59,000
+00:27:57,579 --> 00:27:58,711
 [Wechel]
 
 410
-99:59:59,000 --> 99:59:59,000
+00:27:58,711 --> 00:28:03,221
 Wenn wir mit, vor allen Dingen Musikern, über dieses Modell gesprochen haben, erklärt haben
 
 411
-99:59:59,000 --> 99:59:59,000
+00:28:03,221 --> 00:28:10,095
 worum's geht, waren Menschen immer sehr hellhörig, dann kam unweigerlich die Frage
 
 412
-99:59:59,000 --> 99:59:59,000
+00:28:10,095 --> 00:28:12,378
 "Ja, wer soll das dann abwickeln?"
 
 413
-99:59:59,000 --> 99:59:59,000
+00:28:12,378 --> 00:28:17,028
 Und dann war die Antwort "Ja, das sind die bestehenden Verwertungsgesellschaften
 
 414
-99:59:59,000 --> 99:59:59,000
+00:28:17,028 --> 00:28:23,564
 für Musik eben die GEMA und die GVL und dann haben die Leute die Hände hoch geworfen und gesagt
 
 415
-99:59:59,000 --> 99:59:59,000
+00:28:23,564 --> 00:28:27,122
 "Ne, das geht gar nicht" also da gab's immer so
 
 416
-99:59:59,000 --> 99:59:59,000
-ne Argumentative Leerstelle. Also wir brauchen 'ne Alternative, wir brauchen 'ne Reform
+00:28:27,122 --> 00:28:33,772
+ne Argumentative Leerstelle. Wir brauchen 'ne Alternative, wir brauchen 'ne Reform
 
 417
-99:59:59,000 --> 99:59:59,000
+00:28:33,772 --> 00:28:39,733
 in bestehenden Verwertungsgesellschaften. Und genau dahinein hat sich die C3S-Initiative gegründet.
 
 418
-99:59:59,000 --> 99:59:59,000
+00:28:39,733 --> 00:28:40,801
 [Wechsel]
 
 419
-99:59:59,000 --> 99:59:59,000
+00:28:40,801 --> 00:28:45,854
 Also ganz persönlich wichtig ist mir zum Einen die Gleichheit aller Mitglieder.
 
 420
-99:59:59,000 --> 99:59:59,000
+00:28:45,854 --> 00:28:52,273
 Also so'n komisches Zeug mit Angeschlossenen und Anwärtern darauf und ordentlichen Mitgliedern
 
 421
-99:59:59,000 --> 99:59:59,000
+00:28:52,396 --> 00:28:59,514
 und so weiter, das darf eifach nicht passieren, dass 6.000 Leute über die Finanzen von 63.000 Leuten entscheiden.
 
 422
-99:59:59,000 --> 99:59:59,000
+00:28:59,514 --> 00:29:01,305
 Das geht einfach nicht
 
 423
-99:59:59,000 --> 99:59:59,000
-die transparenz ist mir wahnsinnig wichtig, dass einfach klar ist "Wo gehen die Gelder hin",
+00:29:01,305 --> 00:29:09,566
+die transparenz ist mir wahnsinnig wichtig, dass wirklich klar ist "Wo gehen die Gelder hin",
 
 424
-99:59:59,000 --> 99:59:59,000
+00:29:09,566 --> 00:29:11,552
 "Wer verwaltet die", "Was passiert da"
 
 425
-99:59:59,000 --> 99:59:59,000
+00:29:11,552 --> 00:29:15,805
 Dass man es nicht so ist, dass man, wie es jetzt ist, extra ein Computerprogramm dafür entwickeln muss
 
 426
-99:59:59,000 --> 99:59:59,000
+00:29:15,805 --> 00:29:19,870
 was einem möglich macht diese GEMA-Abrechnungen zu prüfen oder so.
 
 427
-99:59:59,000 --> 99:59:59,000
+00:29:19,870 --> 00:29:20,647
 [Wechsel]
 
 428
-99:59:59,000 --> 99:59:59,000
+00:29:20,647 --> 00:29:24,421
 Die Technologie erlaubt das private kopieren von urheberrechtlich geschützten Werken, also
 
 429
-99:59:59,000 --> 99:59:59,000
+00:29:24,421 --> 00:29:27,317
 machen Menschen das auch massenhaft.
 
 430
-99:59:59,000 --> 99:59:59,000
+00:29:27,317 --> 00:29:31,600
 Damals ist diskutiert worden, dass man ganz tief in die Privatsphäre hinein
 
 431
-99:59:59,000 --> 99:59:59,000
-greifen sollte, um zu gucken, was Menschen zu Hause kopieren, auf Tonbandgeräte, damit ging das los.
+00:29:31,600 --> 00:29:41,551
+greifen sollte, um zu gucken, was Menschen zu Hause an Werken kopieren, auf Tonbandgeräte, damit ging das los.
 
 432
-99:59:59,000 --> 99:59:59,000
+00:29:41,551 --> 00:29:46,435
 Das ist aber in einer Grundgesetz-Abwägung abgelehnt worden.
 
 433
-99:59:59,000 --> 99:59:59,000
+00:29:46,435 --> 00:29:48,886
 Das könne man so nicht machen
 
 434
-99:59:59,000 --> 99:59:59,000
-also ist dieses Modell dieses "Erlaubens und Vergütens" entstanden.
+00:29:48,886 --> 00:29:53,022
+also ist dieses Modell des "Erlaubens und Vergütens" entstanden.
 
 435
-99:59:59,000 --> 99:59:59,000
+00:29:53,022 --> 00:29:53,905
 [Wechsel]
 
 436
-99:59:59,000 --> 99:59:59,000
+00:29:53,905 --> 00:29:56,942
 Ich glaube, dass die Künstler gar nicht wissen, was sie wirklich von 'ner Verwertungsgesellschaft wollen.
 
 437
-99:59:59,000 --> 99:59:59,000
+00:29:56,942 --> 00:30:00,461
 Ich glaub dass man Künstlern auch erzählen muss, was sie von einer Verwertungsgesellschaft
 
 438
-99:59:59,000 --> 99:59:59,000
+00:30:00,461 --> 00:30:02,511
 erwarten dürfen, auch erwarten müssen.
 
 439
-99:59:59,000 --> 99:59:59,000
-Ich glaube, was gesellschaftlich und politisch auch erkannt werden muss, ist, dass Kultur
+00:30:02,511 --> 00:30:07,608
+Ich glaube, was politisch und geselschaftlich auch erkannt werden muss, ist, dass Kultur
 
 440
-99:59:59,000 --> 99:59:59,000
+00:30:07,608 --> 00:30:10,003
 und Wirtschaft gar nicht so weit voneinander entfernt liegen.
 
 441
-99:59:59,000 --> 99:59:59,000
+00:30:10,003 --> 00:30:13,758
 Weil momentan ist die Lage eigentlich so, dass die meisten Kunstschaffenden zwar unter kulturellen
 
 442
-99:59:59,000 --> 99:59:59,000
+00:30:13,758 --> 00:30:18,091
 Gesichtspunkten zu sehen sind, weil sie vielleicht ihren Lebensunterhalt nicht mit dem bestreiten
 
 443
-99:59:59,000 --> 99:59:59,000
+00:30:18,091 --> 00:30:21,762
 können, was sie tun, aber sie betreiben als - wahrscheinlich - größte Masse überhaupt
 
 444
-99:59:59,000 --> 99:59:59,000
+00:30:21,762 --> 00:30:26,451
 Wirtschaftsförderung für die eigene Wirtschaft. Indem sie nämlich alles das bezahlen, mit dem sie arbeiten.
 
 445
-99:59:59,000 --> 99:59:59,000
+00:30:26,451 --> 00:30:33,133
 Das heißt bezahlen von Produzenten, Presswerk, Tonstudio, Manager, Booker, also alles das, was
 
 446
-99:59:59,000 --> 99:59:59,000
+00:30:33,133 --> 00:30:37,242
 noch hinten dran hängt wird de facto größtenteils momentan von den Künstlern finanziert.
 
 447
-99:59:59,000 --> 99:59:59,000
+00:30:37,242 --> 00:30:40,933
 Das heißt, sie sind der größte Antrieb der Branche und der Wirtschaft, für die sie arbeiten.
 
 448
-99:59:59,000 --> 99:59:59,000
+00:30:40,933 --> 00:30:43,618
 Unter dem kulturellen Deckmäntelchen, aber de facto ist es so.
 
 449
-99:59:59,000 --> 99:59:59,000
+00:30:43,618 --> 00:30:44,454
 [Wechsel]
 
 450
-99:59:59,000 --> 99:59:59,000
+00:30:44,454 --> 00:30:49,819
 Wie gesagt, ich muss zum Beispiel für meine CDs immer GEMA-Abgabe bezahlen, von der ich
 
 451
-99:59:59,000 --> 99:59:59,000
+00:30:49,819 --> 00:30:55,158
 nur einen Bruchteil wieder sehe, obwohl es <i>mein</i> Urheberrecht ist, was ich da wahrgenommen bekomme
 
 452
-99:59:59,000 --> 99:59:59,000
-und das ist einfach total idiotisch, das ist schildbürgerhaft was im Moment passiert.
+00:30:55,158 --> 00:30:59,599
+und das ist einfach total idiotisch, das ist schildbürgerhaft wie das im Moment passiert.
 
 453
-99:59:59,000 --> 99:59:59,000
+00:30:59,599 --> 00:31:04,965
 Und mir ist es zum Beispiel auch wichtig, dass ich Sachen verschenken kann, dass ich weiter
 
 454
-99:59:59,000 --> 99:59:59,000
+00:31:04,965 --> 00:31:07,945
 Dinge unter Creative Commons veröffentlichen kann.
 
 455
-99:59:59,000 --> 99:59:59,000
+00:31:07,945 --> 00:31:16,081
 Das ist nicht so wie jetzt, ich kann nicht Sachen für'n Benefiz komponieren und die da singen,
 
 456
-99:59:59,000 --> 99:59:59,000
+00:31:16,081 --> 00:31:17,212
 das darf ich nicht.
 
 457
-99:59:59,000 --> 99:59:59,000
+00:31:17,212 --> 00:31:20,042
 Da mach ich mich strafbar, weil ich 'n GEMA-Vertrag unterschrieben hab.
 
 458
-99:59:59,000 --> 99:59:59,000
+00:31:20,042 --> 00:31:22,763
 Ich fänd's toll - ich weiß nicht ob man das Verwaltungsmäßig hinkriegt - wenn es möglich
 
 459
-99:59:59,000 --> 99:59:59,000
+00:31:22,763 --> 00:31:29,198
 wäre, dass abhängig zu machen. Zu sagen ich darf auch mein Urheberrecht, wenn es Sachen sind, die
 
 460
-99:59:59,000 --> 99:59:59,000
+00:31:29,198 --> 00:31:31,643
 ich geschrieben habe, ich darf die auch mal wem schenken.
 
 461
-99:59:59,000 --> 99:59:59,000
+00:31:31,643 --> 00:31:32,524
 [Wechsel]
 
 462
-99:59:59,000 --> 99:59:59,000
-Also wenn der Tag sich dem Ende neigt, wird natürlich jeder Musiker immer fragen
+00:31:32,524 --> 00:31:40,368
+Also wenn der Tag sich dem Ende neigt, wird natürlich jeder Musiker nach der anfänglichen Euphorie immer fragen
 
 463
-99:59:59,000 --> 99:59:59,000
+00:31:40,368 --> 00:31:42,644
 "Und, wo bleibt jetzt das Geld?"
 
 464
-99:59:59,000 --> 99:59:59,000
+00:31:42,644 --> 00:31:47,470
 Also es geht ja im Endeffekt um die Verwertungsrechte, es geht darum dass in einer
 
 465
-99:59:59,000 --> 99:59:59,000
+00:31:47,470 --> 00:31:52,501
 zunehmend trägerlosen Gesellschaft von Immaterialgütern Urheber Wege finden müssen
 
 466
-99:59:59,000 --> 99:59:59,000
+00:31:52,501 --> 00:31:59,106
 um eben Geld zu verdienen, Honorierung zu bekommen und genau da muss natürlich die C3S
 
 467
-99:59:59,000 --> 99:59:59,000
+00:31:59,106 --> 00:32:04,493
 jetzt relativ zügig auch Konzepte entwickeln, aber ich bin vollkommen überzeugt, dass da
 
 468
-99:59:59,000 --> 99:59:59,000
+00:32:04,493 --> 00:32:09,301
 genügend Man-Power da ist um genau diese Klippen auch hinzubekommen und zu umschiffen.
 
 469
-99:59:59,000 --> 99:59:59,000
-Ich denke mal in so ein/zwei Jahren wird das ganze so weit entwickelt sein, dass die C3S kaum
+00:32:09,301 --> 00:32:16,291
+Ich denke mal in so ein/zwei Jahren wird das ganze so weit entwickelt sein, dass die C3S wahrscheinlich kaum
 
 470
-99:59:59,000 --> 99:59:59,000
-noch Promotion bruacht, weil einfach jeder von sich aus, als Musiker da unterschreiben wird.
+00:32:16,291 --> 00:32:20,358
+noch Promotion braucht, weil einfach jeder von sich aus, als Musiker da unterschreiben wird.
 
 471
-99:59:59,000 --> 99:59:59,000
+00:32:20,358 --> 00:32:21,173
 [Wechsel]
 
 472
-99:59:59,000 --> 99:59:59,000
+00:32:21,173 --> 00:32:26,189
 Selbstverständlich soll die Technologie, die dort zusammengeführt wird, wir wollen nicht das Rad
 
 473
-99:59:59,000 --> 99:59:59,000
+00:32:26,189 --> 00:32:32,903
 neu erfinden, sondern erstmal kucken, wo wir Bestandteile bereits vorfinden, auf die wir aufbauen können
 
 474
-99:59:59,000 --> 99:59:59,000
+00:32:32,903 --> 00:32:36,087
 aber da wird sicherlich auch Technologie zu entwickeln sein.
 
 475
-99:59:59,000 --> 99:59:59,000
+00:32:36,087 --> 00:32:40,609
 Selbstverständlich soll das freie Software sein, die hinterher weiter zu verwenden ist.
 
 476
-99:59:59,000 --> 99:59:59,000
-Auch wo Datenbanken entstehen von Daten, von Metadaten, möglicherweise von AUdio-Fingerprints,
+00:32:40,609 --> 00:32:47,702
+Auch wo Datenbanken entstehen von Daten, von Metadaten, möglicherweise von Audio-Fingerprints,
 
 477
-99:59:59,000 --> 99:59:59,000
+00:32:47,702 --> 00:32:51,977
 die es uns erlauben, Werke in der freien Wildbahn zu identifizieren.
 
 478
-99:59:59,000 --> 99:59:59,000
+00:32:51,977 --> 00:32:56,916
 Auch da ist völlig klar, dass offene Schnittstellen, offene APIs
 
 479
-99:59:59,000 --> 99:59:59,000
+00:32:56,916 --> 00:33:03,314
 vorgesehen sein sollen, um diese Werkdaten dann auch in anderen Bereichen
 
 480
-99:59:59,000 --> 99:59:59,000
+00:33:03,314 --> 00:33:05,680
 weiter zu nutzen,
 
 481
-99:59:59,000 --> 99:59:59,000
+00:33:05,680 --> 00:33:06,397
 [Wechsel]
 
 482
-99:59:59,000 --> 99:59:59,000
+00:33:06,397 --> 00:33:11,548
 Also wenn ich mir vorstelle, wie toll das wäre, wenn ich Konzerte veranstalte, mit nem geringen Umsatz
 
 483
-99:59:59,000 --> 99:59:59,000
+00:33:11,548 --> 00:33:16,448
 und ich hab da so-und-soviel Einnahmen, könnte ich auch selber zu meiner Verlegerin gehen, die
 
 484
-99:59:59,000 --> 99:59:59,000
+00:33:16,448 --> 00:33:20,098
 toll ist, und könnte sagen "Du, liebe Doro, wir haben so-und-soviel eingenommen, dass sind deine
 
 485
-99:59:59,000 --> 99:59:59,000
+00:33:20,098 --> 00:33:26,125
 so-und-soviel Prozent Verlagsanteil, den Rest teilen wir uns unter uns auf, und gut is."
 
 486
-99:59:59,000 --> 99:59:59,000
+00:33:26,125 --> 00:33:32,731
 Stattdessen muss das aber über den Weg über die Meldung über die GEMA gehen, das geht
 
 487
-99:59:59,000 --> 99:59:59,000
+00:33:32,731 --> 00:33:35,674
 dann wieder zurück, dann schüttet die GEMA den Verlagsanteil bei dem Verlag aus und
 
 488
-99:59:59,000 --> 99:59:59,000
+00:33:35,674 --> 00:33:38,030
 [sucht nach Worten]
 
 489
-99:59:59,000 --> 99:59:59,000
+00:33:38,030 --> 00:33:40,651
 Reibungsverlust, heißt das glaube ich
 
 490
-99:59:59,000 --> 99:59:59,000
+00:33:40,651 --> 00:33:44,280
 wenn man Energiemäßig das irgendwie beschreiben würde.
 
 491
-99:59:59,000 --> 99:59:59,000
-Diese Reibungsverluste ein bisschen zu mindern, fänd ich irgendwie schön.
+00:33:44,280 --> 00:33:46,859
+Diese Reibungsverluste ein bisschen zu mindern, fänd ich sehr schön.
 
 492
-99:59:59,000 --> 99:59:59,000
+00:33:46,859 --> 00:33:48,263
 [Wechsel]
 
 493
-99:59:59,000 --> 99:59:59,000
+00:33:48,263 --> 00:33:50,553
 Ein wesentlicher Punkt ist natürlich die Transparenz.
 
 494
-99:59:59,000 --> 99:59:59,000
+00:33:50,553 --> 00:33:54,655
 Also wenn wir uns Verwertungsgesellschaften, klassische Verwertungsgesellschaften wie die
 
 495
-99:59:59,000 --> 99:59:59,000
+00:33:54,655 --> 00:33:59,896
 GEMA anschauen, dann haben wir an der Stelle, wo eingezahlt wird Intransparenz
 
 496
-99:59:59,000 --> 99:59:59,000
+00:33:59,896 --> 00:34:05,883
 und an der Stelle, wo ausgeschüttet wird - also dem Urheber ausgeschüttet wird - Intransparenz
 
 497
-99:59:59,000 --> 99:59:59,000
+00:34:06,052 --> 00:34:10,710
 Der ganze Kasten als solches ist nicht nachvollziehbar. Und da geht's vor allem
 
 498
-99:59:59,000 --> 99:59:59,000
+00:34:10,710 --> 00:34:15,305
 drum, dass diese Demokratisierung, diese Transparenz, dieses offenlegen von Strukturen
 
 499
-99:59:59,000 --> 99:59:59,000
+00:34:15,305 --> 00:34:21,213
 und dieses Etablieren von Verwertungsschlüsseln letzten Endes auch dazu führt, dass mehr
 
 500
-99:59:59,000 --> 99:59:59,000
+00:34:21,213 --> 00:34:25,346
 Verteilungsgerechtigkeit existiert. Und das ist der wesentliche Punkt: <i>Verteilungsgerechtigkeit<i>.</i></i>
 
 501
-99:59:59,000 --> 99:59:59,000
+00:34:25,346 --> 00:34:26,106
 [Wechsel]
 
 502
-99:59:59,000 --> 99:59:59,000
+00:34:26,106 --> 00:34:28,391
 Gestaltet werden sollte sie, glaube ich, genau so, wie sie auch schon geplant ist
 
 503
-99:59:59,000 --> 99:59:59,000
+00:34:28,391 --> 00:34:31,391
 nämlich sehr demokratisch, das heißt, mit viel Mitbestimmung, das heißt die Künstler
 
 504
-99:59:59,000 --> 99:59:59,000
+00:34:31,391 --> 00:34:35,326
 müssen sich selbst auch engagieren, müssen auch teilhaben, auch teilnehmen
 
 505
-99:59:59,000 --> 99:59:59,000
+00:34:35,326 --> 00:34:36,163
 [Wechsel]
 
 506
-99:59:59,000 --> 99:59:59,000
+00:34:36,163 --> 00:34:42,858
 Also wenn die C3S tatsächlich fairer, gerechter, transparenter und mit weniger Reibungsverlust
 
 507
-99:59:59,000 --> 99:59:59,000
+00:34:42,858 --> 00:34:45,207
 arbeitet, dann sind das schon vier Argumente, glaub ich
 
 508
-99:59:59,000 --> 99:59:59,000
+00:34:45,207 --> 00:34:46,143
 [Wechsel]
 
 509
-99:59:59,000 --> 99:59:59,000
+00:34:46,143 --> 00:34:50,546
 Also muss ganz ehrlich gestehen, als ich am Anfang das Konzept über Maik kennengelernt habe, hab ich
 
 510
-99:59:59,000 --> 99:59:59,000
+00:34:50,546 --> 00:34:52,353
 gedacht "schönes Konzept, viel Spaß beim Sterben"
 
 511
-99:59:59,000 --> 99:59:59,000
+00:34:52,353 --> 00:34:53,229
 [lacht]
 
 512
-99:59:59,000 --> 99:59:59,000
+00:34:53,229 --> 00:34:57,229
 Weil ich tatsächlich auch die GEMA als so immensen Riesen empdunden habe, gegen den
 
 513
-99:59:59,000 --> 99:59:59,000
+00:34:57,229 --> 00:35:01,493
 man eigentlich zwar mit viel Idealismus anstänkern wollen möchte aber bis man
 
 514
-99:59:59,000 --> 99:59:59,000
+00:35:01,493 --> 00:35:06,649
 das alles wirklich nachgebildet hat, was die GEMA hat, gehen wahrscheinlich <i>Jahrzehnte</i> ins Land.
 
 515
-99:59:59,000 --> 99:59:59,000
+00:35:06,695 --> 00:35:09,710
 Ich hab dann ein bisschen drüber nachgedacht, und hab dann gedacht, dass dieses Denken
 
 516
-99:59:59,000 --> 99:59:59,000
+00:35:09,710 --> 00:35:12,262
 totaler Quatsch ist, weil wer nicht versucht wird niemals gewinnen.
 
 517
-99:59:59,000 --> 99:59:59,000
+00:35:12,262 --> 00:35:18,045
 Und ich glaube, dass allein schon, dass es diese Initiative gibt, was verändern kann.
 
 518
-99:59:59,000 --> 99:59:59,000
+00:35:18,045 --> 00:35:20,421
 und anders wird sich nichts verändern.
 
 519
-99:59:59,000 --> 99:59:59,000
+00:35:20,421 --> 00:35:23,241
 [Einblendung zum Ende: Kamera Sven Wendt, Schnitt Meik Mischalke. thx.]
 
 520
-99:59:59,000 --> 99:59:59,000
+00:35:23,241 --> 00:35:29,540
 [Applaus]
 
 521
-99:59:59,000 --> 99:59:59,000
+00:35:29,540 --> 00:35:31,472
 Dankeschön
 
 522
-99:59:59,000 --> 99:59:59,000
+00:35:31,472 --> 00:35:35,159
 Ja, danke. Also dass ist ein kleiner Einblick in das Barcamp
 
 523
-99:59:59,000 --> 99:59:59,000
+00:35:35,159 --> 00:35:40,945
 und ich glaube, zwei Sachen kann man ganz gut sehen: zum Einen dass wir Leute, die wirklich
 
 524
-99:59:59,000 --> 99:59:59,000
+00:35:40,945 --> 00:35:45,794
 Interesse an unserer Arbeit haben, sind viel Musiker die sich auch selber managen.
 
 525
-99:59:59,000 --> 99:59:59,000
+00:35:45,794 --> 00:35:50,797
 Die viele Rollen wahrnehmen und das sind halt auch gerade die, die in dem langen Schwanz, in dem
 
 526
-99:59:59,000 --> 99:59:59,000
+00:35:50,797 --> 00:35:55,346
 Long-Tail sozusagen der GEMA stecken, oder da gar nicht drinnen sind. Die auch im bestehenden
 
 527
-99:59:59,000 --> 99:59:59,000
+00:35:55,346 --> 00:35:59,941
 System bislang immer marginal behandelt wurden
 
 528
-99:59:59,000 --> 99:59:59,000
+00:36:01,941 --> 00:36:05,828
 Und das Zweite, was man sehen kann, ist, dass es sich wirklich lohnt, diesen Prozess als
 
 529
-99:59:59,000 --> 99:59:59,000
+00:36:05,967 --> 00:36:10,796
 Beteiligungsprozess zu machen, denn auch wir lernen jedes Mal 'ne Menge.
 
 530
-99:59:59,000 --> 99:59:59,000
+00:36:10,796 --> 00:36:17,876
 In jedem Gespräch, in jeder Diskussion. Ganz viel auch in dem Barcamp, wenn die Einwände und
 
 531
-99:59:59,000 --> 99:59:59,000
+00:36:17,876 --> 00:36:23,370
 Praxisberichte von verschiedenen Seiten uns erreichen. Ein Effekt, den das Barcamp
 
 532
-99:59:59,000 --> 99:59:59,000
+00:36:23,370 --> 00:36:28,543
 hatte, über den wir sehr froh sind, es hat sich ein kleiner Schwarm gebildet, wir wir das nennen
 
 533
-99:59:59,000 --> 99:59:59,000
+00:36:28,543 --> 00:36:38,879
 der sozusagen über 'ne Mailingliste organisiert wird, und der für alle - auch für Hörer hier im Saal und zu Hause an den Bildschirmgeräten -
 
 534
-99:59:59,000 --> 99:59:59,000
+00:36:38,879 --> 00:36:46,120
 die Möglichkeit bietet sozusagen bei uns punktuell einzusteigen. Wir hauen da Fragen rein
 
 535
-99:59:59,000 --> 99:59:59,000
+00:36:46,120 --> 00:36:52,477
 Wir fragen, wer einzelne Aufgaben übernehmen mag und das ist sozusagen/hat sich eine Form entwickelt
 
 536
-99:59:59,000 --> 99:59:59,000
+00:36:52,477 --> 00:37:01,251
 daraus lose, ohne gleich beim Kernteam mit ganz viel Verantwortung dabei zu sein, bei uns mitgestalten zu können.
 
 537
-99:59:59,000 --> 99:59:59,000
+00:37:01,251 --> 00:37:09,124
 Darüberhinaus der Schwarm hat zum Beispiel unseren ersten Flyer gestaltet, hat Meet-ups organisiert in verschiedenen Städten.
 
 538
-99:59:59,000 --> 99:59:59,000
+00:37:09,124 --> 00:37:15,856
 Wer Interesse hat, kommt einfach zu unserem Stand nach der Präsentation oder direkt zu uns hier
 
 539
-99:59:59,000 --> 99:59:59,000
+00:37:15,856 --> 00:37:20,374
 wir würden uns freuen.
 
 540
-99:59:59,000 --> 99:59:59,000
+00:37:21,604 --> 00:37:28,802
 Jetzt geb' ich ab an Meinhard, wir hatten nämlich auch ein Gespräch beim Patent- und Markenamt, was sehr spannend war.
 
 541
-99:59:59,000 --> 99:59:59,000
+00:37:28,802 --> 00:37:32,369
 [Meinhard kommt ans Podium]
 
 542
-99:59:59,000 --> 99:59:59,000
+00:37:32,369 --> 00:37:43,411
 Ja, im Gefolge der Diskussion über das Projekt C3S kam es im Mai 2012 zu einem Brief an Maik.
 
 543
-99:59:59,000 --> 99:59:59,000
+00:37:43,411 --> 00:37:50,074
 Nach der SIGINT wunderte sich Maik, warum er Post vom deutschen Patent- und Markenamt kriegte.
 
 544
-99:59:59,000 --> 99:59:59,000
+00:37:50,136 --> 00:37:54,256
 Was hat er denn damit zu tun? Er hat doch gar kein Patent angemeldet? Und 'ne Marke hat er auch nicht?
 
 545
-99:59:59,000 --> 99:59:59,000
+00:37:56,071 --> 00:38:01,838
 Das DPMA ist zuständig als Aufsichtsbehörde über Verwertungsgesellschaften.
 
 546
-99:59:59,000 --> 99:59:59,000
+00:38:01,838 --> 00:38:09,432
 Verwertungsgesellschaft, das hab ich am Anfang noch nicht gesagt, ist eine Gesellschaft, die Nutzungsrechte für
 
 547
-99:59:59,000 --> 99:59:59,000
-Urheber, für mehrere Urheber, vergibt, und die Entgelte, die's dafür gibt für die Urheber kassiert
+00:38:09,432 --> 00:38:17,849
+Urheber, für mehrere Urheber, vergibt, und die Entgelte, die's dafür gibt im Namen der Urheber kassiert
 
 548
-99:59:59,000 --> 99:59:59,000
+00:38:17,849 --> 00:38:22,943
 und dann nach Abzug ihrer eigenen Kosten an die Urheber weiter verteilt.
 
 549
-99:59:59,000 --> 99:59:59,000
+00:38:22,943 --> 00:38:25,257
 Bei der GEMA sind das zum Beispiel 15%.
 
 550
-99:59:59,000 --> 99:59:59,000
+00:38:25,257 --> 00:38:29,278
 Also ein Kostensatz, der eigentlich angemessen ist.
 
 551
-99:59:59,000 --> 99:59:59,000
-Jedenfalls da diese Verwergunsgesellschaften ja im Grunde genommen ja treuhänderisch Gelder einnehmen.
+00:38:29,278 --> 00:38:36,257
+Jedenfalls da diese Verwergunsgesellschaften ja im Grunde genommen ja treuhänderisch Gelder für Andere einnehmen.
 
 552
-99:59:59,000 --> 99:59:59,000
+00:38:36,257 --> 00:38:41,026
 Nämlich für die Urheber, gibt es 'ne Staatsaufsicht darüber, damit diese Gelder nicht verschwinden.
 
 553
-99:59:59,000 --> 99:59:59,000
+00:38:41,026 --> 00:38:45,039
 Damit sichergestellt ist, dass die Verwertungsgesellschaften die im Gesetz vorgesehenen
 
 554
-99:59:59,000 --> 99:59:59,000
+00:38:45,039 --> 00:38:54,258
 Aufgaben erfüllen. Und für diese Staatsaufsicht ist das DPMA zuständig. Und die haben nun gehört
 
 555
-99:59:59,000 --> 99:59:59,000
+00:38:54,258 --> 00:39:00,003
 von dem Projekt C3S und fragten beim Maik an, wie weit das denn sei und ob die C3S vielleicht schon
 
 556
-99:59:59,000 --> 99:59:59,000
+00:39:00,003 --> 00:39:04,617
 tätig wäre als Verwertungsgesellschaft, das geht nämlich rechtlich nicht.
 
 557
-99:59:59,000 --> 99:59:59,000
+00:39:04,617 --> 00:39:09,606
 Das ist nicht erlaubt, und Verträge, die die C3S abgeschlossen hätte wären sogar unwirksam
 
 558
-99:59:59,000 --> 99:59:59,000
+00:39:09,606 --> 00:39:14,137
 nach einer Änderung des Urheberwahrnehmungsgesetzes.
 
 559
-99:59:59,000 --> 99:59:59,000
+00:39:14,137 --> 00:39:22,606
 So kam dann im November ein Gespräch beim DPMA zustande, in dem wir unser Projekt vorgestellt
 
 560
-99:59:59,000 --> 99:59:59,000
+00:39:22,606 --> 00:39:29,314
 haben. Das verlief sehr offen und konstruktiv, und wir konnten nochmal darstellen, dass, auch wenn so 'n
 
 561
-99:59:59,000 --> 99:59:59,000
+00:39:29,314 --> 00:39:35,142
 bisschen der Aufhänger für die Wahrnehmung der C3S die aktuelle Kritik an der GEMA ist
 
 562
-99:59:59,000 --> 99:59:59,000
-es ja eigenetlich nicht darum geht, die GEMA zu bekämpfen, sondern eher in dem sich
+00:39:35,142 --> 00:39:41,722
+es ja eigentlich nicht darum geht, die GEMA zu bekämpfen, sondern eher in dem sich
 
 563
-99:59:59,000 --> 99:59:59,000
-diversifizierenden Markt die Lücken zu besetzen, die nicht abgedeckt werden und die Interessen
+00:39:42,860 --> 00:39:42,861
+diversifizierenden Markt die Lücken zu besetzen, die nicht abgedeckt werden und die Interessen -- TODO: TIMING --
 
 564
-99:59:59,000 --> 99:59:59,000
+00:39:48,551 --> 00:39:51,883
 der Urheber wahrzunehmen, die sich in der GEMA nicht so wohl fühlen.
 
 565
-99:59:59,000 --> 99:59:59,000
+00:39:51,883 --> 00:40:01,302
 Also es geht eigentlich eher um eine Erweiterung der Möglichkeiten als um 'nen tatsächlichen Konkurrenzkampf.
 
 566
-99:59:59,000 --> 99:59:59,000
+00:40:01,302 --> 00:40:04,497
 Das möchte ich an dieser Stelle auch nochmal betonen.
 
 567
-99:59:59,000 --> 99:59:59,000
+00:40:04,497 --> 00:40:10,330
 Im DPMA hat man nun nicht so oft mit der Gründung von Verwertungsgesellschaften zu tun,
 
 568
-99:59:59,000 --> 99:59:59,000
-es gibt wie gesagt zwölf Stück, und im Musikbereich nur eine und deshalb ist das für
+00:40:10,330 --> 00:40:18,517
+es gibt wie gesagt zwölf Stück, und im Musikbereich schon ziemlich lange nur eine und deshalb ist das für
 
 569
-99:59:59,000 --> 99:59:59,000
+00:40:18,517 --> 00:40:22,853
 so eine Behörde auch etwas Neues. Und 'ne Genossenschaft als Verwertungsgesellschaft
 
 570
-99:59:59,000 --> 99:59:59,000
+00:40:22,853 --> 00:40:27,289
 hatten sie noch nie. Man wird da also auch drüber nachdenken müssen, was entsprechend der
 
 571
-99:59:59,000 --> 99:59:59,000
+00:40:27,289 --> 00:40:32,081
 Rechtsform der Genossenschaft da an rechtlichen Anforderungen noch zu treffen ist.
 
 572
-99:59:59,000 --> 99:59:59,000
+00:40:32,081 --> 00:40:36,213
 Und 'ne <i>europäische</i> Genossenschaft hatten 'se schon noch gar nicht.
 
 573
-99:59:59,000 --> 99:59:59,000
+00:40:36,213 --> 00:40:42,545
 jedenfalls sind die Anforderungen an das, was wir tun, vor allen Dingen, dass wir einen Businessplan
 
 574
-99:59:59,000 --> 99:59:59,000
+00:40:42,545 --> 00:40:48,371
 darlegen müssen, dass wir darlegen müssen, dass wir die Vergütung für die Urheber auch effektiv
 
 575
-99:59:59,000 --> 99:59:59,000
+00:40:48,371 --> 00:40:56,418
 abrechnen können. Dass wir 'ne wirksame Kontrolle an den Markt bringen und dass wir sicherstellen
 
 576
-99:59:59,000 --> 99:59:59,000
+00:40:56,418 --> 00:41:00,980
 dass die Gelder auch weiter geleitet werden. Das ist ja die Rolle der Staatsaufsicht.
 
 577
-99:59:59,000 --> 99:59:59,000
+00:41:01,056 --> 00:41:07,181
 Das haben wir als Hausaufgaben mit nach Hause genommen. Und wenn's dann dazu kommt, dass
 
 578
-99:59:59,000 --> 99:59:59,000
+00:41:07,181 --> 00:41:11,911
 wir in diesem Jahr einen Zulassungsantrag stellen, werden wir noch viel Arbeit leisten müssen
 
 579
-99:59:59,000 --> 99:59:59,000
+00:41:11,911 --> 00:41:17,425
 und vor allen Dingen auch Geld aufbringen müssen, um die Wirtschaftliche Überlebensfähigkeit
 
 580
-99:59:59,000 --> 99:59:59,000
+00:41:17,425 --> 00:41:20,608
 dieses Projektes zu sichern.
 
 581
-99:59:59,000 --> 99:59:59,000
+00:41:20,608 --> 00:41:27,677
 Das sollte reichen für den BEricht über das Gespräch mit dem DPMA. Und ich übergebe wieder an Osnabrück.
 
 582
-99:59:59,000 --> 99:59:59,000
+00:41:27,677 --> 00:41:28,996
 [Sprecher wechselt]
 
 583
-99:59:59,000 --> 99:59:59,000
+00:41:28,996 --> 00:41:35,121
 Danke, danke, wir müssen ein bisschen rein hauen, deshalb mal ganz schnell, denn unsere zweite Veranstaltung in diesem Jahr war in Osnabrück.
 
 584
-99:59:59,000 --> 99:59:59,000
+00:41:35,121 --> 00:41:38,920
 Das hat praktische Gründe, denn da komm ich her. Wir haben wir 'ne Veranstaltung gemacht
 
 585
-99:59:59,000 --> 99:59:59,000
+00:41:38,920 --> 00:41:43,930
 als Experiment, die drei Formen in Eins zusammenfasste. Wir haben 'nen Vortrag
 
 586
-99:59:59,000 --> 99:59:59,000
+00:41:43,930 --> 00:41:49,796
 und Diskussionen gemacht, waren ungefähr so 25 Leute, dann haben wir 'n Konzert gemacht
 
 587
-99:59:59,000 --> 99:59:59,000
+00:41:49,796 --> 00:41:52,233
 mit Creative-Commons-Lizensierter Musik.
 
 588
-99:59:59,000 --> 99:59:59,000
+00:41:52,233 --> 00:41:55,206
 Das war, wir wollten auch endlich mal Musik präsentieren, darum geht es ja.
 
 589
-99:59:59,000 --> 99:59:59,000
+00:41:55,206 --> 00:41:58,965
 Und wir hatten auch sehr viel Spaß, es war ein schöner Abend.
 
 590
-99:59:59,000 --> 99:59:59,000
+00:41:58,965 --> 00:42:05,890
 Und wir haben einen Hackathon gemacht, weil wir das Projekt ja "wie soll denn jetzt die Software aussehen" nach vorne treiben wollen.
 
 591
-99:59:59,000 --> 99:59:59,000
+00:42:05,890 --> 00:42:07,535
 Und dafür übergebe ich jetzt an Christoph.
 
 592
-99:59:59,000 --> 99:59:59,000
+00:42:07,535 --> 00:42:09,206
 [Christoph übernimmt das Podium]
 
 593
-99:59:59,000 --> 99:59:59,000
+00:42:09,206 --> 00:42:15,624
 Also erstmal: wir haben nicht direkt die Alternative programmiert, das hat nicht hingehauen in der Nacht.
 
 594
-99:59:59,000 --> 99:59:59,000
+00:42:15,624 --> 00:42:20,099
 Wir haben uns damals für den Open Music Contest T-Shirts machen lassen mit diesem Aufdruck
 
 595
-99:59:59,000 --> 99:59:59,000
+00:42:20,099 --> 00:42:23,302
 "gema haccen", wir haben damals nie gedacht, dass es jetzt so weit kommt.
 
 596
-99:59:59,000 --> 99:59:59,000
+00:42:23,302 --> 00:42:25,671
 Aber vielleicht schaffen wir's ja jetzt.
 
 597
-99:59:59,000 --> 99:59:59,000
+00:42:25,671 --> 00:42:32,113
 Ich mach es ganz kurz, was wir vorhaben wird wahrscheinlich ein Pyramid-Dings.
 
 598
-99:59:59,000 --> 99:59:59,000
+00:42:32,113 --> 00:42:35,421
 Also in Python. Wer da mitmachen will, gerne melden.
 
 599
-99:59:59,000 --> 99:59:59,000
+00:42:35,421 --> 00:42:45,301
 Wir machen damit den Kern an dem man dann alles andere anflanschen kann. Zum Beispiel über die API, da könnt ihr gegenlaufen lassen, was ihr möchtet.
 
 600
-99:59:59,000 --> 99:59:59,000
+00:42:45,301 --> 00:42:48,819
 Ihr könnt euch im Moment auch noch wünschen, was ihr da gerne hättet von der API.
 
 601
-99:59:59,000 --> 99:59:59,000
+00:42:48,819 --> 00:42:54,784
 Das Ganze muss natürlich auch noch internationalisierbar sein, also in vielen Sprachen verfügbar sein.
 
 602
-99:59:59,000 --> 99:59:59,000
+00:42:54,784 --> 00:43:00,724
 Wir wollen, das hat der Volker Grassmuck gerade schon gesagt, freie Software sein lassen.
 
 603
-99:59:59,000 --> 99:59:59,000
+00:43:00,724 --> 00:43:04,985
 Falls wir irgendwann schlecht werden, dann könnt ihr uns forken, und das Ganze besser machen, oder ihr
 
 604
-99:59:59,000 --> 99:59:59,000
+00:43:04,985 --> 00:43:08,115
 könnt uns halt einfach auch helfen.
 
 605
-99:59:59,000 --> 99:59:59,000
+00:43:08,115 --> 00:43:13,296
 Wir brauchen Tools, jede Menge, wir brauchen Apps, also ihr könnt euch einbringen
 
 606
-99:59:59,000 --> 99:59:59,000
+00:43:13,296 --> 00:43:19,557
 Web-Apps machen wir wahrscheinlich selber, könnt ihr aber auch machen. Das muss für alle möglichen
 
 607
-99:59:59,000 --> 99:59:59,000
+00:43:19,557 --> 00:43:25,822
 Personenkreise benutzbar sein, für DJs, für Radiostationen, für Content-Provider, und so weiter.
 
 608
-99:59:59,000 --> 99:59:59,000
+00:43:25,822 --> 00:43:28,524
 Wenn euch noch 'was einfällt, kommt vorbei.
 
 609
-99:59:59,000 --> 99:59:59,000
+00:43:28,524 --> 00:43:32,354
 Gerade müssen wir also überlegen, wie das Datenmodell aussehen soll: Was sammeln wir
 
 610
-99:59:59,000 --> 99:59:59,000
+00:43:32,354 --> 00:43:37,800
 für Daten, welche brauchen wir, wofür. Das hier hat übrigens der Sebastian gemacht, der sitzt da unten.
 
 611
-99:59:59,000 --> 99:59:59,000
+00:43:37,800 --> 00:43:39,497
 Wilst du mal aufstehn?
 
 612
-99:59:59,000 --> 99:59:59,000
+00:43:39,497 --> 00:43:45,488
 [Applaus]
 
 613
-99:59:59,000 --> 99:59:59,000
+00:43:45,488 --> 00:43:51,217
 Wir sammeln gerade Anwendungsfälle, und modellieren lustig rum
 
 614
-99:59:59,000 --> 99:59:59,000
+00:43:51,217 --> 00:43:58,008
 das hier hat der Markus gebaut, der tanzt heute leider auf einer anderen Hochzeit, ist aber morgen da.
 
 615
-99:59:59,000 --> 99:59:59,000
+00:43:58,008 --> 00:44:03,955
 Wir hätten gerne für alle Software Tests und machen auch Continuous Integration, das heißt
 
 616
-99:59:59,000 --> 99:59:59,000
+00:44:03,971 --> 00:44:06,822
 wir wollen Fehler ausschließen dadurch, dass wir die ganze Zeit Testen.
 
 617
-99:59:59,000 --> 99:59:59,000
+00:44:06,822 --> 00:44:10,811
 Selbst wenn vorne einer rumschraubt wollen wir wissen, dass noch alles funktioniert.
 
 618
-99:59:59,000 --> 99:59:59,000
+00:44:10,811 --> 00:44:16,946
 Wir hätten gerne Feedback, mehr Beteiligung, Leute die sich das ankucken
 
 619
-99:59:59,000 --> 99:59:59,000
+00:44:16,946 --> 00:44:20,485
 Leute, die nachforschen, was wir vielleicht sonst noch brauchen, was wir falsch machen.
 
 620
-99:59:59,000 --> 99:59:59,000
+00:44:20,485 --> 00:44:23,932
 Wir hätten auch gerne ein bisschen Hilfe in Form von Admins, wir wollen nämlich nicht mehr alles
 
 621
-99:59:59,000 --> 99:59:59,000
+00:44:23,932 --> 00:44:33,976
 selber machen. Meldet euch einfach, da steht ja auch LiquidFeedback, Adhocracy, WikiArgument, also wir wollen ja durchaus auch
 
 622
-99:59:59,000 --> 99:59:59,000
+00:44:33,976 --> 00:44:41,045
 Mitbestimmung haben. Aber sogar 'n WordPress-Admin kann uns Helfen. Redmine fällt mir übrigens auch noch ein.
 
 623
-99:59:59,000 --> 99:59:59,000
+00:44:41,045 --> 00:44:46,219
 Ja, wir suchen Freiwilige. Es ist ein Community-Projet, bitte mitmachen. Ihr könnt euch aussuchen
 
 624
-99:59:59,000 --> 99:59:59,000
+00:44:46,219 --> 00:44:54,461
 was ihr machen wollt. Also schickt uns auch Code, was auch immer! Dankeschön!
 
 625
-99:59:59,000 --> 99:59:59,000
+00:44:54,461 --> 00:45:02,914
 [Sprecherwechsel]
 
 626
-99:59:59,000 --> 99:59:59,000
+00:45:02,914 --> 00:45:08,871
 Durch die ganze Medienarbeit und diverse Demonstrationen hat sich inzwischen auch die Politik eingemischt.
 
 627
-99:59:59,000 --> 99:59:59,000
+00:45:08,871 --> 00:45:17,857
 "Man kann ja wirklich fast kein kleines Fest mehr feiern, weil man sich dumm und dämlich bezahlt, da", hat gesagt die Kanzlerin auf 'nem CDU Parteitag.
 
 628
-99:59:59,000 --> 99:59:59,000
+00:45:17,857 --> 00:45:23,536
 [verhaltenes Gelächter aus dem Publikum] Also man wundert sich teilweise wirklich dass das Ganze wirklich aus allen Fraktionen kommt.
 
 629
-99:59:59,000 --> 99:59:59,000
+00:45:23,536 --> 00:45:28,828
 Also wenn man über die Landtage geht, wir sind jetzt direkt vom Landtag Schleswig-Holstein um ne
 
 630
-99:59:59,000 --> 99:59:59,000
+00:45:28,828 --> 00:45:35,997
 Stellungnahme zu der ganzen GEMA-Debatte gebeten worden. Im Januar sind wir im Landtag NRW
 
 631
-99:59:59,000 --> 99:59:59,000
+00:45:35,997 --> 00:45:43,566
 - das ist was für MAHA - als Experten eingeladen. Und wir haben auch in diversen anderen Bundesländern die ersten Gespräche aufgenommen
 
 632
-99:59:59,000 --> 99:59:59,000
-auf Landesebene, also da passiert jetzt langsam auch tatsächlich auf der politischen Bühne richtig was.
+00:45:43,566 --> 00:45:48,922
+auf Landesebene, also da passiert jetzt langsam auch tatsächlich auf der politischen Bühne ordentlich was.
 
 633
-99:59:59,000 --> 99:59:59,000
+00:45:50,783 --> 00:45:56,288
 Und der ganze Rest, auf den wir jetzt hier nicht weiter eingehen können den haben wir hier auf
 
 634
-99:59:59,000 --> 99:59:59,000
+00:45:56,288 --> 00:45:58,137
 dieser Folie versammelt.
 
 635
-99:59:59,000 --> 99:59:59,000
+00:45:58,137 --> 00:46:05,157
 Dazu gehören unter Anderem sogar direkte Angebote von Anwälten und ähnlichem, die direkt für uns
 
 636
-99:59:59,000 --> 99:59:59,000
+00:46:05,157 --> 00:46:08,834
 anfangen wollen zu arbeiten. Aber wir sind ja noch nichtmal gegründet, also können wir auch niemanden
 
 637
-99:59:59,000 --> 99:59:59,000
+00:46:08,834 --> 00:46:11,365
 einstellen.
 
 638
-99:59:59,000 --> 99:59:59,000
-Und GetDigital verkaut erstes Merchandising von uns, das finden wir auch ganz großartig.
+00:46:11,365 --> 00:46:18,849
+Und GetDigital verkauft erstes Merchandising von uns, das finden wir auch ganz großartig.
 
 639
-99:59:59,000 --> 99:59:59,000
+00:46:18,849 --> 00:46:21,777
 Also, die Vorarbeit hat sich auf jeden Fall ausgezahlt.
 
 640
-99:59:59,000 --> 99:59:59,000
+00:46:21,777 --> 00:46:27,632
 Dann kommen wir zu 'nem Ausblick auf 2013.
 
 641
-99:59:59,000 --> 99:59:59,000
+00:46:27,632 --> 00:46:32,725
 Dazu sagt Holger nochmal ganz kurz was, und dann sind wir auch langsam durch.
 
 642
-99:59:59,000 --> 99:59:59,000
+00:46:32,725 --> 00:46:34,350
 [Holger übernimmt das Podium]
 
 643
-99:59:59,000 --> 99:59:59,000
+00:46:34,350 --> 00:46:41,920
 Gut, um es ganz kurz zu machen, es klang ja schon beim Fahrplan an, also was anliegt, ganz klar im kommenden Jahr ist die Gründung der Genossenschaft.
 
 644
-99:59:59,000 --> 99:59:59,000
+00:46:41,920 --> 00:46:46,628
 Die Satzung zusammenzuschrauben hat sich als viel komplizierter erwiesen, als gedacht.
 
 645
-99:59:59,000 --> 99:59:59,000
+00:46:46,628 --> 00:46:49,651
 Es ist noch nie 'ne Verwertungsgesellschaft als Genossenschaft gegründet worden, obwohl
 
 646
-99:59:59,000 --> 99:59:59,000
-wir das als das Naheliegendste Modell empfinden. Dann wollen wir das wasserdicht absichern und dann
+00:46:49,651 --> 00:46:54,651
+wir das als das Naheliegendste Modell empfinden. Da wollen wir das wasserdicht absichern und dann auf jeden Fall
 
 647
-99:59:59,000 --> 99:59:59,000
+00:46:54,651 --> 00:46:59,227
 in der ersten Jahreshälfte die Genossenschaft gründen. Wir suchan also Genossenschaftler.
 
 648
-99:59:59,000 --> 99:59:59,000
+00:46:59,227 --> 00:47:05,792
 Wer immer sich bereit erklärt dafür, würde uns freuen. Wir brauchen 30.000 Euro Gründungskapital
 
 649
-99:59:59,000 --> 99:59:59,000
+00:47:05,792 --> 00:47:10,846
 Wir müssen Fördertöpfe finden, weil wie ihr bestimmt schon gemerkt habt: Die Leute sollen uns
 
 650
-99:59:59,000 --> 99:59:59,000
+00:47:10,846 --> 00:47:15,113
 Werke geben, wir müssen aber erst diesen Genehmigungsprozess haben, wir müssen die Software bauen....
 
 651
-99:59:59,000 --> 99:59:59,000
+00:47:15,113 --> 00:47:20,287
 Das heißt, es gibt auf jeden Fall 'ne Starphasse von mindestens zwei Jahren in der wir
 
 652
-99:59:59,000 --> 99:59:59,000
+00:47:20,287 --> 00:47:25,394
 arbeiten müssen, ohne wirklich Rechte wahrnehmen zu können. Das heißt, wir brauchen Fördergelder.
 
 653
-99:59:59,000 --> 99:59:59,000
+00:47:25,394 --> 00:47:27,848
 Wir brauchen allein' schon zu Reisen Spenden, hat Maik erwähnt.
 
 654
-99:59:59,000 --> 99:59:59,000
-Wir nach wie vor Grassroots-Projekt, und auch nicht so die Fördertopf-Jäger das müssen wir jetzt
+00:47:27,848 --> 00:47:33,712
+Wir nach wie vor komplett Grassroots-Projekt, und auch nicht so die Fördertopf-Jäger das müssen wir jetzt
 
 655
-99:59:59,000 --> 99:59:59,000
+00:47:33,712 --> 00:47:42,712
 lernen. Infrastruktur, Software, Kleinigkeiten große Reise nach Texas zu SXSW, davon versprechen wir
 
 656
-99:59:59,000 --> 99:59:59,000
+00:47:42,712 --> 00:47:47,135
 uns 'ne größere Anbindung an die amerikanische Szene. Wir arbeiten an 'nem Info-Film
 
 657
-99:59:59,000 --> 99:59:59,000
+00:47:47,135 --> 00:47:51,625
 auch mit dem Schwarm zusammen. Wir müssen unser Projektmanagement erweitern, FAQ-Seite für die
 
 658
-99:59:59,000 --> 99:59:59,000
+00:47:51,625 --> 00:47:57,614
 Website. Überhaupt: Website, Website, Website! Und.. ja. Es gibt überhaupt viel zu tun.
 
 659
-99:59:59,000 --> 99:59:59,000
+00:47:57,614 --> 00:48:07,500
 Und dann sind wir hoffentlich bald hier und werden dann auch von euch auseinander genommen und getestet.
 
 660
-99:59:59,000 --> 99:59:59,000
+00:48:07,500 --> 00:48:09,568
 Dankeschön.
 
 661
-99:59:59,000 --> 99:59:59,000
+00:48:09,568 --> 00:48:15,647
 [Applaus]
 
 662
-99:59:59,000 --> 99:59:59,000
+00:48:15,647 --> 00:48:20,603
 Bevor wir jetzt gleich in die Diskussionsrunde kommen, wollen wir noch so ein paar Blitzlichter
 
 663
-99:59:59,000 --> 99:59:59,000
+00:48:20,603 --> 00:48:24,393
 geben, was wir so an relativ unerwartetem Feedback bekommen.
 
 664
-99:59:59,000 --> 99:59:59,000
+00:48:24,393 --> 00:48:30,384
 Zum Verhängnis geworden ist uns zum Beispiel auf der Open Music Contest Seite die Stellungnahme,
 
 665
-99:59:59,000 --> 99:59:59,000
+00:48:30,384 --> 00:48:37,276
 dass Lawrence Lessig, einer der Creative Commons Initiatoren, Schirmherr für den Open Music Contest war.
 
 666
-99:59:59,000 --> 99:59:59,000
-Daraus wurde dann in der Musikwoche schon die Google-GEMA. Da fragt man sich dann "Google-GEMA, wie geht das denn?"
+00:48:37,276 --> 00:48:43,623
+Daraus wurde dann in der Musikwoche schon die Google-GEMA. Da fragt man sich dann "Lawrence Lessig - Google, wie geht das denn?"
 
 667
-99:59:59,000 --> 99:59:59,000
+00:48:43,623 --> 00:48:48,902
 Das ist ganz logisch, denn, Lawrence Lessig hat irgendwann mal in Stanford von Google
 
 668
-99:59:59,000 --> 99:59:59,000
+00:48:48,902 --> 00:49:02,175
 einen Lehrstuhl finanziert bekommen, ist dann Schirmherr beim Open Music Contest geworden, und damit ist ja quasi die Finanzierung über den Open Music Contest an das C3S-Projekt natürlich vollkommen nachvollziehbar.
 
 669
-99:59:59,000 --> 99:59:59,000
+00:49:02,175 --> 00:49:05,068
 [gelächter]
 
 670
-99:59:59,000 --> 99:59:59,000
+00:49:05,068 --> 00:49:12,126
 Außerdem ist die Schwiegermutter des Google-Gründers Vize-Präsidentin im Aufsichtsrat von Creative Commons.
 
 671
-99:59:59,000 --> 99:59:59,000
+00:49:12,126 --> 00:49:18,171
 Diese Geschichte die zieht inzwischen Kreise, das ist unglaublich.
 
 672
-99:59:59,000 --> 99:59:59,000
+00:49:18,171 --> 00:49:24,941
 Sehr gefreut hat uns auch, was die GEMA so vor hat mit uns. Also wir hatten nach Osnabrück hier den
 
 673
-99:59:59,000 --> 99:59:59,000
+00:49:24,941 --> 00:49:30,827
 Bericht in der Neuen Osnabrücker Zeitung, und da haben wir dann gelesen dass die GEMA wahrscheinlich
 
 674
-99:59:59,000 --> 99:59:59,000
+00:49:30,827 --> 00:49:33,373
 sogar unsar Inkasso-Verfahren übernehmen wird.
 
 675
-99:59:59,000 --> 99:59:59,000
+00:49:33,373 --> 00:49:36,175
 [Gelächter]
 
 676
-99:59:59,000 --> 99:59:59,000
+00:49:36,175 --> 00:49:39,994
 Schaun 'mer mal.
 
 677
-99:59:59,000 --> 99:59:59,000
+00:49:39,994 --> 00:49:45,380
 Zum Abschluss, 'ne Folie, die ich immer hab. Nochmal zurückführen auf die Menschenrechte.
 
 678
-99:59:59,000 --> 99:59:59,000
+00:49:45,380 --> 00:49:53,496
 Auch die Einführung von Studiengebühren ist laut Sozialpakt ein Verstoß gegen Menschenrechte. Und damit sind wir soweit fertig. Vielen Dank.
 
 679
-99:59:59,000 --> 99:59:59,000
+00:49:53,496 --> 00:50:02,570
 [Applaus]
 
 680
-99:59:59,000 --> 99:59:59,000
+00:50:02,570 --> 00:50:08,045
 [Moderator] So, jetzt habt ihr leider nur noch acht Minuten, um Fragen zu stellen, begebt euch ans Mikrofon.
 
 681
-99:59:59,000 --> 99:59:59,000
+00:50:08,045 --> 00:50:11,342
 Ich fang mal hier mit der 1 an.
 
 682
-99:59:59,000 --> 99:59:59,000
+00:50:11,342 --> 00:50:17,820
 [Fragesteller] Gibt es bereits irgendwelche Kontakte zum Laien-Chorwesen, also beispielsweise Deutscher Chor-Verband und Töchterverbände?
 
 683
-99:59:59,000 --> 99:59:59,000
+00:50:22,281 --> 00:50:23,595
 [Antwort] Äh. Nein.
 
 684
-99:59:59,000 --> 99:59:59,000
+00:50:23,595 --> 00:50:25,460
 [Moderator] Kurze Antwort. Super!
 
 685
-99:59:59,000 --> 99:59:59,000
+00:50:27,029 --> 00:50:30,779
 [Fragestellerin] Aus dem Netz kamen zwei Fragen, die erste ist:
 
 686
-99:59:59,000 --> 99:59:59,000
+00:50:30,779 --> 00:50:37,510
 Wird C3S auch eine Alternative für diese sogenannte VG-Wort?
 
 687
-99:59:59,000 --> 99:59:59,000
+00:50:37,510 --> 00:50:45,497
 Und die Zweite Ist: richtet sich das Projekt auch an Video- und Multimediaproduzenten oder nur an Musiker?
 
 688
-99:59:59,000 --> 99:59:59,000
-[Antwort] Also wir fangen jetzt erstmal mit der GEMA an, das ist schon schwierig genug.
+00:50:45,497 --> 00:50:53,048
+[Antwort] Also wir fangen jetzt erstmal mit der GEMA an sozusagen, das ist schon schwierig genug.
 
 689
-99:59:59,000 --> 99:59:59,000
+00:50:53,048 --> 00:50:59,457
 Aber theoretisch sind die Creative Commons Lizenzen ja für alles mögliche verwendbar, was urheberrechtlichen Schutz genießt.
 
 690
-99:59:59,000 --> 99:59:59,000
+00:50:59,457 --> 00:51:05,377
 Das bedeutet, man kann sich vorstellen, dass man später das ganze Modell auch modular weiter
 
 691
-99:59:59,000 --> 99:59:59,000
+00:51:05,377 --> 00:51:09,502
 spinnt, wenn halt das entsprechende Interesse da ist.
 
 692
-99:59:59,000 --> 99:59:59,000
+00:51:09,502 --> 00:51:13,867
 Aber wir wollen halt erstmal überhaupt 'was an den Start kriegen, was funktioniert.
 
 693
-99:59:59,000 --> 99:59:59,000
+00:51:13,867 --> 00:51:18,071
 Und wenn das Ganze rund läuft, dann kann man überlegen, was man dann noch daraus noch weiter macht.
 
 694
-99:59:59,000 --> 99:59:59,000
+00:51:18,071 --> 00:51:23,095
 Also im ersten Schritt in jedem Fall nicht, aber ist schon im Hinterkopf. Ja.
 
 695
-99:59:59,000 --> 99:59:59,000
+00:51:23,095 --> 00:51:28,087
 [Moderator] Ok, ganz kurz zwischendurch: Wenn ihr jetzt kommt oder geht: tut es <i>leise</i> dankeschön!
 
 696
-99:59:59,000 --> 99:59:59,000
+00:51:28,087 --> 00:51:28,629
 Nummer 3 bitte
 
 697
-99:59:59,000 --> 99:59:59,000
+00:51:28,629 --> 00:51:33,962
 [Fragesteller] Erstmal Danke, dass ihr so viel Arbeit macht. Finde ich sehr gut.
 
 698
-99:59:59,000 --> 99:59:59,000
+00:51:33,962 --> 00:51:40,298
 Meine Frage: Ihr habt ja schon angedeutet, dass ihr das Ganz eher auf europäischer Ebene seht.
 
 699
-99:59:59,000 --> 99:59:59,000
+00:51:40,298 --> 00:51:45,644
 Habt ihr schon mit anderen Verwertungsgesellschaften aus anderen europäischen Ländern gesprochen oder
 
 700
-99:59:59,000 --> 99:59:59,000
+00:51:45,644 --> 00:51:49,825
 habt ihr da schon Kontakt, habt ihr da schon mit Künstlern Kontakt?
 
 701
-99:59:59,000 --> 99:59:59,000
+00:51:49,825 --> 00:51:55,844
 Wie weit habt ihr schon eure Fühler außerhalb Deutschlands ausgestreckt?
 
 702
-99:59:59,000 --> 99:59:59,000
+00:51:55,844 --> 00:52:04,924
 [Antwort] Also wir haben noch außer direkt mit der GEMA noch mit keinen Verwertungsgesellschaften irgendwelche offiziellen Gespräche geführt.
 
 703
-99:59:59,000 --> 99:59:59,000
+00:52:04,924 --> 00:52:12,505
 Wir haben allerdings 'ne ganze Reihe von Kontakten auch ins europäische Ausland. Wir müssen auch für die Gründung der Europäischen Genossenschaft
 
 704
-99:59:59,000 --> 99:59:59,000
+00:52:12,505 --> 00:52:17,107
 mindestens zwei Gründungsmitglieder in den unterschiedlichen Ländern in der EU haben.
 
 705
-99:59:59,000 --> 99:59:59,000
+00:52:17,107 --> 00:52:21,481
 Das ist noch relativ einfach, das schaffen wir auch locker.
 
 706
-99:59:59,000 --> 99:59:59,000
+00:52:21,481 --> 00:52:24,278
 [Moderator] Hier an der 1 bitte?
 
 707
-99:59:59,000 --> 99:59:59,000
+00:52:24,278 --> 00:52:29,192
 [Fragesteller] Ich habe ein kleines Henne-Ei-Problem im Kopf. Vielleicht hab' ich das falsch verstanden?
 
 708
-99:59:59,000 --> 99:59:59,000
+00:52:29,376 --> 00:52:39,155
 Es wirkt so, als ob ihr zur Gründung der Genossenschaft erstmal - oder zur Anmeldung beim DPMA - erstmal Leute Vertreten müsst, damit
 
 709
-99:59:59,000 --> 99:59:59,000
+00:52:39,155 --> 00:52:44,483
 ihr nachweisen könnt, dass ihr das Tut. Die Verträge mit denen dürft ihr aber nicht schließen, solange ihr nicht gegründet seid.
 
 710
-99:59:59,000 --> 99:59:59,000
+00:52:44,483 --> 00:52:48,448
 Hab ich das falsch verstanden? Kann das einer erklären?
 
 711
-99:59:59,000 --> 99:59:59,000
+00:52:48,448 --> 00:52:55,365
 [Antwort] Ein bisschen. Also wir dürfen uns Gründen, dann Verträge machen, und es wird halt geprüft ob da genug zusammengekommen ist
 
 712
-99:59:59,000 --> 99:59:59,000
+00:52:55,365 --> 00:52:59,125
 bis wir die Lizenz dann richtig bekommen und verwerten dürfen.
 
 713
-99:59:59,000 --> 99:59:59,000
+00:52:59,125 --> 00:53:03,198
 [Erweiterte Antwort] Man kann die Verträge aufschiebend bedingt machen, also wenn die
 
 714
-99:59:59,000 --> 99:59:59,000
+00:53:03,198 --> 00:53:05,559
 Genehmigung erteilt wird, dann wird wahrgenommen.
 
 715
-99:59:59,000 --> 99:59:59,000
+00:53:05,559 --> 00:53:07,361
 [Moderator] Hier an der zwei bitte
 
 716
-99:59:59,000 --> 99:59:59,000
+00:53:07,361 --> 00:53:13,609
 [Fragesteller] Vielen Dank mal für eure gute Arbeit, das ist lange überfällig, das mal jemand macht, was ihr macht. Vielen Dank!
 
 717
-99:59:59,000 --> 99:59:59,000
-Habt ihr euch
+00:53:13,609 --> 00:53:14,785
+Habt ihr euch ...
 
 718
-99:59:59,000 --> 99:59:59,000
+00:53:14,785 --> 00:53:21,153
 [Applaus]
 
 719
-99:59:59,000 --> 99:59:59,000
-Das Thema ist ja nicht erst 5 Jahre als, sondern eher 10-15 Jahre nach Brenner-Schock, Napster-Schock und so.
+00:53:21,153 --> 00:53:31,598
+Das Thema ist ja nicht erst 5 Jahre alt, sondern eher 10-15 Jahre nach Brenner-Schock, Napster-Schock und so.
 
 720
-99:59:59,000 --> 99:59:59,000
+00:53:31,598 --> 00:53:37,004
 Habt ihr euch mal an die Linux-Audio-Szene gewendet? Also es gibt da zwei Mailinglisten, die
 
 721
-99:59:59,000 --> 99:59:59,000
+00:53:37,004 --> 00:53:44,220
 für euch vielleicht interessant sind, das ist einmal die Linux Audio User und Linux Audio Developers.
 
 722
-99:59:59,000 --> 99:59:59,000
+00:53:44,220 --> 00:53:47,803
 [Antwort] Also ich hab dich jetzt als Kontaktmann im Auge.
 
 723
-99:59:59,000 --> 99:59:59,000
+00:53:47,803 --> 00:53:51,906
 [Gleicher Fragesteller] Ich komm nachher vorbei und da gibt's auch Erfahrung von ... es gab vor mehreren
 
 724
-99:59:59,000 --> 99:59:59,000
+00:53:51,906 --> 00:53:56,338
 Jahren mal so'n Projekt, was in irgendeinem Rahmenprogramm der EU gefordert wurde
 
 725
-99:59:59,000 --> 99:59:59,000
+00:53:56,338 --> 00:54:00,023
 [Antwor] Ja, das klingt spannend
 
 726
-99:59:59,000 --> 99:59:59,000
+00:54:00,023 --> 00:54:02,273
 [Gleicher Fragesteller] Ja und wir verbringen mal 'ne Nacht miteinander.
 
 727
-99:59:59,000 --> 99:59:59,000
+00:54:02,273 --> 00:54:03,852
 [Gelächter, Heiterkeit]
 
 728
-99:59:59,000 --> 99:59:59,000
+00:54:03,852 --> 00:54:13,225
 [Moderator] Das find' ich geil! Sehr schön, vielleicht heute, hier!
 
 729
-99:59:59,000 --> 99:59:59,000
+00:54:13,225 --> 00:54:17,718
 [Fragesteller] Ganz ähnliche Frage wie vorher: Gibt's in Österreich schon irgendwie 'ne kleine Gruppe
 
 730
-99:59:59,000 --> 99:59:59,000
+00:54:17,718 --> 00:54:22,926
 die sich euch zugehörig fühlt und da was tut?
 
 731
-99:59:59,000 --> 99:59:59,000
+00:54:22,926 --> 00:54:24,942
 [Antwort] Also ich kenn da 'n paar Hacker, die helfen
 
 732
-99:59:59,000 --> 99:59:59,000
-aber jetzt so "Dependance gründen" ist nix bekannt.
+00:54:24,942 --> 00:54:29,564
+aber jetzt so von wegen "Dependance gründen" ist mir nix bekannt.
 
 733
-99:59:59,000 --> 99:59:59,000
+00:54:29,564 --> 00:54:33,360
 [Anderer Antworter] Aber wir haben dich da jetzt als Kontaktmann im Auge.
 
 734
-99:59:59,000 --> 99:59:59,000
+00:54:33,360 --> 00:54:38,832
 [Gelächter]
 
 735
-99:59:59,000 --> 99:59:59,000
+00:54:38,832 --> 00:54:45,796
 [Dritter Antworter] Lokale Gruppen helfen, Meet-Ups helfen, Schwarm hilft.
 
 736
-99:59:59,000 --> 99:59:59,000
+00:54:45,796 --> 00:54:51,094
 Wir sind selber dabei die Strukturen im laufenden Prozess zu entwickeln und zu erfinden.
 
 737
-99:59:59,000 --> 99:59:59,000
+00:54:51,094 --> 00:54:56,252
 Manches läuft dann nicht immer rund, manches geht auch bei uns verloren, aber wir freuen uns
 
 738
-99:59:59,000 --> 99:59:59,000
+00:54:56,252 --> 00:55:03,509
 und versuchen möglichst viele Leute in diesen Prozess zu integrieren. Denn das ist der Weg wie wir am schnellsten voran kommen.
 
 739
-99:59:59,000 --> 99:59:59,000
+00:55:03,509 --> 00:55:06,415
 [Applaus]
 
 740
-99:59:59,000 --> 99:59:59,000
+00:55:06,415 --> 00:55:09,064
 [Moderator] Ganz schnell noch hier an der vier.
 
 741
-99:59:59,000 --> 99:59:59,000
+00:55:09,064 --> 00:55:12,985
 [Fragesteller] Ganz kurze Frage zum Genossenschaftsmodell, um den ganzen auf die Sprünge zu helfen - wie kann man denn
 
 742
-99:59:59,000 --> 99:59:59,000
+00:55:12,985 --> 00:55:16,493
 Genossenschaftsanteile kaufen, um das Ganze beim Starten zu unterstützen?
 
 743
-99:59:59,000 --> 99:59:59,000
+00:55:16,493 --> 00:55:19,985
 Und vielleicht später wieder zurücklegen oder Anteilseigner bleiben?
 
 744
-99:59:59,000 --> 99:59:59,000
+00:55:19,985 --> 00:55:23,662
 [Antwort] Ja das ist einer der Knackpunkte an denen wir gerade schrauben.
 
 745
-99:59:59,000 --> 99:59:59,000
+00:55:23,662 --> 00:55:28,860
 Die Europäische Genossenschaft ist nämlich auch deshalb interessant, weil man zwischen nutzenden
 
 746
-99:59:59,000 --> 99:59:59,000
+00:55:28,860 --> 00:55:33,328
 Mitgliedern und investierenden Mitgliedern unterscheiden kann. Das heißt, wir können auch
 
 747
-99:59:59,000 --> 99:59:59,000
+00:55:33,328 --> 00:55:38,432
 Mitglieder aufnehmen, die eben kein direktes, wirtschaftliches Interesse haben, die aber
 
 748
-99:59:59,000 --> 99:59:59,000
+00:55:38,432 --> 00:55:46,550
 die Arbeit der Genossenschaft unterstützen wollen. Wie genau wir das regeln im Bezug auf die
 
 749
-99:59:59,000 --> 99:59:59,000
+00:55:46,550 --> 00:55:52,948
 Notwendigkeit, dass wir zum Beispiel auch allen anderen Marktbeteiligten die keine Urheber sind,
 
 750
-99:59:59,000 --> 99:59:59,000
+00:55:52,948 --> 00:55:58,519
 Mitspracherechte an der Genossenschaft geben müssen - laut Gesetz - wir aber sicherstellen wollen
 
 751
-99:59:59,000 --> 99:59:59,000
+00:55:58,519 --> 00:56:04,203
 dass die nicht zu viel Macht bekommen. Wie wir also da die Genossenschaftsstruktur-Möglichkeiten
 
 752
-99:59:59,000 --> 99:59:59,000
-und die Anforderungen kurzschließen und gleichzeitig auch denen ermöglichen, Mitglied
+00:56:04,203 --> 00:56:10,625
+und die gesetzlichen Anforderungen kurzschließen und gleichzeitig auch denen ermöglichen, Mitglied
 
 753
-99:59:59,000 --> 99:59:59,000
+00:56:10,625 --> 00:56:14,772
 zu werden, die uns einfach nur unterstützen wollen, da sind wir noch am Schrauben.
 
 754
-99:59:59,000 --> 99:59:59,000
+00:56:14,772 --> 00:56:15,876
 Aber das soll passieren.
 
 755
-99:59:59,000 --> 99:59:59,000
+00:56:15,876 --> 00:56:20,134
 Deshalb: auch <i>ihr</i> könnt investierende Mitglieder werden, hoffentlich, am Ende.
 
 756
-99:59:59,000 --> 99:59:59,000
+00:56:20,134 --> 00:56:25,089
 [Moderator] Ja, Tut das. An der Zwei?
 
 757
-99:59:59,000 --> 99:59:59,000
-[Fragesteller] Insbesondere in diesem Forum stellt sich ja auch die Frage nach einer Werksform, die
+00:56:25,089 --> 00:56:28,970
+[Fragesteller] Insbesondere in diesem Forum stellt sich ja auch die Frage nach einer Werkform, die
 
 758
-99:59:59,000 --> 99:59:59,000
+00:56:28,970 --> 00:56:32,874
 jetzt zur Zeit durch Verwertungsgesellschaften gar nicht vertreten ist, und zwar: Software.
 
 759
-99:59:59,000 --> 99:59:59,000
+00:56:32,874 --> 00:56:36,444
 Habt ihr da euch schon irgendwann 'ma was überlegt? Ansonsten nehmt das mal an Anmerkung mit.
 
 760
-99:59:59,000 --> 99:59:59,000
+00:56:36,444 --> 00:56:41,824
 Aus gegebenem Anlass möchte ich auch darstellen, dass ich nicht als Ansprechpartner zur Verfügung stehe.
 
 761
-99:59:59,000 --> 99:59:59,000
+00:56:41,824 --> 00:56:43,311
 [Gelächter]
 
 762
-99:59:59,000 --> 99:59:59,000
+00:56:43,311 --> 00:56:44,863
 [Antwort] Zu spät!
 
 763
-99:59:59,000 --> 99:59:59,000
+00:56:44,863 --> 00:56:46,424
 Sag nochmal grad' deinen Namen.
 
 764
-99:59:59,000 --> 99:59:59,000
+00:56:46,424 --> 00:56:48,623
 Wir wollen trotzdem 'n Bier mit dir Trinken!
 
 765
-99:59:59,000 --> 99:59:59,000
+00:56:48,623 --> 00:56:49,597
 [Gleicher Fragesteller] Bernd.
 
 766
-99:59:59,000 --> 99:59:59,000
+00:56:49,597 --> 00:56:52,846
 [Moderator] Ihr kennt das Gesicht, ihr kennt seinen Namen. Alles klar.
 
 767
-99:59:59,000 --> 99:59:59,000
+00:56:52,846 --> 00:56:54,473
 An der Zwei.
 
 768
-99:59:59,000 --> 99:59:59,000
+00:56:54,473 --> 00:57:03,452
 [Fragestellerin] Ich bin Genossenschaftlerin für die taz. die Tageszeitung. Und das ist eine Genossenschaft, die ihr euch ganz bestimmt
 
 769
-99:59:59,000 --> 99:59:59,000
+00:57:03,452 --> 00:57:07,872
 ankucken könnt. Ja, ihr könnt mich als Ansprechpartnerin für einen Kontakt nehmen.
 
 770
-99:59:59,000 --> 99:59:59,000
+00:57:07,872 --> 00:57:10,462
 Anke Domscheit-Berg, @anked auf Twitter.
 
 771
-99:59:59,000 --> 99:59:59,000
+00:57:10,462 --> 00:57:15,678
 Für die Zeitung ist es nämlich genauso wichtig wie zum Beispiel für euch, dass diejenigen, die da
 
 772
-99:59:59,000 --> 99:59:59,000
+00:57:15,678 --> 00:57:20,360
 eine Einlage tätigen natürlich <i>nicht</i> in das Business reinreden, weil die ja unabhängige Journalisten
 
 773
-99:59:59,000 --> 99:59:59,000
+00:57:20,360 --> 00:57:25,857
 sein wollen. Das heißt, da hat man das schon irgendwie hingekriegt, dass man einerseits
 
 774
-99:59:59,000 --> 99:59:59,000
+00:57:25,857 --> 00:57:33,468
 Geld bekommt, die Anforderungen für Mitbestimmung für Genossenschaftlerinnen irgendwie gemanaged kriegt, und trotzdem unabhängig bleibt.
 
 775
-99:59:59,000 --> 99:59:59,000
+00:57:35,175 --> 00:57:36,631
 [Antwor] Ja, vielen Dank!
 
 776
-99:59:59,000 --> 99:59:59,000
+00:57:36,631 --> 00:57:40,312
 Mir fällt gerade noch 'was ein, das haben wir jetzt aus dem Vortrag rausgeschmissen, aber da passt
 
 777
-99:59:59,000 --> 99:59:59,000
+00:57:40,312 --> 00:57:45,229
 es gerade ganz gut hin: Es gibt noch 'n paar andere Brainfucks, die wir irgendwie lösen müssen:
 
 778
-99:59:59,000 --> 99:59:59,000
+00:57:45,229 --> 00:57:50,856
 Das Urheberrechtswahrnehmungsgesetzt schreibt zum Beispiel vor, dass in 'ner Verwertungsgesellschaft auch Nichtmitglieder, die
 
 779
-99:59:59,000 --> 99:59:59,000
+00:57:50,856 --> 00:57:54,748
 Vertretungsberechtigt sind irgendwie von der Verwertungsgesellschaft vertreten werden. Und die
 
 780
-99:59:59,000 --> 99:59:59,000
+00:57:54,748 --> 00:57:56,466
 müssen auch irgendwie Einfluss nehmen können.
 
 781
-99:59:59,000 --> 99:59:59,000
+00:57:56,466 --> 00:57:59,927
 Nach dem Genossenschaftsrecht ist es aber nicht möglich, Nichtmitgliedern irgendwelche Stimmrechte
 
 782
-99:59:59,000 --> 99:59:59,000
+00:57:59,927 --> 00:58:03,438
 zu geben. Also müssen wir jetzt irgendwie eine Konstruktion finden, um
 
 783
-99:59:59,000 --> 99:59:59,000
+00:58:03,438 --> 00:58:07,655
 Nichtmitgliedern, die nicht Stimmberechtigt sind in der Genossenschaft stimmberechtigt zu machen.
 
 784
-99:59:59,000 --> 99:59:59,000
+00:58:07,655 --> 00:58:14,814
 Und da kann man sich dann lustige Konstrukte überlegen wie "Vereine, die keine Mitglieder haben, aber Mitglied in der Genossenschaft sind", weil im
 
 785
-99:59:59,000 --> 99:59:59,000
+00:58:14,814 --> 00:58:16,885
 Vereinsrecht ist es möglich.
 
 786
-99:59:59,000 --> 99:59:59,000
+00:58:16,885 --> 00:58:26,778
 Und das sind halt... Also man kann auch mit Gesetzen ganz schön kreativ sein und rumhacken, wenn man das muss.
 
 787
-99:59:59,000 --> 99:59:59,000
+00:58:26,778 --> 00:58:28,732
 [Moderator] Ja, Ok. Vielen Dank!
 
 788
-99:59:59,000 --> 99:59:59,000
+00:58:28,732 --> 00:58:36,637
 Für den hervorragenden Vortrag. Mit erstaunlichen Wendungen wie Brainfucks oder heiße Nächte oder wunde Pos.
 
 789
-99:59:59,000 --> 99:59:59,000
-Ich danke euch allen ich danke vor allem euch.
+00:58:36,637 --> 00:58:40,637
+Ich danke euch allen ich danke vor allem euch, tschüss.
 
 790
-99:59:59,000 --> 99:59:59,000
+00:58:40,637 --> 00:58:43,590
 [Einer der Vortragenden] Habt euch lieb, Tschüss!
 
 791
-99:59:59,000 --> 99:59:59,000
+00:58:43,590 --> 00:58:48,622
 [Moderator] Ja, Müll mitnehmen, weg geht, Müll mitnehmen!
