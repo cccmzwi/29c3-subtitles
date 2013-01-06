@@ -1,0 +1,460 @@
+1
+00:00:02,736 --> 00:00:09,687
+Opening Event - bios
+
+2
+00:00:09,687 --> 00:00:14,036
+Good morning, Hamburg, not Berlin
+
+3
+00:00:14,036 --> 00:00:18,931
+This is not the keynote, so if you need anything important to do,
+
+4
+00:00:18,931 --> 00:00:22,910
+get it done, the keynote will 
+start in a few minutes
+
+5
+00:00:22,910 --> 00:00:38,605
+and by the way, I am not Jacob, I am bios, hello!
+
+6
+00:00:38,605 --> 00:00:40,748
+one slight technical problem...
+
+7
+00:00:40,748 --> 00:00:51,085
+okay, the first slide doesn't show (yet)
+
+8
+00:00:51,085 --> 00:00:52,547
+No, no, it's not powerpoint,
+
+9
+00:00:52,547 --> 00:01:02,535
+it's free, it's better,  it's libreoffice.
+
+10
+00:01:02,535 --> 00:01:08,104
+This is not the keynote, we already covered this, so...
+
+11
+00:01:08,104 --> 00:01:17,099
+Big important changes: It's crazy how many of you are here at this early hour in the morning, it is basically still at night
+
+12
+00:01:17,099 --> 00:01:22,701
+and cool to see that you all managed to the right location
+
+13
+00:01:22,701 --> 00:01:25,854
+we mentioned this, I think the stream is already up,
+
+14
+00:01:25,854 --> 00:01:29,089
+so if anyone is in Berlin and sees the stream, I don't know
+
+15
+00:01:29,089 --> 00:01:33,633
+if the bcc shows the stream; 
+there is still some time to get here
+
+16
+00:01:33,633 --> 00:01:39,571
+the train takes about two hours;
+I had that problem yesterday
+
+17
+00:01:39,571 --> 00:01:43,488
+And welcome everyone! Great to see you!
+
+18
+00:01:43,488 --> 00:01:49,287
+I you have a talk
+
+19
+00:01:49,287 --> 00:01:50,814
+one warning to the fellow speakers:
+
+20
+00:01:50,814 --> 00:01:53,619
+if you have a talk tomorrow
+
+21
+00:01:53,695 --> 00:01:58,808
+or a talk where some time is available
+
+22
+00:01:58,808 --> 00:02:01,463
+to get up to the stage here,
+
+23
+00:02:01,463 --> 00:02:06,062
+this room is amazing and a bit scary
+
+24
+00:02:06,062 --> 00:02:09,800
+People all around me!
+
+25
+00:02:09,800 --> 00:02:12,682
+Okay, let's get started!
+
+26
+00:02:12,682 --> 00:02:17,004
+Some new things we have this year here:
+we have the hackcenter as every year,
+
+27
+00:02:17,004 --> 00:02:20,807
+But we also have assemblies. 
+Hopefully, Most of you already
+
+28
+00:02:20,807 --> 00:02:25,670
+saw this in the wiki and on the blog, because now it is too late to start an assembly
+
+29
+00:02:25,670 --> 00:02:30,276
+because all the space is distributed to the assemblies.
+
+30
+00:02:30,276 --> 00:02:34,224
+and When you walk around the building you will see some signs
+
+31
+00:02:34,224 --> 00:02:39,200
+announcing the assembly which has been placed there
+
+32
+00:02:39,200 --> 00:02:42,321
+there are also some "shared" tables. The Meaning
+
+33
+00:02:42,321 --> 00:02:49,230
+is a bit of the shared situation; first I thought I can just go there and grab a seat,
+
+34
+00:02:49,230 --> 00:02:52,511
+but shared spaces are meant for the assemblies,
+
+35
+00:02:52,511 --> 00:02:59,238
+so if they hold a talk or hold a workshop, they can use the shared space
+
+36
+00:02:59,238 --> 00:03:06,218
+so if you squat there, they will probably ask very politely to move away.
+
+37
+00:03:06,218 --> 00:03:10,464
+But you have to give up the seat there.
+
+38
+00:03:10,464 --> 00:03:15,670
+In the wiki you can also see which assemblies have workshops
+
+39
+00:03:15,670 --> 00:03:19,077
+and many assemblies also will give talks,
+
+40
+00:03:19,077 --> 00:03:23,830
+so probably there will be a timetable in the wiki
+
+41
+00:03:23,830 --> 00:03:26,521
+where you can see where which shared space will be used.
+
+42
+00:03:26,521 --> 00:03:29,121
+for some assembly business.
+
+43
+00:03:29,390 --> 00:03:34,805
+What else? we had a presale this year again, unfortunately, we
+
+44
+00:03:34,920 --> 00:03:39,199
+couldn't implement the much asked feature of "Bad Gateway",
+
+45
+00:03:39,261 --> 00:03:44,449
+a very famous german holiday place,
+
+46
+00:03:44,449 --> 00:03:47,777
+but we managed to sell many tickets,
+
+47
+00:03:47,777 --> 00:03:51,387
+we will give some statistics at the closing event.
+
+48
+00:03:51,387 --> 00:03:53,555
+There are still some tickets on sale, so
+
+49
+00:03:53,555 --> 00:03:57,651
+if you see the stream, you can come and get a tcket.
+
+50
+00:03:57,651 --> 00:04:00,620
+I think we have about 1000 tickets per day,
+
+51
+00:04:00,743 --> 00:04:04,014
+so there should be a ticket for everyone.
+
+52
+00:04:24,557 --> 00:04:27,871
+Yeah, Also in the presale ticket system, hopefully
+
+53
+00:04:27,871 --> 00:04:38,347
+everyone who wanted some clothes already ordered it., because
+
+54
+00:04:38,347 --> 00:04:43,307
+I am not sure how many tshirts we will have left after the congress,
+
+55
+00:04:43,307 --> 00:04:47,218
+but if you ordered, please collect it today.
+
+56
+00:04:47,218 --> 00:04:53,527
+If you can't, come to the congress today, write us an email or
+
+57
+00:04:53,527 --> 00:05:00,516
+annonce it, otherweise we will distribute the not-fetched t-shirts tomorrow.
+
+58
+00:05:00,516 --> 00:05:08,468
+It is really important, so do it today.
+
+59
+00:05:08,468 --> 00:05:14,311
+We have a "Fahrplan"
+
+60
+00:05:14,311 --> 00:05:16,871
+since yesterday evening; we have version 1.0
+
+61
+00:05:16,871 --> 00:05:19,817
+but  I think it is already outdated.
+
+62
+00:05:19,817 --> 00:05:30,214
+And we have these paper plans, they are really great including a map of the building
+
+63
+00:05:30,214 --> 00:05:34,637
+the version on the paper is already outdated.
+
+64
+00:05:34,637 --> 00:05:39,099
+I think one room appeared out of nowhere and is now on the Fahrplan.
+
+65
+00:05:39,099 --> 00:05:42,413
+So, check the online version and twitter will announce updates.
+
+66
+00:05:42,413 --> 00:05:46,795
+Yeah, Volunteers: really, really important.
+
+67
+00:05:46,795 --> 00:05:50,650
+If you walk around the building and interact with the people here,
+
+68
+00:05:50,650 --> 00:05:59,637
+nearly everyone but I think if you walk around in the public areas, you interact with is volunteering, so be nice.
+
+69
+00:05:59,658 --> 00:06:05,536
+If you are at the bar and they run temporary out of mate, be nice,
+
+70
+00:06:05,536 --> 00:06:10,784
+wait a minute and evenb better, go ask if you can help them.
+
+71
+00:06:10,784 --> 00:06:13,349
+we have an angel meeting, I believe one is right now,
+
+72
+00:06:13,619 --> 00:06:22,193
+but the next will be in the evening, so ask there what you can help, just go there, and ask what you can do.
+
+73
+00:06:22,270 --> 00:06:24,698
+we also have an online version, the "Engelsystem",
+
+74
+00:06:24,698 --> 00:06:33,637
+you can also register there and sign some shifts, so eg the Video-Angels around here are volunteers.
+
+75
+00:06:33,637 --> 00:06:48,429
+All the poeple behind the nice blinking lights are volunteers
+
+76
+00:06:48,429 --> 00:06:51,589
+okay, and one update to the talks: There will be translations!
+
+77
+00:06:51,589 --> 00:06:54,719
+Last Minute information here, Hi,
+
+78
+00:06:54,719 --> 00:07:01,491
+So we are trying to setting up a live translator team,
+
+79
+00:07:01,491 --> 00:07:02,863
+we've got around ten people right now,
+
+80
+00:07:02,863 --> 00:07:06,178
+everybody fluent in english and understanding german
+
+81
+00:07:06,178 --> 00:07:08,548
+quite enough is welcome to join us,
+
+82
+00:07:08,548 --> 00:07:13,228
+we are meeting   at 11:30 out here, follow the blog, there is a post as well,
+
+83
+00:07:13,228 --> 00:07:17,257
+we need people to help us with live translations, and we are trying to do
+
+84
+00:07:17,257 --> 00:07:25,434
+all 27 german talks into english, and there will be live stream for that, and there will be recordings,
+
+85
+00:07:25,434 --> 00:07:32,455
+so if you don't understand enough german, all german talks will at least be attempted to be translated in english.
+
+86
+00:07:32,455 --> 00:07:45,930
+there might be also a DECT Channel for the translation, I am not entirely sure about that, please check the wiki.
+
+87
+00:07:45,930 --> 00:07:48,651
+Thanks!
+
+88
+00:07:48,651 --> 00:07:57,874
+Okay, hopefully, nothing urgent or extreme will happen, but if you are in some kind of emergency,
+
+89
+00:07:57,874 --> 00:08:02,178
+I don't know, you cut yourself, you touch the wrong end of the soldering item,
+
+90
+00:08:02,178 --> 00:08:07,123
+we have a medical team standing by, they are next to the cash desk,
+
+91
+00:08:07,123 --> 00:08:17,012
+you can call them, you can call 112 or 911, but please make sure you are on DECT.
+
+92
+00:08:17,012 --> 00:08:24,575
+Don't call them on GSM if you are bored and need someone to hang out.
+
+93
+00:08:24,898 --> 00:08:28,990
+Apparently that has happened before.
+
+94
+00:08:30,845 --> 00:08:39,873
+New this year, we had it last year, but I don't think it wasn't so organized as this year;
+
+95
+00:08:39,873 --> 00:08:41,710
+we have a network abuse team, so if you you are on the stream
+
+96
+00:08:41,710 --> 00:08:45,668
+and happen to be a network provider and something strange is happening on your network
+
+97
+00:08:45,668 --> 00:08:48,083
+and you suspect we're to blame,
+
+98
+00:08:48,083 --> 00:08:56,535
+I think the full page for abuse handeling is also online or check the RIPE-Entry.
+
+99
+00:08:56,535 --> 00:08:59,047
+You probably know what to do.
+
+100
+00:08:59,047 --> 00:09:11,365
+Yeah but we also have some abuse and ani-harrassment team, they're available at 113
+
+101
+00:09:11,365 --> 00:09:19,587
+and they also provide deescalation services, so if you have some problems
+
+102
+00:09:19,587 --> 00:09:22,244
+or if somethings strange is happening, just give them a call
+
+103
+00:09:22,244 --> 00:09:37,395
+and they will talk to you and will try to help you.
+
+104
+00:09:37,395 --> 00:09:39,548
+okay, so, we are nearly at the end.
+
+105
+00:09:39,548 --> 00:09:47,484
+More information: you probably know it, we have a wiki which is really extensive and updated all the time,
+
+106
+00:09:47,484 --> 00:09:52,042
+so check it, there will be much to discover.
+
+107
+00:09:52,042 --> 00:09:57,291
+we have the infodesk again, they are also down at the entrance.
+
+108
+00:09:57,291 --> 00:10:04,007
+really, get a map, I got lost already I think three times yesterday, trying to find some area, and it was like
+
+109
+00:10:04,007 --> 00:10:10,006
+"it used to be there, but I was on the wrong floor, and there are sub-floors" and
+
+110
+00:10:10,006 --> 00:10:16,344
+the maps are great! Wander around, Discover all the stuff,
+
+111
+00:10:16,344 --> 00:10:20,705
+There is much to see, this building is really, really huge
+
+112
+00:10:20,719 --> 00:10:27,289
+Also, have fun and keep on hacking, be excellent to each other, and thanks for listening.
+
+113
+00:10:34,852 --> 00:10:40,696
+So, we are making about five minutes of minutes of break
+
+114
+00:10:41,188 --> 00:10:46,464
+to set up everything and then you'll see the next speaker, the keynote
