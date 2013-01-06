@@ -1,0 +1,111 @@
+1
+00:00:08,409 --> 00:00:15,428
+Herald: Hi, Welcome to this apparently very popular talk
+
+2
+00:00:15,528 --> 00:00:20,234
+because there are still like around 20 people besides this door
+
+3
+00:00:20,334 --> 00:00:26,051
+so there is obviously big interest in this topic
+
+4
+00:00:26,151 --> 00:00:31,299
+lets welcome our speakers from Positive Technologies:
+
+5
+00:00:31,399 --> 00:00:36,421
+Sergey Gordeychik and Gleb Gritsai.
+
+6
+00:00:36,521 --> 00:00:37,521
+Applause.
+
+7
+00:00:37,621 --> 00:00:46,412
+<applause>
+
+8
+00:00:46,512 --> 00:00:50,016
+Speakers: Thanks everybody who has arrived.
+
+9
+00:00:50,116 --> 00:00:59,058
+First of all I want to say that SCADA Strangelove is a collective approach, its collective product
+
+10
+00:00:59,158 --> 00:01:07,405
+and we're just frontmen. With our team, I think this [...] a lot of applause.
+
+11
+00:01:07,505 --> 00:01:10,314
+This guys work at 
+
+12
+00:01:10,414 --> 00:01:15,878
+<applause>
+
+13
+00:01:15,978 --> 00:01:18,660
+So, why are here?
+
+14
+00:01:18,760 --> 00:01:28,145
+Because according to our information, our analysis, Europe, worst protected region in the world
+
+15
+00:01:28,245 --> 00:01:32,698
+if we look from SCADA security perspective.
+
+16
+00:01:32,798 --> 00:01:40,159
+Most of SCADA systems exposed to Internet have well known vulnerabilities
+
+17
+00:01:40,259 --> 00:01:46,546
+like default passwords, default configuration, and error(?).
+
+18
+00:01:46,646 --> 00:01:51,857
+Italy [is] first in this list. Why? I don't know
+
+19
+00:01:51,957 --> 00:01:53,628
+Maybe because it is Italy
+
+20
+00:01:53,728 --> 00:02:01,722
+<applause>
+
+21
+00:02:01,822 --> 00:02:09,815
+Special Thanks to Siemens ProductCERT. I don't know whether there are guys from Siemens here.
+
+22
+00:02:09,915 --> 00:02:17,909
+Thanks again because they're really professionals and I was really surprised because,
+
+23
+00:02:18,009 --> 00:02:24,991
+they not only provide [...] quick response to email but even provide patches.
+
+24
+00:02:25,091 --> 00:02:29,607
+It's something unusal in ICS industy.
+
+25
+00:02:29,707 --> 00:02:34,286
+<applause>
+
+26
+00:02:34,386 --> 00:02:42,064
+I will talk a lot about Siemens. Why? Because Siemens is elephant
+
+27
+00:02:42,164 --> 00:02:46,806
+Siemens is everywhere. It's most common target during our penetration test.
+
+28
+00:02:46,906 --> 00:02:50,600
+during search in Internet
