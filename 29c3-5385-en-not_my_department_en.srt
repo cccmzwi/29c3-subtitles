@@ -1,1795 +1,1811 @@
 1
-99:59:59,000 --> 99:59:59,000
+00:00:09,054 --> 00:00:11,514
 Guten Morgen meine Damen und Herren,
 
 2
-99:59:59,000 --> 99:59:59,000
+00:00:11,514 --> 00:00:13,212
 ich freue mich sehr, dass ich hier bin,
 
 3
-99:59:59,000 --> 99:59:59,000
+00:00:14,824 --> 00:00:18,572
 aber Deutsch ist nicht meine Muttersprache,
 
 4
-99:59:59,000 --> 99:59:59,000
+00:00:18,572 --> 00:00:22,398
 daher werde ich weiter auf englisch sprechen.
 
 5
-99:59:59,000 --> 99:59:59,000
+00:00:22,398 --> 00:00:25,520
 Es ist eine Ehre, hier zu sein.
 
 6
-99:59:59,000 --> 99:59:59,000
+00:00:25,520 --> 00:00:28,309
 So the Chaos Computer Club to me is like family,
 
 7
-99:59:59,000 --> 99:59:59,000
+00:00:28,309 --> 00:00:31,758
 and it is such an honor to be able to speak to everyone here,
 
 8
-99:59:59,000 --> 99:59:59,000
+00:00:31,758 --> 00:00:35,229
 and it ridiculous that they asked me to give the keynote.
 
 9
-99:59:59,000 --> 99:59:59,000
+00:00:35,229 --> 00:00:38,430
 I hope that I am not wasting 3000 collective hours
 
 10
-99:59:59,000 --> 99:59:59,000
+00:00:38,430 --> 00:00:40,777
 of the smartest people of this planet with what I have to say
 
 11
-99:59:59,000 --> 99:59:59,000
+00:00:40,777 --> 00:00:43,775
 in the next 60 minutes.
 
 12
-99:59:59,000 --> 99:59:59,000
+00:00:48,620 --> 00:00:52,277
 I want to start by thanking everyone
 
 13
-99:59:59,000 --> 99:59:59,000
-who is in the audience for being here
+00:00:52,277 --> 00:00:54,027
+that is in the audience for being here
 
 14
-99:59:59,000 --> 99:59:59,000
+00:00:54,027 --> 00:00:56,365
 and for some specific people,
 
 15
-99:59:59,000 --> 99:59:59,000
+00:00:56,365 --> 00:00:58,504
 I want to call out Laura Poitress, who is this
 
 16
-99:59:59,000 --> 99:59:59,000
+00:00:58,504 --> 00:01:00,882
 woman here, next to the woman with the camera,
 
 17
-99:59:59,000 --> 99:59:59,000
-because she produced and edited that we're going to see
+00:01:00,882 --> 00:01:04,983
+because she produced and edited the videos that we're going to see
 
 18
-99:59:59,000 --> 99:59:59,000
+00:01:04,983 --> 00:01:06,611
 I have been working with her quite a lot
 
 19
-99:59:59,000 --> 99:59:59,000
-and she is a lot inspirational wonderful artist
+00:01:06,611 --> 00:01:09,826
+and she is a very inspirational wonderful artist
 
 20
-99:59:59,000 --> 99:59:59,000
+00:01:09,826 --> 00:01:11,397
 who I love deeply.
 
 21
-99:59:59,000 --> 99:59:59,000
+00:01:11,397 --> 00:01:14,796
 And I'd like to start by playing a video,
 
 22
-99:59:59,000 --> 99:59:59,000
+00:01:14,796 --> 00:01:16,719
 which is part of an art project we're working on,
 
 23
-99:59:59,000 --> 99:59:59,000
+00:01:16,719 --> 00:01:18,393
 where many people are working on,
 
 24
-99:59:59,000 --> 99:59:59,000
+00:01:18,393 --> 00:01:20,392
 and if we could play that first video,
 
 25
-99:59:59,000 --> 99:59:59,000
+00:01:20,392 --> 00:01:21,967
 I think that would be a good way to start this off.
 
 26
-99:59:59,000 --> 99:59:59,000
-Fantastic. So, we have an Idea
+00:01:32,930 --> 00:01:36,205
+Fantastic. So, <i>now</i> we have an Idea
 
 27
-99:59:59,000 --> 99:59:59,000
+00:01:36,205 --> 00:01:38,335
 about what my talk will be about, right?
 
 28
-99:59:59,000 --> 99:59:59,000
+00:01:38,335 --> 00:01:40,299
 Just in case that there is any question
 
 29
-99:59:59,000 --> 99:59:59,000
+00:01:40,299 --> 00:01:42,248
 that I was going to change many horses midstream
 
 30
-99:59:59,000 --> 99:59:59,000
+00:01:51,954 --> 00:01:57,515
 this is a location, it's called Bluffdale, Utah.
 
 31
-99:59:59,000 --> 99:59:59,000
+00:01:57,515 --> 00:02:00,933
 And this is one of the largest datacenters
 
 32
-99:59:59,000 --> 99:59:59,000
+00:02:00,933 --> 00:02:04,850
 that we know of the NSA is currently constructing.
 
 33
-99:59:59,000 --> 99:59:59,000
-And there is of course the question about what it is they are trying to build,
+00:02:04,850 --> 00:02:08,416
+And there is the question of course about what it is they are trying to build,
 
 34
-99:59:59,000 --> 99:59:59,000
+00:02:08,416 --> 00:02:09,756
 why they're building it,
 
 35
-99:59:59,000 --> 99:59:59,000
+00:02:09,756 --> 00:02:11,807
 what exactly they plan to do with the space and
 
 36
-99:59:59,000 --> 99:59:59,000
+00:02:11,807 --> 00:02:13,759
 how they will use the space
 
 37
-99:59:59,000 --> 99:59:59,000
+00:02:13,759 --> 00:02:19,131
 and I am going to talk a bit about this - nice -
 
 38
-99:59:59,000 --> 99:59:59,000
+00:02:19,131 --> 00:02:25,455
 and what I am hoping also to point out is, that this is everyones department.
 
 39
-99:59:59,000 --> 99:59:59,000
+00:02:26,717 --> 00:02:32,834
 So in this case, what we see, is the construction of the actual bluffdale Utah Site.
 
 40
-99:59:59,000 --> 99:59:59,000
+00:02:34,218 --> 00:02:39,473
 So this is the slow process. But there is not anything particular one might object to.
 
 41
-99:59:59,000 --> 99:59:59,000
+00:02:39,473 --> 00:02:43,455
 In this process, it is just construction of a very large building.
 
 42
-99:59:59,000 --> 99:59:59,000
+00:02:43,455 --> 00:02:45,993
 And I am gonna read some adresses now that were passed out
 
 43
-99:59:59,000 --> 99:59:59,000
+00:02:45,993 --> 00:02:51,574
 when Winni, Laura and I did a show at the Withney(sp?):
 
 44
-99:59:59,000 --> 99:59:59,000
-2651 Olive Street, St. Louis, Missouri, 2563103 United States.
+00:02:51,574 --> 00:02:58,358
+2651 Olive Street, St. Louis, Missouri, 63103 United States.
 
 45
-99:59:59,000 --> 99:59:59,000
+00:02:58,358 --> 00:03:04,869
 420 South Grand Los Angeles, California, 90071 United States
 
 46
-99:59:59,000 --> 99:59:59,000
-9/11 Folsam Street, San Francisco, California, 94107 United States
+00:03:04,869 --> 00:03:11,919
+6/11 Folsam Street, San Francisco, California, 94107 United States
 
 47
-99:59:59,000 --> 99:59:59,000
-51 Peachtree North<u>Eawst Atlanta Georgia, 3030 United states</u>
+00:03:11,919 --> 00:03:20,487
+51 Peachtree North-East Atlanta Georgia, 3030 United states
 
 48
-99:59:59,000 --> 99:59:59,000
-10 South Cannala Chicago Illinois60606 United States
+00:03:20,487 --> 00:03:25,492
+10 South Cannala Chicago Illinois 60606 United States
 
 49
-99:59:59,000 --> 99:59:59,000
-30 East Street South West Washington DC, 20024 United STates
+00:03:25,492 --> 00:03:31,906
+30 East Street South West Washington DC, 20024 United States
 
 50
-99:59:59,000 --> 99:59:59,000
-811 Tentzh Ave New York, New York, 10019 United States
+00:03:31,906 --> 00:03:37,678
+811 10th Ave New York, New York, 10019 United States
 
 51
-99:59:59,000 --> 99:59:59,000
+00:03:37,678 --> 00:03:43,106
 12967 Hollenberg Drive, Richtown
 
 52
-99:59:59,000 --> 99:59:59,000
-Thesse Adresses are potentially Domestic Interception points
+00:03:43,537 --> 00:03:49,079
+These addresses are potentially domestic Interception points
 
 53
-99:59:59,000 --> 99:59:59,000
+00:03:49,079 --> 00:03:52,654
 for the NSA in the United States.
 
 54
-99:59:59,000 --> 99:59:59,000
+00:03:52,654 --> 00:03:55,558
 One of them is confirmed accoding to Marc Kline,
 
 55
-99:59:59,000 --> 99:59:59,000
+00:03:55,558 --> 00:03:57,761
 who blew the whistle and discussed the fact
 
 56
-99:59:59,000 --> 99:59:59,000
+00:03:57,761 --> 00:04:01,777
 that the NSA is doing domestic surveillance.
 
 57
-99:59:59,000 --> 99:59:59,000
+00:04:01,777 --> 00:04:07,029
 I and many of the people believe that the purpose of this datacenter is to build
 
 58
-99:59:59,000 --> 99:59:59,000
+00:04:07,029 --> 00:04:10,856
 something to store and process massive interception
 
 59
-99:59:59,000 --> 99:59:59,000
+00:04:10,856 --> 00:04:13,329
 where some of the calculations by bill binnie,
 
 60
-99:59:59,000 --> 99:59:59,000
+00:04:13,329 --> 00:04:16,567
 who was an analyst for the NSA for almost 40 years
 
 61
-99:59:59,000 --> 99:59:59,000
+00:04:16,567 --> 00:04:20,508
 he thinks, that this center will be used to store the information
 
 62
-99:59:59,000 --> 99:59:59,000
-for probably something around 100 years.
+00:04:20,508 --> 00:04:24,130
+for probably somewhere around 100 years.
 
 63
-99:59:59,000 --> 99:59:59,000
+00:04:24,130 --> 00:04:25,797
 And so in theory we might say
 
 64
-99:59:59,000 --> 99:59:59,000
+00:04:25,797 --> 00:04:29,745
 that that's not big deal and we have nothing to worry about.
 
 65
-99:59:59,000 --> 99:59:59,000
+00:04:29,745 --> 00:04:37,272
 I very much want to make sure that we cover in this talk that's going to happen right now
 
 66
-99:59:59,000 --> 99:59:59,000
+00:04:37,272 --> 00:04:40,469
 that this right here is in the back of everyones mind.
 
 67
-99:59:59,000 --> 99:59:59,000
+00:04:40,469 --> 00:04:43,827
 A Datacenter, designed to store things for a 100 years.
 
 68
-99:59:59,000 --> 99:59:59,000
+00:04:43,827 --> 00:04:46,229
 That seems like a reasonable theory for this.
 
 69
-99:59:59,000 --> 99:59:59,000
+00:04:46,229 --> 00:04:48,625
 and if you read the information that is present about it,
 
 70
-99:59:59,000 --> 99:59:59,000
+00:04:48,625 --> 00:04:52,641
 you will in fact see that that seems like it is problably an understatement
 
 71
-99:59:59,000 --> 99:59:59,000
+00:04:52,641 --> 00:04:59,436
 and probably, since there is more than a single facility like this,
 
 72
-99:59:59,000 --> 99:59:59,000
+00:04:59,436 --> 00:05:03,849
 that there is a possibility that the 100 years is just a short version.
 
 73
-99:59:59,000 --> 99:59:59,000
+00:05:03,849 --> 00:05:06,639
 and that's an extremely scary proposition.
 
 74
-99:59:59,000 --> 99:59:59,000
+00:05:06,639 --> 00:05:09,723
 So, part of the reason I want to show you that is
 
 75
-99:59:59,000 --> 99:59:59,000
-that I want to lead with that, but I will tell you a quote,
+00:05:09,723 --> 00:05:13,366
+that I want to lead with that, but I will tell you a quote, which is:
 
 76
-99:59:59,000 --> 99:59:59,000
+00:05:13,366 --> 00:05:16,915
 "nothing strengthens the judgement and quickens the conscience like individual responsibility"
 
 77
-99:59:59,000 --> 99:59:59,000
+00:05:16,915 --> 00:05:20,735
 which is a quote by a feminist known as Elisabeth Stanton.
 
 78
-99:59:59,000 --> 99:59:59,000
+00:05:20,735 --> 00:05:24,887
 This I think is a useful thing when talking about things not being our department.
 
 79
-99:59:59,000 --> 99:59:59,000
+00:05:24,887 --> 00:05:28,029
 Because, what do we have to do with the NSA?
 
 80
-99:59:59,000 --> 99:59:59,000
+00:05:28,029 --> 00:05:32,683
 What do we have to do with this giant datacenter which is being built in bluffdale?
 
 81
-99:59:59,000 --> 99:59:59,000
+00:05:32,683 --> 00:05:36,490
 well, in essence, part of the thing that is so scary,
 
 82
-99:59:59,000 --> 99:59:59,000
+00:05:36,490 --> 00:05:40,083
 that with the internet  and with communication systems as they exist today,
 
 83
-99:59:59,000 --> 99:59:59,000
+00:05:40,083 --> 00:05:43,309
 they really isn't a geographical border,
 
 84
-99:59:59,000 --> 99:59:59,000
+00:05:43,309 --> 00:05:46,823
 that really changes what we can and can not care about in the ways that we used to.
 
 85
-99:59:59,000 --> 99:59:59,000
+00:05:46,823 --> 00:05:50,822
 The fact of the matter is that the NSAs interception,
 
 86
-99:59:59,000 --> 99:59:59,000
+00:05:50,822 --> 00:05:56,184
 those interception points, they will carry not only americans data,
 
 87
-99:59:59,000 --> 99:59:59,000
-they will carry everyones data for the internet.
+00:05:56,184 --> 00:05:59,505
+they will carry everyone's data for the internet.
 
 88
-99:59:59,000 --> 99:59:59,000
+00:05:59,505 --> 00:06:03,141
 So, caring about this datacenter is in fact a very serious thing that we need to consider,
 
 89
-99:59:59,000 --> 99:59:59,000
+00:06:03,141 --> 00:06:05,576
 because in fact it does impact everyone.
 
 90
-99:59:59,000 --> 99:59:59,000
+00:06:05,576 --> 00:06:07,279
 But even if we didn't use the internet,
 
 91
-99:59:59,000 --> 99:59:59,000
+00:06:07,279 --> 00:06:10,667
 it impacts the people that we care about in a transitive way.
 
 92
-99:59:59,000 --> 99:59:59,000
+00:06:10,667 --> 00:06:13,394
 So I'm hoping that in the course of the next 15 minutes
 
 93
-99:59:59,000 --> 99:59:59,000
+00:06:13,394 --> 00:06:16,456
 I am able to convice you that these things are your department.
 
 94
-99:59:59,000 --> 99:59:59,000
+00:06:16,456 --> 00:06:21,774
 And I of want to start to talk about what Robin Frankin talked about the last few years.
 
 95
-99:59:59,000 --> 99:59:59,000
+00:06:21,774 --> 00:06:25,718
 Have any one of you seen these talks that they've given
 
 96
-99:59:59,000 --> 99:59:59,000
+00:06:25,718 --> 00:06:31,405
 such like "We Lost the War"-Talk or "How society might collapse"? See a show of hands for that?
 
 97
-99:59:59,000 --> 99:59:59,000
+00:06:31,405 --> 00:06:35,175
 Okay, About half of you.
 
 98
-99:59:59,000 --> 99:59:59,000
+00:06:35,175 --> 00:06:39,404
 I want to say that they talked about this and they said we've know we lost the war,
 
 99
-99:59:59,000 --> 99:59:59,000
+00:06:39,404 --> 00:06:40,746
 the surveillance state war.
 
 100
-99:59:59,000 --> 99:59:59,000
+00:06:40,746 --> 00:06:42,865
 You know, basically, so many people have decided to
 
 101
-99:59:59,000 --> 99:59:59,000
-go to the dark side,so it has been called.
+00:06:42,865 --> 00:06:46,386
+go to the dark side, as it has been called.
 
 102
-99:59:59,000 --> 99:59:59,000
+00:06:46,386 --> 00:06:49,432
 That is working on deep packet inspection, censorship equipment,
 
 103
-99:59:59,000 --> 99:59:59,000
+00:06:49,432 --> 00:06:52,387
 Surveillance equipment, Targeting Information etcetera.
 
 104
-99:59:59,000 --> 99:59:59,000
+00:06:52,387 --> 00:06:57,026
 This is in fact what has happened.
 
 105
-99:59:59,000 --> 99:59:59,000
+00:06:57,026 --> 00:07:00,935
 If you look at the job that pays very well, that people aware of,
 
 106
-99:59:59,000 --> 99:59:59,000
-they usually are systems that control types of jobs.
+00:07:00,935 --> 00:07:04,905
+they usually are systems of control types of jobs.
 
 107
-99:59:59,000 --> 99:59:59,000
+00:07:04,905 --> 00:07:07,671
 There are research positions obviously that exists in the world,
 
 108
-99:59:59,000 --> 99:59:59,000
+00:07:07,671 --> 00:07:11,718
 but it pays better to work for Lockheed martin that for a university.
 
 109
-99:59:59,000 --> 99:59:59,000
+00:07:11,718 --> 00:07:14,894
 So people will choose I think for sometimes good reasons
 
 110
-99:59:59,000 --> 99:59:59,000
-or understandable reasons to do these types of tasks
+00:07:16,505 --> 00:07:20,772
+or for understandable reasons to do these types of tasks
 
 111
-99:59:59,000 --> 99:59:59,000
+00:07:20,772 --> 00:07:23,870
 and sometimes will even moral arguments saying things like
 
 112
-99:59:59,000 --> 99:59:59,000
+00:07:23,870 --> 00:07:28,545
 "because of stuxnet we were able to avoid violence or bombing of a factory".
 
 113
-99:59:59,000 --> 99:59:59,000
+00:07:28,545 --> 00:07:31,659
 Of course the reality is that these things are not used alone,
 
 114
-99:59:59,000 --> 99:59:59,000
+00:07:31,659 --> 00:07:34,994
 they're used together and in concert with bombings of factories.
 
 115
-99:59:59,000 --> 99:59:59,000
+00:07:34,994 --> 00:07:38,822
 So, it's certainly worth mentioning, that these guys,
 
 116
-99:59:59,000 --> 99:59:59,000
+00:07:38,822 --> 00:07:42,308
 Frankin Robb as well as many other people who did  not stand up and tell
 
 117
-99:59:59,000 --> 99:59:59,000
+00:07:42,308 --> 00:07:44,608
 the congress about their ideas
 
 118
-99:59:59,000 --> 99:59:59,000
+00:07:44,608 --> 00:07:46,806
 that these people were really on to something.
 
 119
-99:59:59,000 --> 99:59:59,000
+00:07:46,806 --> 00:07:50,063
 And unfortunately, now we actually live in the world
 
 120
-99:59:59,000 --> 99:59:59,000
+00:07:50,063 --> 00:07:54,920
 that they were describing that was coming. And it's an incredibly scary world.
 
 121
-99:59:59,000 --> 99:59:59,000
+00:07:54,920 --> 00:07:58,385
 And in the last few years, I had the misfortune of being targeted
 
 122
-99:59:59,000 --> 99:59:59,000
+00:07:58,385 --> 00:08:02,967
 by a large section of this world. And I can tell you that it's been
 
 123
-99:59:59,000 --> 99:59:59,000
+00:08:02,967 --> 00:08:08,474
 a quite uncomfortable series of days. Just one day after the other
 
 124
-99:59:59,000 --> 99:59:59,000
+00:08:08,474 --> 00:08:10,733
 is the way to take it, or the way to deal with it,
 
 125
-99:59:59,000 --> 99:59:59,000
+00:08:10,733 --> 00:08:14,597
 and this is not a comfortable or easy way to live.
 
 126
-99:59:59,000 --> 99:59:59,000
+00:08:14,597 --> 00:08:18,932
 When Frankin Robb talked about this, they still had some kind of hope in their voice,
 
 127
-99:59:59,000 --> 99:59:59,000
-and I think that is important.
+00:08:18,932 --> 00:08:20,427
+and I think that that was important.
 
 128
-99:59:59,000 --> 99:59:59,000
+00:08:20,427 --> 00:08:25,222
 So I wanted to do was to try to take that hope and to focus on it
 
 129
-99:59:59,000 --> 99:59:59,000
+00:08:25,222 --> 00:08:29,340
 and to try to take it say that and despite the fact that there are these opressive systems
 
 130
-99:59:59,000 --> 99:59:59,000
-of control. And despite the fact that we live now in a surveillance state
+00:08:29,340 --> 00:08:32,874
+of control. And despite the fact that we do now live in a surveillance state
 
 131
-99:59:59,000 --> 99:59:59,000
+00:08:32,874 --> 00:08:38,243
 that it may still - I think reasonably so - be possible to resist the surveillance state
 
 132
-99:59:59,000 --> 99:59:59,000
+00:08:38,243 --> 00:08:40,608
 and to turn things around if we wish.
 
 133
-99:59:59,000 --> 99:59:59,000
+00:08:40,608 --> 00:08:43,599
 And I think that there may come a time in which that is not true.
 
 134
-99:59:59,000 --> 99:59:59,000
+00:08:43,599 --> 00:08:47,078
 I don't believe that this time has yet arrived.
 
 135
-99:59:59,000 --> 99:59:59,000
+00:08:47,078 --> 00:08:52,130
 So, Frank wanted me to very much stress this notion that
 
 136
-99:59:59,000 --> 99:59:59,000
+00:08:52,130 --> 00:08:54,973
 we can make this choice about what whe do about our time
 
 137
-99:59:59,000 --> 99:59:59,000
-that is this notion of the dark and th elight side.
+00:08:54,973 --> 00:08:57,856
+that is this notion of the dark and the light side.
 
 138
-99:59:59,000 --> 99:59:59,000
+00:08:57,856 --> 00:09:02,923
 I personally don't think that this sort of black-and-white, white-hat, black-hat, ethics make any sense
 
 139
-99:59:59,000 --> 99:59:59,000
-because I don't define my moral and/or ethical framework by making comparison black and white 1950 cowboys movies
+00:09:02,923 --> 00:09:10,075
+because I don't define my ethical or moral framework by making comparison black and white 1950 cowboys movies
 
 140
-99:59:59,000 --> 99:59:59,000
-and I'd like to say that there are nuances there.
+00:09:10,075 --> 00:09:13,723
+and I'd like to say that there's some nuance there.
 
 141
-99:59:59,000 --> 99:59:59,000
+00:09:13,723 --> 00:09:15,866
 But there are some simple things that you can do to decide
 
 142
-99:59:59,000 --> 99:59:59,000
+00:09:15,866 --> 00:09:18,311
 if you are working on something which is oppressive,
 
 143
-99:59:59,000 --> 99:59:59,000
+00:09:18,311 --> 00:09:21,283
 and one of them is to ask yourself if you are working on a system
 
 144
-99:59:59,000 --> 99:59:59,000
+00:09:21,283 --> 00:09:23,187
 that helps to control others or
 
 145
-99:59:59,000 --> 99:59:59,000
+00:09:23,187 --> 00:09:26,465
 if you're working on a system that helps to enable others,
 
 146
-99:59:59,000 --> 99:59:59,000
+00:09:26,465 --> 00:09:29,362
 to have control over their own lives.
 
 147
-99:59:59,000 --> 99:59:59,000
+00:09:29,362 --> 00:09:31,916
 And this is a really simple test.
 
 148
-99:59:59,000 --> 99:59:59,000
-If you're working on DPI, that will be deployed on people who do not get a saying in it,
+00:09:31,916 --> 00:09:36,702
+If you're working on DPI, that will be deployed on people who do not get a say in it,
 
 149
-99:59:59,000 --> 99:59:59,000
+00:09:36,702 --> 00:09:39,654
 you are probably working for the oppressor.
 
 150
-99:59:59,000 --> 99:59:59,000
+00:09:39,654 --> 00:09:43,644
 It's not guaranteed, because there are many of layers of indirection.
 
 151
-99:59:59,000 --> 99:59:59,000
-Bluecoat probably doesn't think of themselves as being a tool in a military dictatorships toolbox
+00:09:43,644 --> 00:09:48,532
+Bluecoat probably doesn't think of themselves as being a tool in a military dictatorship's toolbox
 
 152
-99:59:59,000 --> 99:59:59,000
+00:09:48,532 --> 00:09:50,944
 but the reality is that when the Assad Gouvernment
 
 153
-99:59:59,000 --> 99:59:59,000
+00:09:50,944 --> 00:09:57,306
 or the Burmis military dictatorship or their eleged free market companies in Bhurma use bluecoat
 
 154
-99:59:59,000 --> 99:59:59,000
+00:09:57,306 --> 00:10:02,142
 which they both do, they have for some time and they will continue to,
 
 155
-99:59:59,000 --> 99:59:59,000
+00:10:02,142 --> 00:10:06,309
 bluecoat is in fact, part of that system of control.
 
 156
-99:59:59,000 --> 99:59:59,000
+00:10:06,309 --> 00:10:08,256
 Now, are they responsible?
 
 157
-99:59:59,000 --> 99:59:59,000
+00:10:08,256 --> 00:10:10,353
 That's a good question. I don't have an answer to that.
 
 158
-99:59:59,000 --> 99:59:59,000
+00:10:10,353 --> 00:10:13,810
 But I do have an answer to wether or not I think they play a role in it.
 
 159
-99:59:59,000 --> 99:59:59,000
+00:10:13,810 --> 00:10:15,028
 And that is that they do.
 
 160
-99:59:59,000 --> 99:59:59,000
+00:10:15,028 --> 00:10:17,849
 What role, that remains to be seen.
 
 161
-99:59:59,000 --> 99:59:59,000
+00:10:17,849 --> 00:10:21,241
 And what I am hopeful about is that some people,
 
 162
-99:59:59,000 --> 99:59:59,000
+00:10:21,241 --> 00:10:23,997
 especially people in this room, have actually made the choice
 
 163
-99:59:59,000 --> 99:59:59,000
+00:10:23,997 --> 00:10:26,419
 that is the opposite of that. They've decided to work
 
 164
-99:59:59,000 --> 99:59:59,000
+00:10:26,419 --> 00:10:29,786
 on systems wthat help enable people to be free.
 
 165
-99:59:59,000 --> 99:59:59,000
+00:10:29,786 --> 00:10:32,887
 When for example we see that Mich Altmann from Noisebridge
 
 166
-99:59:59,000 --> 99:59:59,000
+00:10:32,887 --> 00:10:35,768
 has dedicated his life to teaching people about electronics,
 
 167
-99:59:59,000 --> 99:59:59,000
+00:10:35,768 --> 00:10:38,569
 and to open hardware and free software,
 
 168
-99:59:59,000 --> 99:59:59,000
+00:10:38,569 --> 00:10:41,223
 and we see that he is enabeling people in a positive way.
 
 169
-99:59:59,000 --> 99:59:59,000
+00:10:41,223 --> 00:10:44,699
 and this is something that we as a community I think should really step up
 
 170
-99:59:59,000 --> 99:59:59,000
-commending people who do this. Bhanny Hueng (sp?) who builds open hardware,
+00:10:44,699 --> 00:10:47,895
+commending people who do this. Bhanny Hueng (TODO sp?) who builds open hardware,
 
 171
-99:59:59,000 --> 99:59:59,000
+00:10:47,895 --> 00:10:54,436
 he is a hero, when  - you can applaud that if you wish -
 
 172
-99:59:59,000 --> 99:59:59,000
-the thing is, that I probably can't do it,
+00:10:54,436 --> 00:10:58,063
+[applause]
 
 173
-99:59:59,000 --> 99:59:59,000
-but I wrote list of names of people that inspired me over breakfast one day,
+00:10:58,063 --> 00:11:00,387
+the thing is, that I probably can't do it,
 
 174
-99:59:59,000 --> 99:59:59,000
-and it's pretty long, so I'm not gonna read all of it.
+00:11:00,387 --> 00:11:04,291
+but I wrote list of names of people that inspired me over breakfast one day,
 
 175
-99:59:59,000 --> 99:59:59,000
-But the same is true for Lady Ada, Christine  Corbit(sp?) and amazing people everywherem
+00:11:04,291 --> 00:11:06,437
+and it's pretty long, so I'm not gonna read all of it.
 
 176
-99:59:59,000 --> 99:59:59,000
-People who dont have names, who are basically anonymous and
+00:11:06,437 --> 00:11:11,442
+But the same is true for Lady Ada, Christine  Corbit(TODO: sp?) and amazing people everywhere
 
 177
-99:59:59,000 --> 99:59:59,000
-in their community, but we should look to them with pride
+00:11:11,442 --> 00:11:14,426
+People who dont have names, who are basically anonymous and
 
 178
-99:59:59,000 --> 99:59:59,000
-with support and mutual aid and solitaridy.
+00:11:14,426 --> 00:11:19,898
+in their community, but we should look to them, and we should look to them with pride
 
 179
-99:59:59,000 --> 99:59:59,000
-Because it's not just negative stuff.
+00:11:19,898 --> 00:11:22,489
+and we should look to them with support and mutual aid and solitaridy.
 
 180
-99:59:59,000 --> 99:59:59,000
-Not everybody in here works for FinFisher.
+00:11:22,489 --> 00:11:24,695
+Because it's not just negative stuff.
 
 181
-99:59:59,000 --> 99:59:59,000
-And in fact, more people in here work against FinFisher, thanks for that!
+00:11:24,695 --> 00:11:26,859
+Not everybody in here works for FinFisher.
 
 182
-99:59:59,000 --> 99:59:59,000
-And so, to that end, we can make a choice about what we'd like to do.
+00:11:26,859 --> 00:11:33,721
+And in fact, more people in here work against FinFisher, thanks for that!
 
 183
-99:59:59,000 --> 99:59:59,000
-And it is possible to make a living making free software for freedom,
+00:11:33,721 --> 00:11:38,185
+And so, to that end, we can make a choice about what we'd like to do.
 
 184
-99:59:59,000 --> 99:59:59,000
-instead of closed source proprietary malware for cops.
+00:11:38,185 --> 00:11:41,759
+And it is possible to make a living making free software for freedom,
 
 185
-99:59:59,000 --> 99:59:59,000
-But there is a cost to that
+00:11:41,759 --> 00:11:46,772
+instead of closed source proprietary malware for cops.
 
 186
-99:59:59,000 --> 99:59:59,000
-so I want to point out something in this next video,
+00:11:46,772 --> 00:11:53,956
+[applause]
 
 187
-99:59:59,000 --> 99:59:59,000
-where I am going to be be silent while it plays, and it is a minute long.
+00:11:53,956 --> 00:11:56,216
+But there is a cost to that
 
 188
-99:59:59,000 --> 99:59:59,000
-Speaker: Does the NSA routinely intercept american citizens emails?
+00:11:56,216 --> 00:11:59,476
+so I want to point out something in this next video,
 
 189
-99:59:59,000 --> 99:59:59,000
-No
+00:11:59,476 --> 00:12:06,797
+where I am going to be be silent while it plays unlike the last, and it is a minute long.
 
 190
-99:59:59,000 --> 99:59:59,000
-Does the NSA intercept americans cell phone conversations?
+00:12:06,797 --> 00:12:11,937
+Speaker: Does the NSA routinely intercept american citizen's emails?
 
 191
-99:59:59,000 --> 99:59:59,000
+00:12:11,937 --> 00:12:12,769
 No
 
 192
-99:59:59,000 --> 99:59:59,000
-Google Searches?
+00:12:16,858 --> 00:12:22,830
+Does the NSA intercept american's cell phone conversations?
 
 193
-99:59:59,000 --> 99:59:59,000
+00:12:22,830 --> 00:12:24,277
 No
 
 194
-99:59:59,000 --> 99:59:59,000
-Text Messages?
+00:12:24,531 --> 00:12:25,631
+Google Searches?
 
 195
-99:59:59,000 --> 99:59:59,000
+00:12:25,631 --> 00:12:26,538
 No
 
 196
-99:59:59,000 --> 99:59:59,000
-Amazon.com orders?
+00:12:26,538 --> 00:12:27,887
+Text Messages?
 
 197
-99:59:59,000 --> 99:59:59,000
-no
-
-198
-99:59:59,000 --> 99:59:59,000
-Bank records?
-
-199
-99:59:59,000 --> 99:59:59,000
+00:12:27,887 --> 00:12:28,929
 No
 
+198
+00:12:28,929 --> 00:12:31,291
+Amazon.com orders?
+
+199
+00:12:31,291 --> 00:12:32,041
+no
+
 200
-99:59:59,000 --> 99:59:59,000
-What judicial consent is required for the NSA to intercept communications and information involving american citizens?
+00:12:32,041 --> 00:12:33,350
+Bank records?
 
 201
-99:59:59,000 --> 99:59:59,000
-Within the United States, that would be FBI lead,
+00:12:33,350 --> 00:12:34,246
+No
 
 202
-99:59:59,000 --> 99:59:59,000
-that was a foreign act within the united states, the FBI would still have the lead
+00:12:34,246 --> 00:12:43,944
+What judicial consent is required for the NSA to intercept communications and information involving american citizens?
 
 203
-99:59:59,000 --> 99:59:59,000
-and could work with NSA or other intelligence agencies has authorized.
+00:12:43,944 --> 00:12:47,059
+Within the United States, that would be FBI lead,
 
 204
-99:59:59,000 --> 99:59:59,000
-But to conduct that kind of collection within the United States you would have to go through a court order,
+00:12:47,059 --> 00:12:50,625
+that was a foreign act within the united states, the FBI would still have the lead
 
 205
-99:59:59,000 --> 99:59:59,000
-and the court would have to authorize it.
+00:12:50,625 --> 00:12:55,510
+and could work with NSA or other intelligence agencies has authorized.
 
 206
-99:59:59,000 --> 99:59:59,000
-We're not authorized to do it nor do we do it.
+00:12:55,510 --> 00:13:01,377
+But to conduct that kind of collection within the United States you would have to go through a court order,
 
 207
-99:59:59,000 --> 99:59:59,000
-(JA) Well, I think you can all understand the subtext here, which is
+00:13:01,377 --> 00:13:04,636
+and the court would have to authorize it.
 
 208
-99:59:59,000 --> 99:59:59,000
-that I am protected and you are not.
+00:13:04,636 --> 00:13:08,319
+We're not authorized to do it nor do we do it.
 
 209
-99:59:59,000 --> 99:59:59,000
-I bet that makes you feel really great.
+00:13:09,506 --> 00:13:13,046
+(JA) Well, I think you can all understand the subtext here, which is
 
 210
-99:59:59,000 --> 99:59:59,000
-So that datacenter we were looking at,
+00:13:13,046 --> 00:13:14,849
+that I am protected and you are not.
 
 211
-99:59:59,000 --> 99:59:59,000
-what he just testified in front of congress about,
+00:13:16,679 --> 00:13:18,754
+I bet that makes you feel really great.
 
 212
-99:59:59,000 --> 99:59:59,000
-that was General Alexander, he is the most powerful person in the world,
+00:13:20,077 --> 00:13:22,616
+So that datacenter we were looking at,
 
 213
-99:59:59,000 --> 99:59:59,000
-probably even more powerful than the president of the United States,
+00:13:22,743 --> 00:13:24,090
+what he just testified in front of congress about,
 
 214
-99:59:59,000 --> 99:59:59,000
-or any leader of any other country.
+00:13:24,090 --> 00:13:26,599
+that was General Alexander, he is the most powerful person in the world,
 
 215
-99:59:59,000 --> 99:59:59,000
-He controls the intelligence structure for the entire NSA and he has ties to the rest of the intelligence community as well.
+00:13:26,599 --> 00:13:30,408
+probably even more powerful than the president of the United States,
 
 216
-99:59:59,000 --> 99:59:59,000
-So what he is basically saying is, that if there is an american - hypothetically in america - they'd probably be fine.
+00:13:30,408 --> 00:13:32,515
+or any leader of any other country.
 
 217
-99:59:59,000 --> 99:59:59,000
-Which does't really make me feel good, because
+00:13:32,515 --> 00:13:38,515
+He controls the intelligence structure for the entire NSA and he has ties to the rest of the intelligence community as well.
 
 218
-99:59:59,000 --> 99:59:59,000
-there are seven billion people on this planet.
+00:13:38,515 --> 00:13:44,557
+So what he is basically saying is, that, if there is an american - hypothetically in america - they'd probably be fine.
 
 219
-99:59:59,000 --> 99:59:59,000
-Just a few of them are americans, why should the be treated specially in this regard?
+00:13:44,557 --> 00:13:47,046
+Which does't really make me feel good, because
 
 220
-99:59:59,000 --> 99:59:59,000
-So this giant datacenter that we see, it's for all of you
+00:13:47,046 --> 00:13:48,948
+there are seven billion people on this planet.
 
 221
-99:59:59,000 --> 99:59:59,000
-and it's also for me, because despite the fact that I am an american,
+00:13:48,948 --> 00:13:53,939
+Just a few of them are americans, why should the be treated specially in this regard?
 
 222
-99:59:59,000 --> 99:59:59,000
-being associated with Wikileaks is like, well, it's not a good time in America.
+00:13:53,939 --> 00:13:58,409
+So that giant datacenter that we see, it's for all of you
 
 223
-99:59:59,000 --> 99:59:59,000
-So, there is a thing to be said here, which is, that,
+00:13:59,147 --> 00:14:01,757
+and it's also for me, because despite the fact that I am an american,
 
 224
-99:59:59,000 --> 99:59:59,000
-that guy is a lyer, first of all.
+00:14:01,757 --> 00:14:08,458
+being associated with Wikileaks is like, well, it's not a good time in America.
 
 225
-99:59:59,000 --> 99:59:59,000
-Because we know for a fact, from Marc Kline,
+00:14:08,458 --> 00:14:12,382
+So, there is a thing to be said here, which is, that,
 
 226
-99:59:59,000 --> 99:59:59,000
-that the NSA was in fact doing dragnet-surveillance of all of those things.
+00:14:12,382 --> 00:14:14,455
+that guy is a fuckin'  liar, first of all.
 
 227
-99:59:59,000 --> 99:59:59,000
-So straight up, this guy is a lyer.
+00:14:14,455 --> 00:14:15,939
+Because we know for a fact...
 
 228
-99:59:59,000 --> 99:59:59,000
-But then on top of being a lyer, which is bad engough in this context,
+00:14:15,939 --> 00:14:22,506
+[applause]
 
 229
-99:59:59,000 --> 99:59:59,000
-he doesn't even bother to pretend that you have any value at all.
+00:14:22,506 --> 00:14:24,179
+from Marc Kline,
 
 230
-99:59:59,000 --> 99:59:59,000
-And that you have rights.
+00:14:24,179 --> 00:14:27,882
+that the NSA was in fact doing dragnet-surveillance of all of those things.
 
 231
-99:59:59,000 --> 99:59:59,000
-And that your privacy is important and your human dignity matters,
+00:14:27,882 --> 00:14:29,746
+So straight up, this guy is a liar.
 
 232
-99:59:59,000 --> 99:59:59,000
-becuase of where you happened to be born and
+00:14:29,746 --> 00:14:33,257
+But then on top of being a liar, which is bad engough in this context,
 
 233
-99:59:59,000 --> 99:59:59,000
-which flag he images you flying.
+00:14:33,257 --> 00:14:39,695
+he doesn't even bother to pretend that you have any value at all.
 
 234
-99:59:59,000 --> 99:59:59,000
-that to me is very depressing and I feel
+00:14:39,695 --> 00:14:41,362
+And that you have rights.
 
 235
-99:59:59,000 --> 99:59:59,000
-like it actually gives the rest of humanity that lives in america a very bad name.
+00:14:41,362 --> 00:14:44,723
+And that your privacy is important and your human dignity matters,
 
 236
-99:59:59,000 --> 99:59:59,000
-Anbd so I am very sorry for that.
+00:14:44,723 --> 00:14:48,015
+becuase of where you happened to be born and
 
 237
-99:59:59,000 --> 99:59:59,000
-But I want to talk about some other things, that tie together with that.
+00:14:48,015 --> 00:14:51,017
+which flag he images you flying.
 
 238
-99:59:59,000 --> 99:59:59,000
-because when we just think about massive surveillance and isolation,
+00:14:51,017 --> 00:14:52,602
+that to me is very depressing and I feel
 
 239
-99:59:59,000 --> 99:59:59,000
-we will have quite a problem, quite a series of problems in fact,
+00:14:52,602 --> 00:14:55,664
+like it actually gives the rest of humanity that lives in america a very bad name.
 
 240
-99:59:59,000 --> 99:59:59,000
-so let's talk about some things that all have common ally(sp?) with the surveillance state.
+00:14:55,664 --> 00:14:57,458
+Anbd so I am very sorry for that.
 
 241
-99:59:59,000 --> 99:59:59,000
-First of all: data retention and retro-active policing which is clearly a human rights violation in Europe.
+00:14:57,458 --> 00:15:01,694
+But I want to talk about some other things, that tie together with that.
 
 242
-99:59:59,000 --> 99:59:59,000
-It's clearly the case that this type of activity taking place creates suspects out of everyone.
+00:15:01,694 --> 00:15:04,391
+because when we just think about massive surveillance and isolation,
 
 243
-99:59:59,000 --> 99:59:59,000
-and being a suspect is to already not be free in my experience.
+00:15:04,391 --> 00:15:09,705
+we will have quite a problem, quite a series of problems in fact,
 
 244
-99:59:59,000 --> 99:59:59,000
-And in fact in the 1800s there was a british author who wrote
+00:15:09,705 --> 00:15:13,610
+so let's talk about some things that all have commonality with the surveillance state.
 
 245
-99:59:59,000 --> 99:59:59,000
-"to be free from suspicion is the one of the first freedoms that is important for being free in the rest of your life".
+00:15:13,610 --> 00:15:20,780
+First of all: data retention and retro-active policing which is clearly a human rights violation in Europe.
 
 246
-99:59:59,000 --> 99:59:59,000
-when you're followed around, when you#re being investigated, because of the whim of someone,
+00:15:20,780 --> 00:15:26,259
+It's clearly the case that this type of activity taking place creates suspects out of everyone.
 
 247
-99:59:59,000 --> 99:59:59,000
-this is the beginning of the end of your freedom.
+00:15:26,259 --> 00:15:30,950
+and being a suspect is to already not be free in my experience.
 
 248
-99:59:59,000 --> 99:59:59,000
-So, it seems that data retentino is the beginning of the end of many of our freedoms in bulk, and that is a very scary thing.
+00:15:30,950 --> 00:15:34,155
+And in fact in the 1800s there was a british author who wrote
 
 249
-99:59:59,000 --> 99:59:59,000
-And when people do retro-active policing, when they apply that lack of freedom in a very specific wy,
+00:15:34,155 --> 00:15:42,027
+"to be free from suspicion is the one of the first freedoms that is important for being free in the rest of your life".
 
 250
-99:59:59,000 --> 99:59:59,000
-and when they take these actions,
+00:15:42,027 --> 00:15:47,437
+when you're followed around, when you're being investigated, because of the whim of someone,
 
 251
-99:59:59,000 --> 99:59:59,000
-they depend on which state you happen to be in, which fiber optics happend to be in  use when your bits were crossing it,
+00:15:47,437 --> 00:15:50,996
+this is the beginning of the end of your freedom.
 
 252
-99:59:59,000 --> 99:59:59,000
-but how does this actually play out?
+00:15:50,996 --> 00:16:00,153
+So, it seems that data retention is the beginning of the end of many of our freedoms in bulk, and that is a very scary thing. (TODO: TIMING)
 
 253
-99:59:59,000 --> 99:59:59,000
-It depends, right?
+00:16:00,153 --> 00:16:00,153
+And when people do retro-active policing, when they apply that lack of freedom in a very specific way,
 
 254
-99:59:59,000 --> 99:59:59,000
-And it depends in a very specific sense.
+00:16:06,180 --> 00:16:08,216
+and when they take these actions,
 
 255
-99:59:59,000 --> 99:59:59,000
-So for example, drone killings, and I am not  just talking about Ironware Lockies(sp?) innocent 16-yearold Son in Jemen,
+00:16:08,216 --> 00:16:16,310
+<i>they</i> depends, of course, on which state you happen to be in, which fiber optic cables happend to be in  use when your bits were crossing it,
 
 256
-99:59:59,000 --> 99:59:59,000
-but drones killings of thousands of people. The targeting information is feed
+00:16:16,310 --> 00:16:20,810
+but how does this actually play out?
 
 257
-99:59:59,000 --> 99:59:59,000
-to the CIA and to other groups from surveillance listening points
+00:16:20,810 --> 00:16:22,492
+It depends, right?
 
 258
-99:59:59,000 --> 99:59:59,000
-from intelligence factories. So there is a direct relationship
+00:16:22,492 --> 00:16:24,294
+And it depends in a very specific sense.
 
 259
-99:59:59,000 --> 99:59:59,000
-between surveillance and support of straight-up murder.
+00:16:24,294 --> 00:16:28,440
+So for example, drone killings, and I am not  just talking about Ironware Lockies(TODO sp?) innocent 16-yearold Son in Jemen,
 
 260
-99:59:59,000 --> 99:59:59,000
-That is something which sounds scary, what makes it even scarier is the way these
+00:16:28,440 --> 00:16:36,426
+but drones killings of thousands of people. The targeting information is fed
 
 261
-99:59:59,000 --> 99:59:59,000
-drone killings are carried out is that the central comittee that decides who lives and dies
+00:16:36,426 --> 00:16:42,184
+to the CIA and to other groups from surveillance listening points
 
 262
-99:59:59,000 --> 99:59:59,000
-or obamas assasination star chamber, that central committee which sounds to me
+00:16:42,184 --> 00:16:45,898
+from intelligence factories. So there is a direct relationship
 
 263
-99:59:59,000 --> 99:59:59,000
-a lot like some of the soviet redaract I remember from my childhood
+00:16:45,898 --> 00:16:49,545
+between surveillance and support of straight-up murder.
 
 264
-99:59:59,000 --> 99:59:59,000
-that central comittee decides non-democratically who gets to be assasinated.
+00:16:49,545 --> 00:16:55,629
+That is something which sounds scary, what makes it even scarier is the way those
 
 265
-99:59:59,000 --> 99:59:59,000
-and it is just a hop or two away from surveillance.
+00:16:55,629 --> 00:16:59,928
+drone killings are carried out is that the central comittee, who gets to decide who lives and dies
 
 266
-99:59:59,000 --> 99:59:59,000
-So when you assist a surveillance state you are literally helping to kill fucking children.
+00:16:59,928 --> 00:17:06,452
+or obamas assasination star chamber, that central committee which sounds a lot to me
 
 267
-99:59:59,000 --> 99:59:59,000
-That is something that doesn't help me sleep at night.
+00:17:06,837 --> 00:17:06,837
+a lot like some of the soviet redaract I remember from my childhood
 
 268
 99:59:59,000 --> 99:59:59,000
-and you can choose not to be part of that; Ialmost every person here has made that choice.
+that central comittee decides non-democratically who gets to be assasinated.
 
 269
 99:59:59,000 --> 99:59:59,000
-but if you're on the fence I guess you can gzess what I suggest you go.
+and it is just a hop or two away from surveillance.
 
 270
 99:59:59,000 --> 99:59:59,000
-But there are more ties.
+So when you assist a surveillance state you are literally helping to kill fucking children.
 
 271
 99:59:59,000 --> 99:59:59,000
-Because let's say drone killing just seem a little bit too far off.
+That is something that doesn't help me sleep at night.
 
 272
 99:59:59,000 --> 99:59:59,000
-Right? Well, in Uganda, there has been a proposal for some time now,
+and you can choose not to be part of that; Ialmost every person here has made that choice.
 
 273
 99:59:59,000 --> 99:59:59,000
-which seems to be almost pushed back, but not quite,
+but if you're on the fence I guess you can gzess what I suggest you go.
 
 274
 99:59:59,000 --> 99:59:59,000
-where they which to make a death sentence to be a homosexual,
+But there are more ties.
 
 275
 99:59:59,000 --> 99:59:59,000
-where aggrevated homosexuality is a crime. I think that is where you continue to flip your wrist.
+Because let's say drone killing just seem a little bit too far off.
 
 276
 99:59:59,000 --> 99:59:59,000
-I am not quite sure what aggrevated homosexuality means.
+Right? Well, in Uganda, there has been a proposal for some time now,
 
 277
 99:59:59,000 --> 99:59:59,000
-But this basic notion that someone would be forced to report on you or they would also go to prison,
+which seems to be almost pushed back, but not quite,
 
 278
 99:59:59,000 --> 99:59:59,000
-this is something which surveillance will impact greatly and it will make a huge difference.
+where they which to make a death sentence to be a homosexual,
 
 279
 99:59:59,000 --> 99:59:59,000
-Of course, we can talk about wider things, such as the chinese suppression of the tibetan people,
+where aggrevated homosexuality is a crime. I think that is where you continue to flip your wrist.
 
 280
 99:59:59,000 --> 99:59:59,000
-we can talk about police backdoors and so-called lawful interception malware
+I am not quite sure what aggrevated homosexuality means.
 
 281
 99:59:59,000 --> 99:59:59,000
-we can talk about wars on agression in iran and afghanistan,
+But this basic notion that someone would be forced to report on you or they would also go to prison,
 
 282
 99:59:59,000 --> 99:59:59,000
-the surveillance state touches everything,
+this is something which surveillance will impact greatly and it will make a huge difference.
 
 283
 99:59:59,000 --> 99:59:59,000
-and it is more than that.
+Of course, we can talk about wider things, such as the chinese suppression of the tibetan people,
 
 284
 99:59:59,000 --> 99:59:59,000
-It is the fact that the surveillance state is part of the system of control
+we can talk about police backdoors and so-called lawful interception malware
 
 285
 99:59:59,000 --> 99:59:59,000
-that causes much suffering. It may also bring some good things
+we can talk about wars on agression in iran and afghanistan,
 
 286
 99:59:59,000 --> 99:59:59,000
-into this world, but with the secrecy,
+the surveillance state touches everything,
 
 287
 99:59:59,000 --> 99:59:59,000
-the surveillance state becomes totally unaccountable.
+and it is more than that.
 
 288
 99:59:59,000 --> 99:59:59,000
-So, we can look in some other things that are quite concerning.
+It is the fact that the surveillance state is part of the system of control
 
 289
 99:59:59,000 --> 99:59:59,000
-We can see that there are ties that are not so obvious.
+that causes much suffering. It may also bring some good things
 
 290
 99:59:59,000 --> 99:59:59,000
-The military trials of political prisoners in Egypt,
+into this world, but with the secrecy,
 
 291
 99:59:59,000 --> 99:59:59,000
-the genocide of the syrian people right now,
+the surveillance state becomes totally unaccountable.
 
 292
 99:59:59,000 --> 99:59:59,000
-the british and swedish justice regarding Julian Assange,
+So, we can look in some other things that are quite concerning.
 
 293
 99:59:59,000 --> 99:59:59,000
-the right-wing Nazis sympathisers here in germany,
+We can see that there are ties that are not so obvious.
 
 294
 99:59:59,000 --> 99:59:59,000
-that gave Murdering Nazis Passports and Help
+The military trials of political prisoners in Egypt,
 
 295
 99:59:59,000 --> 99:59:59,000
-and are still not held to account,
+the genocide of the syrian people right now,
 
 296
 99:59:59,000 --> 99:59:59,000
-the oppresioning crackdown on wikileaks related or WL-tainted people,
+the british and swedish justice regarding Julian Assange,
 
 297
 99:59:59,000 --> 99:59:59,000
-companies that sell equipment to brutal dictatorships and authoritarian regimes,
+the right-wing Nazis sympathisers here in germany,
 
 298
 99:59:59,000 --> 99:59:59,000
-for both surveillance and censorships, sometimes both
+that gave Murdering Nazis Passports and Help
 
 299
 99:59:59,000 --> 99:59:59,000
-the reality is that secret police and spying agencies
+and are still not held to account,
 
 300
 99:59:59,000 --> 99:59:59,000
-actually change our ability to govern ourselves freely.
+the oppresioning crackdown on wikileaks related or WL-tainted people,
 
 301
 99:59:59,000 --> 99:59:59,000
-And they do it in such a way that it is not obvious,
+companies that sell equipment to brutal dictatorships and authoritarian regimes,
 
 302
 99:59:59,000 --> 99:59:59,000
-and it is seemingly impossible to resist.
+for both surveillance and censorships, sometimes both
 
 303
 99:59:59,000 --> 99:59:59,000
-Because these things itself are secret, it becomes extremely difficult to know
+the reality is that secret police and spying agencies
 
 304
 99:59:59,000 --> 99:59:59,000
-where to begin resisting.
+actually change our ability to govern ourselves freely.
 
 305
 99:59:59,000 --> 99:59:59,000
-Add it's core, in the United States, where this has gone,
+And they do it in such a way that it is not obvious,
 
 306
 99:59:59,000 --> 99:59:59,000
-is that there are secret laws, with secret interpretations, and a total lack of accountability.
+and it is seemingly impossible to resist.
 
 307
 99:59:59,000 --> 99:59:59,000
-And fundamentally, what these things are, is that they are oppressive, vainguarded approaches,
+Because these things itself are secret, it becomes extremely difficult to know
 
 308
 99:59:59,000 --> 99:59:59,000
-to authoritanianism, they are insultingly paternalistic and allegedly above the law.
+where to begin resisting.
 
 309
 99:59:59,000 --> 99:59:59,000
-If you ever had the opportunity to meet the people that work in these intelligence agencies that are still there,
+Add it's core, in the United States, where this has gone,
 
 310
 99:59:59,000 --> 99:59:59,000
-some of them are quite good, they're fundamentally awesome people.
+is that there are secret laws, with secret interpretations, and a total lack of accountability.
 
 311
 99:59:59,000 --> 99:59:59,000
-But when it comes to their job, they're in a pretty terrible place.
+And fundamentally, what these things are, is that they are oppressive, vainguarded approaches,
 
 312
 99:59:59,000 --> 99:59:59,000
-That is if they wish to keep their job they are not really free to descent.
+to authoritanianism, they are insultingly paternalistic and allegedly above the law.
 
 313
 99:59:59,000 --> 99:59:59,000
-If we look at people, for example like Bill Binnie or Thomas Drake, what  we see is
+If you ever had the opportunity to meet the people that work in these intelligence agencies that are still there,
 
 314
 99:59:59,000 --> 99:59:59,000
-that when you descent, you'll get crushed.
+some of them are quite good, they're fundamentally awesome people.
 
 315
 99:59:59,000 --> 99:59:59,000
-Your Family Life will be ruined,
+But when it comes to their job, they're in a pretty terrible place.
 
 316
 99:59:59,000 --> 99:59:59,000
-there are huge costs to telling the truth.
+That is if they wish to keep their job they are not really free to descent.
 
 317
 99:59:59,000 --> 99:59:59,000
-And there are huge costs for asking for a more just system.
+If we look at people, for example like Bill Binnie or Thomas Drake, what  we see is
 
 318
 99:59:59,000 --> 99:59:59,000
-Bill Binnie blow my mind in a very peticular way.
+that when you descent, you'll get crushed.
 
 319
 99:59:59,000 --> 99:59:59,000
-I thought surely a way working for the NSA for 40 years, we wouldn't have a lot in comon.
+Your Family Life will be ruined,
 
 320
 99:59:59,000 --> 99:59:59,000
-But it turns out, that he said to me that he thought that the spying was actually an immoral things,
+there are huge costs to telling the truth.
 
 321
 99:59:59,000 --> 99:59:59,000
-but that maybe during the cold war it was a necessary evil.
+And there are huge costs for asking for a more just system.
 
 322
 99:59:59,000 --> 99:59:59,000
-That is he thought that maybe they could prevent total atomic warfare.
+Bill Binnie blow my mind in a very peticular way.
 
 323
 99:59:59,000 --> 99:59:59,000
-And at the same time he recognised that it was not the right thing to spy on people.
+I thought surely a way working for the NSA for 40 years, we wouldn't have a lot in comon.
 
 324
 99:59:59,000 --> 99:59:59,000
-that this should not be the end in itself.
+But it turns out, that he said to me that he thought that the spying was actually an immoral things,
 
 325
 99:59:59,000 --> 99:59:59,000
-I was really touched by that, because
+but that maybe during the cold war it was a necessary evil.
 
 326
 99:59:59,000 --> 99:59:59,000
-usually it is the case that someone would say
+That is he thought that maybe they could prevent total atomic warfare.
 
 327
 99:59:59,000 --> 99:59:59,000
-"except for americans. you can spy on everyone but not on americans."
+And at the same time he recognised that it was not the right thing to spy on people.
 
 328
 99:59:59,000 --> 99:59:59,000
-And for him the turning point was that he decided that it was wrong to spy on everybody.
+that this should not be the end in itself.
 
 329
 99:59:59,000 --> 99:59:59,000
-And when they decided to spy on americans, it was clear
+I was really touched by that, because
 
 330
 99:59:59,000 --> 99:59:59,000
-that they couldn't be trusted to spy even on any single person
+usually it is the case that someone would say
 
 331
 99:59:59,000 --> 99:59:59,000
-and to do it in a way which would be producing justice.
+"except for americans. you can spy on everyone but not on americans."
 
 332
 99:59:59,000 --> 99:59:59,000
-That was very surprising for me. It actually made me change my mind about the people working for the NSA.
+And for him the turning point was that he decided that it was wrong to spy on everybody.
 
 333
 99:59:59,000 --> 99:59:59,000
-but then it turns out that he suffered a great deal for having that opinion.
+And when they decided to spy on americans, it was clear
 
 334
 99:59:59,000 --> 99:59:59,000
-So maybe it doesn't change my mind that much about the people who are still there.
+that they couldn't be trusted to spy even on any single person
 
 335
 99:59:59,000 --> 99:59:59,000
-But, fundamentally, human rights, in theory, should be something that we can work for collectively.
+and to do it in a way which would be producing justice.
 
 336
 99:59:59,000 --> 99:59:59,000
-And yet it doesn't really seem that is happening.
+That was very surprising for me. It actually made me change my mind about the people working for the NSA.
 
 337
 99:59:59,000 --> 99:59:59,000
-There is a lot of rhetoric about it.
+but then it turns out that he suffered a great deal for having that opinion.
 
 338
 99:59:59,000 --> 99:59:59,000
-But when you kill hundreds of thousand people it is very difficult
+So maybe it doesn't change my mind that much about the people who are still there.
 
 339
 99:59:59,000 --> 99:59:59,000
-to talk about the benefits of technologies in a way that doesn't seem like grouping.
+But, fundamentally, human rights, in theory, should be something that we can work for collectively.
 
 340
 99:59:59,000 --> 99:59:59,000
-So, it happens that we develop these psychological defenses to it, so
+And yet it doesn't really seem that is happening.
 
 341
 99:59:59,000 --> 99:59:59,000
-half of the people I met and discussed this with,
+There is a lot of rhetoric about it.
 
 342
 99:59:59,000 --> 99:59:59,000
-when this is the first time they considered the surveillance state,
+But when you kill hundreds of thousand people it is very difficult
 
 343
 99:59:59,000 --> 99:59:59,000
-they talk about it in terms of their initial reaction what they put it in five minuts of thought, like
+to talk about the benefits of technologies in a way that doesn't seem like grouping.
 
 344
 99:59:59,000 --> 99:59:59,000
-"it doesn't concern me".
+So, it happens that we develop these psychological defenses to it, so
 
 345
 99:59:59,000 --> 99:59:59,000
-Or "it won't impact me". In fact the only people who are getting it,
+half of the people I met and discussed this with,
 
 346
 99:59:59,000 --> 99:59:59,000
-are people who deserve it."
+when this is the first time they considered the surveillance state,
 
 347
 99:59:59,000 --> 99:59:59,000
-you know they are under a legitimate investigatoin.
+they talk about it in terms of their initial reaction what they put it in five minuts of thought, like
 
 348
 99:59:59,000 --> 99:59:59,000
-That actually shows what a legitimate investigation is,
+"it doesn't concern me".
 
 349
 99:59:59,000 --> 99:59:59,000
-when you can't hold people to account when there are secret laws, they rule
+Or "it won't impact me". In fact the only people who are getting it,
 
 350
 99:59:59,000 --> 99:59:59,000
-by-law and rule of-law is not the same thing. Rule-by-drecree doesn't mean it is just, simply because it is written down,
+are people who deserve it."
 
 351
 99:59:59,000 --> 99:59:59,000
-especially if the interpretation is secret.
+you know they are under a legitimate investigatoin.
 
 352
 99:59:59,000 --> 99:59:59,000
-So, After people recognise that it may impact them,
+That actually shows what a legitimate investigation is,
 
 353
 99:59:59,000 --> 99:59:59,000
-there is a fantastic set f things that takes place,
+when you can't hold people to account when there are secret laws, they rule
 
 354
 99:59:59,000 --> 99:59:59,000
-and one of them is that people will try to minimize their role in it,
+by-law and rule of-law is not the same thing. Rule-by-drecree doesn't mean it is just, simply because it is written down,
 
 355
 99:59:59,000 --> 99:59:59,000
-saying lines like "well, it won't be possible to sort me out or find me in this massive data set"
+especially if the interpretation is secret.
 
 356
 99:59:59,000 --> 99:59:59,000
-or "even if I do stand down, nothing will happen to me".
+So, After people recognise that it may impact them,
 
 357
 99:59:59,000 --> 99:59:59,000
-And if they happen to be as unlucky as I have been in the last few years,
+there is a fantastic set f things that takes place,
 
 358
 99:59:59,000 --> 99:59:59,000
-they'll say something like "well, the system works and no unjustice will occure, because this state is benign."
+and one of them is that people will try to minimize their role in it,
 
 359
 99:59:59,000 --> 99:59:59,000
-That are not many people who I met who have gotten to that stage who actually continue to think that for that long.
+saying lines like "well, it won't be possible to sort me out or find me in this massive data set"
 
 360
 99:59:59,000 --> 99:59:59,000
-it  might be worth considering that perhaps we have to get to that point,
+or "even if I do stand down, nothing will happen to me".
 
 361
 99:59:59,000 --> 99:59:59,000
-to recognize that there is great foldey in that set of thougts and plan to thinking that.
+And if they happen to be as unlucky as I have been in the last few years,
 
 362
 99:59:59,000 --> 99:59:59,000
-It might be the case that the surveillance state that exists
+they'll say something like "well, the system works and no unjustice will occure, because this state is benign."
 
 363
 99:59:59,000 --> 99:59:59,000
-in fact is negative even if we do not yet understand fully its negative effects.
+That are not many people who I met who have gotten to that stage who actually continue to think that for that long.
 
 364
 99:59:59,000 --> 99:59:59,000
-So, you see thois also as social defense groups,
+it  might be worth considering that perhaps we have to get to that point,
 
 365
 99:59:59,000 --> 99:59:59,000
-as a reaction, I think probably the split between wikileaks and openleaks is the greatest
+to recognize that there is great foldey in that set of thougts and plan to thinking that.
 
 366
 99:59:59,000 --> 99:59:59,000
-example of the fact that groups, even effective groups, will split and then have bad blood
+It might be the case that the surveillance state that exists
 
 367
 99:59:59,000 --> 99:59:59,000
-and then in fact they will deliver other failure, and it is very sad, tragic even,
+in fact is negative even if we do not yet understand fully its negative effects.
 
 368
 99:59:59,000 --> 99:59:59,000
-and this kind of stuff is something which, even trying to resist,
+So, you see thois also as social defense groups,
 
 369
 99:59:59,000 --> 99:59:59,000
-that we aren't quite aware how these types of things happen.
+as a reaction, I think probably the split between wikileaks and openleaks is the greatest
 
 370
 99:59:59,000 --> 99:59:59,000
-History shows us certain ways how these splits might occur.
+example of the fact that groups, even effective groups, will split and then have bad blood
 
 371
 99:59:59,000 --> 99:59:59,000
-Biut it isn't the case that we fully grocked this historical lessons
+and then in fact they will deliver other failure, and it is very sad, tragic even,
 
 372
 99:59:59,000 --> 99:59:59,000
-so it is quite sad that we focus so much of our energy on degrading things,
+and this kind of stuff is something which, even trying to resist,
 
 373
 99:59:59,000 --> 99:59:59,000
-like something does a great thing and someone sais "Ah yes, but this one thing"
+that we aren't quite aware how these types of things happen.
 
 374
 99:59:59,000 --> 99:59:59,000
-and the discussion becomes about this one thing.
+History shows us certain ways how these splits might occur.
 
 375
 99:59:59,000 --> 99:59:59,000
-I think in fact it might make sense to focus on the good things
+Biut it isn't the case that we fully grocked this historical lessons
 
 376
 99:59:59,000 --> 99:59:59,000
-as well, it is true that sometimes people produce free hardware but it has one binary BLOB
+so it is quite sad that we focus so much of our energy on degrading things,
 
 377
 99:59:59,000 --> 99:59:59,000
-that does not mean that we should not thank this person and give him credit,
+like something does a great thing and someone sais "Ah yes, but this one thing"
 
 378
 99:59:59,000 --> 99:59:59,000
-in fact to really praise them foir putting so much effort to make everything as open as possible
+and the discussion becomes about this one thing.
 
 379
 99:59:59,000 --> 99:59:59,000
-and it's too bad one thing is not open, but maybe we could put in some effort to open up and free that one thing.
+I think in fact it might make sense to focus on the good things
 
 380
 99:59:59,000 --> 99:59:59,000
-It is basically the same statement, but the way it is stated allows us to think of it in being in it together.
+as well, it is true that sometimes people produce free hardware but it has one binary BLOB
 
 381
 99:59:59,000 --> 99:59:59,000
-And it helps to keep people together, and it helps keeping people motivated to work together in fact.
+that does not mean that we should not thank this person and give him credit,
 
 382
 99:59:59,000 --> 99:59:59,000
-I think, it is a useful idea, to try to take this tact.
+in fact to really praise them foir putting so much effort to make everything as open as possible
 
 383
 99:59:59,000 --> 99:59:59,000
-We also have these psyhcological defenses about the ühysical world, which I have experienced quite a lot.
+and it's too bad one thing is not open, but maybe we could put in some effort to open up and free that one thing.
 
 384
 99:59:59,000 --> 99:59:59,000
-For example, that notion that warrants are required to enter your house.
+It is basically the same statement, but the way it is stated allows us to think of it in being in it together.
 
 385
 99:59:59,000 --> 99:59:59,000
-Your physical location is somehow protected is a very quite notion I certainly don't believe that anymore.
+And it helps to keep people together, and it helps keeping people motivated to work together in fact.
 
 386
 99:59:59,000 --> 99:59:59,000
-it is a little sad, but it doesn't seem to be the case.
+I think, it is a useful idea, to try to take this tact.
 
 387
 99:59:59,000 --> 99:59:59,000
-In the United States, there is a thing called the Patriot Act,
+We also have these psyhcological defenses about the ühysical world, which I have experienced quite a lot.
 
 388
 99:59:59,000 --> 99:59:59,000
-and section 2.15 of the Patriot act essentially sais
+For example, that notion that warrants are required to enter your house.
 
 389
 99:59:59,000 --> 99:59:59,000
-"Something" and it's interpreted completely differently.
+Your physical location is somehow protected is a very quite notion I certainly don't believe that anymore.
 
 390
 99:59:59,000 --> 99:59:59,000
-that is there is a secret interpretation of section 2.15 of the Patriot Act,
+it is a little sad, but it doesn't seem to be the case.
 
 391
 99:59:59,000 --> 99:59:59,000
-and if you ask Bill Binnie about this, what he would say is that everything is fair game.
+In the United States, there is a thing called the Patriot Act,
 
 392
 99:59:59,000 --> 99:59:59,000
-That is to say, regardless what you thought, the constitution said
+and section 2.15 of the Patriot act essentially sais
 
 393
 99:59:59,000 --> 99:59:59,000
-(regardless what you think the united nations declaration of human right sais)
+"Something" and it's interpreted completely differently.
 
 394
 99:59:59,000 --> 99:59:59,000
-that's not what is really going on.
+that is there is a secret interpretation of section 2.15 of the Patriot Act,
 
 395
 99:59:59,000 --> 99:59:59,000
-And so, this defense that the people have, they're journalist, they're protected,
+and if you ask Bill Binnie about this, what he would say is that everything is fair game.
 
 396
 99:59:59,000 --> 99:59:59,000
-no one will do anything to them, it's nonsense.
+That is to say, regardless what you thought, the constitution said
 
 397
 99:59:59,000 --> 99:59:59,000
-Every Journalist in the United States who is subject to the warrantless wiretapping tentacles,
+(regardless what you think the united nations declaration of human right sais)
 
 398
 99:59:59,000 --> 99:59:59,000
-is being surveilled, regardless of the journalistic protections.
+that's not what is really going on.
 
 399
 99:59:59,000 --> 99:59:59,000
-Every member of congress, everybody in this room, probably especially everyone in this room.
+And so, this defense that the people have, they're journalist, they're protected,
 
 400
 99:59:59,000 --> 99:59:59,000
-And of course people will say "You know, don't cross the border with something".
+no one will do anything to them, it's nonsense.
 
 401
 99:59:59,000 --> 99:59:59,000
-That's so stupid, so for example, when I cross the border with a telephone,
+Every Journalist in the United States who is subject to the warrantless wiretapping tentacles,
 
 402
 99:59:59,000 --> 99:59:59,000
-I am actually not allowed to tell you what happened to my telephones. And obviously,
+is being surveilled, regardless of the journalistic protections.
 
 403
 99:59:59,000 --> 99:59:59,000
-it was a mistake to cross the border with a telephone,
+Every member of congress, everybody in this room, probably especially everyone in this room.
 
 404
 99:59:59,000 --> 99:59:59,000
-it wasn't so much of a mistake, because the telephone connects to the telephone system,
+And of course people will say "You know, don't cross the border with something".
 
 405
 99:59:59,000 --> 99:59:59,000
-and every telephone number on that telephone  had been used to make or receive calls,
+That's so stupid, so for example, when I cross the border with a telephone,
 
 406
 99:59:59,000 --> 99:59:59,000
-so it's not like the data wasn't already in the hands of the oppressor.
+I am actually not allowed to tell you what happened to my telephones. And obviously,
 
 407
 99:59:59,000 --> 99:59:59,000
-It was just the case of slightly better indexed.
+it was a mistake to cross the border with a telephone,
 
 408
 99:59:59,000 --> 99:59:59,000
-But it also had some extra numbers in there, just for fun.
+it wasn't so much of a mistake, because the telephone connects to the telephone system,
 
 409
 99:59:59,000 --> 99:59:59,000
-I mean, if you're going to have a surveillance state,
+and every telephone number on that telephone  had been used to make or receive calls,
 
 410
 99:59:59,000 --> 99:59:59,000
-that is going to make people guilt for association,
+so it's not like the data wasn't already in the hands of the oppressor.
 
 411
 99:59:59,000 --> 99:59:59,000
-you might want to make sure that there are some jerks in your phoneboon, right?
+It was just the case of slightly better indexed.
 
 412
 99:59:59,000 --> 99:59:59,000
-But the reality is, well, I can cross the border without anything of consequence
+But it also had some extra numbers in there, just for fun.
 
 413
 99:59:59,000 --> 99:59:59,000
-that is,m me deciding to become subdued, and it is me, deciding to except the oppression.
+I mean, if you're going to have a surveillance state,
 
 414
 99:59:59,000 --> 99:59:59,000
-And everyone here can make that choice,
+that is going to make people guilt for association,
 
 415
 99:59:59,000 --> 99:59:59,000
-But I say "Fuck that! That is not a choice we should make!"
+you might want to make sure that there are some jerks in your phoneboon, right?
 
 416
 99:59:59,000 --> 99:59:59,000
-That's in fact a coping mechanism, and these kinds of coping mechanisms
+But the reality is, well, I can cross the border without anything of consequence
 
 417
 99:59:59,000 --> 99:59:59,000
-are a responsive a lack of agency, a response of total helplessness.
+that is,m me deciding to become subdued, and it is me, deciding to except the oppression.
 
 418
 99:59:59,000 --> 99:59:59,000
-For example, people run throigh their mind, "How will I eat, How will I feed my children"
+And everyone here can make that choice,
 
 419
 99:59:59,000 --> 99:59:59,000
-"HOw will I educate them if I don't play along, if I don't comply?"
+But I say "Fuck that! That is not a choice we should make!"
 
 420
 99:59:59,000 --> 99:59:59,000
-They'll make my life hell".
+That's in fact a coping mechanism, and these kinds of coping mechanisms
 
 421
 99:59:59,000 --> 99:59:59,000
-Part of the problem here, and it is funny to say it here in Europe,
+are a responsive a lack of agency, a response of total helplessness.
 
 422
 99:59:59,000 --> 99:59:59,000
-becuase it has a much different context,
+For example, people run throigh their mind, "How will I eat, How will I feed my children"
 
 423
 99:59:59,000 --> 99:59:59,000
-part of the problem here is the state.
+"HOw will I educate them if I don't play along, if I don't comply?"
 
 424
 99:59:59,000 --> 99:59:59,000
-When the state has the power make you make those kinds of thoughrts appear in your head,
+They'll make my life hell".
 
 425
 99:59:59,000 --> 99:59:59,000
-and it allows you to create that, and make those choices, we become less free.
+Part of the problem here, and it is funny to say it here in Europe,
 
 426
 99:59:59,000 --> 99:59:59,000
-And maybe, recognizing those coping mechanisms and trying to progress to the next one,
+becuase it has a much different context,
 
 427
 99:59:59,000 --> 99:59:59,000
-trying to progress to the next thought could be helpful.
+part of the problem here is the state.
 
 428
 99:59:59,000 --> 99:59:59,000
-I think that it is helpful.
+When the state has the power make you make those kinds of thoughrts appear in your head,
 
 429
 99:59:59,000 --> 99:59:59,000
-For me, and what I have tried to do is that I have tried to recognize that
+and it allows you to create that, and make those choices, we become less free.
 
 430
 99:59:59,000 --> 99:59:59,000
-I am trying to cope with a situation that is impossible to cope with.
+And maybe, recognizing those coping mechanisms and trying to progress to the next one,
 
 431
 99:59:59,000 --> 99:59:59,000
-there is really nothing quite going your night like feeling an entire State is stepping on your throat.
+trying to progress to the next thought could be helpful.
 
 432
 99:59:59,000 --> 99:59:59,000
-It is not even great at talking about on parties.
+I think that it is helpful.
 
 433
 99:59:59,000 --> 99:59:59,000
-I mean, there is not really much that is good about it.
+For me, and what I have tried to do is that I have tried to recognize that
 
 434
 99:59:59,000 --> 99:59:59,000
-But, there is some good that can come of it. And that is to show other people that it is not total.
+I am trying to cope with a situation that is impossible to cope with.
 
 435
 99:59:59,000 --> 99:59:59,000
-That it does not nearly end in tears. It might, but it doiesn'Ät every single day.
+there is really nothing quite going your night like feeling an entire State is stepping on your throat.
 
 436
 99:59:59,000 --> 99:59:59,000
-You have to choose how this goes.
+It is not even great at talking about on parties.
 
 437
 99:59:59,000 --> 99:59:59,000
-I had the oppoertunity to meet the dalai lama in India,
+I mean, there is not really much that is good about it.
 
 438
 99:59:59,000 --> 99:59:59,000
-about two weeks ago, and to me, the tibetan people who had escaped from tibet
+But, there is some good that can come of it. And that is to show other people that it is not total.
 
 439
 99:59:59,000 --> 99:59:59,000
-under the opperssive chinese rule, people who had been shot, their stomachs ripped out,
+That it does not nearly end in tears. It might, but it doiesn'Ät every single day.
 
 440
 99:59:59,000 --> 99:59:59,000
-there skull cracked open, their teeth knocked out, their families jailes, you name it, they experienced it.
+You have to choose how this goes.
 
 441
 99:59:59,000 --> 99:59:59,000
-And I realized, I had no problems. By comparison especially, but I recognized something:
+I had the oppoertunity to meet the dalai lama in India,
 
 442
 99:59:59,000 --> 99:59:59,000
-these are the friendlies, niciest people you can imagine. I mean, it is really quite a touching thing,
+about two weeks ago, and to me, the tibetan people who had escaped from tibet
 
 443
 99:59:59,000 --> 99:59:59,000
-despite the fact, that about a hundred years ago they were a brutal theocracy, they have quite learned since then.
+under the opperssive chinese rule, people who had been shot, their stomachs ripped out,
 
 444
 99:59:59,000 --> 99:59:59,000
-And it is the case, that we can decide how it is we cope with these things.
+there skull cracked open, their teeth knocked out, their families jailes, you name it, they experienced it.
 
 445
 99:59:59,000 --> 99:59:59,000
-We can become increasingly cold and atomized, we can become destroyed, we can undermine our communities,
+And I realized, I had no problems. By comparison especially, but I recognized something:
 
 446
 99:59:59,000 --> 99:59:59,000
-we can work against our own interests in the long run or we can try to find joy in the life we have,
+these are the friendlies, niciest people you can imagine. I mean, it is really quite a touching thing,
 
 447
 99:59:59,000 --> 99:59:59,000
-and choose to try to have a better world but the one we have come from, that we have just experienced.
+despite the fact, that about a hundred years ago they were a brutal theocracy, they have quite learned since then.
 
 448
 99:59:59,000 --> 99:59:59,000
-When I look at Bill Binny and Thomas Drake and Justelin Radcliife and john Quircue(sp?),
+And it is the case, that we can decide how it is we cope with these things.
 
 449
+99:59:59,000 --> 99:59:59,000
+We can become increasingly cold and atomized, we can become destroyed, we can undermine our communities,
+
+450
+99:59:59,000 --> 99:59:59,000
+we can work against our own interests in the long run or we can try to find joy in the life we have,
+
+451
+99:59:59,000 --> 99:59:59,000
+and choose to try to have a better world but the one we have come from, that we have just experienced.
+
+452
+99:59:59,000 --> 99:59:59,000
+When I look at Bill Binny and Thomas Drake and Justelin Radcliife and john Quircue(sp?),
+
+453
 99:59:59,000 --> 99:59:59,000
 who are some amazing whislteblowers in the United States
