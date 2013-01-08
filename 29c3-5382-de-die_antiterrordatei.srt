@@ -1,0 +1,2993 @@
+1
+00:00:01,229 --> 00:00:03,810
+NOT MY DEPARTMENT
+29C3
+
+2
+00:00:03,810 --> 00:00:14,204
+Die Antiterrordatei
+Constanze Kurz, Frank Rieger
+
+3
+00:00:14,204 --> 00:00:14,204
+Unsere nächsten Speaker hier in Saal 1 sind Konstanze Kurz und Frank Rieger vom CCC
+
+4
+00:00:14,204 --> 00:00:16,574
+und es geht um die Antiterrordatei.
+
+5
+00:00:16,574 --> 00:00:25,345
+[Applaus]
+
+6
+00:00:25,345 --> 00:00:28,702
+Ja hallo, wir freuen uns, dass ihr alle da seid und dass ihr so viele seid.
+
+7
+00:00:28,702 --> 00:00:31,330
+Es ist doch ein etwas anderes Gefühl, in diesem riesen Saal zu sitzen.
+
+8
+00:00:31,330 --> 00:00:35,916
+Ich kann da hinten auch schon nicht mehr die Gesichter erkennen - oder da oben.
+
+9
+00:00:35,916 --> 99:59:59,000
+Wir wollen berichten über die Anhörung, an der wir auch teilgenommen haben zum Antiterrordatei-Gesetz.
+
+10
+99:59:59,000 --> 99:59:59,000
+Denn da liegt ja 'ne Verfassungsbeschwerde an und wir werden denke ich anfang nächsten Jahres irgendwann das Urteil bekommen
+
+11
+99:59:59,000 --> 99:59:59,000
+und wir wollen A darüber berichten, welche Argumentation da vorgetragen wurde, welche Knackpunkte an dieser Datei liegen -
+
+12
+99:59:59,000 --> 99:59:59,000
+natürlich auch ein bisschen, wie die technisch aufgebaut ist, wie wir argumentiert haben
+
+13
+99:59:59,000 --> 99:59:59,000
+dankeschön
+
+14
+99:59:59,000 --> 99:59:59,000
+wie wir argumentiert haben dort und wie die Anderen argumentiert haben
+
+15
+99:59:59,000 --> 99:59:59,000
+hat ja eine gewisse Tradition - wir haben das glaube ich das letzte mal gemacht bei der Voratsdatenspeicherung.
+
+16
+99:59:59,000 --> 99:59:59,000
+Und ein paar Monate nach dem Kongress haben wir ja auch eigentlich ein, ähm, wir haben ein Urteil bekommen.
+
+17
+99:59:59,000 --> 99:59:59,000
+Das war jetzt nicht das optimale Urteil aber immerhin war sie verfasszungswiedrig und die Daten wurden gelöscht
+
+18
+99:59:59,000 --> 99:59:59,000
+und wir wollen natürlich ein bisschen orakeln, wo wir vermuten, die Urteilsfindung hingehen wird.
+
+19
+99:59:59,000 --> 99:59:59,000
+Denn die Fragen, die die Richter während der Anhörung gestellt haben,
+
+20
+99:59:59,000 --> 99:59:59,000
+die so sechs Stunden ging...
+
+21
+99:59:59,000 --> 99:59:59,000
+- Ungefähr, ja.
+- Ich wollte nur gucken, ob du da bist.
+- Nee, meistens.
+
+22
+99:59:59,000 --> 99:59:59,000
+...die haben natürlich darauf hingewiesen, welche Rechtsprobleme, technische Probleme immer die Richter sehen.
+
+23
+99:59:59,000 --> 99:59:59,000
+Wir wollen auch ein bisschen davon erzählen, was an dieser Anhörung anders war, als sonst.
+
+24
+99:59:59,000 --> 99:59:59,000
+Denn uns ist da was aufgefallen.
+
+25
+99:59:59,000 --> 99:59:59,000
+Wir waren ja mittlerweile schon relativ häufig in Karlsruhe.
+
+26
+99:59:59,000 --> 99:59:59,000
+Der Anfang war mal die Wahlcomputer, dann die Onlinedurchsuchung - besser der Staatstrojaner - und dann natürlich die Voratsdatenspeicherung.
+
+27
+99:59:59,000 --> 99:59:59,000
+Aber hier lief's ein bisschen anders. Wollen wir nachher nochmal ein bisschen erzählen.
+
+28
+99:59:59,000 --> 99:59:59,000
+Genau. Vielleicht sagen wir erstmal ein bisschen kurz was zu dem Antiterrordatei-Gesetz an sich.
+
+29
+99:59:59,000 --> 99:59:59,000
+- Genau.
+- Ähm, also diese Antiterrordatei
+
+30
+99:59:59,000 --> 99:59:59,000
+ist interessanterweise nicht sehr kurz aber dann doch nach dem 11. September 2001
+
+31
+99:59:59,000 --> 99:59:59,000
+also unter dem Eindruck dessen beschlossen worden, also im Oktober 2004.
+
+32
+99:59:59,000 --> 99:59:59,000
+Worum es ging war, dass die Geheimdienste und die Polizeibehörden besser zusammenarbeiten sollten.
+
+33
+99:59:59,000 --> 99:59:59,000
+Also, wir erinnern uns dunkel nach dem 11. September war ja so der allgemeine Gesang,
+
+34
+99:59:59,000 --> 99:59:59,000
+dass man diesen Anschlag nicht hat verhindern können, weil die Geheimdienste Sachen wussten, die die Polizei nicht wusste
+
+35
+99:59:59,000 --> 99:59:59,000
+und die Geheimdienste untereinander nicht wussten, was die anderen Geheimdienste wussten
+
+36
+99:59:59,000 --> 99:59:59,000
+und die jetzt mal alle besser zusammen arbeiten sollen, dann wird man die bösen Terroristen schon fangen.
+
+37
+99:59:59,000 --> 99:59:59,000
+Und in Deutschland ist natürlich der - ich sag mal von der Historie her betrachtet - Zusammenarbeit von Polizei und Geheimdiensten ein eher heises Eisen,
+
+38
+99:59:59,000 --> 99:59:59,000
+weil wir haben das sogenannte Trennungsgebot.
+
+39
+99:59:59,000 --> 99:59:59,000
+Das Trennungsgebot sagt, wir wollen in Deutschland eigentlich nicht nochmal sowas wie eine Gestapo haben,
+
+40
+99:59:59,000 --> 99:59:59,000
+also eine geheime Staatspolizei, oder sowas wie eine Stasi haben, also eine Vermischung von geheimdienstlichen und staatlichen Befugnissen.
+
+41
+99:59:59,000 --> 99:59:59,000
+Naja, entsprechend ist die Anzahl der Behörden, die in diese Datei Daten einpflegt, relativ groß.
+
+42
+99:59:59,000 --> 99:59:59,000
+Wir reden da also zwischen 30 und 40 Behörden und eher mehr als weniger.
+
+43
+99:59:59,000 --> 99:59:59,000
+Also damit auch deutlich mehr als eigentlich tatsächlich mit irgendwelcher Terrorismus-Abwehr beschäftigt sind, an der Anzahl von Behörden.
+
+44
+99:59:59,000 --> 99:59:59,000
+Aber wir kommen zu den Zahlen und Fakten nachher nochmal.
+
+45
+99:59:59,000 --> 99:59:59,000
+Also ich - nochmal kurz die Motivation zuende führen: Was die halt wollen, also die Intention dieser Datei
+
+46
+99:59:59,000 --> 99:59:59,000
+ist zu sagen, wenn die Polizeien was wissen, sollen es die Geheimdienste es sowieso wissen können und wenn die Geheimdienste was wissen,
+
+47
+99:59:59,000 --> 99:59:59,000
+dann sollen sie irgendeine Möglichkeit haben, das den Polizeibehörden zur Verfügung zu stellen.
+
+48
+99:59:59,000 --> 99:59:59,000
+Und wir haben ja in Deutschland nun eine ganze Reihe von Geheimdiensten. Also viele, genauer gesagt.
+
+49
+99:59:59,000 --> 99:59:59,000
+- 19
+- 19, ja.
+- Also, von denen wir wissen.
+
+50
+99:59:59,000 --> 99:59:59,000
+Von denen wir wissen. Also die Verfassungsschutzbehörden der Länder,
+
+51
+99:59:59,000 --> 99:59:59,000
+Bundesverfassungsschutz, Bundesnachrichtendienst,und MRD sind so die wesentlichen Geheimdienste
+
+52
+99:59:59,000 --> 99:59:59,000
+und dementsprechend auch viele Polizeibehörden. Nämlich halt irgendwie die ganzen Landespolizeien, die Bundespolizei, das BKA,
+
+53
+99:59:59,000 --> 99:59:59,000
+das Zollkriminalamt - was eigentlich auch noch unter Geheimdienst gezählt werden müsste.
+
+54
+99:59:59,000 --> 99:59:59,000
+Und diese Menge von Behörden soll mit dieser Datei - dieser Antiterrordatei - vereint werden,
+
+55
+99:59:59,000 --> 99:59:59,000
+also ein schlagkräftiges Instrument gegen den internationalen Terrorismus geschaffen werden.
+
+56
+99:59:59,000 --> 99:59:59,000
+Das liegt quasi im Zeitgeist. Denn wir wissen ja, wir haben auch das gemeinsame Terrorabwehrzentrum.
+
+57
+99:59:59,000 --> 99:59:59,000
+Und auch - wir werden heue Nachmittag noch den Vortrag haben zu den NSU-Untersuchungsausschüssen -
+
+58
+99:59:59,000 --> 99:59:59,000
+man sieht ja, wie qualifiziert die arbeiten. Aber nach dem Bekanntwerden dieses NSU-Skandals ist eigentlich der Trend, den wir jetzt so beobachten,
+
+59
+99:59:59,000 --> 99:59:59,000
+auch so in den Statements der üblichen Verdächtigen, dass man noch mehr zusammenlegen will und so weiter. Also, klar.
+
+60
+99:59:59,000 --> 99:59:59,000
+Okay. Also die Struktur dieser Datei - von der Anlage her - ist zu sagen, es gibt beim Bundeskriminalamt einen dicken Server
+
+61
+99:59:59,000 --> 99:59:59,000
+und auf dem Server sollen alle Behörden Dateien ablegen. Und dabei handelt es sich um eine sogenannte Verbunddatei.
+
+62
+99:59:59,000 --> 99:59:59,000
+Das heißt also, alle Behörden tun da Sachen rein und alle Behörden können auf diese Datenbank zugreifen.
+
+63
+99:59:59,000 --> 99:59:59,000
+Also wenn man den Sicherheitspolitikern so zuhört, dann soll diese Datei so ausgeführt sein,
+
+64
+99:59:59,000 --> 99:59:59,000
+dass sie im Wesentlichen Informationen zu Personen und zu Sachverhalten enthält.
+
+65
+99:59:59,000 --> 99:59:59,000
+Und man kann dann darin suchen und wenn man irgendetwas findet, dann gibt es einen Verweis zu der Behörde, bei der die Akte liegt.
+
+66
+99:59:59,000 --> 99:59:59,000
+Das heißt also, die, was weiß ich, irgendwie...
+
+67
+99:59:59,000 --> 99:59:59,000
+- In der Regel das Aktenzeichen.
+- Die Landespolizei Meklenburg-Vorpommern
+
+68
+99:59:59,000 --> 99:59:59,000
+sucht nach irgendwie einem verdächtigen Namen und findet halt irgendwie, dass der Verfassungsschutz Thüringen dazu die Akte hält.
+
+69
+99:59:59,000 --> 99:59:59,000
+Und dann sollen die da halt mal anrufen.
+
+70
+99:59:59,000 --> 99:59:59,000
+So ist die Darstellung der Politiker.
+
+71
+99:59:59,000 --> 99:59:59,000
+Wenn man sich dann aber mal mit den Details dieser Datei beschäftigt, dann stellt man fest, dass es da doch ein wenig darüber hinaus geht.
+
+72
+99:59:59,000 --> 99:59:59,000
+Also ein wesentliches Merkmal ist zum Beispiel diese <i>verdeckte Speicherung<i>.</i></i>
+
+73
+99:59:59,000 --> 99:59:59,000
+Also die Geheimdienste können Namen oder auch Sachverhalte oder Orte oder sowas darin einspeichern, in dieser Datei.
+
+74
+99:59:59,000 --> 99:59:59,000
+Und wenn dann die Landespolizei Meklenburg-Vorpommern nach dieser Person sucht, dann bekommt sie keinen Treffer angezeigt,
+
+75
+99:59:59,000 --> 99:59:59,000
+aber der Verfassungsschutz zu Thüringen bekommt angezeigt, dass die Landespolizei Meklenburg-Vorpommern danach gesucht hat.
+
+76
+99:59:59,000 --> 99:59:59,000
+[Gelächter]
+
+77
+99:59:59,000 --> 99:59:59,000
+Ein Feature, kein Bug.
+
+78
+99:59:59,000 --> 99:59:59,000
+Es ist tatsächlich absichtlich so designt.
+
+79
+99:59:59,000 --> 99:59:59,000
+Und das heißt also, wenn irgendwie die betreffende Person dann halt von Interesse ist, dann weiß der Verfassungsschutz da interessiert sich jemand für diese Person.
+
+80
+99:59:59,000 --> 99:59:59,000
+Wenn man sich jetzt fragt, wieviele Menschen sind denn da gespeichert -
+
+81
+99:59:59,000 --> 99:59:59,000
+das sind natürlich nicht nur diejenigen, die unter irgendeiner Art von Terrorverdacht stehen.
+
+82
+99:59:59,000 --> 99:59:59,000
+Wir kommen gleich dazu, wer das sein könnte. Sondern das sind auch die sogenannten <i>Kontaktpersonen<i>.</i></i>
+
+83
+99:59:59,000 --> 99:59:59,000
+Das ist also das unmittelbare Umfeld, mit dem man regelmäßig umgeht. Freunde, Familie, Bekannte, Nachbarn, und so weiter.
+
+84
+99:59:59,000 --> 99:59:59,000
+Also, Kontaktpersonen halt. Da ist natürlich wie bei dem Begriff des Terrorismus auf den wir ja noch kommen auch keine konkrete Definition enthalten.
+
+85
+99:59:59,000 --> 99:59:59,000
+Wie auch die Spezifizierung, welche Behörden dort Daten einspeisen nicht so wirklich
+
+86
+99:59:59,000 --> 99:59:59,000
+- scharf ist
+- genau spezifiziert ist
+
+87
+99:59:59,000 --> 99:59:59,000
+Die Maßgabe ist nur, also das Gesetz sagt, dass alle vorhandenen Informationen, die in den einzelnen Behörden vorliegen, dort Eingang finden müssen.
+
+88
+99:59:59,000 --> 99:59:59,000
+Das ist also keine Kann-Regelung, sondern eine Muss-Regelung.
+
+89
+99:59:59,000 --> 99:59:59,000
+Man muss sich also vorstellen, dass nach Inkrafttreten 2006 die Behörden also eigentlich ihre Datenbestände zu flöhen hatten hinsichtlich der Terrorverdächtigen.
+
+90
+99:59:59,000 --> 99:59:59,000
+Und so kommen wir auch auf die Zahlen, die uns einigermaßen überrascht haben.
+
+91
+99:59:59,000 --> 99:59:59,000
+Man bekommt ja vor dieser Anhörung, also dieses Mal so - weiß ich nicht - 15 Zentimeter Papier.
+
+92
+99:59:59,000 --> 99:59:59,000
+Dass dort 18.000 Einträge sind das hat uns überrascht. In der Anhörung selbst war dann mal auch von 16.000 oder von 17.000 die Rede.
+
+93
+99:59:59,000 --> 99:59:59,000
+Also die Zahlen schwanken da so ein bisschen. Und klar wurde auch - dazu kommen wir gleich auch nochmal ein bisschen im Detail -,
+
+94
+99:59:59,000 --> 99:59:59,000
+dass es in der Regel Ausländer sind. Wobei sie das Wort Ausländer nicht so genau spezifizoiert haben.
+
+95
+99:59:59,000 --> 99:59:59,000
+Ob sie damit meinen "Deutscher mit Migrationshintergrund" - die Sprache ist da nicht immer sehr präzise - das wissen wir nicht so genau.
+
+96
+99:59:59,000 --> 99:59:59,000
+Aber damit ist klar, dass vor es vor allen Dingen auch um den Austausch von Daten zwischen den verschiedenen Ländern,
+
+97
+99:59:59,000 --> 99:59:59,000
+vor allen Dingen aber auch der Geheimdienste gehen muss. Sonst kämen wahrscheinlich diese hohe prozentuale Anzahl da nicht zusammen.
+
+98
+99:59:59,000 --> 99:59:59,000
+Ja, also die Definition ist halt: Wenn es irgendeinen Bezug zu Deutschland hat.
+
+99
+99:59:59,000 --> 99:59:59,000
+Wenn diese Person, die da gespeichert ist, irgendwelche terroristischen Bestrebungen in Bezug auf Deutsche hat, dann wird sie da gespeichert.
+
+100
+99:59:59,000 --> 99:59:59,000
+Darunter fallen dann - je nach Betrachtung - zum Beispiel auch irgendwelche Leute in Afghanistan, die halt dann möglicherweise was gegen die Bundeswehr haben könnten.
+
+101
+99:59:59,000 --> 99:59:59,000
+Von denen man halt irgendwie die entsprechenden Daten hat und geheimdienstliche Erkenntnisse hat.
+
+102
+99:59:59,000 --> 99:59:59,000
+Und das Ziel dieser Datei, wenn man sich das ein bisschen genauer anguckt, wie die aufgebaut ist,
+
+103
+99:59:59,000 --> 99:59:59,000
+ist offensichtlich einfach ein vollständiges Verzeichnis von allen Leuten zu haben, die irgendetwas gegen Deutschland haben können.
+
+104
+99:59:59,000 --> 99:59:59,000
+Also ist so offensichtlich das unausgesprochenen Speicherungsziel dabei.
+
+105
+99:59:59,000 --> 99:59:59,000
+Interessant an diese Datei ist, das war so die erste dieser großen Verbunddateien neuen Datums.
+
+106
+99:59:59,000 --> 99:59:59,000
+Es gibt viel mehr solcher Dateien. Also es gibt eine riesige Liste von...
+
+107
+99:59:59,000 --> 99:59:59,000
+- 30 Zentraldateien, 40 Verbunddateien. Also das ist ein ganzer Zoo.
+
+108
+99:59:59,000 --> 99:59:59,000
+...von Dateien, die zwischen den Polizeibehörden, zwischen den Geheimdienstbehörden, teilweise auch zwischen Polizei- <i>und</i> Geheimdienstbehörden geteilt werden.
+
+109
+99:59:59,000 --> 99:59:59,000
+Jeweils unter unterschiedlichen Regeln und unterschiedlichen Speicherungsgründen.
+
+110
+99:59:59,000 --> 99:59:59,000
+Also so die bekanneren sind sowas wie INPOL-neu, also das polizeiliche Verbundsystem, auf das teilweise auch die Geheimdienste Zugriff haben.
+
+111
+99:59:59,000 --> 99:59:59,000
+Dann gibt es die geheimdienst-internen Verbunddateien, wo zum Besipiel Verfassungsschutz-Ämter Sachen austauschen.
+
+112
+99:59:59,000 --> 99:59:59,000
+Dann gibt's die BND-Dateien, die dann wiederum teilweiße wieder mit den MRD oder mit dem...
+
+113
+99:59:59,000 --> 99:59:59,000
+- Gewalttäter Sport
+- Genauso.
+
+114
+99:59:59,000 --> 99:59:59,000
+Also es gibt da so einen wirklich großen Zoo von diesen Datenbanken. Wieviele es waren, wurde uns eigentlich auch tatsächlich erst mit dieser Anhörung klar.
+
+115
+99:59:59,000 --> 99:59:59,000
+Weil da war dann tatsächlich mal eine Liste dabei von allen Dateien, aus denen heraus Daten in die Antiterrordatei einfließen sollen.
+
+116
+99:59:59,000 --> 99:59:59,000
+Da gab es so ein bisschen Konfusion aufgrund einer etwas unscharfen Heise-Meldung, dass <i>alle</i> Daten aus diesen Dateien in die Antiterrordatei reinfließen sollen,
+
+117
+99:59:59,000 --> 99:59:59,000
+und dem ist nicht so. Sondern es fließen halt <i>ausgewählte</i> Dateien aus diesen Dateien in die Antiterrordatei.
+
+118
+99:59:59,000 --> 99:59:59,000
+Also, wenn jemand von euch den deutschen Wikipedia-Artikel dazu liest: Das ist definitiv falsch, wie es dort dargestellt ist.
+
+119
+99:59:59,000 --> 99:59:59,000
+Wir hatten aber aufgrund der Probleme - der Relevanzprobleme der deutsche Wikipedia - nicht die Muse, und da diesen Kriegen auszusetzen.
+
+120
+99:59:59,000 --> 99:59:59,000
+So wie es da steht, ist es eigentlich nicht richtig.
+
+121
+99:59:59,000 --> 99:59:59,000
+Dennoch ist es natürlich ganz interessant, dass in diesem Wikipedia-Artikel mal die Verbund- und Zentral-Dateien aufgelistet sind.
+
+122
+99:59:59,000 --> 99:59:59,000
+Das geht aus einer Anfrage an die Bundesregierung hervor, die dann mal eine Liste erstellt haben.
+
+123
+99:59:59,000 --> 99:59:59,000
+Aber tatsächlich ist es nicht so, dass da die alle gemergt wurden oder so, sondern man sollte schon nach den speziell Terrorverdächtigen suchen und dort eintragen.
+
+124
+99:59:59,000 --> 99:59:59,000
+Dennoch is es eine neue Qualität, das kann man schon sagen.
+
+125
+99:59:59,000 --> 99:59:59,000
+Und interessant darin ist halt, von der Politik wird diese Antiterrordatei als eine Art, ja, Copy-und-Paste-Vorlage betrachtet,
+
+126
+99:59:59,000 --> 99:59:59,000
+eine Plaupause für zukünftige solche Verbunddateien zwischen Polizei und Geheimdiensten.
+
+127
+99:59:59,000 --> 99:59:59,000
+Worum es da so im Kern geht, das fällt immer so unter dieses schöne Stichwort "Umbbau der Sicherheitsarchitektur in Deutschland"
+
+128
+99:59:59,000 --> 99:59:59,000
+oder "Neugestaltung der Sicherheitsarchitektur in Deutschland". Im Kern geht es um eine Aushöhlung des Trennungsgebots.
+
+129
+99:59:59,000 --> 99:59:59,000
+Das Trennungsgebot ist ja ein bisschen unscharf. Also es ist halt so eine art Common-Sense in der deutschen Sicherheitspolitik.
+
+130
+99:59:59,000 --> 99:59:59,000
+Dass man sagt: Okay, also Geheimdienste sind Geheimdiesnte, weil die haben geheimdienstliche Mittel und Methoden.
+
+131
+99:59:59,000 --> 99:59:59,000
+Das heißt, die dürfen irgendwie V-Leute einsetzen, die dürfen Leuten verdeckt hinterher spionieren,
+
+132
+99:59:59,000 --> 99:59:59,000
+die dürfen verdeckt Abhören, ohne dass die jemandem Bescheid sagen müssen, und so weiter.
+
+133
+99:59:59,000 --> 99:59:59,000
+Also die haben halt eine Menge Mittel und Wege...
+
+134
+99:59:59,000 --> 99:59:59,000
+Ja, vor allen Dingen haben sie ein anderes Ziel. Das Ziel von Geheimdiensten ist ja erstmal die Sammlung von Informationen.
+
+135
+99:59:59,000 --> 99:59:59,000
+- Ja
+- Wohingegen die Polizeien ja im Wesentlichen auf konkrete Verdachtsfälle hin ermittelnd tätig werden.
+
+136
+99:59:59,000 --> 99:59:59,000
+Das ist also natürlich konzeptionell ein anderer Ansatz.
+
+137
+99:59:59,000 --> 99:59:59,000
+Genau. Und diese Antiterrordatei wurde sozusagen als so eine Art Brechstange geshen, mit der man diese Trennung aufheben kann,
+
+138
+99:59:59,000 --> 99:59:59,000
+indem man diese Struktur, die da Angelegt wurde - also Zentralserver im BKA, alle Behörden sind angeschlossen, alle Behörden speichern ein,
+
+139
+99:59:59,000 --> 99:59:59,000
+alle Behörden können suchen und es gibt die Möglichkeit, verdeckt einzustellen - auch auf andere Bereiche ausweitet.
+
+140
+99:59:59,000 --> 99:59:59,000
+Un das erste Beispiel was dafür hochkam war die sogenannte RED, die Rechtsextremismus-Datei.
+
+141
+99:59:59,000 --> 99:59:59,000
+Die ist technisch quasi identisch mit der Antiterrordatei. Das Gesetzt ist quasi identisch.
+
+142
+99:59:59,000 --> 99:59:59,000
+Also es ist quasi Copy-and-Paste, nur dass dort Terroristen durch Rechtsextreme ausgetauscht wurden.
+
+143
+99:59:59,000 --> 99:59:59,000
+Und das Ziel dabei ist halt zu sagen: Okay, wenn man jetzt mir der Antiterrordatei einmal durch ist,
+
+144
+99:59:59,000 --> 99:59:59,000
+also in Karlsruhe halbwegs einen sicheren Rechtsstand erreicht hat, dass man den dann eben auch auf alle möglichen anderen Sachgebiete appliziert.
+
+145
+99:59:59,000 --> 99:59:59,000
+Deswegen ist die Bedeutung dieses Urteils zur Antiterrordatei so groß. Weil, das was da geregelt wird, in diesem Urteil,
+
+146
+99:59:59,000 --> 99:59:59,000
+wird für alle zukünftigen Verbunddateien der Goldstandart werden.
+
+147
+99:59:59,000 --> 99:59:59,000
+Ich meine, dass haben wir natürlich auch in anderen Punkten gehofft. Wenn ich mal daran erinnern darf, dass im Urteil zur Onlinedurchsuchung -
+
+148
+99:59:59,000 --> 99:59:59,000
+also zum Trojaner - explizit steht, dass die digitale Intimsphäre, also dieses neue Grundrecht was da geschaffen wurde, eigentlich auch für beschlagnahmte Festplatten gelten soll.
+
+149
+99:59:59,000 --> 99:59:59,000
+Das steht da so drin. So muss man natürlich sehen, dass die Durchsetzung des Diktums da aus Karlsruhe nochmal eine andere Sache ist.
+
+150
+99:59:59,000 --> 99:59:59,000
+Da müssen wir uns dann für einsetzen. Dennoch wird es denke ich beispielgebenden Charakter haben.
+
+151
+99:59:59,000 --> 99:59:59,000
+Das hat man auch schon ganz deutlisch an der Anhörung gesehen. Denn wir waren ja total überrascht darüber,
+
+152
+99:59:59,000 --> 99:59:59,000
+dass dieses mal - anders als bei allen anderen Anhörungen - diese Regierungs...
+
+153
+99:59:59,000 --> 99:59:59,000
+die Bank, wo die Angeklagten sitzen. Ist das so? Kann man das so sagen?
+
+154
+99:59:59,000 --> 99:59:59,000
+Naja... die Beschwerten sitzen, die war voll.
+
+155
+99:59:59,000 --> 99:59:59,000
+Und unser Innenminister - Friedrich - der saß da tatsächlich geschlagene sechs Stunden und hat sich eingangs und zum Ende der Anhörung geäußert.
+
+156
+99:59:59,000 --> 99:59:59,000
+Das fanden wir sehr überraschend, weil die Richter sich ja eigentlich in den letzten Jahren immer sehr beklagt haben, dass da einfach keiner kommt
+
+157
+99:59:59,000 --> 99:59:59,000
+und sich mal anhört, wie die Kritik im Einzelnen aussieht und wie die einzelnen Gesetze da besprochen werden und welche Kritikpunkte dort gebracht werden.
+
+158
+99:59:59,000 --> 99:59:59,000
+Also die haben tatsächlich richtig aufgefahren. Also Friedrich war da - also der Innenminister -, der zuständige Staatssekretär im Ministerium,
+
+159
+99:59:59,000 --> 99:59:59,000
+also der beamtete, also der eigentlich das Innenministerium führt, der Fritsche war da.
+
+160
+99:59:59,000 --> 99:59:59,000
+Dann waren alle deutschen Geheimdienstchefs da, also von den Bundesbehörden.
+
+161
+99:59:59,000 --> 99:59:59,000
+Also der Präsident des MAD, der Präsident des Bundesnachrichtendiesntes, der natürlich auch gesprochen hat, dann war noch da...
+
+162
+99:59:59,000 --> 99:59:59,000
+- Verfassungsschutz
+- der gerade jüngst verlängerte BKA-Präsident Ziercke,
+
+163
+99:59:59,000 --> 99:59:59,000
+an den wir uns ja über die Jahre an seine Eingangsmuster auch gewöhnt haben.
+
+164
+99:59:59,000 --> 99:59:59,000
+Klar war schon allein aus dieser Besetzung heraus, dass denen offensichtlich diese Antiterrordatei sehr wichtig ist.
+
+165
+99:59:59,000 --> 99:59:59,000
+- Ja.
+- Also dass die halt für es eine sehr hohe Priorität hat, dass sie da eine halbwegs gute Figur machen.
+
+166
+99:59:59,000 --> 99:59:59,000
+Das wurde durch ihren Prozessvertreter... Also das funktioniert immer so bei solchen Sachen, die Bundesregierung hat dann einen Anwalt.
+
+167
+99:59:59,000 --> 99:59:59,000
+Das ist meistens ein Rechtsprofessor. Deren Qualität ist stark schwankend.
+
+168
+99:59:59,000 --> 99:59:59,000
+Also es gibt halt welche die sind sehr gut und es gibt halt welche die sind eher nicht so gut.
+
+169
+99:59:59,000 --> 99:59:59,000
+- Der dieses Mal...
+- Ja, was heißt denn gut? Also was man damit meint, ist...
+
+170
+99:59:59,000 --> 99:59:59,000
+- also rhetorisch gut...
+- ...gibt es da eine interessante intellektuelle Auseinandersetzung, gibt's da ne gute Diskussion,
+
+171
+99:59:59,000 --> 99:59:59,000
+- Ja.
+- gibt es einen Erkenntnisgewinn oder eben nicht?
+
+172
+99:59:59,000 --> 99:59:59,000
+- Ja.
+- Und hier war eher nicht.
+- Eher auf der nicht-so-Seite.
+
+173
+99:59:59,000 --> 99:59:59,000
+Aber nochmal kurz zurück zu der Rechtsextremismus-Datei:
+
+174
+99:59:59,000 --> 99:59:59,000
+Da kann man halt sehen, wie auch die Antiterrordatei aussehen wird.
+
+175
+99:59:59,000 --> 99:59:59,000
+Das heißt die Struktur des Zentralservers im BKA, SINA-Boxen in den Behörden.
+
+176
+99:59:59,000 --> 99:59:59,000
+Das heißt also behördlich abgesiegelte, geheimschutzbetreute VPN-Gateways,
+
+177
+99:59:59,000 --> 99:59:59,000
+die dann halt zum BKA verbinden und das BKA passt auf die Daten auf und macht Backups davon.
+
+178
+99:59:59,000 --> 99:59:59,000
+Und die Behörden greifen darauf zu. Und die Maske, mit der sie darauf zugreifen sollen -
+
+179
+99:59:59,000 --> 99:59:59,000
+was uns immer gezeigt wird, zum Beispiel für die Rechtsextremismusdatei - sieht halt so aus...
+
+180
+99:59:59,000 --> 99:59:59,000
+Also das Beispiel aus der RED - Rechtsextremismusdatei - wir können einfach nach Auskunft der Bundesregierung davon ausgehen,
+
+181
+99:59:59,000 --> 99:59:59,000
+dass die technisch die gleiche Konzeption haben.
+- Also dass die Antiterrordatei ziemlich genauso aussieht.
+
+182
+99:59:59,000 --> 99:59:59,000
+Und was die da natürlich zeigen sind halt mehr oder minder dieselben Sachen.
+
+183
+99:59:59,000 --> 99:59:59,000
+Also lustig ist auch hier zum Beispiel auch in dieser Maske die Rechtsgrundlage der Speicherung.
+
+184
+99:59:59,000 --> 99:59:59,000
+Die sieht man da. Ist halt an der Stelle Unterstützer einer terroristischen Vereinigung.
+
+185
+99:59:59,000 --> 99:59:59,000
+Genau dasselbe dürfte dann halt eben auch in der Antiterrordatei stehen.
+
+186
+99:59:59,000 --> 99:59:59,000
+Ja. Zu den einzelnen Merkmalen: Also hier sieht man jetzt zum Beispiel besondere körperliche Merkmale.
+
+187
+99:59:59,000 --> 99:59:59,000
+Dass also dieser Beispieldatensatz an Hand oder Arm eine Tätowierung hat - oder beidem.
+
+188
+99:59:59,000 --> 99:59:59,000
+Die einzelnen Merkmale, die da verzeichnet sind, waren natürlich teilweise auch umstritten.
+
+189
+99:59:59,000 --> 99:59:59,000
+Insbesondere die Religionszugehörigkeit. Allerdings ist in den sechs Stunden Anhörung dieses Problem kaum besprochen worden zu meiner Überraschung.
+
+190
+99:59:59,000 --> 99:59:59,000
+Also ich hätte gedacht, dass das in Deutschland durchaus ein Thema sein würde, dass man das Glaubensbekenntnis wieder erfasst.
+
+191
+99:59:59,000 --> 99:59:59,000
+Aber das war auch unter der Fülle von Rechtsproblemen und technischen Problemen,
+
+192
+99:59:59,000 --> 99:59:59,000
+die dort erörtert wurden eigentlich kaum Thema und das hat mich tatsächlich überrascht.
+
+193
+99:59:59,000 --> 99:59:59,000
+Aus meiner Sicht kritisch ist aber insbesondere ein Freitextfeld in dieser Datei,
+
+194
+99:59:59,000 --> 99:59:59,000
+wo man einfach mal alles reinkippen kann, wozu man Lust hat.
+
+195
+99:59:59,000 --> 99:59:59,000
+Wir kommen gleich nochmal dazu, wie man die Sache da eigentlich kontrollieren soll.
+
+196
+99:59:59,000 --> 99:59:59,000
+Wir haben noch ein anderes Beispiel, wie man sich das praktisch vorstellen kann, wenn man jetzt also so einen Datensatz aufruft.
+
+197
+99:59:59,000 --> 99:59:59,000
+Wichtig ist natürlich, vor allen Dingen für die Weiterermittlung, das Aktenzeichen.
+
+198
+99:59:59,000 --> 99:59:59,000
+Und was man sich natürlich vorstellen muss ist, dass man mit den Daten die man aus der Datei erlangt
+
+199
+99:59:59,000 --> 99:59:59,000
+natürlich damit andere Datenbanken füttert, um mehr Informationen zu erlangen.
+
+200
+99:59:59,000 --> 99:59:59,000
+Eines der Dinge um die es <i>uns</i> in dieser Anhörung auch ging war, nochmal klarzumachen, nachzufragen: Was passiert denn eigentlich mit diesen Daten?
+
+201
+99:59:59,000 --> 99:59:59,000
+Wir wissen ja aus Medienberichten, dass es einen umfangreichen Autausch gibt zwischen den Geheimdiensten,
+
+202
+99:59:59,000 --> 99:59:59,000
+was Daten angeht. Wie halt international Daten ausgetauscht werden.
+
+203
+99:59:59,000 --> 99:59:59,000
+Und die Übermittlung dieser Daten aus dieser Antiterrordatei in ausländische Behörden -
+
+204
+99:59:59,000 --> 99:59:59,000
+da wollten die nie so genau richtig drüber reden.
+
+205
+99:59:59,000 --> 99:59:59,000
+Die Aussagen waren allesamt extrem schwammig. Sie haben nicht gesagt, wieviele Daten sie da übermitteln.
+
+206
+99:59:59,000 --> 99:59:59,000
+Es war insbesondere auch erstaunlich - zum Beispiel der BND-Chef...
+
+207
+99:59:59,000 --> 99:59:59,000
+- Der bemerkenswerterweise noch die konsistenteste Aussage gemacht hat.
+- Genau.
+
+208
+99:59:59,000 --> 99:59:59,000
+Also der machte in dieser Anhörung so ein bisschen die beste Figur von der staatlichen Seite.
+
+209
+99:59:59,000 --> 99:59:59,000
+Der kommt so ein bisschen so rüber, so wie M bei James Bond. Also halt so völlig freundlich, verbindlich, loyal und man weiß aber genau
+
+210
+99:59:59,000 --> 99:59:59,000
+in der Tasche ist der Dolch, den er dir in den Rücken rammen wird wenn es irgendwie sein muss für den Staat und Vaterland.
+
+211
+99:59:59,000 --> 99:59:59,000
+Und der hat halt irgendwie genau erzählt, wieviele Daten sie speichern und unter welchen Umständen
+
+212
+99:59:59,000 --> 99:59:59,000
+und wie oft sie reviewen und wieviele Bearbeiter da dran sind. Also eine riesige Menge an Zahlen.
+
+213
+99:59:59,000 --> 99:59:59,000
+Aber die Frage, wieviele von diesen Datensätzen an internationale andere Geheimdienste übermittelt werden - dazu wollte er nichts sagen.
+
+214
+99:59:59,000 --> 99:59:59,000
+Konnte er nichts sagen. Denn es wurde angeblich nicht statistisch ermittelt.
+
+215
+99:59:59,000 --> 99:59:59,000
+Was wir daraus sehen können ist halt, dass dieser internationale Austausch das ist, worum es da eigentlich geht.
+
+216
+99:59:59,000 --> 99:59:59,000
+Nämlich halt zu versuchen, in diesem internationalen Geheimdienst-Spiel mitzuspielen
+
+217
+99:59:59,000 --> 99:59:59,000
+und da halt eine Währung zu haben mit der man halt tauschen kann. Nämlich im Zweifel Antworten geben zu können wenn internationale Anfragen kommen.
+
+218
+99:59:59,000 --> 99:59:59,000
+Über die Legitimität dieser Anfragen - also ob zum Beispiel der pakistanische Geheimdienst nur gerade jemanden anfragt, der ihm missliebig ist
+
+219
+99:59:59,000 --> 99:59:59,000
+oder es tatsächlich ein böser Terrorist ist - da kann natürlich der deutsche Geheimdienst nicht viel drüber wissen.
+
+220
+99:59:59,000 --> 99:59:59,000
+Und antwortet halt im Zweifel erstmal.
+
+221
+99:59:59,000 --> 99:59:59,000
+Insgesamt war das im Gegensatz zu allen Anhörungen, die wir sonst so hatten, die sich vor allen Dingen immer dadurch auszeichneten,
+
+222
+99:59:59,000 --> 99:59:59,000
+dass man teilweise sehr präzise technische Details, dass alle Fakten auf den Tisch kamen, war das hier ein bisschen anders.
+
+223
+99:59:59,000 --> 99:59:59,000
+Aufgrund der Tatsache, dass natürlich die Geheimdienste dort befragt wurden,
+
+224
+99:59:59,000 --> 99:59:59,000
+und dass auch schon einige der Schriftsätze die wir bekommen haben als VS gestempelt waren, blieb da eine Menge im Vagen.
+
+225
+99:59:59,000 --> 99:59:59,000
+Ich könnte mich eigentlich nicht erinnern, dass bei den anderen Anhörungen so eine Form von Graubereich sonst übrig war.
+
+226
+99:59:59,000 --> 99:59:59,000
+Das war schon ein großer Unterschied aus meiner Sicht.
+
+227
+99:59:59,000 --> 99:59:59,000
+Dass da einfach bestimmte Informationen nicht gegeben werden sollten hat man auch gemerkt.
+
+228
+99:59:59,000 --> 99:59:59,000
+Genauergesagt, was eigentlich immer so bei uns anfing, interessant zu werden, dann kam halt irgendwie so ein Geheimhaltungs-Ding.
+
+229
+99:59:59,000 --> 99:59:59,000
+Also es war halt auch vollkommen klar, dass zum Beispiel die Geheimdienst-Chefs,
+
+230
+99:59:59,000 --> 99:59:59,000
+dass denen halt nur eine begrenzte Aussage-Genehmigung gegeben worden war.
+
+231
+99:59:59,000 --> 99:59:59,000
+Also dass vollkommen klar war, was die halt sagen dürfen.
+
+232
+99:59:59,000 --> 99:59:59,000
+Zwischendurch gab's dann mal so ein oder zwei interessante Szenen.
+
+233
+99:59:59,000 --> 99:59:59,000
+Nämlich wenn die Richter dann angefangen haben dann dochmal ein bisschen härter nachzuhaken
+
+234
+99:59:59,000 --> 99:59:59,000
+und halt Sachen im Detail wissen wollten und die jeweiligen Polizei- oder Geheimdienstchefs darauf nicht Antwort geben konnten
+
+235
+99:59:59,000 --> 99:59:59,000
+und sie dann nach hinten ins Publikum fragten, ob denn mal ein Praktiker da sei - also ein Techniker, der da aus der Praxis kam.
+
+236
+99:59:59,000 --> 99:59:59,000
+Und wie wir wissen: Ingenieure lügen nicht. Und die haben dann halt manchmal ein bisschen zu viel erzählt.
+
+237
+99:59:59,000 --> 99:59:59,000
+[Gelächter]
+
+238
+99:59:59,000 --> 99:59:59,000
+Das waren dann so die interessanten Details.
+
+239
+99:59:59,000 --> 99:59:59,000
+Dann ging's dann zum Beispiel darum, wie gelöscht wird oder ob gelöscht werden kann und ähnliche Dinge.
+
+240
+99:59:59,000 --> 99:59:59,000
+Oder wie die Backups gehandhabt werden.
+
+241
+99:59:59,000 --> 99:59:59,000
+Da gab's dann mal so einen klitzekleinen Einblick, der dann schon zeigte,
+
+242
+99:59:59,000 --> 99:59:59,000
+dass die Abweichung gegenüber den politisch abgesegneten Statements schon relativ groß war.
+
+243
+99:59:59,000 --> 99:59:59,000
+Das Problem dieses internationalen Transfers weist natürlich auf ein ganz generelles Problem hin.
+
+244
+99:59:59,000 --> 99:59:59,000
+Nämlich die tatsächliche Unmöglichkeit, noch zu kontrollieren, von der Behörde die die Daten einstellt, was damit dann eigentlich nachher passiert.
+
+245
+99:59:59,000 --> 99:59:59,000
+Natürlich gibt es für alle diese Behörden... Löschpflichten etwa.
+
+246
+99:59:59,000 --> 99:59:59,000
+Also wenn Gründe wegfallen oder nach einer bestimmten Zeit und so weiter.
+
+247
+99:59:59,000 --> 99:59:59,000
+Aber in dem Antiterrordatei-Gesetz ist das so geregelt, dass man einfach auf die Vorgaben in den einzelnen Behördengesetzen verweist.
+
+248
+99:59:59,000 --> 99:59:59,000
+Das heißt, in der Antiterrordatei - also in dem Gesetz an sich - ist dazu keine Regelung getroffen.
+
+249
+99:59:59,000 --> 99:59:59,000
+Was natürlich zu einem heillosen Wirrwarr und einer sehr starken Unübersichtlichkeit führt -
+
+250
+99:59:59,000 --> 99:59:59,000
+Aus meiner Sicht aber auch zu einer faktischen Unmöglichkeit, dass man dort sinnvoll und nach vorgegebenen Kriterien auch wieder Daten entfernt.
+
+251
+99:59:59,000 --> 99:59:59,000
+Denn man sollte sich glaube ich schonmal klar machen, dass der Eintrag von einer terrorverdächtigen Person
+
+252
+99:59:59,000 --> 99:59:59,000
+oder deren Kontaktdaten natürlich eine Stigmatisierung ernormer Art ist.
+
+253
+99:59:59,000 --> 99:59:59,000
+Und nicht nur im Bereich der, ich sag mal, Angst vor Repressionen oder bestimmter Überwachung,
+
+254
+99:59:59,000 --> 99:59:59,000
+sondern auch durchaus im Bereich des Alltags.
+
+255
+99:59:59,000 --> 99:59:59,000
+Und eine sind die No-Flight-Listen, über die wir jetzt viel gelesen haben.
+
+256
+99:59:59,000 --> 99:59:59,000
+Und die auch hier bestehende faktische Unmöglichkeit, überhaupt mal herauszufinden,
+
+257
+99:59:59,000 --> 99:59:59,000
+welcher Staat verhindert eigentlich, dass ich reisen kann.
+
+258
+99:59:59,000 --> 99:59:59,000
+Es gibt gerade einen interessanten Fall in der Schweiz, wo ein Iraner versucht mal herauszukriegen:
+
+259
+99:59:59,000 --> 99:59:59,000
+Wer hat eigentlich diesen Eintrag in der No-Flight-Liste generiert? Warum darf ich nicht mehr reisen?
+
+260
+99:59:59,000 --> 99:59:59,000
+Also das ist schon die Unmöglichkeit, das rauszufinden.
+
+261
+99:59:59,000 --> 99:59:59,000
+In Deutschland machen sie das mit der Antiterrordatei so, dass sie - ohne Scheiß! -
+
+262
+99:59:59,000 --> 99:59:59,000
+sie schicken eine Liste aller dieser Behörden - das ist eine mehrseitige Liste -
+
+263
+99:59:59,000 --> 99:59:59,000
+an die man sich, wenn man denkt, dass man betroffen ist, oder Kontaktpersonen, wenden soll.
+
+264
+99:59:59,000 --> 99:59:59,000
+Also das heißt, man muss quasi ins Blaue hinein die alle anfragen, ob man eventuell von ihnen eingetragen wurde.
+
+265
+99:59:59,000 --> 99:59:59,000
+Das heißt, es gibt eigentlich keine wirkliche Möglichkeit mehr rauszufinden. Und schon garnicht, wenn die irgednwohin propagiert sind, die Daten.
+
+266
+99:59:59,000 --> 99:59:59,000
+Das ist letztlich ein Moloch, der sich da öffnet.
+
+267
+99:59:59,000 --> 99:59:59,000
+Und im internationalen Bereich schon garnicht, denn wir haben ja die Antworten gesehen.
+
+268
+99:59:59,000 --> 99:59:59,000
+Die stammen aus ebenfalls einer kleinen Anfrage der Bundesregierung. Also es gibt nichtmal eine Erhebung,
+
+269
+99:59:59,000 --> 99:59:59,000
+wieviele Daten da in dem lustigen Geheimdienst-Karusell und der ganzen Staatsschutz-Community hin und her geschoben werden.
+
+270
+99:59:59,000 --> 99:59:59,000
+Interessant war dann auch die Argumentation mit der begründet wurde, warum es keine expliziten Regelungen für internationalen Datenaustausch gibt.
+
+271
+99:59:59,000 --> 99:59:59,000
+Also, warum die nicht beschränkt sind in irgendeiner Art und Weise.
+
+272
+99:59:59,000 --> 99:59:59,000
+Und die war halt schlicht und ergreifend: Naja, wir müssen halt schnell antworten,
+
+273
+99:59:59,000 --> 99:59:59,000
+weil sonst verlieren wir halt unsere Reputation in diesem internationalen Geheimdienst-Spiel.
+
+274
+99:59:59,000 --> 99:59:59,000
+Wenn halt da irgendwie jemand anfragt, dann wird immer grundsätzlich der maximale, brutalste, drohende Anschlagsfall ausgepackt.
+
+275
+99:59:59,000 --> 99:59:59,000
+Also irgendwie...
+- Das kennen wir natürlich aus anderen Sachen auch.
+
+276
+99:59:59,000 --> 99:59:59,000
+Bei der Vorratsdatenspeicherung und bei der Online-Druchsuchung genauso. Man hat dann immer solche schrecklichen Einzelfälle ausgegraben.
+
+277
+99:59:59,000 --> 99:59:59,000
+Ja. Also, de facto wird halt immer quasi genauso argumentiert wie halt bei der Folter-Diskussion.
+
+278
+99:59:59,000 --> 99:59:59,000
+Also was wäre, wenn jetzt irgendwie ein schrecklicher Anschlag mit irgendwie hunderten von Toten droht
+
+279
+99:59:59,000 --> 99:59:59,000
+und wir dürfen diese Antwort nicht geben und das geht ja überhaupt nicht.
+
+280
+99:59:59,000 --> 99:59:59,000
+Es gibt da halt quasi kein ernsthaftes Bewusstsein, dass gerade dieser internationale Austausch
+
+281
+99:59:59,000 --> 99:59:59,000
+möglicherweise Leuten zu physischem Schaden gereichen kann.
+
+282
+99:59:59,000 --> 99:59:59,000
+Also es ist ja nicht so, dass irgendwie die renditions der Amis und auch anderer Länder...
+- Die sind auch noch nicht zuende.
+
+283
+99:59:59,000 --> 99:59:59,000
+...dass die nicht noch weitergehen. Also, das passiert ja immernoch.
+
+284
+99:59:59,000 --> 99:59:59,000
+Und die Frage, was passiert denn nun eigentlich, wenn auf der Basis von Daten von deutschen Geheimdiensten
+
+285
+99:59:59,000 --> 99:59:59,000
+halt Leute irgendwo in solchen Saaten gefoltert werden - da wollte halt niemand so richtig drüber reden.
+
+286
+99:59:59,000 --> 99:59:59,000
+Also genauso wenig, wie über die Frage: Fließen denn eigentlich in diese Antiterrordatei Erkenntnisse ein, die aus Folterstaaten kommen?
+
+287
+99:59:59,000 --> 99:59:59,000
+Das zählt ja auch zum internationalen Transfer.
+
+288
+99:59:59,000 --> 99:59:59,000
+Vielleicht noch... es gib eine andere Entwicklung in Deutschland, die parallel verläuft.
+
+289
+99:59:59,000 --> 99:59:59,000
+Die mir auch so nicht bewusst war, bevor wir angefangen haben uns auch mit dem Thema ein bisschen intensiver zu befassen.
+
+290
+99:59:59,000 --> 99:59:59,000
+Es gibt eine gewisse Weitergabe dieser Informationen auch in den privaten Bereich. Warum?
+
+291
+99:59:59,000 --> 99:59:59,000
+Die Großveranstaltungen in Deutschland, besonders die... Was war das? EM? Ich bin icht so der Fußball...
+- Na, diese Fußball-Dinger da, ja.
+
+292
+99:59:59,000 --> 99:59:59,000
+[Gelächter]
+
+293
+99:59:59,000 --> 99:59:59,000
+Ähm, ja.
+[Applaus]
+
+294
+99:59:59,000 --> 99:59:59,000
+Ich hab doch auch keine Ahnung von.
+
+295
+99:59:59,000 --> 99:59:59,000
+Da läuft das dann auch so, dass zum Beispiel die Unternehmen, die da ihre Würstchenverkäufer bei den Hochsicherheitsveranstaltungen anstellen,
+
+296
+99:59:59,000 --> 99:59:59,000
+die stellen dann diese Überprüfungsfragen an die Behörden.
+
+297
+99:59:59,000 --> 99:59:59,000
+Das heißt, nicht nur im Bank-Bereich, wo es das schon länger gibt - denn terrorverdächtige sollen ja auch keine Konten haben -
+
+298
+99:59:59,000 --> 99:59:59,000
+sondern auch in diesem Bereich von Großveranstaltungen nimmt das mehr und mehr zu, dass diese Sicherheitsüberprüfungen gemacht werden.
+
+299
+99:59:59,000 --> 99:59:59,000
+Also das heißt, dass die privaten Unternehmen an die Behörden diese Fragen stellen.
+
+300
+99:59:59,000 --> 99:59:59,000
+In anderen Bereichen ist das längst üblich. Frughäfen, zum Beispiel.
+
+301
+99:59:59,000 --> 99:59:59,000
+Also das heißt, es gibt auch durchaus alltägliche Bereiche, wo das hineinspielt.
+
+302
+99:59:59,000 --> 99:59:59,000
+Denn wir wollen natürlich auch weg von der Wahrnehmung, dass das immer die anderen sind.
+
+303
+99:59:59,000 --> 99:59:59,000
+Weswegen wir jetzt eigentlich mal zu der Definition kommen: Was versteht denn dieses Gesetz unter "Terror"?
+
+304
+99:59:59,000 --> 99:59:59,000
+Es gibt ja ein Bestimmtheitsgebot in Deutschland. Da können die Juristen ganze Habilitationen zu schreiben.
+
+305
+99:59:59,000 --> 99:59:59,000
+Dass man nämlich erstmal den präsizen <i>Fokus</i> des Gesetzes definieren muss.
+
+306
+99:59:59,000 --> 99:59:59,000
+Und sagen muss: Worüber reden wir hier eigentlich?
+
+307
+99:59:59,000 --> 99:59:59,000
+Und das ist - <i>Überraschung!</i> - natürlich nicht passiert.
+
+308
+99:59:59,000 --> 99:59:59,000
+Das heißt, es gibt in diesem Antiterrordatei-Gesetz keine Definition, was Terror ist.
+
+309
+99:59:59,000 --> 99:59:59,000
+Was wir natürlich einigermaßen bizarr finden.
+
+310
+99:59:59,000 --> 99:59:59,000
+Das wäre im technischen Bereich etwa wie...?
+
+311
+99:59:59,000 --> 99:59:59,000
+Tja, weiß ich nicht. Fällt mir irgendwie so nichts ein, weil Technik ohne Definition geht ja nicht.
+
+312
+99:59:59,000 --> 99:59:59,000
+Ist das ein Linux ohne Kernel?
+
+313
+99:59:59,000 --> 99:59:59,000
+Also in der Juristerei geht das natürlich schon. Da kann man halt irgednwie sozusagen versuchen, sich auf's...
+
+314
+99:59:59,000 --> 99:59:59,000
+Ist auch immer geil, wenn die dann anfangen zu argumentieren. Und dann nehmen die halt immer irgendwelche Wörterbücher
+
+315
+99:59:59,000 --> 99:59:59,000
+und ziehen die Definitionen daraus heran, wenn sie halt keine juristische Definition haben.
+
+316
+99:59:59,000 --> 99:59:59,000
+Und in diesem Fall kommt dann auch gerne mal so eine amerikanische Definition.
+
+317
+99:59:59,000 --> 99:59:59,000
+Weil die kennen sich da bestens aus.
+
+318
+99:59:59,000 --> 99:59:59,000
+Und die sagt halt im Wesentlichen: "Ja, alles mögliche Böse oder Terror".
+
+319
+99:59:59,000 --> 99:59:59,000
+[Gelächter]
+
+320
+99:59:59,000 --> 99:59:59,000
+Also man kann die ganze Liste lesen? "...and terrorism." Das ist die wunderbarste Definition ever.
+
+321
+99:59:59,000 --> 99:59:59,000
+Bezieht sich quasi auf sich selbst. Aber wenn man sich das mal durchliest...
+
+322
+99:59:59,000 --> 99:59:59,000
+"interference with a flight crew". Da kommt man doch sehr schnell in der Terror-Bereich.
+
+323
+99:59:59,000 --> 99:59:59,000
+Also das heißt, es gibt nicht wirklich eine Definition in Deutschland.
+
+324
+99:59:59,000 --> 99:59:59,000
+In der Regel bezieht man sich auf den 129 a. Also "Bildung terroristischer Vereinigungen".
+
+325
+99:59:59,000 --> 99:59:59,000
+Aber da kamen natürlich eine Menge Fragen auf. Also die jetzt jenseits von unserem technischen Fokus waren,
+
+326
+99:59:59,000 --> 99:59:59,000
+aber die natürlich dort besprochen wurden und auch Teil der Beschwerdeschrift sind.
+
+327
+99:59:59,000 --> 99:59:59,000
+Nämlich, ist denn Extremismus inbegriffen und wie ist Extremismus definiert? Und wie ist der Gewaltbegriff eigentlich definiert?
+
+328
+99:59:59,000 --> 99:59:59,000
+Auch da können sich Jusristen sehr lange drüber unterhalten, denn man muss Gewalt-befürwortend sein.
+
+329
+99:59:59,000 --> 99:59:59,000
+Und da kam zum Beispiel die Frage auf, ob eine Sitzblockade bereits eine Gewalt-Befürwortung ist.
+
+330
+99:59:59,000 --> 99:59:59,000
+Und man dadurch sozusagen in den Terror-Verdächtigen-Bereich rutschen würde,
+
+331
+99:59:59,000 --> 99:59:59,000
+wenn man zum Beispiel an der Organisation dieser Sitzblockade beteiligt ist.
+
+332
+99:59:59,000 --> 99:59:59,000
+Also das waren interessante Fragen, die wir uns glaube ich so vorher nicht unbedingt gestellt haben.
+
+333
+99:59:59,000 --> 99:59:59,000
+Die aber eigentlich naheliegend sind, wenn man definieren will, wer in dieser Datei -
+
+334
+99:59:59,000 --> 99:59:59,000
+die ja doch mit einem großen Stigma verbunden ist - wie man da hineingelangt.
+
+335
+99:59:59,000 --> 99:59:59,000
+Hinaus kommt man ja sowieso nicht, das haben wir ja schon gelernt.
+
+336
+99:59:59,000 --> 99:59:59,000
+Interessant daran war halt, die Behördenvertreter haben intensiv versucht den Eindruck zu erwecken,
+
+337
+99:59:59,000 --> 99:59:59,000
+dass sie den Spielraum des Gesetzes nicht ausnutzen.
+
+338
+99:59:59,000 --> 99:59:59,000
+Au ja!
+
+339
+99:59:59,000 --> 99:59:59,000
+Dass sie halt nicht alle speichern, die sie speichern könnten,
+
+340
+99:59:59,000 --> 99:59:59,000
+sondern halt nur die, die sie dann wirklich für böse halten oder so ähnlich.
+
+341
+99:59:59,000 --> 99:59:59,000
+Unter anderem zum Beispiel bei den Kontaktpersonen gibt's halt so ein Ding.
+
+342
+99:59:59,000 --> 99:59:59,000
+Und zwar gibt es halt Kontaktpersonen. Die unterteilen sich in zwei verschiedene Kategorien.
+
+343
+99:59:59,000 --> 99:59:59,000
+Und zwar die sogenannten "dolosen" und die sogenannten "undolosen" Kontaktpersonen.
+
+344
+99:59:59,000 --> 99:59:59,000
+Ja. Das Wort kannten wir auch nicht.
+
+345
+99:59:59,000 --> 99:59:59,000
+Kannten wir vorher auch nicht - mussten wir erstmal nachgucken, uns von Juristen erklären lassen.
+
+346
+99:59:59,000 --> 99:59:59,000
+Kriminologen-Fachsprache
+
+347
+99:59:59,000 --> 99:59:59,000
+Und zwar "dolos" sind Kontaktpersonen, die davon wissen, dass ihre Kontaktperson böse ist
+
+348
+99:59:59,000 --> 99:59:59,000
+und "undolose" sind Kontaktpersonen, die nicht davon wissen, dass ihre verdächtige Kontakperson böse ist.
+
+349
+99:59:59,000 --> 99:59:59,000
+Und die können halt beide erfasst werden.
+
+350
+99:59:59,000 --> 99:59:59,000
+Also ob man nun eine Ahnung hat oder nicht...
+
+351
+99:59:59,000 --> 99:59:59,000
+Genau. Und haben sie dann gesagt: Ja, dass mit den undolosen Kontaktpersonen - also die nicht davon wissen - das machen wir nicht so häufig.
+
+352
+99:59:59,000 --> 99:59:59,000
+Das sind nicht so viele. So 68 oder sowas war die Zahl. War also jedenfalls ganz klein.
+
+353
+99:59:59,000 --> 99:59:59,000
+Und dann waren es irgendwie plötzlich nurnoch 13. Also die Zahlen fliegen da so ein bisschen durch den Raum.
+
+354
+99:59:59,000 --> 99:59:59,000
+Wobei die eh keiner überprüfen kann, also...
+
+355
+99:59:59,000 --> 99:59:59,000
+Genau.
+
+356
+99:59:59,000 --> 99:59:59,000
+Aber ansonsten haben die halt immer intensiv versucht den Eindruck zu erwecken, sie benutzen ja den Spielraum des Gesetzes nicht.
+
+357
+99:59:59,000 --> 99:59:59,000
+Und da wurde es auch schon wieder interessant was den Ausblick auf das Urteil angeht,
+
+358
+99:59:59,000 --> 99:59:59,000
+weil die Richter dann teilweise anfingen explizit zu fragen:
+
+359
+99:59:59,000 --> 99:59:59,000
+Okay, na gut, also wenn Sie diese undolosen Kontaktpersonen sowieso nicht brauchen, dann können wir die ja streichen, oder?
+
+360
+99:59:59,000 --> 99:59:59,000
+[Applaus]
+
+361
+99:59:59,000 --> 99:59:59,000
+Also, das war auch ungewöhnlich für diese Art der Verhandlung.
+
+362
+99:59:59,000 --> 99:59:59,000
+Weil normalerweise läuft soetwas ein bisschen indirekter und sicht <i>so</i> direkt ab.
+
+363
+99:59:59,000 --> 99:59:59,000
+Also dieses Gefeilsche: Was brauchen Sie denn jetzt eigentlich wirklich?
+
+364
+99:59:59,000 --> 99:59:59,000
+Welchen Umfang von Befugnissen und Speichermöglichkeiten braucht man denn, um diese Aufgabe wirklich zu erfüllen?
+
+365
+99:59:59,000 --> 99:59:59,000
+Also jetzt muss ich aber auch mal sagen: Wir sind da natürlich auch nicht hingefahren, um da so eine Maximalvorderung der Sicherheitsbehörden zu unterstützen.
+
+366
+99:59:59,000 --> 99:59:59,000
+Sondern natürlich war unser Ziel, dieses Gesetz wie andere zuvor - 14 sind es glaube ich jetzt in Folge - als verfassungswiedrig erklärt zu sehen.
+
+367
+99:59:59,000 --> 99:59:59,000
+Weil das Trennungsgebot aus den Gründen, die wir vorhin schon nannten, aus meiner Sicht kontituierend ist für diesen Rechtsstaat.
+
+368
+99:59:59,000 --> 99:59:59,000
+Und natürlich wollen wir denen dann nicht irgendwie so ein Maximalset hinbauen, sondern hoffen, dass das verfassungswiedrig wird.
+
+369
+99:59:59,000 --> 99:59:59,000
+Klar.
+[Applaus]
+
+370
+99:59:59,000 --> 99:59:59,000
+Ich gaub auch tatsächlich, dass das so eine Schwelle ist - so ähnlich, wie das bei der Vorratsdatenspeicherung ist
+
+371
+99:59:59,000 --> 99:59:59,000
+in Bezug auf diese anlasslose "wir häufen mal alles auf, so, können wir mal brauchen" -
+
+372
+99:59:59,000 --> 99:59:59,000
+ist das hier auch so eine gewisse Schwelle, die überschritten wird,
+
+373
+99:59:59,000 --> 99:59:59,000
+Nämlich zu sagen: Hier können alle auf alle zugreifen. Und sogar noch im Gesetz zu sagen:
+
+374
+99:59:59,000 --> 99:59:59,000
+Ihr seid eure Daten danach zu flöhen, ob sie in diese Antiterrordatei rein sollen.
+
+375
+99:59:59,000 --> 99:59:59,000
+Wir sollten vielleicht auch mal unseren Innenminister erwähnen - wie der argumentiert hat.
+
+376
+99:59:59,000 --> 99:59:59,000
+Na, möchte jemand raten?
+
+377
+99:59:59,000 --> 99:59:59,000
+Er hat natürlich am Anfang gesprochen und gesagt: Vertraut uns doch.
+
+378
+99:59:59,000 --> 99:59:59,000
+[Gelächter]
+
+379
+99:59:59,000 --> 99:59:59,000
+Waren wir sehr erfreut.
+
+380
+99:59:59,000 --> 99:59:59,000
+Kommen wir mal ein bisschen zur Technik, oder?
+
+381
+99:59:59,000 --> 99:59:59,000
+Nee, einen habe ich noch zu diesem "vertraut uns doch".
+- Ja?
+
+382
+99:59:59,000 --> 99:59:59,000
+Und zwar war natürlich klar, dass mit diesem "vertraut uns doch"-Argument es so ein bisschen schwierig wurde nach der NSU.
+
+383
+99:59:59,000 --> 99:59:59,000
+[Gelächter]
+- Jaaa...
+[Applaus]
+
+384
+99:59:59,000 --> 99:59:59,000
+Und deswegen haben sie dann tatsächlich, wirklich versucht, diese NSU-Geschichte zu benutzen -
+
+385
+99:59:59,000 --> 99:59:59,000
+also rhetorisch umzudrehen - und zu sagen: Wenn wir sowas wie so eine Rechtsextremismusdatei schon gehabt hätten...
+
+386
+99:59:59,000 --> 99:59:59,000
+- Ja, <i>dann<i>!
+- ...dann wäre das mit der NSU nie so weit gekommen.</i></i>
+
+387
+99:59:59,000 --> 99:59:59,000
+Alle klar, oder?
+
+388
+99:59:59,000 --> 99:59:59,000
+Ja, also wir erinnern uns nochmal kurz an diese Sache mit der verdeckten Speicherung.
+
+389
+99:59:59,000 --> 99:59:59,000
+Also die Geheimdienste können Sachen speichern damit sie, wenn die Polizeibehörden anfragen,
+
+390
+99:59:59,000 --> 99:59:59,000
+ob einer ihrer V-Männer gerade in den Fokus einer Ermittlungsmaßnahme geraten ist, auch gleich schon Bescheid wissen.
+
+391
+99:59:59,000 --> 99:59:59,000
+Irgendwie erinnert uns das doch an diese NSU-Geschichte.
+
+392
+99:59:59,000 --> 99:59:59,000
+Und das kam auch bei den Richtern glaube ich nicht so richtig gut rüber, dieses Argument.
+
+393
+99:59:59,000 --> 99:59:59,000
+Klar war jedenfalls so, dieses "vertraut uns doch" klang schon so ein wenig hohl.
+
+394
+99:59:59,000 --> 99:59:59,000
+Ja also, was die Technik angeht haben wir uns versucht, mal ein bisschen kundig zu machen.
+
+395
+99:59:59,000 --> 99:59:59,000
+Was passiert denn da tatsächlich?
+
+396
+99:59:59,000 --> 99:59:59,000
+Also was ist denn eigentlich die Art und Weise wie diese Systeme verwendet werden?
+
+397
+99:59:59,000 --> 99:59:59,000
+Und haben ein bisschen recherchiert und haben was interessantes gefunden.
+
+398
+99:59:59,000 --> 99:59:59,000
+Und zwar, die Regierungsseite stellt es ja immer so dar: Ja, also dann gibt da halt so ein Beamter in diese Maske die wir da gesehen haben
+
+399
+99:59:59,000 --> 99:59:59,000
+eine Suchanfrage ein - nach einem Namen oder einem Ort oder einem Sachverhalt
+
+400
+99:59:59,000 --> 99:59:59,000
+und dann bekommt er ein Aktenzeichen und dann ruft er da mal an und dann kriegt er vielleicht die Akte
+
+401
+99:59:59,000 --> 99:59:59,000
+oder ein Auszug aus der Akte oder eine telefonische Auskunft und dann ermittelt man damit weiter.
+
+402
+99:59:59,000 --> 99:59:59,000
+Aber irgendwie klingt das nicht so richtig nach 21. Jahrhundert, oder?
+
+403
+99:59:59,000 --> 99:59:59,000
+Und tatsächlich ist es auch nicht so. Was wir gefunden haben ist,
+
+404
+99:59:59,000 --> 99:59:59,000
+dass die Software, die die meisten deutschen Polizei und Geheimdientbehörden verwenden um ihre Fälle elektronisch zu verwalten -
+
+405
+99:59:59,000 --> 99:59:59,000
+das wird von einer deutschen Firma namens rola hergestellt - die hat so ein System namens "rsCASE".
+
+406
+99:59:59,000 --> 99:59:59,000
+Von dem werden so die diversen Polizei- und Geheimdienst-Softwaresysteme abgeleitet.
+
+407
+99:59:59,000 --> 99:59:59,000
+Das ist halt so ein modulares Baukastensystem, was man zusammensteckt und es hat Schnittstellen.
+
+408
+99:59:59,000 --> 99:59:59,000
+Und eine dieser Schnittstellen ist für die Antiterrordatei.
+
+409
+99:59:59,000 --> 99:59:59,000
+Und jetzt neuerdings auch für die Rechtsextremismus-Datei.
+
+410
+99:59:59,000 --> 99:59:59,000
+Das heißt, diese Systeme - man sieht es da unten schon an den Screenshots - sind halt integrierte Fahndungssysteme.
+
+411
+99:59:59,000 --> 99:59:59,000
+Das heißt, da kippt man alle Daten rein die man hat - also aus Überwachungsmaßnahmen, aus Erkenntnissen von Observationen,
+
+412
+99:59:59,000 --> 99:59:59,000
+aus GPS-Tracker-Überwachung, aus sonstigen Ermittlungserkenntnissen <i>und eben</i> Informationen aus anderen Verbunddateien.
+
+413
+99:59:59,000 --> 99:59:59,000
+Und man kann damit auch Anfragen generieren.
+
+414
+99:59:59,000 --> 99:59:59,000
+Das heißt also, man kann halt sagen: Okay, wir haben hier jetzt diesen Baum von Verdächtigen
+
+415
+99:59:59,000 --> 99:59:59,000
+und von diesen fünf wollen wir mal wissen, in welchen anderen Verbunddateien sind die denn noch gespeichert,
+
+416
+99:59:59,000 --> 99:59:59,000
+generieren automatisch die Anfragen, bekommen automatisch die Antworten da rein
+
+417
+99:59:59,000 --> 99:59:59,000
+und können damit dann halt dann direkt arbeiten und Profile erstellen, Kommunikationsbäume aufbauen und so weiter.
+
+418
+99:59:59,000 --> 99:59:59,000
+Also mithilfe dieser Software, die an einem Arbeitsplatz quasi den Zugriff auf diese ganzen Verbunddateien automatisiert
+
+419
+99:59:59,000 --> 99:59:59,000
+und unter einer Benutzeroberfläche integriert, ist diese ganze Trennungsargumentation -
+
+420
+99:59:59,000 --> 99:59:59,000
+von wegen "es sind ja alles getrennte Dateien, die bei getrennten Behörden gehalten werden
+
+421
+99:59:59,000 --> 99:59:59,000
+und die halt irgendwie hübsch voneinander wegsortiert sind und nur im Einzelfall per Telefonanruf mal aufgetrennt werden,
+
+422
+99:59:59,000 --> 99:59:59,000
+die wird per Software ausgehebelt, indem einfach alles was da <i>manuell</i> getan werden müsste automatisiert wird.
+
+423
+99:59:59,000 --> 99:59:59,000
+Und das war dann so ein interessanter Punkt, den hatte bisher noch niemand gemacht.
+
+424
+99:59:59,000 --> 99:59:59,000
+Und der war ihnen auch sichtlich unangenehm.
+
+425
+99:59:59,000 --> 99:59:59,000
+Also es war tatsächlich so, dass die Behördenvertreter da nicht so richtig ins Detail gehen wollen
+
+426
+99:59:59,000 --> 99:59:59,000
+und da auch nicht so richtig Auskunft geben wollten, wie es denn wirklich da verwendet wird
+
+427
+99:59:59,000 --> 99:59:59,000
+und was die Aukunftsmöglichkeiten sind, die sie dadurch haben.
+
+428
+99:59:59,000 --> 99:59:59,000
+Na, mehr noch. Auch der Vertreter - also, Möllers hieß der - der hatte es tatsächlich in einem seiner Statements
+
+429
+99:59:59,000 --> 99:59:59,000
+so dargestellt, dass man die Informationen, die man über die Antiterrordatei erlangen könte, vom Bildschirm abschreiben müsse.
+
+430
+99:59:59,000 --> 99:59:59,000
+Diese Fehlinformation die haben wir natürlich da auch korrigiert.
+
+431
+99:59:59,000 --> 99:59:59,000
+Das heißt, die haben das also maximal harmlos darstellen wollen.
+
+432
+99:59:59,000 --> 99:59:59,000
+Als wenn da also die guten Beamten in ihren Beamtenstuben sitzen und vom Bildschirm <i>abschreiben<i>.</i></i>
+
+433
+99:59:59,000 --> 99:59:59,000
+Ich denke mit dieser Fehlwahrnehmung konnten wir durchaus aufräumen.
+
+434
+99:59:59,000 --> 99:59:59,000
+Das rsCASE ist natürlich optimiert auf enorme Datenmengen. Damit werben die auch.
+
+435
+99:59:59,000 --> 99:59:59,000
+Da kippt man etwa auch das Zeugs rein aus der Funkzellenauswertung.
+
+436
+99:59:59,000 --> 99:59:59,000
+Also wenn so eine Funkzellenauswertung stattfindet und da ein paarhunderttausend Datensätze reinrollen,
+
+437
+99:59:59,000 --> 99:59:59,000
+welche Telefone sich zu dieser Zeit aufgehalten haben in den spezifischen Funkzellen, die wertet natürlich auch niemand mit Excel aus.
+
+438
+99:59:59,000 --> 99:59:59,000
+Also, am Anfang haben sie es mal versucht, aber...
+
+439
+99:59:59,000 --> 99:59:59,000
+[Gelächter]
+
+440
+99:59:59,000 --> 99:59:59,000
+Also wir haben letztlich versucht, auch damit aufzuräumen, wie technisch das tatsächlich benutzt wird.
+
+441
+99:59:59,000 --> 99:59:59,000
+Das war in der Dartsellung in den Schriftsätzen einfach extrem verharmlosend.
+
+442
+99:59:59,000 --> 99:59:59,000
+Und übrigens auch in einer ganz merkwürdigen Sprache,
+
+443
+99:59:59,000 --> 99:59:59,000
+die man ja sonst nicht so ließt. So, naja.
+
+444
+99:59:59,000 --> 99:59:59,000
+Wir wollen nochmal zusammenfassen, wie unsere Argumentation letztlich war
+
+445
+99:59:59,000 --> 99:59:59,000
+und wo wir auch die Knackpunkte gesehen haben.
+
+446
+99:59:59,000 --> 99:59:59,000
+Wir sollten dabei mal erwähnen: Wir hatten ja gesagt, die Regierungsseite war dieses Mal mal voll
+
+447
+99:59:59,000 --> 99:59:59,000
+und nicht gähnende Leere. Aber auf der anderen Seite waren natürlich auch eine Menge Vertreter da.
+
+448
+99:59:59,000 --> 99:59:59,000
+Also es war natürlich nicht nur der CCC, sondern in erster Linie auch der Beschwerdeführer und der Anwalt von ihm.
+
+449
+99:59:59,000 --> 99:59:59,000
+Der allerdings aus meiner Sicht nur eine sehr marginale Rolle spielte.
+
+450
+99:59:59,000 --> 99:59:59,000
+Der hat tatsächlich nur eingangs ein Statement gehalten, was aber ziemlich großartig war.
+
+451
+99:59:59,000 --> 99:59:59,000
+Da erzählen wir gleich was dazu. Und am Ende nochmal.
+
+452
+99:59:59,000 --> 99:59:59,000
+Es war also garnicht so, dass er sich zwischendurch mal einmischte.
+
+453
+99:59:59,000 --> 99:59:59,000
+Was wir durchaus gesehen haben, wenn etwa Boghart Hirsch [?] oder Gerhard Baum da waren,
+
+454
+99:59:59,000 --> 99:59:59,000
+dann haben die sich auch mal <i>zu Wort gemeldet</i> und zwischendurch ein ordentliches Plädoyer...
+
+455
+99:59:59,000 --> 99:59:59,000
+Das hat er garnicht gemacht. Aber er hat am Anfang natürlich den vollen Reiser gelandet,
+
+456
+99:59:59,000 --> 99:59:59,000
+indem er in seinem Statement den Vertreter der Bundesregierung selbst zitierte.
+
+457
+99:59:59,000 --> 99:59:59,000
+Denn der hat früher gegen die Antiterrordatei schriftlich argumentiert.
+
+458
+99:59:59,000 --> 99:59:59,000
+Und der hat das Zitat erstmal an den Anfang gerückt.
+
+459
+99:59:59,000 --> 99:59:59,000
+Denn der Möllers, also der Vertreter der Regierung...
+- <i>Wolf</i>
+
+460
+99:59:59,000 --> 99:59:59,000
+- Was?
+- War nicht Möllers, war Wolf.
+
+461
+99:59:59,000 --> 99:59:59,000
+Ah, Wolf! Ach, entschuldigung. Wie komme ich denn auf Möllers?
+
+462
+99:59:59,000 --> 99:59:59,000
+Nein, entschuldigung, der heißt nicht... ich nehme alles zurück! Der heißt Wolf, Heinrich Wolf.
+
+463
+99:59:59,000 --> 99:59:59,000
+Entschuldigung. Wie komme ich denn darauf? Na, ist egal. Danke!
+
+464
+99:59:59,000 --> 99:59:59,000
+Der hatte halt selbst dagegen argumentiert und das hatte er an den Anfang gestellt.
+
+465
+99:59:59,000 --> 99:59:59,000
+Das war natürlich kein schlechter Punkt,
+
+466
+99:59:59,000 --> 99:59:59,000
+denn der Wolf hatte ganz gute Argumente gegen die Antiterrordatei, die er da vorgebracht hatte.
+
+467
+99:59:59,000 --> 99:59:59,000
+Ja.
+- Das war ihm auch ein bisschen unangenehm.
+
+468
+99:59:59,000 --> 99:59:59,000
+[Gelächter]
+
+469
+99:59:59,000 --> 99:59:59,000
+Außerdem war natürlich der Bundesdatenschutzbeauftragte da, der auch ein gutes Statement gehalten hat.
+
+470
+99:59:59,000 --> 99:59:59,000
+Auch einer der Landesdatenschutzbeauftragten.
+
+471
+99:59:59,000 --> 99:59:59,000
+Genau. Also die Datenschutzbeauftragten haben dann tatsächlich mal eine relativ gute Figur gemacht.
+
+472
+99:59:59,000 --> 99:59:59,000
+Naja, nicht alle.
+
+473
+99:59:59,000 --> 99:59:59,000
+Nicht alle. Aber doch durchaus pointiert da argumentiert.
+
+474
+99:59:59,000 --> 99:59:59,000
+Also insbesondere Alexander Dix...
+- Aus Berlin.
+
+475
+99:59:59,000 --> 99:59:59,000
+...der ja - nicht hier, dort -, in Berlin, der Landesdatenschutzbeauftragte ist,
+
+476
+99:59:59,000 --> 99:59:59,000
+die vor allen Dingen aber auch betont haben, wie es mit ihren Kontrollmöglichkeiten aussieht.
+
+477
+99:59:59,000 --> 99:59:59,000
+Die sind nämlich relativ <i>begrenzt<i>.</i></i>
+
+478
+99:59:59,000 --> 99:59:59,000
+Genau. Also wenn so ein Datenschutzbeauftragter da kontrollieren will,
+
+479
+99:59:59,000 --> 99:59:59,000
+dann stellt sich dann das BKA als datenhaltende Stelle auf den Standpunkt:
+
+480
+99:59:59,000 --> 99:59:59,000
+Naja, das sind ja nicht unsere Daten.
+
+481
+99:59:59,000 --> 99:59:59,000
+Weil es ist ja eine Verbunddatei, also gehören die Daten den einstellenden Behörden.
+
+482
+99:59:59,000 --> 99:59:59,000
+Und das können halt Landesbehörden sein und auf diese Landesbehörden...
+
+483
+99:59:59,000 --> 99:59:59,000
+Die darf der Schaar natürlich nicht prüfen.
+
+484
+99:59:59,000 --> 99:59:59,000
+Na, an sich das BKA.
+
+485
+99:59:59,000 --> 99:59:59,000
+So. Und dann haben sie wohl offenbar mal versucht, halt einfach mal so einen Sammeltermin zu machen.
+
+486
+99:59:59,000 --> 99:59:59,000
+Also einfach mal alle Landesdatenschutzbeauftragten und den Bundesdatenschutzbeauftragten auf einmal da hin zu kriegen -
+
+487
+99:59:59,000 --> 99:59:59,000
+um zu sagen "jetzt sind wir alle hier, jetzt dürfen wir mal".
+
+488
+99:59:59,000 --> 99:59:59,000
+Aber das wurde dann wohl irgendwie sabotiert von einigen Bundesländern und hat so nicht stattgefunden.
+
+489
+99:59:59,000 --> 99:59:59,000
+Aber jedenfalls klar ist: Die haben da halt keinen Einblick.
+
+490
+99:59:59,000 --> 99:59:59,000
+Oder wenn dann nur extrem begrenzten Einblick, jeweils bei den Behörden, für die sie halt zuständig sind.
+
+491
+99:59:59,000 --> 99:59:59,000
+Und die haben aber durchaus, also die Datenschutzbeauftragten, zumindest der Dix,
+
+492
+99:59:59,000 --> 99:59:59,000
+der hat dann so einen schönen Punkt gemacht: Der Ziercke hatte wieder so einen Einzelfall.
+
+493
+99:59:59,000 --> 99:59:59,000
+Also so einen - <i>ganz schlimm! Also, Terror!</i>
+
+494
+99:59:59,000 --> 99:59:59,000
+Sauerland war da immer, oder?
+
+495
+99:59:59,000 --> 99:59:59,000
+- Terror. Ganz böse.
+- Terror
+
+496
+99:59:59,000 --> 99:59:59,000
+Genau. Wo sie jedenfalls eine undolose Kontaktperson speichern mussten.
+
+497
+99:59:59,000 --> 99:59:59,000
+Und das hat er so als ein beliebig ausgewähltes Beispiel präsentiert.
+
+498
+99:59:59,000 --> 99:59:59,000
+Also: Ich hab hier jetzt mal ein beliebig ausgewähltes Beispiel, warum wir diese undolosen Kontaktpersonen speichern müssen.
+
+499
+99:59:59,000 --> 99:59:59,000
+Und da meldete sich halt der Dix und sagte so:
+
+500
+99:59:59,000 --> 99:59:59,000
+Naja, er hat da mal nachgeguckt und geprüft. Und ja, das wäre tatsächlich so in diesem Fall,
+
+501
+99:59:59,000 --> 99:59:59,000
+aber es wäre halt der <i>einzige</i> gewesen und kein beliebig ausgewähltes Beispiel.
+
+502
+99:59:59,000 --> 99:59:59,000
+[Gelächter]
+
+503
+99:59:59,000 --> 99:59:59,000
+Da kamen natürlich auch interessante Detailfragen raus.
+
+504
+99:59:59,000 --> 99:59:59,000
+Unter anderem die Tatsache, dass Schaar beim BKA hätte sieben Millionen Transaktiondaten checken müssen,
+
+505
+99:59:59,000 --> 99:59:59,000
+kontrollieren sollen.
+
+506
+99:59:59,000 --> 99:59:59,000
+Und die Frage, wie diese sieben Millionen Transaktionen in der Datenbank zustande kommen,
+
+507
+99:59:59,000 --> 99:59:59,000
+die blieb letztlich unklar.
+
+508
+99:59:59,000 --> 99:59:59,000
+Natürlich ist klar, dass wenn man 18.000 Einträge hat - und es gibt ja auch Aktualisierungen und so weiter -
+
+509
+99:59:59,000 --> 99:59:59,000
+dass das schon eine große Menge sein kann.
+
+510
+99:59:59,000 --> 99:59:59,000
+Aber die sieben Millionen oder ein bisschen drüber - die waren unklar.
+
+511
+99:59:59,000 --> 99:59:59,000
+Und dann war natürlich als nächster Schritt die Vorderung, dass Schaar das gerne digital prüfen wollte.
+
+512
+99:59:59,000 --> 99:59:59,000
+Keine augedruckten Blätter.
+
+513
+99:59:59,000 --> 99:59:59,000
+Sondern, dass er natürlich auch Technik benutzen will, um die Prüfung sinnvoll durchzuführen.
+
+514
+99:59:59,000 --> 99:59:59,000
+Und der Vorschlag war, denn ich da mal dreist unterbreitet habe:
+
+515
+99:59:59,000 --> 99:59:59,000
+Naja, also, man könnte ja einfach bei Schaar auch eine SINA-Box hinstellen,
+
+516
+99:59:59,000 --> 99:59:59,000
+sodass er das ordentlich...
+- Online prüfen kann. Genau.
+- ...prüfen kann.
+
+517
+99:59:59,000 --> 99:59:59,000
+<i>Da</i> hat der Wolf... [Lachen]
+- Da sind die förmlich ausgetickt.
+
+518
+99:59:59,000 --> 99:59:59,000
+"Also das geht auf gar keinen Fall! Eine Schnittstelle nach Außen mit unserer Terrordatei! Das geht auf gar keinen Fall."
+
+519
+99:59:59,000 --> 99:59:59,000
+Da waren sie echt... Die Idee fanden sie so richtig doof.
+
+520
+99:59:59,000 --> 99:59:59,000
+[Gelächter]
+
+521
+99:59:59,000 --> 99:59:59,000
+Also es kam auch nicht so gut an.
+
+522
+99:59:59,000 --> 99:59:59,000
+Also so dieses: Wir wollen dann da auf gar keinen Fall Prüfungen zulassen...
+
+523
+99:59:59,000 --> 99:59:59,000
+Das fanden sie nicht so gut, die Richter, glaube ich.
+
+524
+99:59:59,000 --> 99:59:59,000
+Also wir wollen nochmal ganz kurz zusammenfassen, wie wir argumentiert haben.
+
+525
+99:59:59,000 --> 99:59:59,000
+Da haben wir auch noch ein Paar Punkte, die wir jetzt noch nicht erwähnt haben, die wir zuwischendurch vergessen hatten.
+
+526
+99:59:59,000 --> 99:59:59,000
+Wir erwähnten bereits den Design-Fehler in der verdeckten Suche.
+
+527
+99:59:59,000 --> 99:59:59,000
+Da hatten wir so'n <i>bisschen</i> Glück.
+
+528
+99:59:59,000 --> 99:59:59,000
+Zwei, drei Tage bevor - nein, ein Tag davor war das, oder?
+
+529
+99:59:59,000 --> 99:59:59,000
+Dienstag war die Anhörung, Montag kam der Spiegel - der kommt ja immer Samstag, eigentlich.
+
+530
+99:59:59,000 --> 99:59:59,000
+Der Spiegel hatte zufälligerweise einen Bericht über einen BKA-Report - so eine Art Studie,
+
+531
+99:59:59,000 --> 99:59:59,000
+wo sich das BKA schwer darüber - und mit den LKA zusammen noch - beschwerte,
+
+532
+99:59:59,000 --> 99:59:59,000
+dass im Rahmen von Hausdurchsuchungen, die sie bei Nazis gemacht hatten in Thüringen,
+
+533
+99:59:59,000 --> 99:59:59,000
+die Verfassungsschutzämpter immer Tips an deren V-Leute gegeben haben.
+
+534
+99:59:59,000 --> 99:59:59,000
+Das heißt das war ein Bericht, der sich in diesen ganzen NSU-Komplex einsortierte,
+
+535
+99:59:59,000 --> 99:59:59,000
+wo klar wurde: Der Verfassungsschutz hat seine V-Männer gewarnt.
+
+536
+99:59:59,000 --> 99:59:59,000
+Und das spielte uns natürlich bei dieser verdeckten Suche in die Hände.
+
+537
+99:59:59,000 --> 99:59:59,000
+Denn dieser informationelle Vorteil, den die Geheimdienste haben - dadurch, dass sie sehen können,
+
+538
+99:59:59,000 --> 99:59:59,000
+wenn ihre verdeckten Daten abgefragt werden und die Polizeibehörden das <i>nicht</i> sehen -
+
+539
+99:59:59,000 --> 99:59:59,000
+würde ja genau solchen Szenarien Vorschub leisten.
+
+540
+99:59:59,000 --> 99:59:59,000
+Wir konnten da also den aktuellen Spiegel - war ein ziemlicher Zufall,
+
+541
+99:59:59,000 --> 99:59:59,000
+offenbar hatten ihn einige Richter auch schon gelesen, war ganz gut -
+
+542
+99:59:59,000 --> 99:59:59,000
+konnten wir natürlich gleich bringen.
+
+543
+99:59:59,000 --> 99:59:59,000
+Und dann haben wir, was das Trennungsgebot in der Praxis betrifft, natürlich auch wirklich nochmal darauf verwiesen,
+
+544
+99:59:59,000 --> 99:59:59,000
+wie man sich das <i>an dem Rechner</i> in der Behörde vorstellen kann.
+
+545
+99:59:59,000 --> 99:59:59,000
+Einfach auch um das zu widerlegen, was in dem Wolf-Statement halt so oft...
+
+546
+99:59:59,000 --> 99:59:59,000
+So dieses... naja...
+- Bildschirm abschreiben
+
+547
+99:59:59,000 --> 99:59:59,000
+Ja, Bildschirm abschreiben.
+
+548
+99:59:59,000 --> 99:59:59,000
+Also er hat später selbst noch was dazu geschrieben, dass man's kopieren kann.
+
+549
+99:59:59,000 --> 99:59:59,000
+Also er widersprach sich dann auch noch selbst.
+
+550
+99:59:59,000 --> 99:59:59,000
+Aber da wollten wir natürlich ein bisschen über die Praxis reden.
+
+551
+99:59:59,000 --> 99:59:59,000
+Es ist ja auch so: Es hat natürlich auch in gewisser Weise technische Gründe,
+
+552
+99:59:59,000 --> 99:59:59,000
+warum diese Verbund-Zentraldateien verknüpft mit dem rsCASE auf einem Rechner liegen.
+
+553
+99:59:59,000 --> 99:59:59,000
+Das liegt schlicht an einer gewissen Knappheit dieser SINA-Boxen.
+
+554
+99:59:59,000 --> 99:59:59,000
+Denn die sind <i>teuer<i>.</i></i>
+
+555
+99:59:59,000 --> 99:59:59,000
+Weswegen natürlich nicht jeder Rechner sowas hat und man zentralisiert dann auf einem Rechner
+
+556
+99:59:59,000 --> 99:59:59,000
+auch die Möglichkeit, auf diese Dateien zuzugreifen.
+- Ist ja auch praktisch, ne, wenn man die Software gleich da hat.
+
+557
+99:59:59,000 --> 99:59:59,000
+Da war so Gemurmel - oder? - auf den hinteren Bänken.
+- Ja, das fanden sie doof.
+
+558
+99:59:59,000 --> 99:59:59,000
+Also die auf den hinteren Bänken, hinter mir - also ich saß so im Publikum dann -
+
+559
+99:59:59,000 --> 99:59:59,000
+und hinter mir saßen halt diese ganzen LKA-Techniker und so.
+
+560
+99:59:59,000 --> 99:59:59,000
+Und diese... das fanden sie nicht so gut.
+
+561
+99:59:59,000 --> 99:59:59,000
+Dass dadurch klar wurde, dass also diese <i>Trennung</i> von diesen Datein halt in der Praxis offensichtlich
+
+562
+99:59:59,000 --> 99:59:59,000
+nicht so statt findet, wie es halt immer gerne vorgeschlagen wird.
+
+563
+99:59:59,000 --> 99:59:59,000
+Viele weitere von irgendwie rechtlichen Problemen die werden wir jetzt nicht mehr ansprechen.
+
+564
+99:59:59,000 --> 99:59:59,000
+Also unter den Sachverständigen war auch noch der republikanische Anwalt- und Anwältinnenverein
+
+565
+99:59:59,000 --> 99:59:59,000
+und die internationale Liga für Menschenrechte,
+
+566
+99:59:59,000 --> 99:59:59,000
+die natürlich auch nochmal spezifische, juristische Probleme angesprochen haben.
+
+567
+99:59:59,000 --> 99:59:59,000
+Die werden wir jetzt hier aber nicht referieren.
+
+568
+99:59:59,000 --> 99:59:59,000
+Ein Teil dieser Statements ist öffenltich.
+
+569
+99:59:59,000 --> 99:59:59,000
+Ein Teil nicht, aber wir haben, ja, sozusagen die Essenz unserer Argumentation auch nochmal zusammen gefasst.
+
+570
+99:59:59,000 --> 99:59:59,000
+Also die kann man sich runterladen. Die ist auf ccc.de.
+
+571
+99:59:59,000 --> 99:59:59,000
+Aber ich will auf den letzten Punkt nochmal zu sprechen kommen:
+
+572
+99:59:59,000 --> 99:59:59,000
+Nämlich die Kontrolle und Korrekturmöglichkeiten.
+
+573
+99:59:59,000 --> 99:59:59,000
+Wir haben ja gesehen: Wenn man eine Auskunft erlangen will, kriegt man halt im Prinzip nur die Liste -
+
+574
+99:59:59,000 --> 99:59:59,000
+ja hier sind die 30, 40 Behörden, da können Sie sich hinwenden. Oder vielleicht ein Paar mehr.
+
+575
+99:59:59,000 --> 99:59:59,000
+Dann kann man fragen. Und dann richtet sich das nach den Vorschriften, die bei diesen Behörden da stattfinden.
+
+576
+99:59:59,000 --> 99:59:59,000
+Wissen wir schon. Aber die Kontrolle bezieht sich natürlich auch wirklich
+
+577
+99:59:59,000 --> 99:59:59,000
+auf die wirksame Kontrolle der Behörden, die dafür zuständig sind.
+
+578
+99:59:59,000 --> 99:59:59,000
+Also im Land und im Bund.
+
+579
+99:59:59,000 --> 99:59:59,000
+Und ich glaube, hier ist ein sehr starker Angriffspunkt, der für das Urteil wichtig sein wird.
+
+580
+99:59:59,000 --> 99:59:59,000
+Denn dass wir im Prinzip ein kontrollfreien Raum da auch noch haben,
+
+581
+99:59:59,000 --> 99:59:59,000
+wenn sie so eine kritische Datei anlegen, ist aus unserer Sich natürlich auch nicht akzeptabel.
+
+582
+99:59:59,000 --> 99:59:59,000
+Und wir haben auch einen Punkt gebracht, der uns als Hacker natürlich nahe lag:
+
+583
+99:59:59,000 --> 99:59:59,000
+Nämlich die Tatsache, dass man diese Daten zentralisiert zusammen holt,
+
+584
+99:59:59,000 --> 99:59:59,000
+ist natürlich ein mungerechtes Angriffsziel - sowohl für Innen und für Außentäter.
+
+585
+99:59:59,000 --> 99:59:59,000
+Also wir haben uns natürlich auch mit der Datensicherheit durchaus nochmal beschäftigt.
+
+586
+99:59:59,000 --> 99:59:59,000
+Denn so eine Form von <i>Zusammenlegung</i> gab es ja vorher nicht.
+
+587
+99:59:59,000 --> 99:59:59,000
+Und wenn man sich jetzt mal so... weiß ich nicht... <i>befreundete<i>, ausländische Geheimdienste ansieht,</i></i>
+
+588
+99:59:59,000 --> 99:59:59,000
+die würden sich sicherlich die Finger danach lecken.
+
+589
+99:59:59,000 --> 99:59:59,000
+Also nicht nur eine vollständige Kopie zu haben, sondern durchaus auch Daten darin zu manipulieren, zum Beispiel.
+
+590
+99:59:59,000 --> 99:59:59,000
+Über die eigenen V-Leute, oder dergleichen.
+- Oder zu wissen, was an Anfragen da durch läuft, ja.
+
+591
+99:59:59,000 --> 99:59:59,000
+Insofern... Ja. Vertrauen ist gut, Kontrolle nicht möglich.
+
+592
+99:59:59,000 --> 99:59:59,000
+Wir hoffen natürlich, dass sie dieses Gesetz einstampfen und dafür sollten wir uns auch stark machen.
+
+593
+99:59:59,000 --> 99:59:59,000
+Und wir bedanken uns!
+
+594
+99:59:59,000 --> 99:59:59,000
+[Applaus]
+
+595
+99:59:59,000 --> 99:59:59,000
+Vielen Dank an Frank uns Konstanze für ihren Vortrag.
+
+596
+99:59:59,000 --> 99:59:59,000
+Wir haben jetzt noch sieben Minuten für Fragen.
+
+597
+99:59:59,000 --> 99:59:59,000
+Bitte kommt an die Saal-Mikrofone, die wir hier aufgebaut haben.
+
+598
+99:59:59,000 --> 99:59:59,000
+Wenn ihr hier vorne in den ersten ein, zwei Reihen seid, dann hebt den Arm - dann komme ich zu euch.
+
+599
+99:59:59,000 --> 99:59:59,000
+Bitte sprecht deutlich und direkt in die Mikrofone,
+
+600
+99:59:59,000 --> 99:59:59,000
+damit auch die Leute zuhause an den Streams euch verstehen können.
+
+601
+99:59:59,000 --> 99:59:59,000
+Danke.
+
+602
+99:59:59,000 --> 99:59:59,000
+Haben wir Fragen?
+
+603
+99:59:59,000 --> 99:59:59,000
+Wer eine Frage hat, bitte <i>kurz</i> den Arm heben.
+
+604
+99:59:59,000 --> 99:59:59,000
+Nein?
+
+605
+99:59:59,000 --> 99:59:59,000
+Ja? Eine Frage da vorne.
+
+606
+99:59:59,000 --> 99:59:59,000
+Ich sehe das also richtig, dass dadurch dass die Informationshoheit jeweils bei den einzelnen
+
+607
+99:59:59,000 --> 99:59:59,000
+Eintellparteien liegt, es überhaupt keine Chance gibt, jemals einen Eintrag da wieder raus zu bekommen,
+
+608
+99:59:59,000 --> 99:59:59,000
+man nicht herausfindet, wer die einstellende Partei war?
+
+609
+99:59:59,000 --> 99:59:59,000
+Korrekt.
+
+610
+99:59:59,000 --> 99:59:59,000
+Ja. Uns ist einfach kein realistisch Szenario eingefallen, wie man das praktisch hinkriegen sollte.
+
+611
+99:59:59,000 --> 99:59:59,000
+Natürlich kann man Glück haben.
+
+612
+99:59:59,000 --> 99:59:59,000
+Mal angenommen, die einstellende Behörde ist das LKA und man schreibt die alle an
+
+613
+99:59:59,000 --> 99:59:59,000
+und das LKA antwortet: "Wir waren's."
+
+614
+99:59:59,000 --> 99:59:59,000
+Dann könnte man - weil es eine Polizeibehörde ist - vielleicht noch Glück haben.
+
+615
+99:59:59,000 --> 99:59:59,000
+Wenn das ein Geheimdienst ist, wird man wahrscheinlich auf Granit beißen.
+
+616
+99:59:59,000 --> 99:59:59,000
+Aber es gibt auch keine Möglichkeit damit, dass man sich... dass irgendeine Kontrollinstanz
+
+617
+99:59:59,000 --> 99:59:59,000
+gedacht ist, bei denen dieses Recht wieder zusammenfließt?
+
+618
+99:59:59,000 --> 99:59:59,000
+Nee. Also das wäre... <i>erwareten</i> wir. Das, denke ich mal, dürfte eines der Resultate des Urteils sein,
+
+619
+99:59:59,000 --> 99:59:59,000
+dass es halt so eine Kontrollinstanz schaffen wird oder halt eine Kontrollmöglichkeit geschaffen wird.
+
+620
+99:59:59,000 --> 99:59:59,000
+Weil sonst... Also <i>dieser</i> Teil ist definitiv verfassungswidrig.
+
+621
+99:59:59,000 --> 99:59:59,000
+Dass es halt <i>keine<i>, also quasi keine Korrekturmöglichkeit gibt, die effektiv durchgeführt werden kann.</i></i>
+
+622
+99:59:59,000 --> 99:59:59,000
+Also zumal ja eben die Auskunfts<i>möglichkeiten</i> bei den einzelnen Behörden
+
+623
+99:59:59,000 --> 99:59:59,000
+richten sich ja nach den jeweiligen <i>Landes<i>rechten.</i></i>
+
+624
+99:59:59,000 --> 99:59:59,000
+Ja, also wenn du jetzt - was weiß ich - nach berliner Informationsfreiheitsgesetz oder ähnlichen Dingen
+
+625
+99:59:59,000 --> 99:59:59,000
+oder Auskunftsgesetz - und die sind auch sehr unterschiedlich,
+
+626
+99:59:59,000 --> 99:59:59,000
+also zwischen Bayern und Berlin gibt es da doch größere Unterschiede -
+
+627
+99:59:59,000 --> 99:59:59,000
+und die... Auch die Verweigerungsmöglichkeiten einer Auskunft sind halt eben dementsprechend.
+
+628
+99:59:59,000 --> 99:59:59,000
+Und trotzdem haben dann eben alle Behörden bundesweit Zugriff darauf.
+
+629
+99:59:59,000 --> 99:59:59,000
+Und ich denke mal, da wird sich vermutlich was bewegen im Urteil. Ja.
+
+630
+99:59:59,000 --> 99:59:59,000
+Naja, das Problem ist halt die... also das ist halt in Deutschland getrennt nach Land und Bund.
+
+631
+99:59:59,000 --> 99:59:59,000
+Und das ist unlösbar das Problem.
+
+632
+99:59:59,000 --> 99:59:59,000
+Wir haben auch ein Ding vergessen, was wir eigentlich noch erwähnen müssen.
+
+633
+99:59:59,000 --> 99:59:59,000
+Hihi. In Deutschland gibt es - hat mir ein Jurist erklärt, fand ich sehr interessant -
+
+634
+99:59:59,000 --> 99:59:59,000
+man muss übrigens, wenn man Grundrechte einschränkt, muss man es <i>reinschreiben</i> ins Gesetz.
+
+635
+99:59:59,000 --> 99:59:59,000
+Und zwar muss man sie explizieren, muss sagen: Dieses Grundrecht schränke ich ein.
+
+636
+99:59:59,000 --> 99:59:59,000
+Das haben sie vergessen bei Terrordatei-Gesetz.Fand ich auch sehr...
+
+637
+99:59:59,000 --> 99:59:59,000
+Fefe?
+
+638
+99:59:59,000 --> 99:59:59,000
+Oh, Fefe!
+
+639
+99:59:59,000 --> 99:59:59,000
+Ja, also ich finde auch, dieser Paragraph hat mich auch inspiriert.
+
+640
+99:59:59,000 --> 99:59:59,000
+Und ich stelle mir dann eher vor, dass man dann so analog zur Geldwäsche eine Datenwäsche macht.
+
+641
+99:59:59,000 --> 99:59:59,000
+Dass man die halt nicht selbst reinstellt, sondern irgendwie durch den BND tunnelt
+
+642
+99:59:59,000 --> 99:59:59,000
+oder halt die Behörde raussucht, die da am wenigsten... wo ich am wenigsten Handhabe habe als Opfer.
+
+643
+99:59:59,000 --> 99:59:59,000
+Ja.
+
+644
+99:59:59,000 --> 99:59:59,000
+Also ich meine... Sehr ihr das so auch, oder...?
+
+645
+99:59:59,000 --> 99:59:59,000
+Ja. Schön, dass du schon an der Optimierung arbeitest.
+
+646
+99:59:59,000 --> 99:59:59,000
+[Gelächter]
+
+647
+99:59:59,000 --> 99:59:59,000
+Immer diese Hacker.
+[Applaus]
+
+648
+99:59:59,000 --> 99:59:59,000
+Wir haben hier noch eine Anfrage von Signal. Sehe ich das richtig?
+
+649
+99:59:59,000 --> 99:59:59,000
+Japp.
+
+650
+99:59:59,000 --> 99:59:59,000
+Von unseren Signal-Angels.
+
+651
+99:59:59,000 --> 99:59:59,000
+Also die wesentliche Frage war: 
+- Wo denn?
+- Wer entscheided wer dolos und wer nicht dolos ist?
+
+652
+99:59:59,000 --> 99:59:59,000
+Und die andere Frage ist, ja, eher so mit einem Augenzwinkern gestellt.
+
+653
+99:59:59,000 --> 99:59:59,000
+Ob sich nicht langsam Ermüdungserscheinungen einstellen,
+
+654
+99:59:59,000 --> 99:59:59,000
+wenn immer mit einem rein zufällig gewähltem Beispiel argumentiert wird.
+
+655
+99:59:59,000 --> 99:59:59,000
+Jaaa.
+
+656
+99:59:59,000 --> 99:59:59,000
+Also diese dolos und undolos-Entscheidung trifft die einstellende Behörde.
+
+657
+99:59:59,000 --> 99:59:59,000
+Nein, nein. Da ist so ein großes Orakel im BKA.
+
+658
+99:59:59,000 --> 99:59:59,000
+Nein, nein.
+- Nein?
+
+659
+99:59:59,000 --> 99:59:59,000
+Die einstellende Behörde.
+- Oh.
+
+660
+99:59:59,000 --> 99:59:59,000
+Und die Ermüdungserscheinungen... Naja, wir machen halt schon immer Witze,
+
+661
+99:59:59,000 --> 99:59:59,000
+gerade über den Ziercke, ne?
+
+662
+99:59:59,000 --> 99:59:59,000
+Also das ist halt so, weil... Also zumindest so bei einigen Sachen können wir halt schon immer <i>mitsprechen<i>,</i></i>
+
+663
+99:59:59,000 --> 99:59:59,000
+so, was er denn gleich sagen wird.
+
+664
+99:59:59,000 --> 99:59:59,000
+Und die einzige Überraschung ist dann manchmal noch, dass er ein neues Beispiel hat,
+
+665
+99:59:59,000 --> 99:59:59,000
+was dann noch nicht irgednwie...
+- Ja, aber sehr selten.
+- Ja.
+
+666
+99:59:59,000 --> 99:59:59,000
+[Gelächter]
+Also insofern...
+
+667
+99:59:59,000 --> 99:59:59,000
+Das muss man sagen diesmal... also bei der Antiterrordatei -
+
+668
+99:59:59,000 --> 99:59:59,000
+normalerweise ist ja Karlsruhe, das Bundesverfassungsgericht, durchaus eher intellektuell unterhaltsam.
+
+669
+99:59:59,000 --> 99:59:59,000
+Also gerade wenn die Gegenseite mal irgednwie einen guten Prozessvertreter hat.
+
+670
+99:59:59,000 --> 99:59:59,000
+Achso. Also, das haben wir auch noch nicht erwähnt!
+
+671
+99:59:59,000 --> 99:59:59,000
+Was diesem Mal so anders war.
+- Genau.
+- Was wir eigentlich versprochen haben.
+
+672
+99:59:59,000 --> 99:59:59,000
+Also normalerweise ist die... wenn die Gegenseite einen guten Prozessvertreter hat,
+
+673
+99:59:59,000 --> 99:59:59,000
+zum Beispiel den Möllers, den du erwähnt hattest, dann macht es halt <i>Spaß<i>.</i></i>
+
+674
+99:59:59,000 --> 99:59:59,000
+Also dann macht's halt auch intellektuell Spaß, weil man sozusagen versucht,
+
+675
+99:59:59,000 --> 99:59:59,000
+irgendwie in diesem juristischen Tennis halt irgendwie...
+
+676
+99:59:59,000 --> 99:59:59,000
+also, ist halt wie ein gutes Sport-Match angucken, so.
+
+677
+99:59:59,000 --> 99:59:59,000
+Das ist auch oft technisch sehr präzise.
+- Ja.
+
+678
+99:59:59,000 --> 99:59:59,000
+Und das war dieses Mal überhaupt nicht so.
+
+679
+99:59:59,000 --> 99:59:59,000
+Zum einen, weil dieser Wolf halt irgednwie... das ist halt so ein Hampelmännchen.
+
+680
+99:59:59,000 --> 99:59:59,000
+Der ist halt nicht in der Lage, da irgendwie auf seinem Stuhl sitzen zu bleiben.
+
+681
+99:59:59,000 --> 99:59:59,000
+Und versucht halt dauernd diese Verhandlung da zu dominieren.
+
+682
+99:59:59,000 --> 99:59:59,000
+Er hat sie letztlich <i>geführt<i>. Das hab ich noch nie erlebt.</i></i>
+
+683
+99:59:59,000 --> 99:59:59,000
+Ja.
+- Also der <i>Anwalt</i> der Bundesregierung hat die Verhandlung geführt.
+
+684
+99:59:59,000 --> 99:59:59,000
+Der sprang auch zwischendurch hoch. Der hat auch schon Leute beiseite geschoben,
+
+685
+99:59:59,000 --> 99:59:59,000
+von diesem Art <i>Zeugenstand</i> und gesagt, aber er müsse jetzt mal was sagen.
+
+686
+99:59:59,000 --> 99:59:59,000
+Ja.
+- Außerdem hat er bestimmt, wer in welcher Reihenfolge redet.
+
+687
+99:59:59,000 --> 99:59:59,000
+Haben wir auch noch die erlebt.
+
+688
+99:59:59,000 --> 99:59:59,000
+Also von der Regierungsseite halt. Und hat auf die Art und Weise es halt geschafft,
+
+689
+99:59:59,000 --> 99:59:59,000
+dass bestimmte Aspekte überhaupt nicht zu Sprache kamen, weil...
+- Genau.
+
+690
+99:59:59,000 --> 99:59:59,000
+Weil irgendwann die Zeit...
+- Weil damit hat er auch viel ??? auch, in vielerlei Hinsicht.
+
+691
+99:59:59,000 --> 99:59:59,000
+Weil die Zeit dann halt irgendwann knapp wurde. Und das war halt... ziemlich bedauerlich.
+
+692
+99:59:59,000 --> 99:59:59,000
+Insofern: An der Stelle stellten sich tatsächlich schonmal so ein bisschen Ermüdungserscheinungen ein.
+
+693
+99:59:59,000 --> 99:59:59,000
+Weil sonst war Karlsruhe doch irgendwie meistens eher unterhaltsam.
+
+694
+99:59:59,000 --> 99:59:59,000
+Aber dieses Mal war halt eher ein bisschen anstrengend.
+
+695
+99:59:59,000 --> 99:59:59,000
+Ja, wir waren so ein bisschen frustriert als wir rausgingen.
+
+696
+99:59:59,000 --> 99:59:59,000
+Ja.
+- Ja.
+
+697
+99:59:59,000 --> 99:59:59,000
+Okay, haben wir noch Zeit für eine?
+
+698
+99:59:59,000 --> 99:59:59,000
+Wir haben hier noch... 
+- Haben uns aber in unserem Kampfgeist nicht schmälern...
+
+699
+99:59:59,000 --> 99:59:59,000
+...eine kurze Frage aus dem Publikum.
+- Ja.
+
+700
+99:59:59,000 --> 99:59:59,000
+Und dann haben wir vielleicht noch Zeit für eine weitere kurze Frage.
+
+701
+99:59:59,000 --> 99:59:59,000
+Ja, meine Frage ist: Wer kann da Informationen reinstellen und wie werden die validiert?
+
+702
+99:59:59,000 --> 99:59:59,000
+Also, ich meine, da könnte ja jetzt jeder, der Zugriff auf das System hat,
+
+703
+99:59:59,000 --> 99:59:59,000
+irgend eine Information reinstellen und die wird ja nicht <i>geprüft<i>.</i></i>
+
+704
+99:59:59,000 --> 99:59:59,000
+Und werden die Änderungen... Also, das wäre eine weitere Frage: Werden die Änderungen
+
+705
+99:59:59,000 --> 99:59:59,000
+an der Datei irgendwo getrackt? Also kann man sehen, wer was geändert hat
+
+706
+99:59:59,000 --> 99:59:59,000
+und wer welchen Eintrag gemacht hat?
+
+707
+99:59:59,000 --> 99:59:59,000
+Also sie haben versprochen, dass es eine vollständige Protokollierung gibt.
+
+708
+99:59:59,000 --> 99:59:59,000
+Daher auch die sieben Millionen Transaktionen.
+
+709
+99:59:59,000 --> 99:59:59,000
+Einstellen können halt eben alle Behörden, die...
+- Naja, was heißt können?
+
+710
+99:59:59,000 --> 99:59:59,000
+Das ist <i>müssen<i>!
+- Genau.</i></i>
+
+711
+99:59:59,000 --> 99:59:59,000
+Behörden können sich das nicht aussuchen. Sie <i>müssen<i>.</i></i>
+
+712
+99:59:59,000 --> 99:59:59,000
+Ganu. Das heißt also, die Behörden müssen aus eigener Verantwortung entscheiden,
+
+713
+99:59:59,000 --> 99:59:59,000
+dass es sich um eine einstellenspflichtige Information handelt und die dann halt da einstellen.
+
+714
+99:59:59,000 --> 99:59:59,000
+Und wir haben ja die Definition von Terror gesehen.
+
+715
+99:59:59,000 --> 99:59:59,000
+Genau.
+
+716
+99:59:59,000 --> 99:59:59,000
+Okay.
+
+717
+99:59:59,000 --> 99:59:59,000
+Haben wir noch oder wollen wir...?
+
+718
+99:59:59,000 --> 99:59:59,000
+Ja, eine Frage noch zu dieser verdeckten Speicherung.
+
+719
+99:59:59,000 --> 99:59:59,000
+Und zwar: Hab ich das richtig verstanden, dass dann da ein Server beim BKA steht,
+
+720
+99:59:59,000 --> 99:59:59,000
+wo die Geheimdienste, die Daten drauf tun... Was hindert das BKA dann daran
+
+721
+99:59:59,000 --> 99:59:59,000
+trotzdem zu sehen, was die Geheimdienste da rein tun, was die Polizei eigentlich nicht sehen soll?
+
+722
+99:59:59,000 --> 99:59:59,000
+Die haben doch die Platten dann.
+
+723
+99:59:59,000 --> 99:59:59,000
+Die Dienstvorschrift.
+
+724
+99:59:59,000 --> 99:59:59,000
+[Gelächter]
+
+725
+99:59:59,000 --> 99:59:59,000
+Okay.
+[Applaus]
+
+726
+99:59:59,000 --> 99:59:59,000
+So, die Zeit ist rum. Nochmal...
+- Dankeschön!
+- ...vielen Dank
+
+727
+99:59:59,000 --> 99:59:59,000
+an Konstanze und Frank.
+[Applaus]
+
+728
+99:59:59,000 --> 99:59:59,000
+Eine Runde Applaus!
+
+729
+99:59:59,000 --> 99:59:59,000
+[Applaus]
+
+730
+99:59:59,000 --> 99:59:59,000
+Not my department
+29C3
+
+731
+99:59:59,000 --> 99:59:59,000
+Organized by: CCC e.V.
+
+732
+99:59:59,000 --> 99:59:59,000
+Video recording supported by: FEM, Forschungsgemeinschaft elektronischer Medien e.V.
