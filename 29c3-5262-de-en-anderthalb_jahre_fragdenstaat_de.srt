@@ -1,0 +1,3131 @@
+1
+00:00:11,858 --> 00:00:17,087
+Stefan Wehrmeyer heiße ich und ich arbeite für die Open Knowledge Foundation
+
+2
+00:00:17,087 --> 00:00:20,178
+und für die habe ich das Portal "Frag den Staat" entworfe und betreibe
+
+3
+00:00:20,178 --> 00:00:24,068
+es auch als Projektleiter. Nebenbei mache ich auch Sachen wie das Bundes-Git
+
+4
+00:00:24,068 --> 00:00:26,282
+vielleicht habt ihr ja davon gehört.
+
+5
+00:00:26,282 --> 00:00:31,999
+Falls ihr Sticker wollt, kommt einfach zu unserem Talk am 4. Tag abends.
+
+6
+00:00:31,999 --> 00:00:36,028
+Die Open Knowledge Foundation ist eine gemeinnützige Organisation
+
+7
+00:00:36,028 --> 00:00:39,581
+wir machen Projekte im Bereich OpenData, OpenGoverment
+
+8
+00:00:39,581 --> 00:00:43,776
+und wollen offenes Wissen fördern. Dafür haben wir z.B. den Offenen Haushalt
+
+9
+00:00:43,776 --> 00:00:48,128
+gebaut, also eine Haushalts-Visualisierung. Wir betreiben das Offene Parlament
+
+10
+00:00:48,128 --> 00:00:51,887
+um den Bundestag ein Bisschen transparenter zu machen. Und wir haben auch
+
+11
+00:00:51,887 --> 00:00:55,585
+etwas gestartet, das nennt sich Stadt-Land-Code, das ist ein
+
+12
+00:00:55,585 --> 00:00:59,774
+Inkubator für Bürgerwerkzeuge, also wie können wir
+
+13
+00:00:59,774 --> 00:01:03,386
+Hacker dazu bringen, Anwendungen wie z.B. Frag-den-Staat zu bauen, um
+
+14
+00:01:03,386 --> 00:01:06,480
+die Interaktion zwischen Bürger und Staat einfacher zu machen.
+
+15
+00:01:06,480 --> 00:01:11,146
+Aber heute gehts jetzt hier um Informationsfreiheit.
+
+16
+00:01:11,146 --> 00:01:13,974
+Wer weiß denn hier was Informationsfreiheit ist?
+
+17
+00:01:13,974 --> 00:01:19,121
+Da so'n paaar Hände... alles klar.
+
+18
+00:01:19,121 --> 00:01:22,216
+Informationsfreiheit - ich hab hier mal'ne Definition mitgebracht.
+
+19
+00:01:22,216 --> 00:01:30,005
+Informationsfreiheit wird auch sehr lose benutzt, die Freiheit aller Daten und so.
+
+20
+00:01:30,005 --> 00:01:31,827
+Aber ich sage, Informationsfreiheit ist das voraussetzunglose Recht
+
+21
+00:01:31,827 --> 00:01:35,074
+aller Bürger auf Zugang zu Informationen der Verwaltung
+
+22
+00:01:35,074 --> 00:01:39,334
+Als Bürger hat man dann also Zugriff auf
+
+23
+00:01:39,334 --> 00:01:41,581
+Informationen der Verwaltung, ohne
+
+24
+00:01:41,581 --> 00:01:47,674
+eine besondere Berechtigung oder ein Anliegen zu haben.
+
+25
+00:01:47,674 --> 00:01:52,071
+Es ist voraussetzungslos und gilt für alle Bürger. Das klingt sehr einfach, mal schauen wie Deutschland
+
+26
+00:01:52,071 --> 00:01:55,588
+das so umgesetzt hat. Deutsche Informationsfreiheit ist leider dann doch
+
+27
+00:01:55,588 --> 00:01:59,634
+etwas komplizierter. Das Recht, es gibt da verschiedene
+
+28
+00:01:59,634 --> 00:02:03,673
+Gesetze für die verschiedenen Informationen. Das Informationsfreiheitsgesetz
+
+29
+00:02:03,673 --> 00:02:07,057
+IFG für allg. amtl. Informationen
+
+30
+00:02:07,057 --> 00:02:10,836
+das UIG, Umwelt-Informationsgesetz,
+
+31
+00:02:10,836 --> 00:02:14,014
+und das VIG, Verbraucher-Inforamtionsgesetz.
+
+32
+00:02:14,014 --> 00:02:18,196
+Es ist erstmal schonmal komisch, dass man da drei Gesetze hat
+
+33
+00:02:18,196 --> 00:02:20,656
+für die unterschiedlichen Informationen. Dann gibt es noch verschiedene rechtliche
+
+34
+00:02:20,656 --> 00:02:25,251
+Zuständigkeitsbereiche zwischen Bund und Ländern
+
+35
+00:02:25,251 --> 00:02:29,678
+dann den Unterschied zwischen öffentlicher und nicht-öffentlicher Verwaltung. Also, man kann
+
+36
+00:02:29,678 --> 00:02:33,281
+zwar Behörden anfragen wie Bundesministerien usw. man kann aber auch
+
+37
+00:02:33,281 --> 00:02:36,570
+die nicht-öffentliche Verwaltung anfragen, also die Verwaltung
+
+38
+00:02:36,570 --> 00:02:42,158
+die letztlich nur öffenltliche Aufgaben wahrnimmt, aber z.B.
+
+39
+00:02:42,158 --> 00:02:44,811
+einfach eine private GmbH ist. Aber da gelten dann
+
+40
+00:02:44,811 --> 00:02:49,689
+ggf. besondere Regeln. Dann der Zugang, der kann antragsbisert sein
+
+41
+00:02:49,689 --> 00:02:53,017
+oder antragslos. Pull und Push.
+
+42
+00:02:53,017 --> 00:02:56,788
+Dann gebührenfrei oder gebührenpflichtig.
+
+43
+00:02:56,788 --> 00:03:00,952
+Dann kann es eine Auskunft sein, eine Einsicht oder eine Übersendung von Kopien
+
+44
+00:03:00,952 --> 00:03:05,777
+elektronisch oder schriftlich. Wenn man etwas elektronisch enpfängt
+
+45
+00:03:05,777 --> 00:03:09,664
+dann muss das nicht unbedingt maschinenlesbar sein, es kann auch ein Scan
+
+46
+00:03:09,664 --> 00:03:13,274
+eines Ausdrucks eines Excel-Tabelle sein. Das ist oft genug passiert.
+
+47
+00:03:13,274 --> 00:03:18,241
+Aber wie machen wir das einfacher?
+
+48
+00:03:18,241 --> 00:03:20,970
+Mit Frag-den-Staat. Frag-den-Staat macht Anfragen
+
+49
+00:03:20,970 --> 00:03:24,001
+nach den Informationsfreiheitsgesetzen und Korrespondenzen mit den Behörden einfacher.
+
+50
+00:03:24,001 --> 00:03:29,344
+Wir haben eine Webseite über die man die Anfragen stellen kann
+
+51
+00:03:29,344 --> 00:03:33,007
+und die diese Fragen und Antworten auch veröffentlicht.
+
+52
+00:03:33,007 --> 00:03:37,692
+Das sieht so aus.
+
+53
+00:03:37,692 --> 00:03:41,600
+Hier unten haben wir die gerade erfolgreichen und abgelehnten Anfragen.
+
+54
+00:03:41,600 --> 00:03:44,515
+Die aktuellen dazu, hier eine aus Hamburg.
+
+55
+00:03:44,515 --> 00:03:49,394
+Hier eine aus NRW. Jetzt gucken wir mal
+
+56
+00:03:49,394 --> 00:03:51,992
+eine Liste dieser Anfragen, hier kann man filtern
+
+57
+00:03:51,992 --> 00:04:00,794
+nach Erfolgreich oder anderen Zuständen, nach Bund, Berlin oder Hamburg
+
+58
+00:04:00,794 --> 00:04:02,353
+Hier die ganzen Hamburg-Anfragen.
+
+59
+00:04:02,353 --> 00:04:05,995
+Man kann auch Anfragen stellen. Das sollten wir gleich mal machen, um euch zu zeigen
+
+60
+00:04:05,995 --> 00:04:07,721
+dass es wirklich nicht schwer ist.
+
+61
+00:04:07,721 --> 00:04:13,436
+Die erste Frage, wenn man so eine Anfrage stellen will
+
+62
+00:04:13,436 --> 00:04:14,935
+was möchte überhaupt wissen?
+
+63
+00:04:14,935 --> 00:04:22,082
+Ich hab ein paar seriöse Nachrichtenseiten mal aufgemacht.
+
+64
+00:04:22,082 --> 00:04:25,474
+Spiegel Online, Zeit, Fefe
+
+65
+00:04:25,474 --> 00:04:31,080
+Tagesschau ist mir letztens
+
+66
+00:04:31,080 --> 00:04:34,308
+aufgefallen: Herr Rösler will Staatsbeteiligung versilbern.
+
+67
+00:04:34,308 --> 00:04:37,377
+Der Staat muss sich aus Wirtschaftsunternehmen und Finanzinstituten
+
+68
+00:04:37,377 --> 00:04:41,790
+zurückziehen, zitiert die Welt aus einem Positionspapier des Ministeriums.
+
+69
+00:04:41,790 --> 00:04:46,050
+Das finde ich am besten, wenn Journalisten aus Positionspapieren zitieren.
+
+70
+00:04:46,050 --> 00:04:51,749
+aber die selber nicht veröffentlichen. Dann bleibt es am einfachen Bürger hängen,
+
+71
+00:04:51,749 --> 00:04:53,967
+sich was auszudenken. Oder wir können dieses Papier einfach mal anfragen.
+
+72
+00:04:53,967 --> 00:04:57,321
+Der Rösler ist also
+
+73
+00:04:57,321 --> 00:05:00,923
+im Wirtschaftsministerium, dann gehen wir hier mal zurück und suchen
+
+74
+00:05:00,923 --> 00:05:05,643
+dann haben wir hier das Minsiterium
+
+75
+00:05:05,643 --> 00:05:13,309
+und dann hier eine Anti-Troll-Frage
+
+76
+00:05:13,309 --> 00:05:17,428
+und das heißt
+
+77
+00:05:17,428 --> 00:05:21,256
+was wollen wir, das ganze hieß
+
+78
+00:05:21,256 --> 00:05:25,286
+Das Positionspapier zum Verkauf von Staatbeteiligungen.
+
+79
+00:05:25,286 --> 00:05:29,319
+Das schreiben wir einfach hier rein.
+
+80
+00:05:29,319 --> 00:05:33,642
+Bitte senden Sie mir folgendes zu, das Positionspapier zum Verkauf von Staatbeteiligungen
+
+81
+00:05:33,642 --> 00:05:36,067
+sishe - und dann der Tagesschau-Link.
+
+82
+00:05:36,067 --> 00:05:41,387
+damit klar, ist dass ich das Aktuelle meine.
+
+83
+00:05:41,387 --> 00:05:43,357
+Warum will ich das persönlich wissen?
+
+84
+00:05:43,357 --> 00:05:45,751
+Privatisierung, das ist immer gut gelaufen, aber
+
+85
+00:05:45,751 --> 00:05:51,943
+ich will trotzden schauen, was sich Herr Rösler dabei denkt.
+
+86
+00:05:51,943 --> 00:05:55,775
+Soll öffentlich sein, prüfen, absenden.
+
+87
+00:05:55,775 --> 00:06:01,489
+Damit habe ich dann auch meine
+
+88
+00:06:01,489 --> 00:06:04,247
+Informationsfreiheitsanfrage gestellt. Sie ist jetzt online.
+
+89
+00:06:04,247 --> 00:06:09,578
+Die ist jetzt online schon verfügbar. Ich werde jetzt hoffentlich
+
+90
+00:06:09,578 --> 00:06:12,310
+in einem Monat eine Antwort erhalten.
+
+91
+00:06:12,310 --> 00:06:16,409
+So einfach kann es sein eine Anfrage zu stellen.
+
+92
+00:06:16,409 --> 00:06:26,046
+Ihr könnt das auch.
+
+93
+00:06:26,046 --> 00:06:29,161
+Jetzt haben wir ein paar Statistiken.
+
+94
+00:06:29,161 --> 00:06:31,566
+Das Projekt läuft seit dem 01.08.2011.
+
+95
+00:06:31,566 --> 00:06:37,801
+Zwei interessante Fakten werde ich gleich erzählen
+
+96
+00:06:37,801 --> 00:06:41,712
+2012 sind wir erstmals ein ganzes Jahr
+
+97
+00:06:41,712 --> 00:06:45,202
+mitgelaufen und haben insgesamt
+
+98
+00:06:45,202 --> 00:06:48,967
+2311 Anfragen gehabt. Zum Vergleich die Bundesstatistik
+
+99
+00:06:48,967 --> 00:06:52,882
+sieht für 2011 3280 Anfragen.
+
+100
+00:06:52,882 --> 00:06:57,583
+Das heißt, wir haben schon 2/3 der Bundesanfragen
+
+101
+00:06:57,583 --> 00:06:59,883
+von 2011 über frag-den-staat abgedeckt
+
+102
+00:06:59,883 --> 00:07:02,086
+ich bin guten Mutes, dass wir das noch toppen.
+
+103
+00:07:02,086 --> 00:07:09,842
+Fast die Hälfte der Anfragen von 2012
+
+104
+00:07:09,842 --> 00:07:11,680
+sind erfolgreich, 20% teilsweise.
+
+105
+00:07:11,680 --> 00:07:15,191
+Das heißt, wenn man eine Anfrage stellt, bekommt man auch
+
+106
+00:07:15,191 --> 00:07:17,630
+oft eine Antwort die genügestellend ist.
+
+107
+00:07:17,630 --> 00:07:20,722
+Nur 60% werden abgelehnt
+
+108
+00:07:20,722 --> 00:07:22,743
+bei 13% ist die Information nicht vorhanden
+
+109
+00:07:22,743 --> 00:07:28,507
+Die Top-Behörde ist der Bundestag
+
+110
+00:07:28,507 --> 00:07:33,144
+Hier hab ich eine bunte Grafik gemacht
+
+111
+00:07:33,144 --> 00:07:36,320
+damit ihr wieder aufwacht. Das ist
+
+112
+00:07:36,320 --> 00:07:41,052
+einfache so'ne Art Cloud-Wolke aller Ausnahmen
+
+113
+00:07:41,052 --> 00:07:45,477
+die gelten können. Größtenteils nachteilige Auswirkungen
+
+114
+00:07:45,477 --> 00:07:48,184
+die verhindert werden sollen
+
+115
+00:07:48,184 --> 00:07:50,795
+Beziehungen, Vertraulichkeit und Sicherheit ganz wichtig sind
+
+116
+00:07:50,795 --> 00:07:55,008
+die Top-Gründe für die Verweigerung des Zugangs
+
+117
+00:07:55,008 --> 00:07:57,415
+1. Das Gesetz ist nicht anwendbar
+
+118
+00:07:57,415 --> 00:08:05,241
+Das Gesetz trifft für die Anfrage nicht zu
+
+119
+00:08:05,241 --> 00:08:09,542
+oder die Information ist schon öffentlich
+
+120
+00:08:09,542 --> 00:08:12,827
+Dann Schutz von geistigem Eigentum
+
+121
+00:08:12,827 --> 00:08:16,470
+und Geschäftsgeheimnissen ist die Lieblingsausrede momentan
+
+122
+00:08:16,470 --> 00:08:20,480
+also die Ausnahme die am häufigsten benutzt wird.
+
+123
+00:08:20,480 --> 00:08:23,482
+Schutz vor nachteiligen Auswirkungen auf internationale Beziehungen
+
+124
+00:08:23,482 --> 00:08:28,226
+Über nach Israel geschickte U-Boote bekommt man nichts
+
+125
+00:08:28,226 --> 00:08:31,053
+nur den Hinweis auf diese Ausnahme
+
+126
+00:08:31,053 --> 00:08:37,157
+Internationale Beziehungen müssen da geschützt werden, und dann noch behördliche Entsscheidungsprozesse
+
+127
+00:08:37,157 --> 00:08:40,374
+und personenbezogene Daten. Noch eine schöne Grafik,
+
+128
+00:08:40,374 --> 00:08:42,676
+die Entwicklung 2012.
+
+129
+00:08:42,676 --> 00:08:47,283
+Da ist offensichtlich irgendwas passiert.
+
+130
+00:08:47,283 --> 00:08:52,119
+Auf zwei Events wollen wir genauer eingehen.
+
+131
+00:08:52,119 --> 00:08:55,659
+Das erste sind Gutachten des Bundestags.
+
+132
+00:08:55,659 --> 00:08:58,842
+Der erstellt über den wissenschaftlichen Dienst Gutachten
+
+133
+00:08:58,842 --> 00:09:01,580
+für die Abgeordneten
+
+134
+00:09:01,580 --> 00:09:07,992
+Ein Teil diese Gutachten sind öffentlichen, aber ein Teil
+
+135
+00:09:07,992 --> 00:09:12,231
+auch nicht. Wenn man diese Gutachten anfragen will
+
+136
+00:09:12,231 --> 00:09:14,442
+was eigentlich unser Recht sein sollte
+
+137
+00:09:14,442 --> 00:09:18,601
+schließlich entscheiden die Abgeordneten anhand der Gutachten,
+
+138
+00:09:18,601 --> 00:09:21,859
+da sollte man ja mal reingucken ob alles in Ordnung ist
+
+139
+00:09:21,859 --> 00:09:28,048
+aber wenn man so eine Anfrage stellt, dann hört man vom Bundestag
+
+140
+00:09:28,048 --> 00:09:33,369
+1. dass der wiss. Dienst nicht unter das Informatiosnfreiheitsgesetz fällt.
+
+141
+00:09:33,369 --> 00:09:37,723
+Er nimmt sich da aus. Das wurde gerichtlich auch schon geklärt. dass er eigentlich doch drunter fällt.
+
+142
+00:09:37,723 --> 00:09:40,559
+Aber die finale Entscheidung dazu steht noch aus.
+
+143
+00:09:40,559 --> 00:09:44,646
+2. dass das Urheberrecht
+
+144
+00:09:44,646 --> 00:09:48,412
+gilt. Wir können das nicht zusenden wegen dem Urheberrecht.
+
+145
+00:09:48,412 --> 00:09:51,824
+An dem Gutachten hat jemand ein Urheberrecht und wenn wir es versenden
+
+146
+00:09:51,824 --> 00:09:56,254
+dann können Sie das ja veröffentlichen und dann ist das Veröffentlichungsrecht
+
+147
+00:09:56,254 --> 00:10:00,543
+nicht mehr gegeben. Na gut, dann
+
+148
+00:10:00,543 --> 00:10:03,851
+veröffentlichen wir es halt nicht. Wir haben z.B. das Gutachten zur
+
+149
+00:10:03,851 --> 00:10:08,327
+Abgeordnetenkorruption dan erhalten, da stand aber drin,
+
+150
+00:10:08,327 --> 00:10:11,896
+im Anschreiben, dass das übersandte Gutachten,
+
+151
+00:10:11,896 --> 00:10:16,006
+nicht die Befugnis der Verbreitung enthält
+
+152
+00:10:16,006 --> 00:10:20,411
+Die unerlaubte Veröffentlichung oder Verbreitung von Arbeiten des wiss. Dienstes
+
+153
+00:10:20,411 --> 00:10:24,282
+stellt einen Verstoß gegen das Urheberrecht dar und wird sowohl zivil- als auch
+
+154
+00:10:24,282 --> 00:10:25,747
+strafrechtlich verfolgt.
+
+155
+00:10:25,747 --> 00:10:32,697
+Da habe ich es eben nicht veröffentlicht.
+
+156
+00:10:32,697 --> 00:10:34,873
+Ich habe es aber bekommen.
+
+157
+00:10:34,873 --> 00:10:39,599
+Das ist jedermanns Recht, jeder kann das anfragen.
+
+158
+00:10:39,599 --> 00:10:45,156
+Da dachte ich mir
+
+159
+00:10:45,156 --> 00:10:49,902
+das kann man noch einfacher machen als immer diesen Text zu schreiben
+
+160
+00:10:49,902 --> 00:10:52,668
+Da habe ich einen Button auf die Webseite gesetzt
+
+161
+00:10:52,668 --> 00:10:55,974
+und jeder musste nur einmal draufklicken und hat diese Anfrage auch gestellt.
+
+162
+00:10:55,974 --> 00:10:59,568
+Bisher 756 weitere Personen haben das gemacht.
+
+163
+00:10:59,568 --> 00:11:04,175
+das heißt, der Bundestag muss 756 Anträge abarbeiten.
+
+164
+00:11:04,175 --> 00:11:08,834
+Und das nur, weil er nicht gewillt
+
+165
+00:11:08,834 --> 00:11:11,529
+war, das Gutachten freizugeben.
+
+166
+00:11:11,529 --> 00:11:15,654
+Er will es immer noch nicht veröffentlichen.
+
+167
+00:11:15,654 --> 00:11:19,592
+Die haben wohl inzwischen eine Halbtagsstelle die diese Anfragen abarbeitet.
+
+168
+00:11:19,592 --> 00:11:24,611
+Mittlerweile hat auch netzpolitik.org diese
+
+169
+00:11:24,611 --> 00:11:27,393
+Sache mal online gestellt
+
+170
+00:11:27,393 --> 00:11:29,510
+Da wurde sofort gedroht.
+
+171
+00:11:29,510 --> 00:11:34,615
+Jetzt überlegt sich der Bundestag weitere rechtliche Schritte.
+
+172
+00:11:34,615 --> 00:11:39,644
+Das gleiche ist passiert mit der Ackermann-
+
+173
+00:11:39,644 --> 00:11:42,696
+Geburtagsdinner-Anfrage
+
+174
+00:11:42,696 --> 00:11:47,967
+In 2008 hat der seinen 60. Geburtstag und Frau Merkel hat
+
+175
+00:11:47,967 --> 00:11:51,529
+ihn ins Kanzleramt eingeladen, mit reichlich Prominenz. Da gab es ein Abendessen
+
+176
+00:11:51,529 --> 00:11:56,479
+und Thilo Bode von Foodwatch hat
+
+177
+00:11:56,479 --> 00:11:59,129
+die Dokumente dazu angefragt,
+
+178
+00:11:59,129 --> 00:12:03,782
+also was wurde gegessen, wie war die Sitzordnung, was stand in der Rede,
+
+179
+00:12:03,782 --> 00:12:07,147
+und das sieht etwa so aus,
+
+180
+00:12:07,147 --> 00:12:12,515
+das musste vor Gericht erst durchgeklagt werden, bekam aber Recht,
+
+181
+00:12:12,515 --> 00:12:18,561
+die Dokumente mussten mit kleinen Schwärzungen veröffentlicht werden
+
+182
+00:12:18,561 --> 00:12:20,982
+das ist z.B. die Küchenrechnung, die Sitzordnung,
+
+183
+00:12:20,982 --> 00:12:22,745
+man sieht Herr Prof. Sauer ist nicht gekommen,
+
+184
+00:12:22,745 --> 00:12:27,841
+ansonsten nett anzusehen. Das Problem ist,
+
+185
+00:12:27,841 --> 00:12:30,559
+hier steht wieder drin
+
+186
+00:12:30,559 --> 00:12:36,255
+dass der Veröffentlichung nicht zugestimmt wird.
+
+187
+00:12:36,255 --> 00:12:42,261
+Da habe ich wieder einen Button auf die Webseite gesetzt.
+
+188
+00:12:42,261 --> 00:12:45,007
+Diesmal haben 842 auf den Button geklickt.
+
+189
+00:12:45,007 --> 00:12:47,747
+Diesmal hat das Bundeskanzleramt nachgegeben
+
+190
+00:12:47,747 --> 00:12:52,103
+und eingesehen, dass es keinen Sinn mehr hat
+
+191
+00:12:52,103 --> 00:12:56,493
+sie strichen also diesen Absatz
+
+192
+00:12:56,493 --> 00:12:59,713
+aus dem Anschreiben.
+
+193
+00:12:59,713 --> 00:13:04,533
+Ich hatte inzwischen den Bundesbeauftragten für Datenschutz und Informationsfreiheit
+
+194
+00:13:04,533 --> 00:13:08,011
+Peter Schaar angerufen, also nicht per Telefon, sondern
+
+195
+00:13:08,011 --> 00:13:12,013
+ich hab um Vermittlung gebeten, und er hat auch direkt
+
+196
+00:13:12,013 --> 00:13:16,653
+zugestimmt, dass es nicht sein kann, wenn ein Gericht solche Dokumente freigibt,
+
+197
+00:13:16,653 --> 00:13:19,977
+dass man die dann nicht veröffentlichen kann.
+
+198
+00:13:19,977 --> 00:13:21,364
+Dabei ist definitiv ichtig,
+
+199
+00:13:21,364 --> 00:13:23,145
+wenn wir einen Diskurs haben wollen, kann es ja nicht sein, dass
+
+200
+00:13:23,145 --> 00:13:26,213
+wir das Dokumnt nicht im Internet öffentlich hintun und drüber reden können, sondern dass jeder
+
+201
+00:13:26,213 --> 00:13:30,187
+sich selber darum bemühen muss, Zugang zu den Dokumenten zu erhalten.
+
+202
+00:13:30,187 --> 00:13:34,357
+Das ist übrigens das Gesellschaftsspiel, das Freitags dann
+
+203
+00:13:34,357 --> 00:13:36,379
+auf der Tischrunde gemacht wurde.
+
+204
+00:13:36,379 --> 00:13:42,393
+Ein Würfelspiel, bei einer 5 landet man auf dem Platz von Frau Merkel oder so
+
+205
+00:13:42,393 --> 00:13:46,164
+Fand ich ganz gelungen
+
+206
+00:13:46,164 --> 00:13:49,995
+aus den Dokumenten der Informationsfreiheit mal ein Spiel zu machen.
+
+207
+00:13:49,995 --> 00:13:52,396
+Jetzt möchte ich 3 Ablehnungen vorstellen.
+
+208
+00:13:52,396 --> 00:13:57,495
+Quasi die Top-3-Ablehnungen von 2012
+
+209
+00:13:57,495 --> 00:14:03,292
+Die erste ist: Vorkehrungen für den 21.12.2012
+
+210
+00:14:03,292 --> 00:14:04,397
+Ist ja auch wichtig.
+
+211
+00:14:04,397 --> 00:14:09,450
+In den letzten Tagen vor Weihnachten hatte frag-den-staat den meisten Traffic über diese Anfrage.
+
+212
+00:14:09,450 --> 00:14:12,214
+Da hat jemand gefragt,
+
+213
+00:14:12,214 --> 00:14:16,104
+Da ich Angst vor dem Weltuntergang habe, möchte ich Sie bitten, mir alle verfügbaren Daten über
+
+214
+00:14:16,104 --> 00:14:20,474
+eine mögliche Evakuierung ganzer Städte oder Regionen zur Verüfgung zu stellen,
+
+215
+00:14:20,474 --> 00:14:23,196
+damit ich für den Tag X gewappnet bin.
+
+216
+00:14:23,196 --> 00:14:27,713
+Einer muss es ja fragen.
+
+217
+00:14:27,713 --> 00:14:30,879
+Das wurde an das Bundesamt für Bevölkerungsschutz und Katastrophenhilfe gestellt.
+
+218
+00:14:30,879 --> 00:14:36,455
+Problem nur, da schlägt
+
+219
+00:14:36,455 --> 00:14:39,626
+der Föderalismus zu. Die Zuständigkeit für den Katastrophenschutz
+
+220
+00:14:39,626 --> 00:14:43,297
+einschließlich der Evakuierung liegen auf Länderebene.
+
+221
+00:14:43,297 --> 00:14:48,337
+Aber alleine diese föderale Bürokratie
+
+222
+00:14:48,337 --> 00:14:50,364
+wenn ich das so lese, fühle ich wieder beruhigt,
+
+223
+00:14:50,364 --> 00:14:56,692
+die zweite Sache
+
+224
+00:14:56,692 --> 00:14:59,892
+Mehrländerbehörde NDR. Wir sind ja hier in Hamburg und der NDR
+
+225
+00:14:59,892 --> 00:15:03,585
+sitzt in Hamburg. Hamburg hat seit Kurzem ein gutes
+
+226
+00:15:03,585 --> 00:15:07,648
+Transparenzgesetz und der NDR ist
+
+227
+00:15:07,648 --> 00:15:11,473
+gehört nicht nur Hamburg, sondern per Staatsvertrag auch
+
+228
+00:15:11,473 --> 00:15:15,769
+Schleswig-Holstein, Mecklenburg-Vorpommern und Niedersachsen
+
+229
+00:15:15,769 --> 00:15:21,930
+also insgesamt vier Bundesländern.
+
+230
+00:15:21,930 --> 00:15:27,914
+da ist jetzt die Frage, wenn man eine Anfrage
+
+231
+00:15:27,914 --> 00:15:30,777
+an den NDR  stellt, wer ist zuständig?
+
+232
+00:15:30,777 --> 00:15:35,336
+Da der Sitz in Hamburg ist, wurde eine Anfrage nach dem hamburgischen Transparenzgesetz gestellt.
+
+233
+00:15:35,336 --> 00:15:43,141
+Die Anwort des NDR war verwirrend, und zwar gibt es im Staatsvertrag eine Rechtsaufsichtsrotation.
+
+234
+00:15:43,141 --> 00:15:46,456
+Das heißt, abwechselnd sind die Bundesländer zuständig.
+
+235
+00:15:46,456 --> 00:15:51,774
+Folgerichtig führen die Regierungen dieser Länder die Rechtsaufsicht über den NDR
+
+236
+00:15:51,774 --> 00:15:55,343
+im Wechsel von jeweils 18 Monaten. Also, wenn man genau hinguckt
+
+237
+00:15:55,343 --> 00:15:58,981
+dann ist der NDR nur alle 54 Monate für 18 Monate unter dem
+
+238
+00:15:58,981 --> 00:16:02,846
+hamburgischen Transparenzgesetz anfragbar und das nächstemal im Januar 2015.
+
+239
+00:16:02,846 --> 00:16:09,177
+Das ist sehr schade.
+
+240
+00:16:09,177 --> 00:16:13,705
+Wie ein Meteoritenschauer, da muss man seine Anfragen genau abpassen.
+
+241
+00:16:13,705 --> 00:16:15,710
+Ich hab mir einen Wecker gestellt.
+
+242
+00:16:15,710 --> 00:16:18,405
+Den Januar 2015 verpasse ich nicht.
+
+243
+00:16:18,405 --> 00:16:22,704
+Dann natürlich die Teilnehmenden bei den ACTA-Verhandlungen.
+
+244
+00:16:22,704 --> 00:16:26,837
+Matthias Schindler hatte angefragt, wer denn eigentlich bei den
+
+245
+00:16:26,837 --> 00:16:30,615
+ACTA-Verhandlungen von deutscher Seite aus an den Verhandlungstischen saß.
+
+246
+00:16:30,615 --> 00:16:35,206
+Das könnten ja Lobbyisten gewesen sein.
+
+247
+00:16:35,206 --> 00:16:39,233
+Leihbeamte die vielleicht gar nicht Interessen der BRD vertreten.
+
+248
+00:16:39,233 --> 00:16:43,692
+Es ist wichtig zu erfahren wer das ist.
+
+249
+00:16:43,692 --> 00:16:46,490
+Und normalerweise sind Name und Dienstgrad
+
+250
+00:16:46,490 --> 00:16:48,070
+und Büroanschrift nicht
+
+251
+00:16:48,070 --> 00:16:54,733
+vom Datenschutz behaftet.
+
+252
+00:16:54,733 --> 00:16:58,671
+Das Informationsfreiheitsgesetz sieht extra vor, dass solche Daten
+
+253
+00:16:58,671 --> 00:17:03,826
+herausagegeben werden können. Allerdings wird abgelehnt, wegen Gefährdung der öffentlichen Sicherheit.
+
+254
+00:17:03,826 --> 00:17:06,259
+Denn in einzelnen Internetforen und Blogs
+
+255
+00:17:06,259 --> 00:17:09,491
+und in Videos sowie den dazugehörigen Kommentaren
+
+256
+00:17:09,491 --> 00:17:15,835
+wird zum Teil eine emotionale Diskussion geführt
+
+257
+00:17:15,835 --> 00:17:18,348
+bei der auch ehrverletztende Äußerungen und Drohungen
+
+258
+00:17:18,348 --> 00:17:20,632
+gegen an ACTA beteiligte Personen ausgesprochen werden.
+
+259
+00:17:20,632 --> 00:17:26,615
+Es scheint hinreichend möglich,
+
+260
+00:17:26,615 --> 00:17:29,582
+dass diese Personen persönlich bedrängt werden.
+
+261
+00:17:29,582 --> 00:17:35,484
+Im Klartext: der Internet-Mob kommt!
+
+262
+00:17:35,484 --> 00:17:37,715
+Da haben Leute im Internet was geschrieben
+
+263
+00:17:37,715 --> 00:17:42,334
+und das ist Grund genug für das Justizministerium
+
+264
+00:17:42,334 --> 00:17:46,196
+eine solche Anfrage abzulehnen.
+
+265
+00:17:46,196 --> 00:17:47,963
+Gefährdung der öffentlchen Sicherheit.
+
+266
+00:17:47,963 --> 00:17:53,185
+Dagegen wird auch gerade geklagt. Jedenfalls wurde Widerspruch eingelegt.
+
+267
+00:17:53,185 --> 00:17:57,541
+Der Falls ist noch am Laufen. Mittlerweile ist ACTA vom Tisch,
+
+268
+00:17:57,541 --> 00:17:59,718
+aber es wäre trotzdem interessant zu erfahren, wer da tatsächlich in
+
+269
+00:17:59,718 --> 00:18:04,331
+den Verhandlungsrunden dabei war.
+
+270
+00:18:04,331 --> 00:18:09,075
+Nun zur Lage der Information.
+
+271
+00:18:09,075 --> 00:18:14,306
+Die Lage der Information in Deutschland ist nicht so schön.
+
+272
+00:18:14,306 --> 00:18:18,822
+Das ist was ich das Amtsverschwiegenheitsmonster nenne.
+
+273
+00:18:18,822 --> 00:18:22,889
+Da oben ist ein Auge und so.
+
+274
+00:18:22,889 --> 00:18:29,376
+Aber wenn man genau hinguckt
+
+275
+00:18:29,376 --> 00:18:32,387
+sind das eigentlich Sachsen, Bayern,
+
+276
+00:18:32,387 --> 00:18:36,169
+Baden-Württemberg, Hessen und Niedersachen.
+
+277
+00:18:36,169 --> 00:18:40,021
+Wir sind in guter Gesellschhaft in Europa,
+
+278
+00:18:40,021 --> 00:18:44,146
+die Länder um uns herum haben größtenteils Informationsfreiheitsgesetze.
+
+279
+00:18:44,146 --> 00:18:49,017
+Schweden seit 1766. Das erste dann in Brandenburg, 1998.
+
+280
+00:18:49,017 --> 00:18:53,333
+Auf Bundesebene seit 2006.
+
+281
+00:18:53,333 --> 00:18:56,748
+Aber es gibt immer noch 5 Bundesländer die keine
+
+282
+00:18:56,748 --> 99:59:59,000
+Informationsfreiheitsgesetze haben. Was bedeutet, dass wir da an amtliche Informationen
+
+283
+99:59:59,000 --> 99:59:59,000
+de facto nicht herankommen.
+
+284
+99:59:59,000 --> 99:59:59,000
+Österreich hat auch kein richtiges, Luxemburg auch nicht.
+
+285
+99:59:59,000 --> 99:59:59,000
+Aber wir müssen in Deutschland dringend was tun, gerade
+
+286
+99:59:59,000 --> 99:59:59,000
+Baden-Württemberg, was gerade grün-rot regiert ist
+
+287
+99:59:59,000 --> 99:59:59,000
+und eigentlich der Informationsfreiheit wohlgesonnen ist,
+
+288
+99:59:59,000 --> 99:59:59,000
+muss 2013 eines einführen.
+
+289
+99:59:59,000 --> 99:59:59,000
+Am besten was Besseres als Thüringen.
+
+290
+99:59:59,000 --> 99:59:59,000
+Es besteht dringend Reformbedarf.
+
+291
+99:59:59,000 --> 99:59:59,000
+Die ganzen Ausnahmen,
+
+292
+99:59:59,000 --> 99:59:59,000
+gerade die Betriebsgeheimnisse sind nicht abwägbar
+
+293
+99:59:59,000 --> 99:59:59,000
+gegen das öffentliche Interesse an der Information.
+
+294
+99:59:59,000 --> 99:59:59,000
+Das liegt auch am Grundgesetz, das letztlich den Datenschutz vor die
+
+295
+99:59:59,000 --> 99:59:59,000
+Informationsfreiheit tut. Da haben sich Experten mal Gedanken gemacht und
+
+296
+99:59:59,000 --> 99:59:59,000
+die Grünen haben eine Grundgesetzänderung eingebracht
+
+297
+99:59:59,000 --> 99:59:59,000
+die die Informationsfreiheit im Grundgesetz festschreibt.
+
+298
+99:59:59,000 --> 99:59:59,000
+Das ist gar kein symbolischer Akt, sondern eine rechtliche Sache
+
+299
+99:59:59,000 --> 99:59:59,000
+die getan werden muss.
+
+300
+99:59:59,000 --> 99:59:59,000
+damit man in höhren Instanzen gegen diese Geschäfts- und Betriebsheimnisse ankommen kann.
+
+301
+99:59:59,000 --> 99:59:59,000
+Weil die wiegen als Grundrecht mehr als die Informationsfreiheit
+
+302
+99:59:59,000 --> 99:59:59,000
+und deswegen brauchen wir Informationsfreiheit im Grundgesetz.
+
+303
+99:59:59,000 --> 99:59:59,000
+Die Grünen hatten nicht so viel Erfolg bei der aktuellen Regierung.
+
+304
+99:59:59,000 --> 99:59:59,000
+Aber vielleicht kommt da noch was.
+
+305
+99:59:59,000 --> 99:59:59,000
+Es muss auch eine Verwaltungsreform geben.
+
+306
+99:59:59,000 --> 99:59:59,000
+Man kann ja Gesetze ändern, aber letztlich müssen die Behörden selber sehen, dass
+
+307
+99:59:59,000 --> 99:59:59,000
+offenes Regierungshandeln gefragt ist. Da muss von oben Druck kommen,
+
+308
+99:59:59,000 --> 99:59:59,000
+dass letztlich die Behörden sich weiter öffnen.
+
+309
+99:59:59,000 --> 99:59:59,000
+OpenData vs. Informationsfreiheitsgesetz. Open Data ist ja gerade in alle Munde,
+
+310
+99:59:59,000 --> 99:59:59,000
+also offene Daten auf Portalen der Regierung.
+
+311
+99:59:59,000 --> 99:59:59,000
+Die Regierung wird 2013 ein Portal herausbringen.
+
+312
+99:59:59,000 --> 99:59:59,000
+Allerdings nicht alle dieser Datensätze werden richtig open sein im Sinne der Open-Definition,
+
+313
+99:59:59,000 --> 99:59:59,000
+dass die Nachnutzung möglich ist. Dennoch ist ein Datenportal eine gute Idee.
+
+314
+99:59:59,000 --> 99:59:59,000
+Allerdings ist alles auf frewilliger Basis.
+
+315
+99:59:59,000 --> 99:59:59,000
+Die Regierung wurde nicht gezwungen, das ist definitv zu begrüßen.
+
+316
+99:59:59,000 --> 99:59:59,000
+Allerdings versucht sich die Regierung
+
+317
+99:59:59,000 --> 99:59:59,000
+sich darauf zu versteifen, sie brauche jetzt keine Informationsfreiheit mehr.
+
+318
+99:59:59,000 --> 99:59:59,000
+Wir habe ein Bisschen OpenData gemacht, warum sollten wir jetzt noch ein Gesetz haben,
+
+319
+99:59:59,000 --> 99:59:59,000
+das Bürgern das Recht auf Information gibt?
+
+320
+99:59:59,000 --> 99:59:59,000
+Und da ist definitiv etwas falsch.
+
+321
+99:59:59,000 --> 99:59:59,000
+Denn natürlich gibt die Regierung nur das heraus,
+
+322
+99:59:59,000 --> 99:59:59,000
+was ihr opportun ist.
+
+323
+99:59:59,000 --> 99:59:59,000
+Wo kein Zündstoff dahinter steckt.
+
+324
+99:59:59,000 --> 99:59:59,000
+Das Informationsfreiheitsgetz ermöglicht es uns, gerade die Informationen
+
+325
+99:59:59,000 --> 99:59:59,000
+herauszufinden, die uns am Herzen liegen.
+
+326
+99:59:59,000 --> 99:59:59,000
+Wo der Zündstoff genau ist.
+
+327
+99:59:59,000 --> 99:59:59,000
+Deswegen darf diese OpenData-Diskussion nicht überhandnehmen
+
+328
+99:59:59,000 --> 99:59:59,000
+gegenüber dem Informationsfreiheitgesetz. Die aktuelle Regierung
+
+329
+99:59:59,000 --> 99:59:59,000
+hat das Informationsfreiheitgesetz evaluieren lassen vom Speyer-Institut
+
+330
+99:59:59,000 --> 99:59:59,000
+und da wurde auch fiel Reformbedarf angemerkt.
+
+331
+99:59:59,000 --> 99:59:59,000
+Viele Dinge müssen auf den aktuellsten Stand gebracht werden.
+
+332
+99:59:59,000 --> 99:59:59,000
+Und das ist bisher nicht passiert. Stattdessen konzentriert sich
+
+333
+99:59:59,000 --> 99:59:59,000
+die Regierung auf OpenData, was nicht schlecht ist,
+
+334
+99:59:59,000 --> 99:59:59,000
+aber nur ein Teil der Medaille.
+
+335
+99:59:59,000 --> 99:59:59,000
+Ein gutes Beispiel dafür ist,
+
+336
+99:59:59,000 --> 99:59:59,000
+der Bundeshaushalt den Lindenberg mal für das Projekt
+
+337
+99:59:59,000 --> 99:59:59,000
+Offener Haushalt angefragt hat.
+
+338
+99:59:59,000 --> 99:59:59,000
+Er liegt im XML-Format, also als Datensatz vor, wird aber
+
+339
+99:59:59,000 --> 99:59:59,000
+nur herausgegeben als HTML oder PDF.
+
+340
+99:59:59,000 --> 99:59:59,000
+Und nicht vollständig, nur in aggregierter Form.
+
+341
+99:59:59,000 --> 99:59:59,000
+Wir wollen natürlich Zugriff auf die Rohdaten des Haushalts.
+
+342
+99:59:59,000 --> 99:59:59,000
+Wir wollen genau wissen, welche Stellen wie verplant sind.
+
+343
+99:59:59,000 --> 99:59:59,000
+Da wurde diese Anfrage gestellt und abgelehnt.
+
+344
+99:59:59,000 --> 99:59:59,000
+Weil Rohdaten und XML ein Entwurf sind.
+
+345
+99:59:59,000 --> 99:59:59,000
+Und somit nicht ein amtliches Dokument.
+
+346
+99:59:59,000 --> 99:59:59,000
+Plus andere Ausreden.
+
+347
+99:59:59,000 --> 99:59:59,000
+Da zeigt sich, wo das Ende von OpenData ist.
+
+348
+99:59:59,000 --> 99:59:59,000
+wenn selbstverständliche Daten nicht herausgegeben werden.
+
+349
+99:59:59,000 --> 99:59:59,000
+Die Nachnutzung. Wir hatten das ja bei den Bundestagsgutachten gesehen
+
+350
+99:59:59,000 --> 99:59:59,000
+letztlich muss man das im Hinterkopf haben,
+
+351
+99:59:59,000 --> 99:59:59,000
+wenn die Nachnutzung nicht geregelt wird, passieren so Sachen wie
+
+352
+99:59:59,000 --> 99:59:59,000
+mit einem Klick doch noch
+
+353
+99:59:59,000 --> 99:59:59,000
+anfragen, niemand darf es veröffentlichen, was ja absoluter Unsinn ist.
+
+354
+99:59:59,000 --> 99:59:59,000
+Das Internet ist halt, das geht gar nicht anders,
+
+355
+99:59:59,000 --> 99:59:59,000
+wenn man etwas mit jemandem teilen will, dann ist das ja schon eine Veröffentlichung.
+
+356
+99:59:59,000 --> 99:59:59,000
+Da muss von Anfang an die Nachnutzung geregelt sein.
+
+357
+99:59:59,000 --> 99:59:59,000
+Eigentlich ist der Gedanke hinter dem Informationsfreiheitsgesetz,
+
+358
+99:59:59,000 --> 99:59:59,000
+dass die Information die man anfragt,
+
+359
+99:59:59,000 --> 99:59:59,000
+amtliche Werte größtenteils, weiter verwendet werden können.
+
+360
+99:59:59,000 --> 99:59:59,000
+Aber wir sind auf ein Problem gestoßen und das muss anders geregelt werden.
+
+361
+99:59:59,000 --> 99:59:59,000
+Das Netz kann Piraterie ganz gut,
+
+362
+99:59:59,000 --> 99:59:59,000
+auch bei solchen Dokumenten, die werden dann mal eben irgendwo online gestellt.
+
+363
+99:59:59,000 --> 99:59:59,000
+Die Nachnutzung kann man nicht mehr verhindern.
+
+364
+99:59:59,000 --> 99:59:59,000
+Gebühren. Eine Informationsfreiheitsanfrage
+
+365
+99:59:59,000 --> 99:59:59,000
+kann bis zu 500 Euro kosten. Das schreckt einige ab.
+
+366
+99:59:59,000 --> 99:59:59,000
+Viele Behörden senden direkt auf die Anfrage
+
+367
+99:59:59,000 --> 99:59:59,000
+einen automatischen Formbrief,
+
+368
+99:59:59,000 --> 99:59:59,000
+dass die Anfrage bis zu 500 Euro kostet und ob man sie zurückziehen möchte.
+
+369
+99:59:59,000 --> 99:59:59,000
+Das ist natürlich nur eine Drohgebärde,
+
+370
+99:59:59,000 --> 99:59:59,000
+letztlich kosten die meisten Anfragen gar nichts.
+
+371
+99:59:59,000 --> 99:59:59,000
+Das ist auch
+
+372
+99:59:59,000 --> 99:59:59,000
+eine sehr gute Eigenschaft. Gebühren schreckne den Bürger nur ab.
+
+373
+99:59:59,000 --> 99:59:59,000
+Aber letztlich sind wir ein Stückchen weiter.
+
+374
+99:59:59,000 --> 99:59:59,000
+Bei der ACTA-Anfrage war nämlich noch ein Teil dabei, bei dem Matthias Schindler
+
+375
+99:59:59,000 --> 99:59:59,000
+sehr viel wissen wollte. "Schicken Sie mir alle Dokumente zu ACTA".
+
+376
+99:59:59,000 --> 99:59:59,000
+Das erzeugt viel Aufwand kann kann tatsächlich 500 Euro kosten, was dann auch legitim ist.
+
+377
+99:59:59,000 --> 99:59:59,000
+500 kann eine Person etwas abschrecken,
+
+378
+99:59:59,000 --> 99:59:59,000
+aber wenn sich das Internet mal hinsetzt
+
+379
+99:59:59,000 --> 99:59:59,000
+und ein Wochende crowdfunded, da kamen hier einmal 7000 Euro zusammen
+
+380
+99:59:59,000 --> 99:59:59,000
+und damit kann man nicht nur die 500 Euro bezahlen,
+
+381
+99:59:59,000 --> 99:59:59,000
+damit kann man auch einen Widerspruch finanzieren,
+
+382
+99:59:59,000 --> 99:59:59,000
+oder auch eine Klage.
+
+383
+99:59:59,000 --> 99:59:59,000
+Das heißt, Gebühren sind auch keine
+
+384
+99:59:59,000 --> 99:59:59,000
+Abschreckung mehr für wirklich interessante Information.
+
+385
+99:59:59,000 --> 99:59:59,000
+Der Staat hat zwar einige Asse im Ärmel, wenn z.B. eine Anfrage mehrere Sachen enthält,
+
+386
+99:59:59,000 --> 99:59:59,000
+dann kam es auch schon vor, dass eine Anfrage in mehrere gesplittet wurde,
+
+387
+99:59:59,000 --> 99:59:59,000
+dann kostete jede 500 Euro, insgesamt dann 5000.
+
+388
+99:59:59,000 --> 99:59:59,000
+Aber letztlich lassen sich Kosten
+
+389
+99:59:59,000 --> 99:59:59,000
+im Internet nicht mehr so als Druckmittel,
+
+390
+99:59:59,000 --> 99:59:59,000
+als Mauer einführen. Weil
+
+391
+99:59:59,000 --> 99:59:59,000
+wir können halt sehr schnell sowas crowdfunden, wenn jeder nur 5 Euro gibt,
+
+392
+99:59:59,000 --> 99:59:59,000
+dann brauchen wir nur 100 Leute.
+
+393
+99:59:59,000 --> 99:59:59,000
+Gerichtsentscheidungen. Da gab es
+
+394
+99:59:59,000 --> 99:59:59,000
+jetzt vor Kurzem erst die Entscheidung, dass die
+
+395
+99:59:59,000 --> 99:59:59,000
+Prüfberichte des Rechnungshofes veröffentlicht werden müssen.
+
+396
+99:59:59,000 --> 99:59:59,000
+Das ist eine sehr gute Entscheidung.
+
+397
+99:59:59,000 --> 99:59:59,000
+Gerade die Rechnugshöfe waren immer sehr zurückhaltend.
+
+398
+99:59:59,000 --> 99:59:59,000
+Gerichtsentscheidungen sind eine der vielen Sachen
+
+399
+99:59:59,000 --> 99:59:59,000
+die Informationsfreiheit wirklich voran treiben.
+
+400
+99:59:59,000 --> 99:59:59,000
+Es ist nicht die Politik die aktiv Verbesserungen macht, sondern einzelne Bürger die kämpfen
+
+401
+99:59:59,000 --> 99:59:59,000
+für ihre Recht auf Informationsfreiheit und auch klagen
+
+402
+99:59:59,000 --> 99:59:59,000
+unnd meistens auch gewinnen.
+
+403
+99:59:59,000 --> 99:59:59,000
+In Deutschland wurde die Informationsfreiheit von Gerichten
+
+404
+99:59:59,000 --> 99:59:59,000
+stark verteidigt und man ganz gute Chancen
+
+405
+99:59:59,000 --> 99:59:59,000
+wenn man die Anfrage einigermaßen realistisch gestellt hat.
+
+406
+99:59:59,000 --> 99:59:59,000
+Das heißt, Gerichtsentscheidungen sind sehr wichtig. Denn sobald ein Gericht entscheidet,
+
+407
+99:59:59,000 --> 99:59:59,000
+dass ein Dokument veröffentlicht werden muss, heißt das auch,
+
+408
+99:59:59,000 --> 99:59:59,000
+dass alle anderen Arten dieses Dokuments bei der Behörde öffentlich werden.
+
+409
+99:59:59,000 --> 99:59:59,000
+Wir erwarten 2013 eine Entscheidung, dass der Bundestag tatsächlich
+
+410
+99:59:59,000 --> 99:59:59,000
+die Dokumente des wissenschaftlichen Dienstes veröffentlichen muss.
+
+411
+99:59:59,000 --> 99:59:59,000
+Er produziert bis zu 3000 im Jahr.
+
+412
+99:59:59,000 --> 99:59:59,000
+Da freue ich mich schon drauf, dass wir dann eine
+
+413
+99:59:59,000 --> 99:59:59,000
+kleine öffentliche Bibliothek aufbauen von diesen Dokumeten.
+
+414
+99:59:59,000 --> 99:59:59,000
+Ich hoffe, der Bundestag lässt sich überzeugen, sich das nicht einzeln zuschicken zu lassen
+
+415
+99:59:59,000 --> 99:59:59,000
+sondern selbst mitzuhelfen das zu veröffentlichen.
+
+416
+99:59:59,000 --> 99:59:59,000
+Dann das hamburgische Transparenzgesetz.
+
+417
+99:59:59,000 --> 99:59:59,000
+Das war der größte Schritt für die Informationsfreiheit
+
+418
+99:59:59,000 --> 99:59:59,000
+in den letzten 6 Jahren. Da kann man mal Appluas gegen
+
+419
+99:59:59,000 --> 99:59:59,000
+für alle daran beteiligt waren.
+
+420
+99:59:59,000 --> 99:59:59,000
+Denn das hamburgische Transparenzgesetz
+
+421
+99:59:59,000 --> 99:59:59,000
+kehrt das Ganze um. Jetzt müssen Verträge von Anfang an veröffentlicht werden.
+
+422
+99:59:59,000 --> 99:59:59,000
+Es gibt ein Transparenzregister, in das Dokumente iengetragen werde müssen.
+
+423
+99:59:59,000 --> 99:59:59,000
+Das kommt zwar erst in zwei Jahren, aber es wird kommen.
+
+424
+99:59:59,000 --> 99:59:59,000
+Und das dreht halt Pull in Push um.
+
+425
+99:59:59,000 --> 99:59:59,000
+Es erweitert die Rechte, es wägt gegen die Geschäftsgeheimnisse ab.
+
+426
+99:59:59,000 --> 99:59:59,000
+Daseinsvorsorgeverträge müssen veröffentlicht werden.
+
+427
+99:59:59,000 --> 99:59:59,000
+Es ist ein ziemlich gut gemachtes Gesetz.
+
+428
+99:59:59,000 --> 99:59:59,000
+Allerdings kam es tatsächlich aus dem Volk heraus. Es war eine Volksinitiative
+
+429
+99:59:59,000 --> 99:59:59,000
+Der Impuls kam aus
+
+430
+99:59:59,000 --> 99:59:59,000
+dem Vok und das war sehr gut so. Hätte die Politik da
+
+431
+99:59:59,000 --> 99:59:59,000
+einen Impuls gegeben, man kann es in Thüringen sehen,
+
+432
+99:59:59,000 --> 99:59:59,000
+da läuft das Informationsfreiheitsgesetz gerade aus und es muss ein neues her.
+
+433
+99:59:59,000 --> 99:59:59,000
+Der erste Entwurf ist
+
+434
+99:59:59,000 --> 99:59:59,000
+mit den Worten von David Schraven
+
+435
+99:59:59,000 --> 99:59:59,000
+eine Erfindung aus der Hölle.
+
+436
+99:59:59,000 --> 99:59:59,000
+Und zwar insofern, dass kommerzielle Nutzung
+
+437
+99:59:59,000 --> 99:59:59,000
+der Information verboten ist, was aber
+
+438
+99:59:59,000 --> 99:59:59,000
+den gesamten Journalismus ausschließt.
+
+439
+99:59:59,000 --> 99:59:59,000
+Natürlich muss der Journalismus mit diesen Informationen arbeiten können.
+
+440
+99:59:59,000 --> 99:59:59,000
+Hamburgisches Transparenzgesetz - sehr gute Sache! Jedes Transparenzgesetz
+
+441
+99:59:59,000 --> 99:59:59,000
+das noch kommen wird muss sich an diesem messen.
+
+442
+99:59:59,000 --> 99:59:59,000
+Da guck ich auch auf Baden-Württemberg, wenn die grün-rote Regierung da etwas  baut,
+
+443
+99:59:59,000 --> 99:59:59,000
+dann muss das mindestens das hamburgische Niveau erreichen.
+
+444
+99:59:59,000 --> 99:59:59,000
+Das hier ist der IFG-Trend von 2006 bis 2011,
+
+445
+99:59:59,000 --> 99:59:59,000
+die offiziellen Zahlen aus dem Bundesinnenministerium.
+
+446
+99:59:59,000 --> 99:59:59,000
+2006 gab es mehr, weil es da erst eingeführt wurde,
+
+447
+99:59:59,000 --> 99:59:59,000
+danach flaut das Interesse etwas ab. 2010  gab es dann
+
+448
+99:59:59,000 --> 99:59:59,000
+wieder etwas mehr. 2011 hat es sich verdoppelt.
+
+449
+99:59:59,000 --> 99:59:59,000
+Das ist eine coole Sache.
+
+450
+99:59:59,000 --> 99:59:59,000
+Ich kann einen exponentiellen Trend erkennen.
+
+451
+99:59:59,000 --> 99:59:59,000
+Wenn wir jetzt 2012 gucken, werden es bestimmt 6000.
+
+452
+99:59:59,000 --> 99:59:59,000
+Es werden auf jeden Fall 6000, wenn jeder hier im Saal eine Informationsfreiheitsanfrage stellt.
+
+453
+99:59:59,000 --> 99:59:59,000
+denn im Vergleich: 2011 hatte Großbritannien 47000 Anfragen auf 63 Mio. Bewohner.
+
+454
+99:59:59,000 --> 99:59:59,000
+Da muss man sich fragen: Was ist denn hier los?
+
+455
+99:59:59,000 --> 99:59:59,000
+Großbritannien hat 18 mal mehr Anfragen pro Bewohner.
+
+456
+99:59:59,000 --> 99:59:59,000
+Also vielleicht ist das einfach die deutsche Mentalität.
+
+457
+99:59:59,000 --> 99:59:59,000
+Informationsfreiheit, ist das ein Selbstzweck?
+
+458
+99:59:59,000 --> 99:59:59,000
+Wir haben z.B. die Ackermann-Dokumente gesehen.
+
+459
+99:59:59,000 --> 99:59:59,000
+Okay, jetzt weiß ich, er saß gegenüber von Frau Merkel.
+
+460
+99:59:59,000 --> 99:59:59,000
+Hilft mir das jetzt irgendwie weiter?
+
+461
+99:59:59,000 --> 99:59:59,000
+Thilo Bode von Foodwatch, der das angefragt hatte,
+
+462
+99:59:59,000 --> 99:59:59,000
+dem hat das sicherlich weitergeholfen. Er hatte eine Kampagne gegen den Ackermann, glaube ich.
+
+463
+99:59:59,000 --> 99:59:59,000
+Aber die Informationen die man befreit sind dazu da,
+
+464
+99:59:59,000 --> 99:59:59,000
+die Asymmetrie zwischen Bürger und Staat zu verringern.
+
+465
+99:59:59,000 --> 99:59:59,000
+Die ist natürlich immer gegeben, der Staat weiß immer etwas mehr als der Bürger.
+
+466
+99:59:59,000 --> 99:59:59,000
+Aber per Informationsfreiheit kann man diese Asymmetrie etwas verringern und dem Bürger mehr
+
+467
+99:59:59,000 --> 99:59:59,000
+Information an die Hand geben, um bessere Entscheidungen zu fällen.
+
+468
+99:59:59,000 --> 99:59:59,000
+Zum Beispiel bei Wahlen. Für mich gehen Informationsfreiheit und Wahlen Hand in Hand.
+
+469
+99:59:59,000 --> 99:59:59,000
+Wenn man nicht weiß, was der Staat tut,
+
+470
+99:59:59,000 --> 99:59:59,000
+sondern aus nur aus Pressemitteilungen erfährt,
+
+471
+99:59:59,000 --> 99:59:59,000
+dann kann man keine gute Entscheidung an der Wahlurne treffen.
+
+472
+99:59:59,000 --> 99:59:59,000
+Dazu bedarf es der Informationsfreiheit.
+
+473
+99:59:59,000 --> 99:59:59,000
+Natürlich ist auch die Korruptionsbekämpfung im Raum,
+
+474
+99:59:59,000 --> 99:59:59,000
+aber da bin ich etwas skeptisch.
+
+475
+99:59:59,000 --> 99:59:59,000
+Natürlich kann man keine Anfrage stellen: Bitte schicken Sie mir eine Liste der korrupten Beamten bei Ihnen.
+
+476
+99:59:59,000 --> 99:59:59,000
+Aber durch kontiniuerliches Nachfragen von bestimmten Informationen, bin ich mir sicher, dass man korruptes Verhalten
+
+477
+99:59:59,000 --> 99:59:59,000
+eindämmen kann. Wenn eine Behörde merkt, dass sie regelmäßig Information zu
+
+478
+99:59:59,000 --> 99:59:59,000
+einem bestimmten Thema liefern muss, dann achtet sie darauf, dass sie entweder
+
+479
+99:59:59,000 --> 99:59:59,000
+ihr korruptes Verhalten sehr verbirgt oder aber, dass sie wirklich
+
+480
+99:59:59,000 --> 99:59:59,000
+transparenter arbeitet und dass sie vielleicht irgendwann
+
+481
+99:59:59,000 --> 99:59:59,000
+Information selbständig veröffentlich.
+
+482
+99:59:59,000 --> 99:59:59,000
+Da hab ich noch ein Projekt am Start das ich demnächst hoffenltich launchen werden,
+
+483
+99:59:59,000 --> 99:59:59,000
+um kontiniuerlich Informationsfreiheitsanfragen
+
+484
+99:59:59,000 --> 99:59:59,000
+an bestimme Behörden zu bestimmten Themen zu stellen.
+
+485
+99:59:59,000 --> 99:59:59,000
+Informationsfreiheit und Journalismus.
+
+486
+99:59:59,000 --> 99:59:59,000
+ich hatte es ja vorhin schon erwähnt, da hatte jetzt irgendwie
+
+487
+99:59:59,000 --> 99:59:59,000
+die Welt oder so ein Positionspapier gehabt, aber es wird nicht veröffentlicht.
+
+488
+99:59:59,000 --> 99:59:59,000
+Journalismus ist da irgendwie noch weiter zurück.
+
+489
+99:59:59,000 --> 99:59:59,000
+Informationsfreiheit wird zwar sehr intensiv genutzt, aber wenn man sich
+
+490
+99:59:59,000 --> 99:59:59,000
+Journalistenschüler anguckt, die wissen oft nicht, was Informtionsfreiheit ist.
+
+491
+99:59:59,000 --> 99:59:59,000
+Wobei ich mich immer frage: Ihr seid Journalisten, eure Aufgabe ist
+
+492
+99:59:59,000 --> 99:59:59,000
+Informationen zu beschaffen, aber ihr kennt euch mit diesem Gesetz nicht aus - was läuft da schief?
+
+493
+99:59:59,000 --> 99:59:59,000
+Aber wir versuchen das jetzt zu beheben.
+
+494
+99:59:59,000 --> 99:59:59,000
+Wir versuchen die Anfragen die auf frag-den-staat aufschlagen und beantwortet werden
+
+495
+99:59:59,000 --> 99:59:59,000
+und auch Ergebnisse liefern genauer anzuschauen
+
+496
+99:59:59,000 --> 99:59:59,000
+und journalistisch aufzuarbeiten.
+
+497
+99:59:59,000 --> 99:59:59,000
+Die publizieren wir dann zusammen
+
+498
+99:59:59,000 --> 99:59:59,000
+auf dem Zeit-Online OpenData-Blog.
+
+499
+99:59:59,000 --> 99:59:59,000
+Hoffentlich bringt das was und zeigt ein Bisschen, dass Informationsfreiheit für Journalisten
+
+500
+99:59:59,000 --> 99:59:59,000
+definitv eine gute Sache ist, dass sie es auf jeden Fall mehr ausprobieren sollten.
+
+501
+99:59:59,000 --> 99:59:59,000
+Dann die Hacker-Ethik.
+
+502
+99:59:59,000 --> 99:59:59,000
+Private Daten schützen, öffentliche Daten nützen.
+
+503
+99:59:59,000 --> 99:59:59,000
+Oder umgekehrt. Öffentliche Daten nützen, private Daten schützen.
+
+504
+99:59:59,000 --> 99:59:59,000
+Wir haben hier dieses Buch z.B. von Julian Assange, "Cypherpunk". Wir sollten kryptografish aufrüsten.
+
+505
+99:59:59,000 --> 99:59:59,000
+Der Staat überwacht alles, wir sollten Kryptografie nutzen.
+
+506
+99:59:59,000 --> 99:59:59,000
+Um unsere Anonymität zu bewahren. Um unsere Kommunikation vor fremder Einsicht zu schützen.
+
+507
+99:59:59,000 --> 99:59:59,000
+Aber vergesst diesen zweiten Part nicht. Öffentliche Daten nützen.
+
+508
+99:59:59,000 --> 99:59:59,000
+Wir können natürlich sehr viel besser als Deutsche diesen Datenschutz
+
+509
+99:59:59,000 --> 99:59:59,000
+betreiben, unsere eigenen Daten zu schützen.
+
+510
+99:59:59,000 --> 99:59:59,000
+Aber wir müssen diese öffentlichen Daten auch nützen,
+
+511
+99:59:59,000 --> 99:59:59,000
+sonst verlieren wir auf der anderen Seite komplett.
+
+512
+99:59:59,000 --> 99:59:59,000
+Wir können uns total abschachteln und als Hacker-Gemeinde unseren Kryptokram machen, aber
+
+513
+99:59:59,000 --> 99:59:59,000
+das hilft auf Dauer nicht, denn der Rest der Bevölkerung
+
+514
+99:59:59,000 --> 99:59:59,000
+kommt mit dem Kryptokram vielleicht nicht so klar. Und da müssen wir sie unterstützen, und zwar
+
+515
+99:59:59,000 --> 99:59:59,000
+durch das Nützen öffentlicher Daten, durch das Stellen von Informationsfreiheitsanfragen.
+
+516
+99:59:59,000 --> 99:59:59,000
+Weil nur damit letztlich kommen wir
+
+517
+99:59:59,000 --> 99:59:59,000
+in einer besseren Demokratie an. Vielen Dank!
+
+518
+99:59:59,000 --> 99:59:59,000
+[Langer Applaus]
+
+519
+99:59:59,000 --> 99:59:59,000
+So, dann wären wir jetzt bei den Fragen.
+
+520
+99:59:59,000 --> 99:59:59,000
+An zwei Punkten würde ich nochmal Nachdenken empfehlen.
+
+521
+99:59:59,000 --> 99:59:59,000
+Also ich werde morgen Abend in meinem Vortrag
+
+522
+99:59:59,000 --> 99:59:59,000
+beispielsweise, du hast Korruption angesprochen, mal rausarbeiten
+
+523
+99:59:59,000 --> 99:59:59,000
+wo Staat und Wirtschaft zusammenarbeiten in der Abwehr von Anfragen.
+
+524
+99:59:59,000 --> 99:59:59,000
+Das ist ja eine spannende Geschichte. Die Verwaltung hasst ja Informationsfreiheit,
+
+525
+99:59:59,000 --> 99:59:59,000
+sie widerspricht ihrem Verständnis.
+
+526
+99:59:59,000 --> 99:59:59,000
+Die Wirtschaft will nichts rausgeben, Beispiel Geschäftsgeheimnisse,
+
+527
+99:59:59,000 --> 99:59:59,000
+wo man dann wirklich auch zugeschoben hat. Wenn Sie uns jetzt schreiben, dass ... dann können wir so antworten
+
+528
+99:59:59,000 --> 99:59:59,000
+und den Dings ablehnen. Da gibts auch ein paar ganz interessante Dinge.
+
+529
+99:59:59,000 --> 99:59:59,000
+Gar keine Korruption, sondern nur einfach
+
+530
+99:59:59,000 --> 99:59:59,000
+das entschiedene Dagegenhalten.
+
+531
+99:59:59,000 --> 99:59:59,000
+Zweiter Punkt wo ich deinen Optimismus nicht ganz teile,
+
+532
+99:59:59,000 --> 99:59:59,000
+sind die Gerichtsentscheidungen.
+
+533
+99:59:59,000 --> 99:59:59,000
+Die Gerichtsentscheidungen die wir haben sind 50% zugunsten der Kläger ausgegangen. Das ist die gute Nachricht.
+
+534
+99:59:59,000 --> 99:59:59,000
+Das Glas ist halb voll. Aber diese 50% zeigen natürlich auch,
+
+535
+99:59:59,000 --> 99:59:59,000
+50% der Anträge der Anträge der Bürger sind zu Unrecht abgelehnt worden.
+
+536
+99:59:59,000 --> 99:59:59,000
+Man müsse jetzt nur noch gewichten, was war das.
+
+537
+99:59:59,000 --> 99:59:59,000
+Das Verwaltungsgericht Berlin hat abgelehnt: Einsicht in die 17000 Seiten des Mautvertrages.
+
+538
+99:59:59,000 --> 99:59:59,000
+Wegen Geschäftsgeheimnis unter anderem.
+
+539
+99:59:59,000 --> 99:59:59,000
+Umgekehrt hat dasselbe Verwaltungsgericht gesagt: Aber ihr dürft nachgucken, welche Kugelschreiber die Abgeordneten bestellt haben.
+
+540
+99:59:59,000 --> 99:59:59,000
+Das war ein wichtiger Punkt damals.
+
+541
+99:59:59,000 --> 99:59:59,000
+Kurz vor Jahresende haben alle ihre Füllfederhalter gekauft.
+
+542
+99:59:59,000 --> 99:59:59,000
+Ist sicher spannend, aber ich denke, die Gewichtung eines Milliardenprojektes
+
+543
+99:59:59,000 --> 99:59:59,000
+wo eine Lizenz zum Gelddrucken erteilt worden ist,
+
+544
+99:59:59,000 --> 99:59:59,000
+im Vergleich zu dem, dass sich ein paar Abgeordete Kugelschreiben besorgt haben,
+
+545
+99:59:59,000 --> 99:59:59,000
+ist keine Relation.
+
+546
+99:59:59,000 --> 99:59:59,000
+Deswegen sollten wir die Rechtsprechung auch noch überprüfen.
+
+547
+99:59:59,000 --> 99:59:59,000
+Da teile ich deinen Optimismus nicht ganz so doll.
+
+548
+99:59:59,000 --> 99:59:59,000
+Weils ja eine Frage sein soll:
+
+549
+99:59:59,000 --> 99:59:59,000
+Worauf gründest du deinen Optimismus?
+
+550
+99:59:59,000 --> 99:59:59,000
+Also, mein Optimismus ist natürlich auch
+
+551
+99:59:59,000 --> 99:59:59,000
+ein kleiner Selbstzweck. Ich betreibe diese Seite, damit Leute darüber Anfrage stellen.
+
+552
+99:59:59,000 --> 99:59:59,000
+Und wenn ich jetzt hier sage, das funktioniert eh alles nicht, kommt ja keiner.
+
+553
+99:59:59,000 --> 99:59:59,000
+Aber es fuktioniert offenbar in 50% der Fälle, wenn man klagt.
+
+554
+99:59:59,000 --> 99:59:59,000
+Und da bin ich auch weiter optimistisch, dass das besser wird.
+
+555
+99:59:59,000 --> 99:59:59,000
+Ich glaube, sobald wir einen Regierungswechsel haben, kriegen wir vielleicht
+
+556
+99:59:59,000 --> 99:59:59,000
+ein paar bessere Informationsfreiheitsgesetze. Auf Bundesebene zum Beispiel.
+
+557
+99:59:59,000 --> 99:59:59,000
+Ich bin nicht der Meinung, dass es schlechter wird.
+
+558
+99:59:59,000 --> 99:59:59,000
+Es kann ja eigentlich nur besser werden.
+
+559
+99:59:59,000 --> 99:59:59,000
+[Applaus] Klatschen für Optimismus!
+
+560
+99:59:59,000 --> 99:59:59,000
+Haben wir noch Fragen aus dem Internet?
+
+561
+99:59:59,000 --> 99:59:59,000
+Ja, wir habne noch eine Frage, und zwar:
+
+562
+99:59:59,000 --> 99:59:59,000
+Gibt es EU-Richtlinien für die Einführung des IFG?
+
+563
+99:59:59,000 --> 99:59:59,000
+Es gibt EU-Richtlinien für sowas.
+
+564
+99:59:59,000 --> 99:59:59,000
+Deswegen hat der Bund sich so gedrängt gefühlt das umzusetzen.
+
+565
+99:59:59,000 --> 99:59:59,000
+Aber Herr Tauss weiß das sicherlich besser, der war nämlich dabei und hat das selber umgesetzt.
+
+566
+99:59:59,000 --> 99:59:59,000
+Im Umweltbereich!
+
+567
+99:59:59,000 --> 99:59:59,000
+Im Umweltbereich, aber das war ja schon in den 90ern.
+
+568
+99:59:59,000 --> 99:59:59,000
+Ja natürlich, ja ich bin ja ein alter Mann. In der Tat hat sich nicht viel getan. Ich kann nur das positive Beispiel nennen.
+
+569
+99:59:59,000 --> 99:59:59,000
+Es gib aber auch eine EU-Direktive mit der man EU-Informationen anfragen.
+
+570
+99:59:59,000 --> 99:59:59,000
+da gibts auch eine nette Seite ask-eu.org, falls man da Informationen anfragen will, einfach dahin gehen.
+
+571
+99:59:59,000 --> 99:59:59,000
+Gut, dann haben wir noch eine Frage an Mikro 3, bitte.
+
+572
+99:59:59,000 --> 99:59:59,000
+Ich wollte fragen wie das aussieht mit Informationen die z.B. von irgendwelchen Fraktionen angestellt wurden
+
+573
+99:59:59,000 --> 99:59:59,000
+und dann abgelehnt bzw. nur unter Sicherheitsvorkehrungen zugänglich gemacht werden.
+
+574
+99:59:59,000 --> 99:59:59,000
+Im Sicherheitszentrum vom Bundestag oder wie es genau heißt.
+
+575
+99:59:59,000 --> 99:59:59,000
+Ob man die auch iregendwie freikämpfen kann.
+
+576
+99:59:59,000 --> 99:59:59,000
+Also die kann man auf jeden Fall nicht freikämpfen.
+
+577
+99:59:59,000 --> 99:59:59,000
+Das ist halt ein Recht der Abgeordneten, sowas zu sehen.
+
+578
+99:59:59,000 --> 99:59:59,000
+Dabei handelt es sich wahrscheinlich auch um kleine Anfragen oder andere Anfragen von Abgeordneten
+
+579
+99:59:59,000 --> 99:59:59,000
+das hat leider nichts mit Informationsfreiheit zu tun. Abgeordnete haben quasi
+
+580
+99:59:59,000 --> 99:59:59,000
+genaue Regeln nach denen sie Informationen anfragen können.
+
+581
+99:59:59,000 --> 99:59:59,000
+Die sind dem einzelnen, einfachen Bürger nicht eröffnet.
+
+582
+99:59:59,000 --> 99:59:59,000
+Was umstritten sein kann. Vielleicht sollten wir auch da mehr reinschauen dürfen.
+
+583
+99:59:59,000 --> 99:59:59,000
+Gerade was im Geheimschutzraum im Parlament, das klingt ja immer sehr seltsam,
+
+584
+99:59:59,000 --> 99:59:59,000
+aber das ist auch ein größeres Stück Arbeit sowas zu ändern.
+
+585
+99:59:59,000 --> 99:59:59,000
+Gut, haben wir noch eine Frage aus dem Internet?
+
+586
+99:59:59,000 --> 99:59:59,000
+Nein, aktuell nicht. Dann machen wir weiter mit Mikro 1.
+
+587
+99:59:59,000 --> 99:59:59,000
+Ich hab eine kleine technische Frage. Wie werden die Anfragen überhaupt
+
+588
+99:59:59,000 --> 99:59:59,000
+an die einzelnen Behörden gestellt. Werden die eingescannt und gefaxt oder per E-Mail oder wie läuft das eigentlich?
+
+589
+99:59:59,000 --> 99:59:59,000
+Per E-Mail. Wir machen uns da nicht groß die Mühe. Da hat sich auch bisher noch niemand beklagt.
+
+590
+99:59:59,000 --> 99:59:59,000
+Wir schicken halt in manchen Jurisdiktionen, auf Bundesebene z.B.,
+
+591
+99:59:59,000 --> 99:59:59,000
+die Postadresse des Nutzers mit, damit die Behörde,
+
+592
+99:59:59,000 --> 99:59:59,000
+die meisten wollen nicht per E-Mail antworten,
+
+593
+99:59:59,000 --> 99:59:59,000
+schicken dann eben einen Brief. Da ist der Nutzer dann verantwortlich, das einzuscannen und hochzuladen.
+
+594
+99:59:59,000 --> 99:59:59,000
+Aber z.B. in NRW und Hamburg schicken wir die Postadresse schon gar nicht mehr mit, um die Behörde zu zwingen per E-Mail zu antworten.
+
+595
+99:59:59,000 --> 99:59:59,000
+Allerdings ist das für die Behörde ein sehr komischer Zustand.
+
+596
+99:59:59,000 --> 99:59:59,000
+Versteht die nicht - frag-den-staat, was ist das, machen die das direkt öffentlich?
+
+597
+99:59:59,000 --> 99:59:59,000
+Wir müsse halt immer erklären, wir agieren als E-Mail-Anbieter.
+
+598
+99:59:59,000 --> 99:59:59,000
+Sie könnten auch an hotmail.com schicken und der Nutzer könnte es auf sein Blog stellen.
+
+599
+99:59:59,000 --> 99:59:59,000
+Wir vereinfachen halt den Prozess, man schickts an @frag-de-staat.de, es landet online
+
+600
+99:59:59,000 --> 99:59:59,000
+ist quasi das Gleiche under Nutzer hat quasi seine Zustimmung gegeben
+
+601
+99:59:59,000 --> 99:59:59,000
+daduch dass er den Service nutzt.
+
+602
+99:59:59,000 --> 99:59:59,000
+Das muss man den Behörden immer mal klarmachen.
+
+603
+99:59:59,000 --> 99:59:59,000
+Ansonsten akzeptieren die E-Mail eigetlich ganz gut.
+
+604
+99:59:59,000 --> 99:59:59,000
+Hat sonst noch jemand Fragen?
+
+605
+99:59:59,000 --> 99:59:59,000
+Ich ab noch eine Frage aus dem IRC.
+
+606
+99:59:59,000 --> 99:59:59,000
+Gibt es außer Gesetzen, Informationen zur Verfügung zu stellen, auch Vorschriften
+
+607
+99:59:59,000 --> 99:59:59,000
+die eine verständliche, übersichtliche Darstellung verlangen?
+
+608
+99:59:59,000 --> 99:59:59,000
+Kannst du nochmal wiederholen, bitte?
+
+609
+99:59:59,000 --> 99:59:59,000
+Eine verständliche, übersichtliche Darstellung dieser Information verlangen?
+
+610
+99:59:59,000 --> 99:59:59,000
+Also, es gibt in den Informationsfreiheitsgesetzen immer sowas, dass der Aktenplan
+
+611
+99:59:59,000 --> 99:59:59,000
+doch veröffetlicht werden woll. Stichwort "soll".
+
+612
+99:59:59,000 --> 99:59:59,000
+Da hält sich dann keine Behörde dran. Das hat auch, glaub ich,
+
+613
+99:59:59,000 --> 99:59:59,000
+Herr Simon Weiß in Berlin mal ausprobiert.
+
+614
+99:59:59,000 --> 99:59:59,000
+Er hat versicht Aktenpläne zu besorgen. Hat keine gefunden in Berlin.
+
+615
+99:59:59,000 --> 99:59:59,000
+Das ist ein Problem, letztlich weiß der Bürger gar nicht, wonach er anfragen soll.
+
+616
+99:59:59,000 --> 99:59:59,000
+Was ist ein Aktenplan?
+
+617
+99:59:59,000 --> 99:59:59,000
+Ein Aktenplan, der besteht aus einem Verzeichnis, wie die Informationen in der Behörde sortiert sind.
+
+618
+99:59:59,000 --> 99:59:59,000
+Da kann man halt genau nachgucken, was die Behörde überhaupt da hat.
+
+619
+99:59:59,000 --> 99:59:59,000
+Dann kna man sagen, ich möchte das haben, dann kann es ggf. bekommen.
+
+620
+99:59:59,000 --> 99:59:59,000
+Aber die Aktenpläne sind halt größtenteils nicht vorhanden.
+
+621
+99:59:59,000 --> 99:59:59,000
+Man muss aus der Presse erfahren, dass sowas da sein könnte.
+
+622
+99:59:59,000 --> 99:59:59,000
+Oder sich überlegen, dass sowas vorliegen muss.
+
+623
+99:59:59,000 --> 99:59:59,000
+Es ist wirklich ein Problem, das nicht zu wissen.
+
+624
+99:59:59,000 --> 99:59:59,000
+Man kann halt nur Sachen anfragen, die tatsächlich vorliegen.
+
+625
+99:59:59,000 --> 99:59:59,000
+Die Behörde nicht verpflichtet, extra eine Information zu erschaffen.
+
+626
+99:59:59,000 --> 99:59:59,000
+Man kann nicht sagen, bitte erstellen Sie mir einen Bericht.
+
+627
+99:59:59,000 --> 99:59:59,000
+Sonden halt nur, wenn dieser Bericht existiert, schicken Sie ihn mir zu.
+
+628
+99:59:59,000 --> 99:59:59,000
+Damit hatten wir auch schon einige Probleme, z.B. dass wir gesagt hatten,
+
+629
+99:59:59,000 --> 99:59:59,000
+wir hätten gern eine Liste von allen Dokumeten. Und dann hieß es
+
+630
+99:59:59,000 --> 99:59:59,000
+die Liste liegt leider nicht vor.
+
+631
+99:59:59,000 --> 99:59:59,000
+Wir haben die ganzen Dokumetnen, aber niemand weiß, wo die genau liegen oder
+
+632
+99:59:59,000 --> 99:59:59,000
+ob es davon eine Liste gibt.
+
+633
+99:59:59,000 --> 99:59:59,000
+Ist uns alles schon passiert, aber da muss
+
+634
+99:59:59,000 --> 99:59:59,000
+man drauf beharren und genauer nachhaken,
+
+635
+99:59:59,000 --> 99:59:59,000
+wenn der Aktenplan nicht da ist, muss man halt drauf beharren, dass eine Auflistung verfügbar sein muss.
+
+636
+99:59:59,000 --> 99:59:59,000
+Gut, die linke Seite hat jetzt auch Fragen.
+
+637
+99:59:59,000 --> 99:59:59,000
+Eine konkrete Frage. Ich hab von einer Landesstatistikbehörde eine
+
+638
+99:59:59,000 --> 99:59:59,000
+Antwort bekommen im Rahmen eines Auskunftersuchens,
+
+639
+99:59:59,000 --> 99:59:59,000
+das ist eine sehr ausführliche Antwort, geh sehr ins Detail und endet mit
+
+640
+99:59:59,000 --> 99:59:59,000
+Vermerk, dass sie mir verbietet, diese zu veröffentlichen,
+
+641
+99:59:59,000 --> 99:59:59,000
+und verweist auf das Urheberrecht.
+
+642
+99:59:59,000 --> 99:59:59,000
+Ich weiß nicht, ob du das in der Pauschalität beantworten kannst, aber ist sowas tragbar?
+
+643
+99:59:59,000 --> 99:59:59,000
+Es ist ja eine Art Gutachten. Ich seh eine gewisse Parallelität zu dem was du eben aus dem Bundestag
+
+644
+99:59:59,000 --> 99:59:59,000
+berichtet hast und aus meinem Bauchgefühl heraus würde ich sagen, das sind Sachinformationen
+
+645
+99:59:59,000 --> 99:59:59,000
+da sind keine persönlichen Daten drin, und wenn, kann ich sie schwärzen, wenn sie mich betreffen.
+
+646
+99:59:59,000 --> 99:59:59,000
+Warum nicht veröffentlichen.
+
+647
+99:59:59,000 --> 99:59:59,000
+Welches Land war das? Niedersachen.
+
+648
+99:59:59,000 --> 99:59:59,000
+Ja, das hat man halt keine Informationsfreiheit, worauf man sich berufen könnte.
+
+649
+99:59:59,000 --> 99:59:59,000
+Allerdings, amtliche Werke unterliegen nicht dem Urheberrechtsschutz.
+
+650
+99:59:59,000 --> 99:59:59,000
+Paragraf 5, weiß nicht genau. Und deswegen kann man versuchen,
+
+651
+99:59:59,000 --> 99:59:59,000
+zu sagen, das ist jetzt ein amtliches Werk, das hat eine Behörde erstellt,
+
+652
+99:59:59,000 --> 99:59:59,000
+ich würde es mal probieren!
+
+653
+99:59:59,000 --> 99:59:59,000
+Das Veröffentlichen, vielleicht kann man das auch irgendwie irgendwohin stellen und keiner weiß, wie es dahin gekommen ist.
+
+654
+99:59:59,000 --> 99:59:59,000
+Gut, dann hier noch diese Frage.
+
+655
+99:59:59,000 --> 99:59:59,000
+Hallo, Thomas von Open Knowledge Foundation Österreich. Noch eine Anmerkung oder ein Trick.
+
+656
+99:59:59,000 --> 99:59:59,000
+Bzgl. Antworten von staatl. Stellen auf Informationsfreiheitsanfragen.
+
+657
+99:59:59,000 --> 99:59:59,000
+Bei uns ist es zumindest so, dass nach Verwaltungsgesetzbuch es so sein muss,
+
+658
+99:59:59,000 --> 99:59:59,000
+dass Menschen mit Sehbehinderungen oder sonstigen Einschränkungen
+
+659
+99:59:59,000 --> 99:59:59,000
+diese behördlichen Dokumente auch
+
+660
+99:59:59,000 --> 99:59:59,000
+lesen oder verstehen können müssen. Das heißt,
+
+661
+99:59:59,000 --> 99:59:59,000
+das so ein Weg, wie man hier auch OpenData in die Anfragen rein bekommt.
+
+662
+99:59:59,000 --> 99:59:59,000
+Weils dann natürlich ein Problem gibt, wenn ich wirklich nur
+
+663
+99:59:59,000 --> 99:59:59,000
+einen eingescannen Ausdruck von einer Excel-Liste hab.
+
+664
+99:59:59,000 --> 99:59:59,000
+Das hatten wir uns wirklich mal überlegt. Auf dem letzten Congress
+
+665
+99:59:59,000 --> 99:59:59,000
+kam direkt danach ein Blinder zu mir und sagte, hier gibts das Behinderten-Gleichstellungsgesetz.
+
+666
+99:59:59,000 --> 99:59:59,000
+Das besagt, amtliche Informationen müssen auch für Sehbehinderte
+
+667
+99:59:59,000 --> 99:59:59,000
+verfügbar sein. Problem ist nur, die Behörde entscheidet in Deutschland, wie.
+
+668
+99:59:59,000 --> 99:59:59,000
+Das heißt, im Zweifelsfall kriegt man Braille zugesendet
+
+669
+99:59:59,000 --> 99:59:59,000
+und dann ist man auch nicht wesentlich weiter. Aber wir hatten auch
+
+670
+99:59:59,000 --> 99:59:59,000
+wirklich überlegt, so einen Satz in den Anfragetext reinzuschreiben:
+
+671
+99:59:59,000 --> 99:59:59,000
+Nach Gleichstellungsgesetz schicken Sie es bitte maschienenlesbar zu.
+
+672
+99:59:59,000 --> 99:59:59,000
+Uns war nicht klar, ob jeder Anfragesteller dann automatsich blind sein muss,
+
+673
+99:59:59,000 --> 99:59:59,000
+oder ob man das von einem Blinden der alle Fragen stellt macht,
+
+674
+99:59:59,000 --> 99:59:59,000
+wir haben versucht, da einen kleinen Hack einzubauen, aber sind da noch nicht weiter gekommen.
+
+675
+99:59:59,000 --> 99:59:59,000
+Aber vielleicht sollten wir das auf jeden Fall weiter verfolgen.
+
+676
+99:59:59,000 --> 99:59:59,000
+Übrigens, frag-den-staat.at steht in den Startlöchern. Das ist auch eine Sache
+
+677
+99:59:59,000 --> 99:59:59,000
+die wir nochmal auf den Weg bringen wollten.
+
+678
+99:59:59,000 --> 99:59:59,000
+Gut, ist das Internet noch zu sprechen?
+
+679
+99:59:59,000 --> 99:59:59,000
+Das Internet hat sich leergefragt, dann die 2 bitte.
+
+680
+99:59:59,000 --> 99:59:59,000
+Du betreibst die Seite ja nicht selbst, sondern eine Foundation. Finanziert sich das auch darüber?
+
+681
+99:59:59,000 --> 99:59:59,000
+Wie finanziert ihr euch? Das kostet ja alles Geld, braucht ihr noch Geld?
+
+682
+99:59:59,000 --> 99:59:59,000
+Wir brauchen Geld, wir sind auf Spenden angewiesen,
+
+683
+99:59:59,000 --> 99:59:59,000
+das frag-den-staat-Projekt hat auch ein Spendenbanner auf der Seite.
+
+684
+99:59:59,000 --> 99:59:59,000
+Meine aktuelle Arbeit wird von der Open Knowledge Foundation
+
+685
+99:59:59,000 --> 99:59:59,000
+in Großbritannien finanziert, also cross-channel,
+
+686
+99:59:59,000 --> 99:59:59,000
+also über den kleinen Kanal rüber.
+
+687
+99:59:59,000 --> 99:59:59,000
+Aber wir sind auf Spende angewiesen. Die Open Knowledge Foundation ist eine gemeinnütziger Verein,
+
+688
+99:59:59,000 --> 99:59:59,000
+ihr könnt eure Spenden absetzen, wenn ihr frag-den-staat unterstützenswert findet, oder andere Projekte
+
+689
+99:59:59,000 --> 99:59:59,000
+der Open Knowledge Foundation. Wir würden uns sehr über eure Spende freuen.
+
+690
+99:59:59,000 --> 99:59:59,000
+Gut dann jetzt bei der 1, bitte.
+
+691
+99:59:59,000 --> 99:59:59,000
+Sollte man frag-den-staat woanders auch mache wollen und nicht von vorne
+
+692
+99:59:59,000 --> 99:59:59,000
+anfangen wollen, gibts eine Möglichkeit an den Code zu kommen?
+
+693
+99:59:59,000 --> 99:59:59,000
+Ja, also, der Code ist auf Github.
+
+694
+99:59:59,000 --> 99:59:59,000
+github.com/StefanW/Froide/ der Code ist MIT-lizenziert, ein Python-Projekt. Es gibt auch ein Rails-Projekt,
+
+695
+99:59:59,000 --> 99:59:59,000
+diese Software steht hinter dem Portal in Großbritannien.
+
+696
+99:59:59,000 --> 99:59:59,000
+Also Rails-Entwickler können da hingehen, Python-Entwickler können dort hingehen.
+
+697
+99:59:59,000 --> 99:59:59,000
+Die Software ist frei und kann auch überall aufgesetzt werden.
+
+698
+99:59:59,000 --> 99:59:59,000
+Ich nehme auch gerne Hilfe entgegen, wenn es Iteresse gibt mitzuarbeiten.
+
+699
+99:59:59,000 --> 99:59:59,000
+[Applaus]
+
+700
+99:59:59,000 --> 99:59:59,000
+Haben wir noch Fragen?
+
+701
+99:59:59,000 --> 99:59:59,000
+Im IRC: Gibt es Planungen, welches Bundesland demnächst ein IFG verabschiedet?
+
+702
+99:59:59,000 --> 99:59:59,000
+Also, Baden-Württemberg steht auf jeden Fall in den Startlöchern.
+
+703
+99:59:59,000 --> 99:59:59,000
+Die Regierung ist dem ganz wohlgesonnen, was man so hört,
+
+704
+99:59:59,000 --> 99:59:59,000
+alle anderen Regierungen eher nicht
+
+705
+99:59:59,000 --> 99:59:59,000
+die sind konservativ dominiert, und da ist es mit dem IFG-Wunsch nicht so weit her.
+
+706
+99:59:59,000 --> 99:59:59,000
+Thüringen bekommt ein neues IFG, ein Update,
+
+707
+99:59:59,000 --> 99:59:59,000
+dass wollte ich auf frag-den-staat hinzufügen.
+
+708
+99:59:59,000 --> 99:59:59,000
+frag-den-staat hat momentan nämlich nur NRW, Berlin, Brandenburg, Hamburg und die Bundesebene.
+
+709
+99:59:59,000 --> 99:59:59,000
+Thüringen ist das nächste was ich da mal reintun werde.
+
+710
+99:59:59,000 --> 99:59:59,000
+Wenn ihr mehr Bundesländer wollte, mit Spenden lässt sich das auf jeden Fall beschleunigen.
+
+711
+99:59:59,000 --> 99:59:59,000
+Dann du noch, bitte!
+
+712
+99:59:59,000 --> 99:59:59,000
+Die Mitarbeiter die diese Anfragen auswerten, wie sehr helfen die nach?
+
+713
+99:59:59,000 --> 99:59:59,000
+Also, wenn du so eine Anfrage stellst wie vorhin, bitte schicken Sie mir den Bericht
+
+714
+99:59:59,000 --> 99:59:59,000
+auf den in diesem Artikel verwiesen wird,
+
+715
+99:59:59,000 --> 99:59:59,000
+sperren die sich dann und sagen, ich weiß leider nicht was Sie meinen?
+
+716
+99:59:59,000 --> 99:59:59,000
+Es kommt gaz auf die Behörde an. Dem Pessimismus den auch Herr Tauss gerade
+
+717
+99:59:59,000 --> 99:59:59,000
+in den Raum gebracht hat, möchte ich widersprechen. Behörden, es gibt das schwarze und weiße Schafe.
+
+718
+99:59:59,000 --> 99:59:59,000
+Wir wollen beide darstellen. Die weißen Schafe, also die Behörden die sehr nette Antworten schreiben,
+
+719
+99:59:59,000 --> 99:59:59,000
+auch wirklich ins Rampenlicht stellen, aber natürlich auch die Behörden die unwirschoder gar nich antworten.
+
+720
+99:59:59,000 --> 99:59:59,000
+Wir wollen beides darstellen und es ist auch ganz unterschiedlich.
+
+721
+99:59:59,000 --> 99:59:59,000
+Ich hab sehr viele Geschichten auf frag-den-staat gesehen, wo sich Anfragesteller bedankt haben
+
+722
+99:59:59,000 --> 99:59:59,000
+nochmal telefoniert und Details abgesprochen haben
+
+723
+99:59:59,000 --> 99:59:59,000
+das ist sehr schön zu sehen. Es gibt aber auch viele Anfragen die hoffnungslos
+
+724
+99:59:59,000 --> 99:59:59,000
+verspätet sind, zu spät ankommen, und dann ist die Anfrage in der Behörde verloren gegangen.
+
+725
+99:59:59,000 --> 99:59:59,000
+Kann beides vorkommen. Wir unterstützen aber die Anfragestellen, wenn sowas passiert.
+
+726
+99:59:59,000 --> 99:59:59,000
+Wir geben Tipps wie man weiter vorgeht.
+
+727
+99:59:59,000 --> 99:59:59,000
+Dafür machen wir das, damit man nicht allein ist.
+
+728
+99:59:59,000 --> 99:59:59,000
+Dann bitte du bei der 2.
+
+729
+99:59:59,000 --> 99:59:59,000
+Auf Englisch?
+
+730
+99:59:59,000 --> 99:59:59,000
+Yes.
+
+731
+99:59:59,000 --> 99:59:59,000
+Ich bin aus Manchester, England.
+
+732
+99:59:59,000 --> 99:59:59,000
+[englische Rede]
+
+733
+99:59:59,000 --> 99:59:59,000
+Hat das IRC noch fragen? Dann Du bei der 3, bitte.
+
+734
+99:59:59,000 --> 99:59:59,000
+Ich wollte fragen, ob ihr die Anfrangen nur als solche im Portal habt oder ob ihr auch eine Statistik macht
+
+735
+99:59:59,000 --> 99:59:59,000
+welcher Behörden und Ämter besonders gewillt sind, Anfragen zu beantworten
+
+736
+99:59:59,000 --> 99:59:59,000
+als kleine Nachilfe zu Transparenz und Mitarbeit.
+
+737
+99:59:59,000 --> 99:59:59,000
+Also, wir hatten uns überlegt, unterschiedliche Anfragetexte für die Behörden auszuarbeiten.
+
+738
+99:59:59,000 --> 99:59:59,000
+Wir ranken die Behörden nach einer Heuristik oder manuell von 1 bis 5.
+
+739
+99:59:59,000 --> 99:59:59,000
+Wer besonders schlecht gerankt ist, bekommt die härtesten Anfragetexte mit den ganzen Paragraphen
+
+740
+99:59:59,000 --> 99:59:59,000
+und ganz vielen Drohungen und der Anwalt ist auch schon fast eingeschaltet.
+
+741
+99:59:59,000 --> 99:59:59,000
+Die Behörde immer sehr nett antwortet, kriegt auch eine nette Anfrage.
+
+742
+99:59:59,000 --> 99:59:59,000
+Das hatten wir uns mal überlegt einzuführen oder auch
+
+743
+99:59:59,000 --> 99:59:59,000
+bei Behörden die besonders garstig immer sind die Benutzer direkt zu begleiten.
+
+744
+99:59:59,000 --> 99:59:59,000
+Definitv möglich, müssten wir vielleicht mal in die Software einbauen.
+
+745
+99:59:59,000 --> 99:59:59,000
+Nicht das Killerfeature, wie ich mir das gerade vorstelle, aber kann man mal drüber nachdenken.
+
+746
+99:59:59,000 --> 99:59:59,000
+Ich dachte eher so an einen Pranger.
+
+747
+99:59:59,000 --> 99:59:59,000
+Top 100, Flop 100.
+
+748
+99:59:59,000 --> 99:59:59,000
+Hot or nor für Behörden. Wir haben ja schon Anfragen die abgelehnt wurden
+
+749
+99:59:59,000 --> 99:59:59,000
+da kann vielleicht mal gucken, letztlich hängt aber die Ablehnung oft mit der Information die angefagt wurde zusammen.
+
+750
+99:59:59,000 --> 99:59:59,000
+Die Behörde kann gar nichs rausgeben, was die Sicherheit betrifft. Ist vielleicht nicht immer richtig, kann man durchklagen,
+
+751
+99:59:59,000 --> 99:59:59,000
+in vielen Fällen ist das aber doch nicht vom Gesetz abgedeckt,
+
+752
+99:59:59,000 --> 99:59:59,000
+da kann die Behörde dann auch nichts für.
+
+753
+99:59:59,000 --> 99:59:59,000
+Beispiel Geheimdienste. Das ist eine Bereichtsausnahme.
+
+754
+99:59:59,000 --> 99:59:59,000
+Niemand kann den BND anfragen.
+
+755
+99:59:59,000 --> 99:59:59,000
+Der ist komplett ausgenommen. Man kriegt dann nur die Information zurück, dass der BND ausgenommen ist.
+
+756
+99:59:59,000 --> 99:59:59,000
+Es schwierig so ein Ranking automatisiert zu erstellen.
+
+757
+99:59:59,000 --> 99:59:59,000
+Aber wir sollten mal gucken.
+
+758
+99:59:59,000 --> 99:59:59,000
+Also, die Daten sind öffentlich, man muss vielleicht mal ein paar genaue Berechnungen machen.
+
+759
+99:59:59,000 --> 99:59:59,000
+Gut, hat noch irgendjemand eine Frage?
+
+760
+99:59:59,000 --> 99:59:59,000
+Dann ist jetz der Moment an dem ihr hervortreten solltet. Oder im Internet?
+
+761
+99:59:59,000 --> 99:59:59,000
+Ja, vom IRC. Wie wird die Vollständigkeit der Information sichergestellt?
+
+762
+99:59:59,000 --> 99:59:59,000
+Das kann man natürlich nicht.
+
+763
+99:59:59,000 --> 99:59:59,000
+Die Behörde antwortet und Behörden wollten zwei Dinge machen,
+
+764
+99:59:59,000 --> 99:59:59,000
+nämlich erstens wenig Arbeit und zweitens keine Fehler machen.
+
+765
+99:59:59,000 --> 99:59:59,000
+Die Vollständigkeit wiederspricht natürlich
+
+766
+99:59:59,000 --> 99:59:59,000
+wenig Arbeit. Aber Fehler machen:
+
+767
+99:59:59,000 --> 99:59:59,000
+Und das Informatiosnfreiheitsgesetz ist ein Gesetz, man dagegen klagen und wenn herauskommt,
+
+768
+99:59:59,000 --> 99:59:59,000
+dass eine Behörde absichtlich Informationen unterschlagen hat, geht es dem Behördenmitarbeiter
+
+769
+99:59:59,000 --> 99:59:59,000
+schlecht. Er möchte keine Fehler machen.
+
+770
+99:59:59,000 --> 99:59:59,000
+Und deswegen kann man grundsätzlich darauf vertrauen, das er die Information so rausgibt.
+
+771
+99:59:59,000 --> 99:59:59,000
+Und wenn wir dieses Vertrauen nicht haben, dann ist es eh zu spät, dieses Grundvertrauen,
+
+772
+99:59:59,000 --> 99:59:59,000
+dass wenn wir das Informationsfreiheitsgesetz nutzen,
+
+773
+99:59:59,000 --> 99:59:59,000
+und dann Informationen zurück bekommen, dann müssen wir, na ja,
+
+774
+99:59:59,000 --> 99:59:59,000
+vertrauenen, jedenfalls erstmal damit leben, dass diese Information das ist was wir bekommen.
+
+775
+99:59:59,000 --> 99:59:59,000
+Wenn man weiß, dass da noch mehr ist, muss man halt klagen und versuchen mehr Einsicht zu erhalten.
+
+776
+99:59:59,000 --> 99:59:59,000
+Aber eine Vollständigkeit können wir nicht garantieren und vielleicht die Behörde selber nicht
+
+777
+99:59:59,000 --> 99:59:59,000
+weil sie nicht weiß, was für Informationen sie noch hat. Die sind oft sehr unsortiert.
+
+778
+99:59:59,000 --> 99:59:59,000
+Gut, dann wars das jetzt mit IRC.
+
+779
+99:59:59,000 --> 99:59:59,000
+Wo sitzt das Interent überhaupt?
+
+780
+99:59:59,000 --> 99:59:59,000
+Das Internet sitzt da in einem dunklen Zimmer.
+
+781
+99:59:59,000 --> 99:59:59,000
+Aber da sollte man nicht reingehen.
+
+782
+99:59:59,000 --> 99:59:59,000
+Da sind Katzen und so, das ist komisch.
+
+783
+99:59:59,000 --> 99:59:59,000
+Wenn niemand mehr eine Frage hat, dann vielen Dank an Stefan und einen Applaus bitte.
