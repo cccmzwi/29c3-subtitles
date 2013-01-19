@@ -1,0 +1,3007 @@
+1
+00:00:09,574 --> 00:00:20,937
+<i>applause</i>
+
+2
+00:00:20,937 --> 00:00:22,840
+Hi, my name is Molly Sauter.
+
+3
+00:00:22,840 --> 00:00:26,337
+I'm currently a grad student at MIT in comparative media studies
+
+4
+00:00:26,337 --> 00:00:30,334
+and I do research at the center for civic media at the media lab.
+
+5
+00:00:30,334 --> 00:00:35,448
+This talk is going to be laying out an analytical framework
+
+6
+00:00:35,448 --> 00:00:37,168
+that I've been working on for a while
+
+7
+00:00:37,168 --> 00:00:40,584
+of the ethical analysis of activist DDoS actions.
+
+8
+00:00:40,584 --> 00:00:45,023
+And though distributed denial of service attacks have been used
+
+9
+00:00:45,023 --> 00:00:49,201
+as a tool of digital activism for roughly the past 2.5 decades,
+
+10
+00:00:49,201 --> 00:00:52,767
+the past couple of years we have seen this huge explosion of the use
+
+11
+00:00:52,767 --> 00:00:54,882
+and the tactic and the popularization of the tactic
+
+12
+00:00:54,882 --> 00:00:57,520
+as well as a sharp increase in the attention
+
+13
+00:00:57,520 --> 00:01:00,686
+its use attracts for media and state actors.
+
+14
+00:01:00,686 --> 00:01:03,687
+All this attention has brought a lot of criticism and
+
+15
+00:01:03,687 --> 00:01:07,751
+a lot of sort of support from various people in the digital space,
+
+16
+00:01:07,751 --> 00:01:09,585
+including digital activists.
+
+17
+00:01:09,585 --> 00:01:14,868
+However both DDoS's critics and DDoS's proponents seek to declare the tactic
+
+18
+00:01:14,868 --> 00:01:21,090
+as a whole as good or bad, without a nuance understanding the variety of circumstances in contexts
+
+19
+00:01:21,090 --> 00:01:24,039
+that can render the tactics use ethical or unethical.
+
+20
+00:01:24,039 --> 00:01:27,217
+So in this talk I'm gonna lay down the preliminaries for a framework
+
+21
+00:01:27,217 --> 00:01:33,129
+by which to perform an ethical analysis of an activist DDoS action in individual use context.
+
+22
+00:01:33,822 --> 00:01:36,923
+We're gonna go through a brief technical legal note
+
+23
+00:01:36,923 --> 00:01:40,103
+which I assume I'm gonna be able to skip for this audience,
+
+24
+00:01:40,103 --> 00:01:46,169
+criticisms of activist DDoS actions that have been thrown out in the past.
+
+25
+00:01:46,169 --> 00:01:49,752
+Then we're gonna get in to the analytical framework that I'm proposing
+
+26
+00:01:49,752 --> 00:01:52,573
+and then I'm gonna tell you a little about where I'm gonna take this
+
+27
+00:01:52,573 --> 00:01:55,952
+as I write my thesis, which this is.
+
+28
+00:01:56,660 --> 00:01:59,992
+So everybody knows what a DDoS attack is, right?
+
+29
+00:01:59,992 --> 00:02:01,810
+Raise your hand if you know what it is.
+
+30
+00:02:01,810 --> 00:02:04,044
+Awesome, I can totally skip this slide.
+
+31
+00:02:04,044 --> 00:02:06,411
+<i>laughter</i>
+
+32
+00:02:07,319 --> 00:02:10,706
+DDoS action, distributed denial of service action by which
+
+33
+00:02:10,706 --> 00:02:14,870
+you seek to monopulize the resources of a server or other resource
+
+34
+00:02:14,870 --> 00:02:18,319
+with your resources to prevent other people from using it.
+
+35
+00:02:18,319 --> 00:02:20,212
+Good, we're happy? We're happy.
+
+36
+00:02:20,212 --> 00:02:23,628
+<i>applause</i>
+
+37
+00:02:23,628 --> 00:02:27,300
+Alright, brief legal note: unlike this cat I am not a lawyer.
+
+38
+00:02:27,300 --> 00:02:29,252
+I do not have a law degree, haven't studied law.
+
+39
+00:02:29,252 --> 00:02:31,618
+I worked at a law school for a while but that doesn't make me a lawyer.
+
+40
+00:02:31,618 --> 00:02:37,045
+So I'm gonna talk about legal things in this talk, do not take it as legal advice.
+
+41
+00:02:37,045 --> 00:02:42,900
+So DDoS actions and DDoS attacks are illegal in most but not all jurisdictions.
+
+42
+00:02:42,900 --> 00:02:45,625
+In the US they are prosecuted as felonies.
+
+43
+00:02:45,625 --> 00:02:51,938
+Under title 10 section 1030 of the US Code which is complicated and which I won't read.
+
+44
+00:02:51,938 --> 00:02:55,871
+But just so that everyone is aware and this does have a bearing on my talk later:
+
+45
+00:02:55,871 --> 00:03:00,507
+these things are very illegal and this has severe precautions
+
+46
+00:03:00,507 --> 00:03:07,815
+for how organizers should treat them as they engage with them in their protests.
+
+47
+00:03:07,815 --> 00:03:13,289
+So one of the major criticisms of DDoS actions is that they constitute censorship.
+
+48
+00:03:13,289 --> 00:03:20,123
+This is a very popular criticism among sort of "oldschool" hacktivists
+
+49
+00:03:20,123 --> 00:03:23,312
+like cult of the dead cow hacktivism or other groups like that
+
+50
+00:03:23,312 --> 00:03:26,181
+which have denounced the tactic as straight-up censorship.
+
+51
+00:03:26,181 --> 00:03:31,618
+Basically they say you are impinging the movement of bits on the network and that's wrong.
+
+52
+00:03:31,618 --> 00:03:34,940
+If we're going to be engaging in this type of electronic activism
+
+53
+00:03:34,940 --> 00:03:39,349
+we want to be encouring the movement of bits on the network, not stopping them.
+
+54
+00:03:39,349 --> 00:03:44,839
+This criticism privileges the integrity of the network and the rights of specific individuals
+
+55
+00:03:44,889 --> 00:03:47,629
+to unfettered flows of information,
+
+56
+00:03:47,721 --> 00:03:54,163
+and it privileges that overpolitical ideals of activism in civil disobedience present in activist DDoS actions.
+
+57
+00:03:54,201 --> 00:04:01,118
+This criticism also raises very specific unanswered questions about who can engange in censorship.
+
+58
+00:04:01,118 --> 00:04:08,670
+Can in fact non-state actors and non-corporate actors be engaged as censorious bodies?
+
+59
+00:04:08,824 --> 00:04:15,026
+And while DDoS is undeniably a disruptive tactic, does disruption of speech,
+
+60
+00:04:15,026 --> 00:04:19,413
+particularly in context where the target has many other speech outlets,
+
+61
+00:04:19,413 --> 00:04:21,972
+always equal a denial of speech?
+
+62
+00:04:21,972 --> 00:04:26,121
+For instance when this tactic is trained against a corporate target
+
+63
+00:04:26,121 --> 00:04:30,410
+while certain aspects of that organization's presence may be disrupted
+
+64
+00:04:30,410 --> 00:04:35,510
+their abiltiy to engange in political speech through the press and other outlets is not.
+
+65
+00:04:35,510 --> 00:04:42,596
+Therefore the criticism that you're engaging in censorship by waging a DDoS action sort of falls flat.
+
+66
+00:04:42,596 --> 00:04:49,073
+Though the criticism is appropriate in some cases, especially when it's used against organizations
+
+67
+00:04:49,073 --> 00:04:54,174
+that primarily exist online such as ISPs or independent blogs.
+
+68
+00:04:55,066 --> 00:05:01,524
+Second major criticism is a sort of a revamping of this very old debate in activism.
+
+69
+00:05:01,524 --> 00:05:07,777
+Direct action or symbolic/attention-oriented activism, which is better?
+
+70
+00:05:07,777 --> 00:05:12,427
+And the anwswer is, one isn't really better, they are sort of different.
+
+71
+00:05:13,104 --> 00:05:16,184
+<i>applause</i>
+
+72
+00:05:16,184 --> 00:05:17,442
+Thank you.
+
+73
+00:05:17,442 --> 00:05:22,930
+One group that's been particularly vocal about this in the past is a group called the critical art ensemble
+
+74
+00:05:22,930 --> 00:05:27,945
+which helped pioneer the idea of electronic civil disobedience in the 90th.
+
+75
+00:05:27,945 --> 00:05:33,314
+And they critized groups like the electronic disturbance theatre for their use of DDoS in their actions.
+
+76
+00:05:33,314 --> 00:05:36,146
+Saying that the use is ineffectual because corporations
+
+77
+00:05:36,146 --> 00:05:41,289
+and states are now ??? waging "media war" with activists.
+
+78
+00:05:41,289 --> 00:05:44,771
+And it is ineffectual when compared with direct action.
+
+79
+00:05:44,771 --> 00:05:49,989
+In addition to just sort of being mean to attention-oriented activism for no reason,
+
+80
+00:05:49,989 --> 00:05:56,079
+this criticism ignores the fact that DDoS is often used as a tool of direct action
+
+81
+00:05:56,079 --> 00:06:01,378
+Such as when it was used by the electrohippies in 1999 against the Internet
+
+82
+00:06:01,393 --> 00:06:04,594
+that the world trade organization was using during their annual meeting
+
+83
+00:06:04,594 --> 00:06:07,686
+or other groups that I'm gonna talk later about in this talk.
+
+84
+00:06:07,686 --> 00:06:13,005
+The CAE's conception of DDoS also leaves the tactic
+
+85
+00:06:13,005 --> 00:06:15,617
+out of the context of larger actions that it is associated with.
+
+86
+00:06:15,617 --> 00:06:23,037
+This tactic is pretty much never and frankly should never be used as the sole tactic in a campaign.
+
+87
+00:06:23,037 --> 00:06:26,768
+It should always be used in the context with other tactics
+
+88
+00:06:26,768 --> 00:06:31,539
+and it gets its ethical and politcal viability from the context in which it is used.
+
+89
+00:06:31,539 --> 00:06:35,562
+Not simply because of things inherent to itself.
+
+90
+00:06:35,562 --> 00:06:40,356
+Third major criticism: what is a successful DDoS action?
+
+91
+00:06:40,356 --> 00:06:48,715
+Basically it's really hard to take down a large corporate website with an all volunteer manual DDoS action.
+
+92
+00:06:48,715 --> 00:06:51,977
+If you and all your friends are really just sitting in your chairs
+
+93
+00:06:51,977 --> 00:06:58,173
+hitting refresh a bunch of times on like paypal.com you're not gonna bring it down.
+
+94
+00:06:58,173 --> 00:07:02,331
+So then what are we going to consider a successful DDoS action
+
+95
+00:07:02,331 --> 00:07:07,927
+if we can't rely on downtime to be a measure of success?
+
+96
+00:07:07,927 --> 00:07:10,594
+So there are a couple of different answers to this questions.
+
+97
+00:07:10,594 --> 00:07:16,308
+The first is we want to look at the value of the tactic as something which draws and focuses attention.
+
+98
+00:07:16,308 --> 00:07:20,129
+And this is way more important now that it has become
+
+99
+00:07:20,129 --> 00:07:24,618
+much more of a media magnet than necessarily it was maybe 10 years ago.
+
+100
+00:07:24,618 --> 00:07:29,919
+Another use for the tactic is the biographical impact on the participants
+
+101
+00:07:29,919 --> 00:07:33,465
+and expanding opportunities for engagement and participation.
+
+102
+00:07:33,465 --> 00:07:38,782
+If you have never participated in a political action and you get to participate in a DDoS action
+
+103
+00:07:38,782 --> 00:07:43,424
+and you're in the IRC channel with all of these new friends who you didn't know you had
+
+104
+00:07:43,424 --> 00:07:46,132
+who you didn't know had the political views that you had
+
+105
+00:07:46,132 --> 00:07:49,667
+and you didn't know were willing to participate in ways that you are.
+
+106
+00:07:49,667 --> 00:07:53,352
+That has a huge biographical impact on you and it helps you consider yourself.
+
+107
+00:07:53,352 --> 00:07:57,329
+And activism helps you move up the ??? the ladder of engagement.
+
+108
+00:07:57,329 --> 00:08:03,070
+This enables what Ricardo Dominguez of the EDT calls a permanent culture of resistance
+
+109
+00:08:03,070 --> 00:08:10,175
+where resisting modes of power and resisting oppressive systems is part of the culture.
+
+110
+00:08:10,175 --> 00:08:16,002
+And it isn't simple something you do for special on weekends but it is something that you do all the time.
+
+111
+00:08:16,002 --> 00:08:18,270
+And the value of this symbolic resistence is
+
+112
+00:08:18,270 --> 00:08:23,214
+not necessarily its overt effect on the system that its ostensibly targets
+
+113
+00:08:23,214 --> 00:08:28,210
+but rather its effects on participants and on the reflective fields that surround it as it occurs
+
+114
+00:08:28,210 --> 00:08:30,201
+including media and culture.
+
+115
+00:08:30,201 --> 00:08:36,920
+Basically DDoS acts is a tool for the relevation of what James Scott called hidden transcripts of resistance.
+
+116
+00:08:36,920 --> 00:08:39,518
+It serves as an open action where an individual participant
+
+117
+00:08:39,518 --> 00:08:43,511
+can join a community of resistance with others.
+
+118
+00:08:44,896 --> 00:08:46,785
+Moving on to the second major section:
+
+119
+00:08:46,785 --> 00:08:48,904
+the analytical framework that I'm presenting.
+
+120
+00:08:48,904 --> 00:08:52,997
+There are four major parts of it that I'm gonna talk about in this talk.
+
+121
+00:08:52,997 --> 00:08:58,150
+I'm hoping to expand to maybe five or six later, but not right now.
+
+122
+00:08:58,150 --> 00:09:01,564
+The first is intended effects and actual effects.
+
+123
+00:09:01,564 --> 00:09:05,567
+The second is contacts within a greater campaign which we've already talked about a little bit.
+
+124
+00:09:05,567 --> 00:09:09,218
+The third is technology being utilized in the action.
+
+125
+00:09:09,218 --> 00:09:13,799
+And the fourth is the specific participant and organizer populations ??at play??.
+
+126
+00:09:13,799 --> 00:09:16,678
+I'm gonna go through these one by one.
+
+127
+00:09:16,678 --> 00:09:19,277
+The first is intended and actual effects.
+
+128
+00:09:19,277 --> 00:09:26,140
+What I mean by this is what the group that is waging the action intends to happen by its use of the action
+
+129
+00:09:26,140 --> 00:09:28,072
+what actually happens.
+
+130
+00:09:28,072 --> 00:09:31,442
+So there is a good example of this from 1997.
+
+131
+00:09:31,442 --> 00:09:40,047
+It's called the IGC Euskal Herria Journal action and that's Basque and I totally butchered it but I'm not Basque.
+
+132
+00:09:40,047 --> 00:09:44,763
+Basically what happened was there was an ISP called IGC
+
+133
+00:09:44,763 --> 00:09:50,234
+which was hosting a Basque newspaper publication, an online newspaper.
+
+134
+00:09:50,234 --> 00:09:54,338
+This was during a time in Spain when the Basques were not terribly popular.
+
+135
+00:09:54,338 --> 00:09:58,068
+There was a lot of violence going around Basque seperatives actions.
+
+136
+00:09:58,068 --> 00:10:06,772
+A popular DDoS action was started by people who I don't know, so don't ask me,
+
+137
+00:10:06,772 --> 00:10:10,876
+to pressure IGC to take this website down,
+
+138
+00:10:10,876 --> 00:10:16,500
+the Euskal Herria Journal website down. People didn't like it.
+
+139
+00:10:16,500 --> 00:10:18,880
+It got a lot of popular support.
+
+140
+00:10:18,880 --> 00:10:22,285
+Actually several major newspapers in Spain eventually
+
+141
+00:10:22,285 --> 00:10:27,270
+published target email addresses for email bombs and other things
+
+142
+00:10:27,270 --> 00:10:29,745
+until they eventually decided that was probably a bad idea
+
+143
+00:10:29,745 --> 00:10:32,937
+and they retracted their support.
+
+144
+00:10:32,937 --> 00:10:37,135
+But the stated goal of the actions was always to get the website offline.
+
+145
+00:10:37,135 --> 00:10:39,923
+People didn't like it, they wanted it gone.
+
+146
+00:10:39,923 --> 00:10:46,529
+Eventually it did go down because IGC was flooded with these packets and mail bombs and it was horrible.
+
+147
+00:10:46,529 --> 00:10:52,639
+It rendered inaccessible the websites and emails of their over 13000 subscribers
+
+148
+00:10:52,639 --> 00:10:56,682
+and they couldn't function as a business while this attack was going on.
+
+149
+00:10:56,682 --> 00:11:00,671
+So they did eventually stop hosting the site but under firm protest.
+
+150
+00:11:00,671 --> 00:11:05,621
+As an ISP IGC exists primarily in fact entirely online.
+
+151
+00:11:05,621 --> 00:11:11,186
+Removing its ability to function online removes its core as an organization
+
+152
+00:11:11,186 --> 00:11:13,034
+and its ability to function.
+
+153
+00:11:13,034 --> 00:11:17,284
+So the goal of this action was to remove content
+
+154
+00:11:17,284 --> 00:11:23,682
+by waging the action as long as the DDoS was successful the content was removed.
+
+155
+00:11:23,682 --> 00:11:30,702
+So actually the goal of the action was the permanent imposition of the state of the action.
+
+156
+00:11:30,702 --> 00:11:35,613
+Its intended effects were its actual effects as it was occurring.
+
+157
+00:11:35,613 --> 00:11:38,586
+This fits very well with the criticism that we saw before.
+
+158
+00:11:38,586 --> 00:11:41,304
+This was actually just plain censorship.
+
+159
+00:11:41,304 --> 00:11:44,052
+This was people saying: I don't like that you're hosting that content
+
+160
+00:11:44,052 --> 00:11:50,386
+therefore I'm going to to make you not host that content until you don't host it anymore.
+
+161
+00:11:50,386 --> 00:11:55,073
+This is not very cool and is unethical and bad.
+
+162
+00:11:55,904 --> 00:12:01,931
+The second example that I have up here is the EDT electronic disturbance to Lufthansa action from 2001.
+
+163
+00:12:01,931 --> 00:12:07,652
+This is an example where disrupting content does not equal silencing speech
+
+164
+00:12:07,652 --> 00:12:11,063
+as opposed to the example that I just showed which was depressing.
+
+165
+00:12:11,063 --> 00:12:16,519
+So in this example rather than removing content from the Internet
+
+166
+00:12:16,519 --> 00:12:21,255
+the goal of this action was to raise awareness of Lufthansa's
+
+167
+00:12:21,255 --> 00:12:25,739
+allowing the German government to deport immigrants using its flights.
+
+168
+00:12:25,739 --> 00:12:31,457
+It's part of a much greater action called the deportation class action.
+
+169
+00:12:31,457 --> 00:12:36,770
+While the Lufthansa website itself was rendered inaccessible for brief periods of time,
+
+170
+00:12:36,770 --> 00:12:40,889
+the actual communications of the airline, its ability to fly planes,
+
+171
+00:12:40,889 --> 00:12:45,971
+maintain normal operations and communicate internally with itself and with the media
+
+172
+00:12:45,971 --> 00:12:49,624
+remained for all practical purposes unaffected.
+
+173
+00:12:49,624 --> 00:12:52,500
+So while the stated goal of the Lufthansa action was
+
+174
+00:12:52,500 --> 00:12:56,835
+to draw public attention to a specific aspect of the Airline's business model
+
+175
+00:12:56,835 --> 00:13:00,486
+and through focused attention changed that corporations behavior
+
+176
+00:13:00,486 --> 00:13:02,767
+it was actually rather successful in that.
+
+177
+00:13:02,767 --> 00:13:08,214
+The airline did eventually stop allowing the government to deport immigrants with its flights.
+
+178
+00:13:08,214 --> 00:13:12,725
+Though the action took place on the Internet the effect it sort of had
+
+179
+00:13:12,725 --> 00:13:17,808
+was not limited to, was not even really present in the online space.
+
+180
+00:13:17,808 --> 00:13:20,797
+And in and of itself this action could not have achieved
+
+181
+00:13:20,797 --> 00:13:23,759
+what the electronic disturbance theatre set up to accomplish.
+
+182
+00:13:23,759 --> 00:13:29,623
+It took positive behavior on the part of Lufthansa for the deportation class action to achieve its goals
+
+183
+00:13:29,623 --> 00:13:38,014
+as opposed to the IGC example which was designed to accomplish its intended effects by gross fear.
+
+184
+00:13:38,014 --> 00:13:44,531
+So the third example I'm gonna talk about is something called toywar, or the etoy/toywar campaign.
+
+185
+00:13:44,531 --> 00:13:51,865
+The twelve days of Christmas campaign took place in 1999 and was an online attempt to draw attention to
+
+186
+00:13:51,865 --> 00:13:56,161
+a legal dispute between etoy which was a performance art collective
+
+187
+00:13:56,161 --> 00:14:04,279
+and eToys which was a toy company, an ecommerce company that sold toys online
+
+188
+00:14:04,279 --> 00:14:07,699
+and they were fighting over the domain etoy.com.
+
+189
+00:14:07,699 --> 00:14:11,909
+And writing about this is very kamikaze because etoy and eToys,
+
+190
+00:14:11,909 --> 00:14:14,649
+you have to be very careful.
+
+191
+00:14:14,649 --> 00:14:21,195
+So this action was designed to draw attention to that legal battle.
+
+192
+00:14:21,195 --> 00:14:27,590
+But it had the additional effect of having a fairly significant impact on eToys' bottom line
+
+193
+00:14:27,590 --> 00:14:30,969
+because it took place the twelve days before Christmas
+
+194
+00:14:30,969 --> 00:14:33,704
+which was the primary shopping season.
+
+195
+00:14:33,704 --> 00:14:37,170
+And it did have a major how their website ran.
+
+196
+00:14:37,170 --> 00:14:44,596
+So though their main goal was this attention-oriented campaign in targeting this ecommerce site
+
+197
+00:14:44,596 --> 00:14:48,178
+they were targeting the central purpose of their competitor.
+
+198
+00:14:48,178 --> 00:14:53,460
+They were attacking, they were going after what they were which is an online organization.
+
+199
+00:14:53,460 --> 00:14:57,550
+Etoy, the art ensemble, eventually triumphed in a court case
+
+200
+00:14:57,550 --> 00:15:01,594
+and claimed their role in the financial losses suffered by eToys Inc.
+
+201
+00:15:01,594 --> 00:15:03,321
+that occurred over the course of that actions.
+
+202
+00:15:03,321 --> 00:15:05,639
+Their stock price pretty much plummeted
+
+203
+00:15:05,639 --> 00:15:11,003
+which you can rather blame on the bubble or the action, whichever makes you feel better.
+
+204
+00:15:11,003 --> 00:15:20,536
+So in this instance we have a combining of direct action and attention-oriented activism into the same action.
+
+205
+00:15:20,536 --> 00:15:24,968
+The next part of the framework is context within a larger campaign.
+
+206
+00:15:24,968 --> 00:15:27,641
+As I said DDoS actions very rarely occur by themselves
+
+207
+00:15:27,641 --> 00:15:31,067
+and in fact if they did occur by themselves you'd probably never hear about them
+
+208
+00:15:31,067 --> 00:15:33,418
+because there would be no reason why that site you like
+
+209
+00:15:33,418 --> 00:15:35,757
+is down, it would just be down.
+
+210
+00:15:35,757 --> 00:15:39,252
+Like physical world sit-ins DDoS actions must be embedded
+
+211
+00:15:39,252 --> 00:15:41,700
+within a greater campaign of publicity and messaging
+
+212
+00:15:41,700 --> 00:15:45,520
+to ensure that content disruptions are registered by viewers
+
+213
+00:15:45,520 --> 00:15:50,049
+and passers-by as protest actions and not as mere technical glitches.
+
+214
+00:15:50,049 --> 00:15:53,400
+The EDT/Lufthansa campaign took place within the context of
+
+215
+00:15:53,400 --> 00:15:55,837
+a coordinated multi-pronged campaign
+
+216
+00:15:55,837 --> 00:15:59,041
+which included physical world actions at stock holder meetings,
+
+217
+00:15:59,041 --> 00:16:02,370
+press releases and the distribution of special seatback
+
+218
+00:16:02,370 --> 00:16:05,720
+information cards on Lufthansa airlines that explained
+
+219
+00:16:05,720 --> 00:16:07,206
+what the protest was about.
+
+220
+00:16:07,206 --> 00:16:12,351
+I don't know how they got them into the planes but they did end up in the planes somehow.
+
+221
+00:16:12,351 --> 00:16:17,112
+Similirarly toywar was also embedded within a larger campaign of press coverage.
+
+222
+00:16:17,112 --> 00:16:20,857
+They were covered by Wired, the New York Times, and the AP
+
+223
+00:16:20,857 --> 00:16:24,306
+and there were also solidarity actions and physical world actions
+
+224
+00:16:24,306 --> 00:16:26,389
+at court houses.
+
+225
+00:16:26,389 --> 00:16:29,559
+So if you are going for this type of action,
+
+226
+00:16:29,559 --> 00:16:32,242
+it has to be embedded within many other actions.
+
+227
+00:16:32,242 --> 00:16:35,256
+It can't just be your sole activist ???
+
+228
+00:16:35,256 --> 00:16:39,158
+You have to use with a bunch of other tools as well.
+
+229
+00:16:39,158 --> 00:16:42,957
+The technology problem is a really interesting one.
+
+230
+00:16:42,957 --> 00:16:47,368
+As I mentioned it's really difficult for a purely volunteer-based DDoS action
+
+231
+00:16:47,368 --> 00:16:49,425
+to bring down a targeted site.
+
+232
+00:16:49,425 --> 00:16:52,906
+As a result we started to see the use of botnets,
+
+233
+00:16:52,906 --> 00:16:56,087
+traffic multipliers, automated attack tools and other exploits
+
+234
+00:16:56,087 --> 00:17:01,373
+to bring the power of such actions in line with the defenses employed by targets.
+
+235
+00:17:01,373 --> 00:17:04,889
+While the use of such technological tools doesn't automatically
+
+236
+00:17:04,889 --> 00:17:08,466
+negatively affect the validity of these actions,
+
+237
+00:17:08,466 --> 00:17:12,400
+the use of non-volunteer botnets is the one thing
+
+238
+00:17:12,400 --> 00:17:14,086
+that is particularly worrying.
+
+239
+00:17:14,086 --> 00:17:17,622
+And the other things do need to be considered within a larger context.
+
+240
+00:17:17,622 --> 00:17:20,489
+Volunteer botnets present their own ethical concerns
+
+241
+00:17:20,489 --> 00:17:22,924
+but are less immediately objectionable.
+
+242
+00:17:22,924 --> 00:17:26,865
+Like marches, sit-ins and other crowd-based tactics
+
+243
+00:17:26,865 --> 00:17:30,436
+DDoS actions gain their ethical and political validity
+
+244
+00:17:30,436 --> 00:17:33,641
+from large numbers of willing participants.
+
+245
+00:17:33,641 --> 00:17:35,885
+The use of traffic multipliers and exploits,
+
+246
+00:17:35,885 --> 00:17:38,887
+while tempting to achieve downtime,
+
+247
+00:17:38,887 --> 00:17:46,533
+undercuts claims by organizers that the actions represent a unified political voice of many different people.
+
+248
+00:17:46,533 --> 00:17:50,573
+So as an organizers, you would have to balance the
+
+249
+00:17:50,573 --> 00:17:53,668
+"do I want downtime at press coverage" or
+
+250
+00:17:53,668 --> 00:17:57,104
+"do I want to remain true to the number of participants
+
+251
+00:17:57,104 --> 00:18:01,484
+that I have and value their participation over publicity".
+
+252
+00:18:01,484 --> 00:18:05,771
+And this is something that lots of organizers have to deal with.
+
+253
+00:18:05,771 --> 00:18:10,409
+Non-volunteer botnets, such as those that were used over the course of
+
+254
+00:18:10,409 --> 00:18:13,500
+Anonymous's operation payback campaign in
+
+255
+00:18:13,500 --> 00:18:15,694
+addition to volunteer botnets,
+
+256
+00:18:15,694 --> 00:18:17,169
+they were used together,
+
+257
+00:18:17,169 --> 00:18:19,824
+present a serious ethical problem.
+
+258
+00:18:19,824 --> 00:18:22,341
+The use of someone else's technological resources
+
+259
+00:18:22,341 --> 00:18:24,459
+without their consent in a political action,
+
+260
+00:18:24,459 --> 00:18:27,394
+particularly one that carries high legal risk,
+
+261
+00:18:27,394 --> 00:18:29,503
+like DDoS actions do,
+
+262
+00:18:29,503 --> 00:18:35,023
+is a pretty extremely unethical action.
+
+263
+00:18:35,023 --> 00:18:39,091
+Moreover it cheapens the participation of activists
+
+264
+00:18:39,091 --> 00:18:40,784
+who are consensually participating and
+
+265
+00:18:40,784 --> 00:18:43,920
+makes it easier for critics to dismiss DDoS actions as
+
+266
+00:18:43,920 --> 00:18:47,791
+criminality cloaked in free speech.
+
+267
+00:18:47,791 --> 00:18:51,008
+Even though, again, it may be tempting to be like
+
+268
+00:18:51,008 --> 00:18:53,394
+"oh let's just rent this creepy-ass botnet
+
+269
+00:18:53,394 --> 00:18:58,259
+from wherever to bring down the site for five minutes"
+
+270
+00:18:58,259 --> 00:19:02,888
+Really not in fitting with ethical use of mass participation
+
+271
+00:19:02,888 --> 00:19:05,491
+in political activism.
+
+272
+00:19:05,491 --> 00:19:09,398
+This brings us to volunteer botnets such as those that were enabled
+
+273
+00:19:09,398 --> 00:19:12,702
+by the hive mind mode of low-orbit ion cannon, again,
+
+274
+00:19:12,702 --> 00:19:14,461
+during operation payback.
+
+275
+00:19:14,461 --> 00:19:18,062
+Participants could pledge their support to an action and then
+
+276
+00:19:18,062 --> 00:19:19,592
+basically walk away.
+
+277
+00:19:19,592 --> 00:19:21,667
+They could say "great, use my computer"
+
+278
+00:19:21,667 --> 00:19:23,894
+"to DDoS whatever you want"
+
+279
+00:19:23,894 --> 00:19:27,666
+"because I trust you and I believe that we are all fighting for the same cause"
+
+280
+00:19:27,666 --> 00:19:30,945
+"I'm gonna go walk the dog now"
+
+281
+00:19:30,945 --> 00:19:33,197
+So they pledge their support for an action and place
+
+282
+00:19:33,197 --> 00:19:37,144
+their computing resources under the control of the organizers of that action.
+
+283
+00:19:37,144 --> 00:19:42,064
+This places on those organizers a strong responsibility
+
+284
+00:19:42,064 --> 00:19:45,355
+to maintain open communication channels to participants
+
+285
+00:19:45,355 --> 00:19:48,807
+and to not make significant changes to the operation of the campaign
+
+286
+00:19:48,807 --> 00:19:51,148
+without the consent of those participants.
+
+287
+00:19:51,148 --> 00:19:54,772
+Changing plans, tactics or targets without the consent
+
+288
+00:19:54,772 --> 00:19:57,906
+of the participant population constitutes a major breach
+
+289
+00:19:57,906 --> 00:20:03,006
+of trust and really should not happen.
+
+290
+00:20:03,006 --> 00:20:06,255
+This brings us to the final ?? bit in the framework
+
+291
+00:20:06,255 --> 00:20:08,082
+which I'm going to go over in this talk
+
+292
+00:20:08,082 --> 00:20:11,631
+which is different participant and organizer populations.
+
+293
+00:20:11,631 --> 00:20:14,548
+The great thing about DDoS actions is that
+
+294
+00:20:14,548 --> 00:20:16,498
+they're relatively easy to join and
+
+295
+00:20:16,498 --> 00:20:18,867
+they're fairly relatively easy to wage in the first place
+
+296
+00:20:18,867 --> 00:20:21,816
+meaning many of these participants in these actions
+
+297
+00:20:21,816 --> 00:20:26,987
+are inexperienced and unaware of the risks they could potentially be taking
+
+298
+00:20:26,987 --> 00:20:32,418
+like accidentally committing a felony from the comfort of your own living room.
+
+299
+00:20:32,418 --> 00:20:35,857
+Therefore it is ??? on organizers to make sure
+
+300
+00:20:35,857 --> 00:20:39,507
+that all participants have enough information to usefully
+
+301
+00:20:39,507 --> 00:20:43,006
+consent to participate in such actions.
+
+302
+00:20:43,006 --> 00:20:48,150
+This includes information about risks that they could be taking
+
+303
+00:20:48,150 --> 00:20:51,105
+and ways to mitigate those risks.
+
+304
+00:20:51,105 --> 00:20:53,868
+This was a very big issue in the fallout from
+
+305
+00:20:53,868 --> 00:20:55,403
+operation payback.
+
+306
+00:20:55,403 --> 00:20:58,356
+when during the course of the campaign a great deal
+
+307
+00:20:58,356 --> 00:21:02,217
+of misinformation was present in organizing channels
+
+308
+00:21:02,217 --> 00:21:05,841
+and the use of the low-orbit ion cannon tool was encouraged
+
+309
+00:21:05,841 --> 00:21:09,538
+despite significant concerns about its security.
+
+310
+00:21:09,538 --> 00:21:12,789
+Training should be provided to participants in ways
+
+311
+00:21:12,789 --> 00:21:15,387
+to mitigate risk and support should be provided in the
+
+312
+00:21:15,387 --> 00:21:17,874
+event of arrest or other negative outcomes.
+
+313
+00:21:17,874 --> 00:21:21,791
+This is similar to the way the physical world activists provide
+
+314
+00:21:21,791 --> 00:21:23,871
+training for their participants in the
+
+315
+00:21:23,871 --> 00:21:26,685
+"we're gonna go outside today and we're gonna hold up
+
+316
+00:21:26,685 --> 00:21:28,188
+a bunch of signs and yell at some people.
+
+317
+00:21:28,188 --> 00:21:30,066
+These people may yell back.
+
+318
+00:21:30,066 --> 00:21:32,336
+These people may also try to physically harm us.
+
+319
+00:21:32,336 --> 00:21:33,774
+If you're totally not interested in that
+
+320
+00:21:33,774 --> 00:21:35,904
+that's ok, we still think you're cool."
+
+321
+00:21:35,904 --> 00:21:38,851
+There should be that type of effort to educate and
+
+322
+00:21:38,851 --> 00:21:41,969
+provide different channels for participation for electronic
+
+323
+00:21:41,969 --> 00:21:46,231
+civil disobedience in the same way there is in the physical world.
+
+324
+00:21:46,231 --> 00:21:48,888
+There are two big things that I want to do with this model
+
+325
+00:21:48,888 --> 00:21:52,008
+in the future as I continue to work on my thesis.
+
+326
+00:21:52,008 --> 00:21:55,502
+The first is: I want to develop an analysis for
+
+327
+00:21:55,502 --> 00:21:56,986
+state/state related actors,
+
+328
+00:21:56,986 --> 00:22:00,470
+particularly patriotic hackers
+
+329
+00:22:00,470 --> 00:22:02,768
+and see how they fit into this framework
+
+330
+00:22:02,768 --> 00:22:05,537
+and how the entrance of states into this area
+
+331
+00:22:05,537 --> 00:22:08,302
+affects the ethical validity of these actions
+
+332
+00:22:08,302 --> 00:22:13,123
+or whether we're just wandering full force into cyberwar territory there.
+
+333
+00:22:13,123 --> 00:22:14,989
+The second thing I want to do is adapt the framework
+
+334
+00:22:14,989 --> 00:22:17,933
+from a reflective model, which it currently is,
+
+335
+00:22:17,933 --> 00:22:19,771
+to a prescriptive model,
+
+336
+00:22:19,771 --> 00:22:22,091
+so be more useful to activists who want to
+
+337
+00:22:22,091 --> 00:22:24,952
+organize their own DDoS campaign and want to find out
+
+338
+00:22:24,952 --> 00:22:28,653
+how to do it effectively and ethically.
+
+339
+00:22:28,653 --> 00:22:29,983
+And that's actually it.
+
+340
+00:22:29,983 --> 00:22:31,502
+Who has questions?
+
+341
+00:22:31,502 --> 00:22:42,203
+<i>applause</i>
+
+342
+00:22:42,203 --> 00:22:43,778
+Dude who stood up first.
+
+343
+00:22:43,778 --> 00:22:46,082
+<i>Mike<i>: No other questions.</i></i>
+
+344
+00:22:46,082 --> 00:22:48,265
+Hi, I'm Mike. I'm from Poland.
+
+345
+00:22:48,265 --> 00:22:51,514
+I was heavily involved in the anti-ACTA campaign in Poland.
+
+346
+00:22:51,514 --> 00:22:53,526
+I was not doing any DDoSes,
+
+347
+00:22:53,526 --> 00:22:55,553
+I was doing the, you know, subject matter work.
+
+348
+00:22:55,553 --> 00:22:57,908
+<i>Molly<i>: You don't have to incriminate yourself in this talk.</i></i>
+
+349
+00:22:57,908 --> 00:23:01,508
+<i>Mike<i>: Yes. But I can, right?</i></i>
+
+350
+00:23:01,544 --> 00:23:03,909
+<i>laughter</i>
+
+351
+00:23:03,970 --> 00:23:07,641
+<i>Mike<i>: Thank you for this talk</i></i>
+
+352
+00:23:07,641 --> 00:23:11,413
+because I feel there is much to little talking
+
+353
+00:23:11,413 --> 00:23:17,896
+about ethics in the whole DDoS and hacking area.
+
+354
+00:23:17,896 --> 00:23:19,560
+So thank you for this.
+
+355
+00:23:19,560 --> 00:23:23,198
+Second thing that I would like to add to this talk is that
+
+356
+00:23:23,198 --> 00:23:26,550
+I think the framework works quite well
+
+357
+00:23:26,550 --> 00:23:31,445
+because there is a criticism that I am going to make
+
+358
+00:23:31,445 --> 00:23:33,484
+about DDoS campaigns right now.
+
+359
+00:23:33,484 --> 00:23:38,444
+That is already kind of handled in this framework.
+
+360
+00:23:38,444 --> 00:23:43,200
+The criticism is that while the anti-ACTA campaign in Poland
+
+361
+00:23:43,200 --> 00:23:46,529
+was at full speed and doing stuff and people were
+
+362
+00:23:46,529 --> 00:23:47,860
+protesting on the streets,
+
+363
+00:23:47,860 --> 00:23:52,149
+suddenly Anonymous started DDoSing Polish government websites.
+
+364
+00:23:52,149 --> 00:23:52,968
+<i>Molly<i>: I've heard about.</i></i>
+
+365
+00:23:52,968 --> 00:23:58,294
+<i>Mike<i>: And this had the exact opposite effect.</i></i>
+
+366
+00:23:58,294 --> 00:24:01,791
+Maybe it was there, but I didn't see that in your presentation
+
+367
+00:24:01,791 --> 00:24:04,421
+that you have to be very very careful with
+
+368
+00:24:04,421 --> 00:24:05,590
+DDoS campaigns
+
+369
+00:24:05,590 --> 00:24:09,676
+because they can actually cause harm to the cause
+
+370
+00:24:09,676 --> 00:24:11,339
+that you're trying to do.
+
+371
+00:24:11,339 --> 00:24:15,402
+I think it was a little bit in the success part
+
+372
+00:24:15,402 --> 00:24:18,143
+but I don't think it was highlighted enough
+
+373
+00:24:18,143 --> 00:24:19,573
+that you have to be very careful
+
+374
+00:24:19,573 --> 00:24:21,637
+because there is this huge framework,
+
+375
+00:24:21,637 --> 00:24:23,791
+other actions that are happening.
+
+376
+00:24:23,791 --> 00:24:26,621
+And maybe, just maybe, doing DDoS right now
+
+377
+00:24:26,621 --> 00:24:28,822
+might actually harm because it will give the
+
+378
+00:24:28,822 --> 00:24:31,272
+government, as was this case,
+
+379
+00:24:31,272 --> 00:24:34,693
+the government the excuse to actually do bad stuff
+
+380
+00:24:34,696 --> 00:24:35,993
+that you don't want them to do.
+
+381
+00:24:35,993 --> 00:24:38,352
+Because they will say: "Oh they're DDoSing our websites."
+
+382
+00:24:38,352 --> 00:24:40,560
+"They are hackers and we don't have to do
+
+383
+00:24:40,560 --> 00:24:42,770
+anything good for them."
+
+384
+00:24:42,770 --> 00:24:46,954
+Well done, because the framework already kind of works for that. Thanks.
+
+385
+00:24:47,416 --> 00:24:49,635
+<i>Molly<i>: Yeah, I agree with that.</i></i>
+
+386
+00:24:49,635 --> 00:24:52,534
+This tactic is right now extremely controversial
+
+387
+00:24:52,534 --> 00:24:54,328
+but people keep using it.
+
+388
+00:24:54,328 --> 00:24:57,233
+My view is that as long as we're gonna use it
+
+389
+00:24:57,233 --> 00:24:59,583
+we should at least be using it in some sort of
+
+390
+00:24:59,583 --> 00:25:03,530
+reflective way in which we consider our actions
+
+391
+00:25:03,530 --> 00:25:06,778
+before we just do them.
+
+392
+00:25:07,502 --> 00:25:08,978
+Dude over there.
+
+393
+00:25:08,978 --> 00:25:10,935
+<i>Male<i>: Hi, I just have a question.</i></i>
+
+394
+00:25:10,935 --> 00:25:18,827
+You said that disrupting a business which just
+
+395
+00:25:18,827 --> 00:25:23,048
+relies on the Internet is unethical.
+
+396
+00:25:23,922 --> 00:25:26,610
+I just ask why you make this assumption.
+
+397
+00:25:26,610 --> 00:25:28,926
+I would make a different assumption.
+
+398
+00:25:28,926 --> 00:25:32,972
+I would have said that maybe running an unethical business
+
+399
+00:25:32,972 --> 00:25:36,627
+on the Internet is unethical and disrupting it is ethical.
+
+400
+00:25:36,627 --> 00:25:39,714
+<i>Molly<i>: So, really good point. Yay.</i></i>
+
+401
+00:25:39,714 --> 00:25:42,825
+<i>applause</i>
+
+402
+00:25:42,825 --> 00:25:46,717
+Something that I didn't maybe have make clear is that each of these bits
+
+403
+00:25:46,717 --> 00:25:49,192
+of the framework should not be taken as a
+
+404
+00:25:49,192 --> 00:25:52,427
+"oh you didn't do that, therefore you are totally unethical."
+
+405
+00:25:52,427 --> 00:25:57,225
+This should all be taken as sort of a big lump of stuff which you can
+
+406
+00:25:57,225 --> 00:25:58,644
+sort of massage and be like
+
+407
+00:25:58,644 --> 00:26:02,239
+"well, you're 60% here on that and 45% here on that
+
+408
+00:26:02,239 --> 00:26:04,087
+and we'll figure it out from there".
+
+409
+00:26:04,087 --> 00:26:06,195
+Yes, you're right.
+
+410
+00:26:06,195 --> 00:26:08,322
+That's actually sort of one of the issues that I'm really
+
+411
+00:26:08,322 --> 00:26:11,702
+interested in looking at in the WTO/electrohippies example
+
+412
+00:26:11,702 --> 00:26:15,154
+because I usually don't like it when people are like
+
+413
+00:26:15,154 --> 00:26:19,055
+"I'm gonna protest you by making you fall off the face of the planet"
+
+414
+00:26:19,055 --> 00:26:22,009
+That seems like a bit of an overkill to me.
+
+415
+00:26:22,009 --> 00:26:28,240
+On the other hand disrupting the Internet for the WTO meeting
+
+416
+00:26:28,240 --> 00:26:31,696
+at the Seattle World Trade Organization meeting
+
+417
+00:26:31,696 --> 00:26:33,428
+I'm kind of for that
+
+418
+00:26:33,428 --> 00:26:37,735
+that seems like a good use of resources to me.
+
+419
+00:26:37,735 --> 00:26:42,342
+So I'm very interested in pushing those weeds aside
+
+420
+00:26:42,342 --> 00:26:45,937
+and figuring out when exactly it's ok to basically
+
+421
+00:26:45,937 --> 00:26:48,220
+attack the root of something,
+
+422
+00:26:48,220 --> 00:26:52,189
+as opposed to having a more symbolic protest
+
+423
+00:26:52,189 --> 00:26:53,878
+which I'm generally more in favor of.
+
+424
+00:26:53,878 --> 00:26:56,619
+But you're right, I like you.
+
+425
+00:26:56,619 --> 00:27:00,005
+We're just gonna switch to this mic and then we'll bounce.
+
+426
+00:27:00,005 --> 00:27:03,475
+<i>Female<i>: I was wondering what your thoughts are on these action impacts</i></i>
+
+427
+00:27:03,475 --> 00:27:05,057
+on non-participants.
+
+428
+00:27:05,057 --> 00:27:08,935
+Like say you DDoS eBay and then other companies lose business
+
+429
+00:27:08,935 --> 00:27:12,343
+or you say DDoS a health care provider and people can't access health care.
+
+430
+00:27:12,343 --> 00:27:14,436
+Is that a factor in your mind?
+
+431
+00:27:14,436 --> 00:27:17,989
+<i>Molly<i>: Well, you sort of brought up two wildly divergent examples of</i></i>
+
+432
+00:27:17,989 --> 00:27:24,722
+eBay which means I can't buy my awesome collectable Battlestar Galactica glasses anymore
+
+433
+00:27:24,722 --> 00:27:27,787
+and my health care provider which means I can't get my tests
+
+434
+00:27:27,787 --> 00:27:30,922
+from that thing that I had that may be cancer.
+
+435
+00:27:30,922 --> 00:27:33,776
+Those seem like very divergent targets to me ,
+
+436
+00:27:33,776 --> 00:27:35,772
+just to address that off the bet.
+
+437
+00:27:35,772 --> 00:27:39,285
+Second point, yes, collateral damage is something that does
+
+438
+00:27:39,285 --> 00:27:41,344
+definitely need to be considered.
+
+439
+00:27:41,344 --> 00:27:44,856
+But it is not actually sort of specific to DDoS in itself.
+
+440
+00:27:44,856 --> 00:27:47,659
+Like if you just stay sit-in at a lunch counter,
+
+441
+00:27:47,659 --> 00:27:49,941
+I just wanted to eat lunch.
+
+442
+00:27:49,941 --> 00:27:52,571
+I'm not a bad guy, I really just wanted lunch.
+
+443
+00:27:52,571 --> 00:27:56,543
+But you have a political voice and you're using it to sit-in at this lunch counter.
+
+444
+00:27:56,543 --> 00:28:02,162
+That needs to be part of the overall consideration of
+
+445
+00:28:02,162 --> 00:28:05,255
+"do we think this is an appropriate tactic for whatever question is
+
+446
+00:28:05,255 --> 00:28:08,690
+that you're trying to address with your activism at this time."
+
+447
+00:28:08,690 --> 00:28:12,223
+Because not all tactics are appropriate for all questions.
+
+448
+00:28:13,685 --> 00:28:14,567
+<i>Female<i>: Thanks.</i></i>
+
+449
+00:28:14,567 --> 00:28:15,871
+<i>Molly<i>: Ok, cool.</i></i>
+
+450
+00:28:17,641 --> 00:28:19,030
+That guy.
+
+451
+00:28:22,353 --> 00:28:25,433
+Sorry, we have a question from the Internet.
+
+452
+00:28:25,433 --> 00:28:26,817
+It hasn't gotten to speak yet.
+
+453
+00:28:26,817 --> 00:28:29,905
+<i>Male<i>: I have this kind of comment and question.</i></i>
+
+454
+00:28:29,905 --> 00:28:31,306
+Thank you very much for your talk,
+
+455
+00:28:31,306 --> 00:28:34,030
+it was very original material and I enjoyed it.
+
+456
+00:28:34,030 --> 00:28:37,665
+But however you announced to talk about the ethics of DDoS
+
+457
+00:28:37,665 --> 00:28:40,073
+but you didn't say anything about ethics at all
+
+458
+00:28:40,073 --> 00:28:42,608
+except for some personal beliefs.
+
+459
+00:28:43,040 --> 00:28:43,965
+<i>Molly<i>: <i>laughs</i></i></i>
+
+460
+00:28:43,965 --> 00:28:49,554
+What kind of ethical framework would you actually suggest to use to analyze DDoS?
+
+461
+00:28:49,554 --> 00:28:54,131
+<i>Molly<i>: The four bits of the framework that I set out.</i></i>
+
+462
+00:28:54,131 --> 00:28:57,252
+I'm looking at you because you were talking, not because you're the Internet.
+
+463
+00:28:57,252 --> 00:29:00,014
+<i>laughter</i>
+
+464
+00:29:00,014 --> 00:29:06,442
+Basically you cannot just say that DDoS is ethical or unethical.
+
+465
+00:29:06,442 --> 00:29:10,336
+The way that I'm looking at, you have to look at it
+
+466
+00:29:10,336 --> 00:29:15,140
+in the context of these at least four aspects, possibly more.
+
+467
+00:29:15,140 --> 00:29:18,192
+But you can't just simply slam your hand down and be like
+
+468
+00:29:18,192 --> 00:29:22,500
+"nope, this one action which actually has very little political value
+
+469
+00:29:22,500 --> 00:29:25,805
+because it's just a bunch of bits swimming around a bunch of tubes,
+
+470
+00:29:25,805 --> 00:29:31,437
+has real ethical value."
+
+471
+00:29:31,437 --> 00:29:34,012
+I'm sure a lot of people were gonna be like
+
+472
+00:29:34,012 --> 00:29:37,363
+"she's gonna say that DDoS is right or wrong one way or another
+
+473
+00:29:37,363 --> 00:29:40,157
+and then I will feel good and/or bad about myself."
+
+474
+00:29:40,157 --> 00:29:41,711
+<i>laughter</i>
+
+475
+00:29:41,711 --> 00:29:45,605
+I'm sorry, that wasn't what was gonna happen.
+
+476
+00:29:45,605 --> 00:29:48,630
+I'm far more interesting in looking at these very nuanced questions
+
+477
+00:29:48,630 --> 00:29:52,298
+of how this fits into political economy and protest methodology
+
+478
+00:29:52,298 --> 00:29:53,976
+which is far squishier than just saying
+
+479
+00:29:53,976 --> 00:29:57,012
+this is ethical or unethical straight off the bet.
+
+480
+00:29:57,012 --> 00:29:59,379
+I hope that answers the Internet's question.
+
+481
+00:29:59,379 --> 00:30:02,126
+<i>Male<i>: Yeah, I would also come back to the ethics.</i></i>
+
+482
+00:30:02,126 --> 00:30:06,644
+Because I wouldn't like to start talking whether DDoS is good or bad.
+
+483
+00:30:06,644 --> 00:30:09,056
+But I think DDoS is a very interesting example
+
+484
+00:30:09,056 --> 00:30:14,358
+because it can make us question our ethics again
+
+485
+00:30:14,358 --> 00:30:16,946
+because basically I, like you, I believe that DDoS
+
+486
+00:30:16,946 --> 00:30:20,484
+is really a pretty violent act of censorship
+
+487
+00:30:20,484 --> 00:30:22,693
+but I think it can be very often justified
+
+488
+00:30:22,693 --> 00:30:27,506
+because this violent act can simply give us benefits
+
+489
+00:30:27,506 --> 00:30:30,291
+that couldn't be made any other way.
+
+490
+00:30:30,291 --> 00:30:35,169
+So basically I think that when we think about DDoS and when we want to act with DDoS
+
+491
+00:30:35,169 --> 00:30:42,472
+we have to think about violence and making violence an ethical act, actually.
+
+492
+00:30:42,472 --> 00:30:44,245
+Your comment?
+
+493
+00:30:44,245 --> 00:30:47,337
+<i>Molly<i>: Violence is a pretty prejudicial term.</i></i>
+
+494
+00:30:47,337 --> 00:30:49,097
+I prefer not to use it.
+
+495
+00:30:49,097 --> 00:30:51,324
+You also notice that I usually don't say DDoS attacks.
+
+496
+00:30:51,324 --> 00:30:55,443
+I try to say DDoS actions because attacks is also a pretty prejudicial term.
+
+497
+00:30:55,443 --> 00:30:59,961
+I think a lot of the "violence" inherent in DDoS has a lot to do with
+
+498
+00:30:59,961 --> 00:31:04,728
+the inherent power structures that play among the people who are participating.
+
+499
+00:31:04,728 --> 00:31:11,978
+For instance, if I am a state government and you have a free press blog
+
+500
+00:31:11,978 --> 00:31:14,492
+and you like to critize me in your blog
+
+501
+00:31:14,492 --> 00:31:18,780
+and I hire a bunch of people to DDoS your blog
+
+502
+00:31:18,780 --> 00:31:20,957
+that's not really cool.
+
+503
+00:31:20,957 --> 00:31:22,613
+That's fairly violent.
+
+504
+00:31:22,613 --> 00:31:27,073
+I am silencing your speech using my superior power as a big state.
+
+505
+00:31:27,073 --> 00:31:31,340
+On the other hand, if you are a private citizen
+
+506
+00:31:31,340 --> 00:31:36,794
+and you and a bunch of friends use floodnet to attack whitehouse.gov
+
+507
+00:31:36,794 --> 00:31:41,012
+I feel that there's less violence inherent in that system.
+
+508
+00:31:41,012 --> 00:31:44,577
+<i>Male<i>: I would partially agree but I think that both acts</i></i>
+
+509
+00:31:44,577 --> 00:31:47,715
+are violent but basically the ethics are different.
+
+510
+00:31:47,715 --> 00:31:52,166
+So instead of avoiding the word I think that we should just think about the term.
+
+511
+00:31:52,166 --> 00:31:54,362
+That's my opinion.
+
+512
+00:31:54,362 --> 00:31:59,590
+<i>Molly<i>: The grad student in me wants to come up with a new word, but yeah.</i></i>
+
+513
+00:31:59,590 --> 00:32:03,426
+<i>Male<i>: Hello, has the decision process who attacks</i></i>
+
+514
+00:32:03,426 --> 00:32:10,696
+which website at what point any effects on the ethical part?
+
+515
+00:32:10,696 --> 00:32:12,049
+<i>Molly<i>: On the organizing?</i></i>
+
+516
+00:32:12,049 --> 00:32:14,811
+<i>Male<i>: Yeah.</i></i>
+
+517
+00:32:14,811 --> 00:32:17,327
+<i>Molly<i>: I can't say that I do.</i></i>
+
+518
+00:32:17,327 --> 00:32:21,602
+I think that falls into the purview of the people who are actually organizing these actions.
+
+519
+00:32:21,602 --> 00:32:24,731
+As someone who is not an organizer I can't really comment
+
+520
+00:32:24,731 --> 00:32:28,756
+on the organizing process, having never sat in one.
+
+521
+00:32:28,756 --> 00:32:31,610
+Yes? That makes sense? Okay.
+
+522
+00:32:31,610 --> 00:32:33,705
+We're gonna switch back to this mic.
+
+523
+00:32:33,705 --> 00:32:44,463
+<i>Male<i>: Aside from the coercive vs. non-coerciveness of volunteer vs. non-volunteer action</i></i>
+
+524
+00:32:44,463 --> 00:32:49,069
+which maybe falls into ethical standpoint
+
+525
+00:32:49,069 --> 00:32:53,376
+other than that, there's a question of liability.
+
+526
+00:32:53,376 --> 00:32:57,627
+If you're for instance participating in a volunteer action
+
+527
+00:32:57,627 --> 00:32:59,661
+and you have a packet sniffer going on that network,
+
+528
+00:32:59,661 --> 00:33:01,331
+then you can trace it back to
+
+529
+00:33:01,331 --> 00:33:03,367
+"ok you obviously volunteered to this action,
+
+530
+00:33:03,367 --> 00:33:06,160
+therefore you're obviously culpable for those actions"
+
+531
+00:33:06,160 --> 00:33:15,927
+vs. if it's "box that's been compromised" and ???
+
+532
+00:33:15,927 --> 00:33:21,528
+that person is theoretically not liable for those actions
+
+533
+00:33:21,528 --> 00:33:27,331
+because it was a ??? or a virus or ???
+
+534
+00:33:27,331 --> 00:33:28,823
+<i>Molly<i>: Yes.</i></i>
+
+535
+00:33:28,823 --> 00:33:32,986
+<i>Male<i>: I just wanted to point that out.</i></i>
+
+536
+00:33:32,986 --> 00:33:34,329
+<i>Molly<i>: Yes, no, you're right.</i></i>
+
+537
+00:33:34,329 --> 00:33:36,218
+That is a thing that also needs to be considered
+
+538
+00:33:36,218 --> 00:33:37,665
+but it also comes back to
+
+539
+00:33:37,665 --> 00:33:40,897
+"there needs to be more education" upon people who
+
+540
+00:33:40,897 --> 00:33:42,732
+are organizing these actions to be like
+
+541
+00:33:42,732 --> 00:33:45,651
+"hey, you know you could be committing a felony."
+
+542
+00:33:45,651 --> 00:33:47,143
+"you could lose your house."
+
+543
+00:33:47,143 --> 00:33:50,834
+"that's a thing that could totally happen if you get arrested in the course of this action."
+
+544
+00:33:50,834 --> 00:33:53,032
+as oppossed to if you get arrested for chaining yourself to
+
+545
+00:33:53,032 --> 00:33:54,118
+the ??? of the White House
+
+546
+00:33:54,118 --> 00:33:55,808
+because you don't like the tarsands pipeline.
+
+547
+00:33:55,808 --> 00:33:59,329
+You really unlikely lose your house in that instance.
+
+548
+00:33:59,329 --> 00:34:02,139
+This is something that I have a huge problem with.
+
+549
+00:34:02,139 --> 00:34:06,099
+I think the state response to these actions is completely out of proportion
+
+550
+00:34:06,099 --> 00:34:10,294
+and bad and chilling and not good at all.
+
+551
+00:34:11,464 --> 00:34:14,566
+Until that changes there just needs to be
+
+552
+00:34:14,566 --> 00:34:17,678
+way more education, way more informed consent happening
+
+553
+00:34:17,678 --> 00:34:23,613
+among the activist population who participating in these actions.
+
+554
+00:34:23,613 --> 00:34:30,906
+<i>Male<i>: In terms of looking to the sources of products used to make DDoS,</i></i>
+
+555
+00:34:30,906 --> 00:34:35,892
+how do you think about the ethical responsibility of a company based in Redmond,
+
+556
+00:34:35,892 --> 00:34:40,930
+allowing with their products to very easy make big botnets
+
+557
+00:34:40,930 --> 00:34:42,903
+and use it for DDoS.
+
+558
+00:34:42,903 --> 00:34:44,059
+<i>Molly<i>: <i>laughs</i></i></i>
+
+559
+00:34:44,059 --> 00:34:46,597
+<i>Male<i>: Especially this company is working in a country where</i></i>
+
+560
+00:34:46,597 --> 00:34:51,404
+DDoS is a crime so they could be forced to change this very easily.
+
+561
+00:34:51,404 --> 00:34:52,921
+<i>Molly<i>: That's a hell of a question.</i></i>
+
+562
+00:34:52,921 --> 00:34:56,057
+<i>applause</i>
+
+563
+00:34:56,057 --> 00:34:59,167
+<i>Molly<i>: And I think I'm going to politely decline a comment</i></i>
+
+564
+00:34:59,167 --> 00:35:00,489
+until I learn more about it
+
+565
+00:35:00,489 --> 00:35:04,033
+but we can totally talk about this, not right now.
+
+566
+00:35:04,771 --> 00:35:07,752
+<i>laughs</i> Sorry.
+
+567
+00:35:09,120 --> 00:35:11,014
+<i>Molly<i>: Sorry, was there more of that?</i></i>
+
+568
+00:35:11,014 --> 00:35:11,755
+<i>Male<i>: Why?</i></i>
+
+569
+00:35:11,755 --> 00:35:16,177
+<i>Molly<i>: Why? Because I don't like to talk about things that I don't know</i></i>
+
+570
+00:35:16,177 --> 00:35:18,729
+a lot about and that I'm not competent talking about.
+
+571
+00:35:18,729 --> 00:35:21,979
+I'm a grad student, sorry.
+
+572
+00:35:21,979 --> 00:35:28,293
+<i>Male<i>: Do you really think that DDoS attacks will have a big role in activism in the future?</i></i>
+
+573
+00:35:28,293 --> 00:35:36,141
+Because I think the media interest in those kind of attacks is diminishing.
+
+574
+00:35:36,141 --> 00:35:42,580
+When I think of, I mean, you talk about this partially as
+
+575
+00:35:42,580 --> 00:35:45,895
+very useful means of activism
+
+576
+00:35:45,895 --> 00:35:51,279
+but when I think of DDoS I think of a few people sitting in their cellars,
+
+577
+00:35:51,279 --> 00:35:58,837
+being bored in the IRC room and just hitting their LOICs just like they hit the retweet button
+
+578
+00:35:58,837 --> 00:36:00,789
+and think they save the world
+
+579
+00:36:00,789 --> 00:36:05,525
+I don't think that this will make any difference in the future.
+
+580
+00:36:05,525 --> 00:36:11,277
+<i>Molly<i>: So you roled up a lot of things in that, including a valid, not-so-valid critism of slacktivism</i></i>
+
+581
+00:36:11,277 --> 00:36:13,263
+which I will also address in this answer.
+
+582
+00:36:14,539 --> 00:36:16,036
+You're right.
+
+583
+00:36:16,036 --> 00:36:21,006
+There are a lot of DDoS attacks happening, not a lot of them getting a lot of coverage.
+
+584
+00:36:21,006 --> 00:36:23,865
+On the other hand there are a lot of street marches happening
+
+585
+00:36:23,865 --> 00:36:25,770
+and not a lot of them get a lot coverage.
+
+586
+00:36:25,770 --> 00:36:30,659
+People still get their signs together and march in the streets sometimes.
+
+587
+00:36:30,659 --> 00:36:35,327
+There's a concept in social movement theory called the ladder of engagement
+
+588
+00:36:35,327 --> 00:36:37,289
+which is basically like it's what it sounds like
+
+589
+00:36:37,289 --> 00:36:39,459
+you start at the bottom and you work your way up
+
+590
+00:36:39,459 --> 00:36:44,386
+to more and more complex modes of political engagement over the course of time.
+
+591
+00:36:44,386 --> 00:36:46,738
+You can't just jump straight to the top of the ladder
+
+592
+00:36:46,738 --> 00:36:49,441
+because you're not Superman and you don't do that usually
+
+593
+00:36:49,441 --> 00:36:52,628
+cause you'd fall off and hurt yourself.
+
+594
+00:36:52,628 --> 00:36:56,675
+DDoS is a very useful tool to get on that first rung.
+
+595
+00:36:56,675 --> 00:37:01,208
+It's easy, it's low financial cost,
+
+596
+00:37:01,208 --> 00:37:03,751
+it's generally pretty easy to advertise,
+
+597
+00:37:03,751 --> 00:37:07,338
+it doesn't look like it will cost you a lot of time and money.
+
+598
+00:37:07,338 --> 00:37:11,124
+All you have to do is really press a button and suddenly you are participating in this thing.
+
+599
+00:37:11,124 --> 00:37:16,787
+The sense of participating has a big impact on something that is called biographical impact
+
+600
+00:37:16,787 --> 00:37:19,595
+which is how you view yourself as an activist.
+
+601
+00:37:19,595 --> 00:37:23,744
+It is really pushing people over the edge to view themselves as activists
+
+602
+00:37:23,744 --> 00:37:26,876
+and the beginning is very very important.
+
+603
+00:37:26,876 --> 00:37:35,360
+So while DDoS may not be "effective" or "successful" as a standalone protest tactic,
+
+604
+00:37:35,360 --> 00:37:41,153
+as part of larger system I think it is still useful.
+
+605
+00:37:41,153 --> 00:37:43,910
+I think it will probably continue to be useful,
+
+606
+00:37:43,910 --> 00:37:49,258
+just like retweeting someone saying something vaguely political
+
+607
+00:37:49,258 --> 00:37:52,508
+on Twitter is also useful.
+
+608
+00:37:52,508 --> 00:37:56,041
+Or liking someone's status or sharing something on Facebook
+
+609
+00:37:56,041 --> 00:37:59,579
+or turning your Twitter icon green because you like the Iranian election.
+
+610
+00:37:59,579 --> 00:38:02,642
+No one in Iran cares that you turn your Twitter icon green.
+
+611
+00:38:02,642 --> 00:38:03,570
+They don't even know you.
+
+612
+00:38:03,570 --> 00:38:05,510
+They don't know that you've turned your Twitter icon green
+
+613
+00:38:05,510 --> 00:38:10,070
+but what that does is that it connects you with all the other people
+
+614
+00:38:10,070 --> 00:38:12,657
+on Twitter who turn their Twitter icons green.
+
+615
+00:38:12,657 --> 00:38:15,622
+You can see all the other people who turn the Twitter icon green.
+
+616
+00:38:15,622 --> 00:38:18,012
+Suddenly you're not just sitting there in your living room
+
+617
+00:38:18,012 --> 00:38:20,775
+saying I really support democracy in Iran.
+
+618
+00:38:20,775 --> 00:38:24,823
+You are part of this community of green people on Twitter
+
+619
+00:38:24,823 --> 00:38:27,171
+who all support democracy in Iran.
+
+620
+00:38:27,171 --> 00:38:30,405
+That's way more powerful to you as a person.
+
+621
+00:38:30,405 --> 00:38:36,505
+Not necessarily to anybody else. But to you as a person it matters. <i>laughter</i>
+
+622
+00:38:36,505 --> 00:38:38,845
+And that's important.
+
+623
+00:38:38,845 --> 00:38:41,271
+That's important for getting people onto that ladder of engagement
+
+624
+00:38:41,271 --> 00:38:43,407
+and making them feel like activists.
+
+625
+00:38:43,407 --> 00:38:47,595
+Feeling like activists is just a couple of ladders away from being an activist
+
+626
+00:38:47,595 --> 00:38:49,708
+which is even better.
+
+627
+00:38:49,708 --> 00:38:50,613
+Yeah.
+
+628
+00:38:50,613 --> 00:38:57,492
+<i>applause</i>
+
+629
+00:38:57,492 --> 00:38:59,048
+<i>Molly<i>: They're clapping for you.</i></i>
+
+630
+00:38:59,048 --> 00:39:02,741
+<i>Male<i>: <i>laughs</i> I'm from Austria and we have an organization</i></i>
+
+631
+00:39:02,741 --> 00:39:06,929
+in Austria, it's called Austromechana.
+
+632
+00:39:06,929 --> 00:39:17,837
+Its website got DDoSes on May 11, 2012
+
+633
+00:39:17,837 --> 00:39:22,157
+and they didn't get the website on until now.
+
+634
+00:39:22,157 --> 00:39:24,128
+They used this as an argument:
+
+635
+00:39:24,128 --> 00:39:27,255
+"Oh my god, the Internet is so cruel."
+
+636
+00:39:27,255 --> 00:39:34,488
+"It's bad and we can do nothing against them."
+
+637
+00:39:34,488 --> 00:39:44,690
+"They play with... they have weapons we can't do something against it."
+
+638
+00:39:44,690 --> 00:39:51,653
+I'm not sure if in this case the DDoS was the right tool
+
+639
+00:39:51,653 --> 00:40:01,807
+to get Aufmerksamkeit, attention.
+
+640
+00:40:01,807 --> 00:40:08,391
+I'm not sure if it was helpful in this case.
+
+641
+00:40:08,391 --> 00:40:20,062
+I don't think it's a good weapon for everything and there was not enough messaging with it.
+
+642
+00:40:20,062 --> 00:40:21,130
+<i>Molly<i>: No, you're right.</i></i>
+
+643
+00:40:21,130 --> 00:40:23,079
+DDoS is not appropriate for all cases.
+
+644
+00:40:23,079 --> 00:40:27,044
+Given that I know nothing about your organization and didn't hear about that action
+
+645
+00:40:27,044 --> 00:40:30,258
+they probably didn't have enough messaging.
+
+646
+00:40:30,258 --> 00:40:31,604
+I don't know.
+
+647
+00:40:31,604 --> 00:40:33,496
+But I'm sorry your website went down.
+
+648
+00:40:33,496 --> 00:40:37,008
+<i>Male<i>: Not my website.</i></i>
+
+649
+00:40:37,008 --> 00:40:45,689
+It was from the people who want to have the Festplattenabgabe, I don't know the English word.
+
+650
+00:40:45,689 --> 00:40:47,656
+It was their site.
+
+651
+00:40:47,656 --> 00:40:48,523
+<i>Molly<i>: Okay.</i></i>
+
+652
+00:40:50,399 --> 00:40:51,071
+Hi!
+
+653
+00:40:51,609 --> 00:40:52,628
+<i>Female<i>: Hi.</i></i>
+
+654
+00:40:52,628 --> 00:41:01,293
+What exactly are your parameters for deciding if a DDoS action was ethical right or wrong?
+
+655
+00:41:01,293 --> 00:41:03,919
+I'm still waiting for this.
+
+656
+00:41:03,919 --> 00:41:07,305
+<i>Molly<i>: Like I said, this is a very holistic model</i></i>
+
+657
+00:41:07,305 --> 00:41:10,124
+in that you look at a bunch of different factors and say
+
+658
+00:41:10,124 --> 00:41:14,473
+"well, these things fell on one or either side of these different factors,
+
+659
+00:41:14,473 --> 00:41:16,671
+therefore I'm gonna look at it, squint my eyes
+
+660
+00:41:16,671 --> 00:41:19,270
+and say ok, I think that this was ethical
+
+661
+00:41:19,270 --> 00:41:21,158
+and that this was unethical".
+
+662
+00:41:21,158 --> 00:41:24,052
+Like I said, this is probably much less scientific
+
+663
+00:41:24,052 --> 00:41:26,294
+than a lot of people here were looking for.
+
+664
+00:41:27,294 --> 00:41:30,614
+Liberal studies major. What do you want?
+
+665
+00:41:30,614 --> 00:41:31,947
+<i>laughter</i>
+
+666
+00:41:31,947 --> 00:41:36,743
+So, this is not gonna give you sort of a tick list for things
+
+667
+00:41:36,743 --> 00:41:40,263
+that you can say "oh we did this, oh we didn't do that
+
+668
+00:41:40,263 --> 00:41:44,266
+therefore we're totally on the right side of god and the law".
+
+669
+00:41:44,266 --> 00:41:51,206
+Instead what I'm hoping that this system will give people is a way to look at these actions
+
+670
+00:41:51,206 --> 00:41:53,426
+to give them different factors to consider
+
+671
+00:41:53,426 --> 00:41:57,474
+when saying yes this was appropriate or yes this wasn't appropriate.
+
+672
+00:41:57,474 --> 00:42:01,991
+Cause I feel right now the debate right now is really a bunch of people being like
+
+673
+00:42:01,991 --> 00:42:04,143
+"this is always awesome"
+
+674
+00:42:04,143 --> 00:42:05,228
+and a bunch of other people going
+
+675
+00:42:05,228 --> 00:42:07,076
+"this is never awesome"
+
+676
+00:42:07,076 --> 00:42:09,593
+and that's not very useful.
+
+677
+00:42:09,593 --> 00:42:12,046
+<i>Female<i>: But don't you think that's quite outstanding that</i></i>
+
+678
+00:42:12,046 --> 00:42:16,310
+you are the one who is getting to decide which is ethical right and wrong?
+
+679
+00:42:16,310 --> 00:42:17,778
+<i>Molly<i>: You can also decide.</i></i>
+
+680
+00:42:17,778 --> 00:42:20,228
+I would love it if someone else would come up with a framework
+
+681
+00:42:20,228 --> 00:42:21,751
+so that I didn't have to do all the work.
+
+682
+00:42:21,751 --> 00:42:23,915
+<i>Female<i>: I thought it's your scientific study, so...</i></i>
+
+683
+00:42:24,315 --> 00:42:26,091
+<i>Molly<i>: It's not terribly scientific.</i></i>
+
+684
+00:42:26,091 --> 00:42:29,540
+It's me reviewing a bunch of case studies
+
+685
+00:42:29,540 --> 00:42:31,415
+and saying these are the things that happened,
+
+686
+00:42:31,415 --> 00:42:35,929
+this is were they fall on these different factors
+
+687
+00:42:35,929 --> 00:42:38,725
+and this is now what I think of this action.
+
+688
+00:42:38,725 --> 00:42:43,656
+For instance, Lufthansa/EDT action, I think that actually was ethical.
+
+689
+00:42:43,693 --> 00:42:48,358
+I think it was ethical because it occurred within the framework of a much larger campaign
+
+690
+00:42:48,358 --> 00:42:57,041
+because it focused on a corporate website that didn't attack the central core of the corporation.
+
+691
+00:42:57,041 --> 00:42:58,472
+It didn't stopped it from communicating,
+
+692
+00:42:58,472 --> 00:43:01,229
+it didn't stop it from responding to the action,
+
+693
+00:43:01,229 --> 00:43:04,858
+it just made itself known in that way.
+
+694
+00:43:04,858 --> 00:43:07,311
+And it did a great deal of publicity work.
+
+695
+00:43:07,311 --> 00:43:09,972
+In the end it actually worked,
+
+696
+00:43:09,972 --> 00:43:12,825
+The effect that it wanted to have in that,
+
+697
+00:43:12,825 --> 00:43:16,456
+they wanted Lufthansa to stop flying immigrants out of the country,
+
+698
+00:43:16,456 --> 00:43:17,634
+actually took place.
+
+699
+00:43:17,634 --> 00:43:20,892
+And that also has an impact on the ethical validity of an action
+
+700
+00:43:20,892 --> 00:43:23,412
+which is why this is currently a reflective framework
+
+701
+00:43:23,412 --> 00:43:25,031
+and not a prescriptive framework.
+
+702
+00:43:25,031 --> 00:43:28,613
+<i>Female<i>: Thanks. Good luck with your studies then.</i></i>
+
+703
+00:43:28,613 --> 00:43:30,322
+<i>Molly<i>: Yay.</i></i>
+
+704
+00:43:31,722 --> 00:43:33,220
+There's another question.
+
+705
+00:43:33,220 --> 00:43:37,965
+<i>Male<i>: My naive approach to judge the ethics of a DDoS attack</i></i>
+
+706
+00:43:37,965 --> 00:43:41,315
+would have been to compare it to usual demonstrations,
+
+707
+00:43:41,315 --> 00:43:43,405
+just marching on the street.
+
+708
+00:43:43,405 --> 00:43:47,290
+Because I guess what has a rather good feeling on what the ethics are there.
+
+709
+00:43:47,290 --> 00:43:49,602
+You didn't highlight that too much in your talk.
+
+710
+00:43:49,602 --> 00:43:52,337
+Was this on purpose or can you say something about that?
+
+711
+00:43:52,337 --> 00:43:57,148
+<i>Molly<i>: People really like, and lots of people really like to say</i></i>
+
+712
+00:43:57,148 --> 00:44:02,030
+"oh DDoS is just a sit-in, except on the Internet".
+
+713
+00:44:02,030 --> 00:44:04,438
+I really don't like that comparison.
+
+714
+00:44:04,438 --> 00:44:12,023
+I think it's really attractive because it sort of feels like a sit-in,
+
+715
+00:44:12,023 --> 00:44:14,969
+You feel like you are monopolizing resources in the same way
+
+716
+00:44:14,969 --> 00:44:17,455
+that sitting in a lunch counter is monopolizing resources.
+
+717
+00:44:17,455 --> 00:44:22,339
+But it's not in the physical world, it's on the Internet.
+
+718
+00:44:22,339 --> 00:44:24,272
+And frankly, these are two different things.
+
+719
+00:44:24,272 --> 00:44:27,035
+We can't just say "oh this is just like it"
+
+720
+00:44:27,035 --> 00:44:27,856
+because it's not.
+
+721
+00:44:27,856 --> 00:44:30,371
+What it is just like, it is just like a DDoS.
+
+722
+00:44:30,371 --> 00:44:33,085
+It's not just like a sit-in.
+
+723
+00:44:33,085 --> 00:44:37,001
+Disruptive tactics in both areas are very parallel
+
+724
+00:44:37,001 --> 00:44:39,457
+but they are very different.
+
+725
+00:44:39,473 --> 00:44:43,281
+That is something that I want to go into much greater detail on,
+
+726
+00:44:43,281 --> 00:44:47,760
+specifically both in sort of the socially acceptable disruptive tactics
+
+727
+00:44:47,760 --> 00:44:49,550
+like sit-ins and street marches
+
+728
+00:44:49,550 --> 00:44:52,311
+but also the non-socially-acceptable disruptive tactics
+
+729
+00:44:52,311 --> 00:44:54,732
+like black bloc tactics.
+
+730
+00:44:54,732 --> 00:44:57,592
+I'd really love to compare that to other modes of
+
+731
+00:44:57,592 --> 00:44:59,576
+disruptive activism online,
+
+732
+00:44:59,576 --> 00:45:01,957
+and other modes of disruptive activism
+
+733
+00:45:01,957 --> 00:45:03,531
+and destructive activism.
+
+734
+00:45:03,531 --> 00:45:07,067
+So that is, if you are interested in reading my Master's thesis,
+
+735
+00:45:07,067 --> 00:45:09,294
+I will have a whole chapter on this
+
+736
+00:45:09,294 --> 00:45:12,344
+that I could not fit into this talk.
+
+737
+00:45:12,344 --> 00:45:15,392
+Because there is a lot of that there.
+
+738
+00:45:15,392 --> 00:45:19,647
+But the instinct to fall back on the physical analogy is,
+
+739
+00:45:19,647 --> 00:45:22,412
+I think, inherently damaging to the discourse of
+
+740
+00:45:22,412 --> 00:45:27,076
+electronic civil disobedience and digital activism
+
+741
+00:45:27,076 --> 00:45:29,679
+because you fall back on these tropes
+
+742
+00:45:29,679 --> 00:45:31,998
+that don't really fit and then
+
+743
+00:45:31,998 --> 00:45:34,591
+when people point out that they don't really fit
+
+744
+00:45:34,591 --> 00:45:37,230
+you're sort of left with nothing.
+
+745
+00:45:37,230 --> 00:45:39,944
+When you say like "that's not actually a sit-in, that's a DDoS"
+
+746
+00:45:39,944 --> 00:45:42,771
+you sitting there going "but I said it was a sit-in
+
+747
+00:45:42,771 --> 00:45:44,981
+and you like sit-ins, right?"
+
+748
+00:45:44,981 --> 00:45:47,580
+and then you're sort of: that's it.
+
+749
+00:45:47,580 --> 00:45:51,479
+So I'd like to push the argument beyond that point.
+
+750
+00:45:51,479 --> 00:45:53,110
+<i>Male<i>: Thanks.</i></i>
+
+751
+00:45:54,680 --> 00:46:01,145
+<i>Male<i>: Ok, so it looks like we have no more questions. Thank you very much, Molly, for the talk.</i></i>
+
+752
+00:46:01,145 --> 00:46:12,383
+<i>applause</i>
