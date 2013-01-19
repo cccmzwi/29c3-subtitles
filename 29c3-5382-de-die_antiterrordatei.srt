@@ -9,19 +9,19 @@ Die Antiterrordatei
 Constanze Kurz, Frank Rieger
 
 3
-00:00:08,906 --> 00:00:14,204
+00:00:08,906 --> 00:00:13,911
 Unsere nächsten Speaker hier in Saal 1 sind Konstanze Kurz und Frank Rieger vom CCC
 
 4
-00:00:14,204 --> 00:00:16,574
+00:00:13,911 --> 00:00:16,097
 und es geht um die Antiterrordatei.
 
 5
-00:00:16,574 --> 00:00:24,255
+00:00:16,574 --> 00:00:23,439
 [Applaus]
 
 6
-00:00:24,255 --> 00:00:28,309
+00:00:24,793 --> 00:00:28,309
 Ja hallo, wir freuen uns, dass ihr alle da seid und dass ihr so viele seid.
 
 7
@@ -29,7 +29,7 @@ Ja hallo, wir freuen uns, dass ihr alle da seid und dass ihr so viele seid.
 Es ist doch ein etwas anderes Gefühl, in diesem riesen Saal zu sitzen.
 
 8
-00:00:31,376 --> 00:00:35,916
+00:00:31,945 --> 00:00:35,916
 Ich kann da hinten auch schon nicht mehr die Gesichter erkennen - oder da oben.
 
 9
@@ -42,15 +42,15 @@ Denn da liegt ja 'ne Verfassungsbeschwerde an und wir werden denke ich Anfang n�
 
 11
 00:00:50,225 --> 00:00:57,043
-und wir wollen A darüber berichten, welche Argumentation da vorgetragen wurde, welche Knackpunkte an dieser Datei liegen -
+und wir wollen <i>A)</i> darüber berichten, welche Argumentation da vorgetragen wurde, welche Knackpunkte an dieser Datei liegen -
 
 12
 00:00:57,043 --> 00:01:01,426
 natürlich auch ein bisschen, wie die technisch aufgebaut ist, wie wir argumentiert haben
 
 13
-00:01:01,426 --> 00:01:03,359
-dankeschön
+00:01:01,964 --> 00:01:03,359
+- dankeschön -
 
 14
 00:01:03,359 --> 00:01:08,310
@@ -77,7 +77,7 @@ und wir wollen natürlich ein bisschen orakeln, wo wir vermuten, die Urteilsfind
 Denn die Fragen, die die Richter während der Anhörung gestellt haben,
 
 20
-00:01:31,860 --> 00:01:34,054
+00:01:31,860 --> 00:01:33,669
 die so sechs Stunden ging...
 
 21
@@ -107,11 +107,11 @@ Wir waren ja mittlerweile schon relativ häufig in Karlsruhe.
 Der Anfang war mal die Wahlcomputer, dann die Onlinedurchsuchung - besser der Staatstrojaner - und dann natürlich die Vorratsdatenspeicherung.
 
 27
-00:02:04,321 --> 00:02:07,254
+00:02:04,321 --> 00:02:07,838
 Aber hier lief's ein bisschen anders. Wollen wir nachher nochmal ein bisschen erzählen.
 
 28
-00:02:07,254 --> 00:02:12,174
+00:02:08,684 --> 00:02:12,174
 Genau. Vielleicht sagen wir erstmal ein bisschen kurz was zu dem Antiterrordatei-Gesetz an sich.
 
 29
@@ -161,7 +161,7 @@ Das Trennungsgebot sagt, wir wollen in Deutschland eigentlich nicht nochmal sowa
 
 40
 00:03:16,771 --> 00:03:24,636
-also eine geheime Staatspolizei, oder sowas wie eine Stasi haben, also eine Vermischung von geheimdienstlichen und staatlichen Befugnissen.
+also eine geheime Staatspolizei, oder sowas wie eine Stasi haben, also eine Vermischung von geheimdienstlichen und polizeilichen Befugnissen.
 
 41
 00:03:24,975 --> 00:03:34,305
@@ -254,7 +254,7 @@ und auf dem Server sollen alle Behörden Dateien ablegen. Und dabei handelt es s
 Das heißt also, alle Behörden tun da Sachen rein und alle Behörden können auf diese Datenbank zugreifen.
 
 63
-00:05:45,376 --> 00:05:51,710
+00:05:47,452 --> 00:05:51,710
 Also wenn man den Sicherheitspolitikern so zuhört, dann soll diese Datei so ausgeführt sein,
 
 64
@@ -291,7 +291,7 @@ So ist die Darstellung der Politiker.
 Wenn man sich dann aber mal mit den Details dieser Datei beschäftigt, dann stellt man fest, dass es da doch ein wenig darüber hinaus geht.
 
 72
-00:06:32,850 --> 00:06:37,152
+00:06:34,234 --> 00:06:37,152
 Also ein wesentliches Merkmal ist zum Beispiel diese <i>verdeckte Speicherung<i>.</i></i>
 
 73
@@ -396,8 +396,8 @@ Aber damit ist klar, dass vor es vor allen Dingen auch um den Austausch von Date
 vor allen Dingen aber auch der Geheimdienste gehen muss. Sonst kämen wahrscheinlich diese hohe prozentuale Anzahl da nicht zusammen.
 
 98
-00:09:07,550 --> 00:09:14,092
-Ja, also die Definition ist halt: Wenn es irgendeinen Bezug zu Deutschland hat.
+00:09:07,550 --> 00:09:13,492
+Ja, also die Definition ist halt: "Wenn es irgendeinen Bezug zu Deutschland hat".
 
 99
 00:09:14,200 --> 00:09:24,181
@@ -425,7 +425,7 @@ Also ist so offensichtlich das unausgesprochenen Speicherungsziel dabei.
 
 105
 00:09:56,424 --> 00:10:05,068
-Interessant an diese Datei ist, das war so die erste dieser großen Verbunddateien neuen Datums.
+Interessant an diese Datei ist, das war so die erste dieser großen Verbunddateien neueren Datums.
 
 106
 00:10:05,068 --> 00:10:09,121
@@ -469,7 +469,7 @@ Also es gibt da so einen wirklich großen Zoo von diesen Datenbanken. Wie viele 
 Weil da war dann tatsächlich mal eine Liste dabei von allen Dateien, aus denen heraus Daten in die Antiterrordatei einfließen sollen.
 
 116
-00:11:06,451 --> 00:11:14,195
+00:11:07,343 --> 00:11:14,195
 Da gab es so ein bisschen Konfusion aufgrund einer etwas unscharfen Heise-Meldung, dass <i>alle</i> Daten aus diesen Dateien in die Antiterrordatei rein fließen sollen,
 
 117
@@ -482,7 +482,7 @@ Also, wenn jemand von euch den deutschen Wikipedia-Artikel dazu liest: Das ist d
 
 119
 00:11:24,257 --> 00:11:32,744
-Wir hatten aber aufgrund der Probleme - der Relevanzprobleme der deutsche Wikipedia - nicht die Muse, und da diesen Kriegen auszusetzen.
+Wir hatten aber aufgrund der Probleme - der Relevanzprobleme in der deutschen Wikipedia - nicht die Muße, und da diesen Kriegen auszusetzen.
 
 120
 00:11:32,744 --> 00:11:34,741
@@ -497,15 +497,15 @@ Dennoch ist es natürlich ganz interessant, dass in diesem Wikipedia-Artikel mal
 Das geht aus einer Anfrage an die Bundesregierung hervor, die dann mal eine Liste erstellt haben.
 
 123
-00:11:45,786 --> 00:11:54,857
+00:11:45,786 --> 00:11:55,149
 Aber tatsächlich ist es nicht so, dass da die alle gemergt wurden oder so, sondern man sollte schon nach den speziell Terrorverdächtigen suchen und dort eintragen.
 
 124
-00:11:54,857 --> 00:11:57,730
+00:11:55,195 --> 00:11:58,022
 Dennoch is es eine neue Qualität, das kann man schon sagen.
 
 125
-00:11:57,730 --> 00:12:08,719
+00:11:58,160 --> 00:12:08,719
 Und interessant darin ist halt, von der Politik wird diese Antiterrordatei als eine Art, ja, Copy-und-Paste-Vorlage betrachtet,
 
 126
@@ -547,7 +547,7 @@ Ja, vor allen Dingen haben sie ein anderes Ziel. Das Ziel von Geheimdiensten ist
 135
 00:12:56,527 --> 00:13:05,310
 - Ja
-- Wohingegen die Polizeien ja im Wesentlichen auf konkrete Verdachtsfälle hin ermittelnd tätig werden.
+- Wohingegen die Polizeien ja im Wesentlichen auf konkrete Verdachtsfälle hin -natürlich auch nicht immer- ermittelnd tätig werden.
 
 136
 00:13:05,310 --> 00:13:07,348
@@ -566,16 +566,16 @@ indem man diese Struktur, die da Angelegt wurde - also Zentralserver im BKA, all
 alle Behörden können suchen und es gibt die Möglichkeit, verdeckt einzustellen - auch auf andere Bereiche ausweitet.
 
 140
-00:13:29,596 --> 00:13:34,262
+00:13:29,596 --> 00:13:34,708
 Und das erste Beispiel was dafür hochkam war die sogenannte RED, die Rechtsextremismus-Datei.
 
 141
-00:13:34,262 --> 00:13:42,196
+00:13:34,708 --> 00:13:42,196
 Die ist technisch quasi identisch mit der Antiterrordatei. Das Gesetzt ist quasi identisch.
 
 142
 00:13:42,196 --> 00:13:47,612
-Also es ist quasi Copy-and-Paste, nur dass dort Terroristen durch Rechtsextreme ausgetauscht wurden.
+Also es ist quasi Copy-and-Paste, nur dass dort "Terroristen" durch "Rechtsextreme" ausgetauscht wurde.
 
 143
 00:13:47,612 --> 00:13:52,667
@@ -591,11 +591,11 @@ Deswegen ist die Bedeutung dieses Urteils zur Antiterrordatei so groß. Weil, da
 
 146
 00:14:06,673 --> 00:14:10,788
-wird für alle zukünftigen Verbunddateien der Goldstandart werden.
+wird für alle zukünftigen Verbunddateien der Goldstandard werden.
 
 147
 00:14:10,788 --> 00:14:15,898
-Ich meine, dass haben wir natürlich auch in anderen Punkten gehofft. Wenn ich mal daran erinnern darf, dass im Urteil zur Onlinedurchsuchung -
+Ich meine, das haben wir natürlich auch in anderen Punkten gehofft. Wenn ich mal daran erinnern darf, dass im Urteil zur Onlinedurchsuchung -
 
 148
 00:14:15,898 --> 00:14:24,452
@@ -622,15 +622,15 @@ dass dieses mal - anders als bei allen anderen Anhörungen - diese Regierungs...
 die Bank, wo die Angeklagten sitzen. Ist das so? Kann man das so sagen?
 
 154
-00:14:51,315 --> 00:14:53,735
-Naja... die Beschwerten sitzen, die war voll.
+00:14:51,315 --> 00:14:54,964
+Naja... die <i>Beschwerten</i> sitzen, die war <i>voll<i>.</i></i>
 
 155
-00:14:53,735 --> 00:15:01,784
+00:14:54,964 --> 00:15:02,584
 Und unser Innenminister - Friedrich - der saß da tatsächlich geschlagene sechs Stunden und hat sich eingangs und zum Ende der Anhörung geäußert.
 
 156
-00:15:01,784 --> 00:15:07,286
+00:15:02,584 --> 00:15:07,286
 Das fanden wir sehr überraschend, weil die Richter sich ja eigentlich in den letzten Jahren immer sehr beklagt haben, dass da einfach keiner kommt
 
 157
@@ -663,7 +663,7 @@ Also der Präsident des MAD, der Präsident des Bundesnachrichtendienstes, der n
 an den wir uns ja über die Jahre an seine Eingangsmuster auch gewöhnt haben.
 
 164
-00:15:47,847 --> 00:15:56,474
+00:15:49,400 --> 00:15:56,474
 Klar war schon allein aus dieser Besetzung heraus, dass denen offensichtlich diese Antiterrordatei sehr wichtig ist.
 
 165
@@ -672,15 +672,15 @@ Klar war schon allein aus dieser Besetzung heraus, dass denen offensichtlich die
 - Also dass die halt für es eine sehr hohe Priorität hat, dass sie da eine halbwegs gute Figur machen.
 
 166
-00:16:01,663 --> 00:16:07,440
+00:16:01,663 --> 00:16:08,040
 Das wurde durch ihren Prozessvertreter... Also das funktioniert immer so bei solchen Sachen, die Bundesregierung hat dann einen Anwalt.
 
 167
-00:16:07,440 --> 00:16:14,813
+00:16:08,040 --> 00:16:14,813
 Das ist meistens ein Rechtsprofessor. Deren Qualität ist stark schwankend.
 
 168
-00:16:14,813 --> 00:16:19,783
+00:16:15,320 --> 00:16:19,783
 Also es gibt halt welche die sind sehr gut und es gibt halt welche die sind eher nicht so gut.
 
 169
@@ -705,11 +705,11 @@ Also es gibt halt welche die sind sehr gut und es gibt halt welche die sind eher
 - Eher auf der nicht-so-Seite.
 
 173
-00:16:33,349 --> 00:16:37,164
+00:16:34,041 --> 00:16:37,164
 Aber nochmal kurz zurück zu der Rechtsextremismus-Datei:
 
 174
-00:16:37,164 --> 00:16:44,980
+00:16:38,779 --> 00:16:44,980
 Da kann man halt sehen, wie auch die Antiterrordatei aussehen wird.
 
 175
@@ -754,7 +754,7 @@ Also lustig ist auch hier zum Beispiel auch in dieser Maske die Rechtsgrundlage 
 Die sieht man da. Ist halt an der Stelle Unterstützer einer terroristischen Vereinigung.
 
 185
-00:17:43,426 --> 00:17:49,024
+00:17:43,426 --> 00:17:48,208
 Genau dasselbe dürfte dann halt eben auch in der Antiterrordatei stehen.
 
 186
@@ -766,7 +766,7 @@ Ja. Zu den einzelnen Merkmalen: Also hier sieht man jetzt zum Beispiel besondere
 Dass also dieser Beispieldatensatz an Hand oder Arm eine Tätowierung hat - oder beidem.
 
 188
-00:18:02,283 --> 00:18:07,336
+00:18:03,190 --> 00:18:07,336
 Die einzelnen Merkmale, die da verzeichnet sind, waren natürlich teilweise auch umstritten.
 
 189
@@ -782,19 +782,19 @@ Also ich hätte gedacht, dass das in Deutschland durchaus ein Thema sein würde,
 Aber das war auch unter der Fülle von Rechtsproblemen und technischen Problemen,
 
 192
-00:18:26,756 --> 00:18:30,922
+00:18:26,756 --> 00:18:31,106
 die dort erörtert wurden eigentlich kaum Thema und das hat mich tatsächlich überrascht.
 
 193
-00:18:30,922 --> 00:18:35,471
+00:18:31,983 --> 00:18:35,471
 Aus meiner Sicht kritisch ist aber insbesondere ein Freitextfeld in dieser Datei,
 
 194
-00:18:35,471 --> 00:18:37,872
+00:18:35,471 --> 00:18:38,241
 wo man einfach mal alles rein kippen kann, wozu man Lust hat.
 
 195
-00:18:37,872 --> 00:18:42,970
+00:18:38,856 --> 00:18:42,970
 Wir kommen gleich nochmal dazu, wie man die Sache da eigentlich kontrollieren soll.
 
 196
@@ -814,11 +814,11 @@ Und was man sich natürlich vorstellen muss ist, dass man mit den Daten die man 
 natürlich damit andere Datenbanken füttert, um mehr Informationen zu erlangen.
 
 200
-00:19:07,718 --> 00:19:17,760
+00:19:09,748 --> 00:19:17,760
 Eines der Dinge um die es <i>uns</i> in dieser Anhörung auch ging war, nochmal klarzumachen, nachzufragen: Was passiert denn eigentlich mit diesen Daten?
 
 201
-00:19:17,760 --> 00:19:26,891
+00:19:18,298 --> 00:19:26,891
 Wir wissen ja aus Medienberichten, dass es einen umfangreichen Austausch gibt zwischen den Geheimdiensten,
 
 202
@@ -827,18 +827,18 @@ was Daten angeht. Wie halt international Daten ausgetauscht werden.
 
 203
 00:19:32,258 --> 00:19:38,538
-Und die Übermittlung dieser Daten aus dieser Antiterrordatei in ausländische Behörden -
+Und die Übermittlung dieser Daten aus dieser Antiterrordatei an ausländische Behörden -
 
 204
 00:19:38,538 --> 00:19:40,429
 da wollten die nie so richtig genau drüber reden.
 
 205
-00:19:40,429 --> 00:19:48,453
+00:19:41,829 --> 00:19:48,453
 Die Aussagen waren allesamt extrem schwammig. Sie haben nicht gesagt, wie viele Daten sie da übermitteln.
 
 206
-00:19:48,453 --> 00:19:53,893
+00:19:48,453 --> 00:19:52,569
 Es war insbesondere auch erstaunlich - zum Beispiel der BND-Chef...
 
 207
@@ -848,11 +848,11 @@ Es war insbesondere auch erstaunlich - zum Beispiel der BND-Chef...
 
 208
 00:19:57,739 --> 00:20:03,017
-Also der machte in dieser Anhörung so ein bisschen die beste Figur von der staatlichen Seite.
+... also der machte in dieser Anhörung so ein bisschen die beste Figur von der staatlichen Seite.
 
 209
 00:20:03,017 --> 00:20:11,304
-Der kommt so ein bisschen so rüber, so wie M bei James Bond. Also halt so völlig freundlich, verbindlich, loyal und man weiß aber genau
+Der kommt so ein bisschen so rüber, so wie <i>M</i> bei James Bond. Also halt so völlig freundlich, verbindlich, loyal und man weiß aber genau
 
 210
 00:20:11,304 --> 00:20:15,590
@@ -863,7 +863,7 @@ in der Tasche ist der Dolch, den er dir in den Rücken rammen wird wenn es irgen
 Und der hat halt irgendwie genau erzählt, wie viele Daten sie speichern und unter welchen Umständen
 
 212
-00:20:22,656 --> 00:20:28,806
+00:20:23,548 --> 00:20:28,806
 und wie oft sie reviewen und wie viele Bearbeiter da dran sind. Also eine riesige Menge an Zahlen.
 
 213
@@ -919,15 +919,15 @@ und dass auch schon einige der Schriftsätze die wir bekommen haben als VS geste
 Ich könnte mich eigentlich nicht erinnern, dass bei den anderen Anhörungen so eine Form von Graubereich sonst übrig war.
 
 226
-00:21:44,534 --> 00:21:46,691
+00:21:44,534 --> 00:21:47,152
 Das war schon ein großer Unterschied aus meiner Sicht.
 
 227
-00:21:46,691 --> 00:21:52,516
+00:21:47,152 --> 00:21:52,239
 Dass da einfach bestimmte Informationen nicht gegeben werden sollten hat man auch gemerkt.
 
 228
-00:21:52,516 --> 00:22:01,693
+00:21:53,362 --> 00:22:00,569
 Genauer gesagt, was eigentlich immer so bei uns anfing, interessant zu werden, dann kam halt irgendwie so ein Geheimhaltungs-Ding.
 
 229
@@ -939,7 +939,7 @@ Also es war halt auch vollkommen klar, dass zum Beispiel die Geheimdienst-Chefs,
 dass denen halt nur eine begrenzte Aussage-Genehmigung gegeben worden war.
 
 231
-00:22:10,493 --> 00:22:12,955
+00:22:10,493 --> 00:22:12,770
 Also dass vollkommen klar war, was die halt sagen dürfen.
 
 232
@@ -951,11 +951,11 @@ Zwischendurch gab's dann mal so ein oder zwei interessante Szenen.
 Nämlich wenn die Richter dann angefangen haben dann doch mal ein bisschen härter nachzuhaken
 
 234
-00:22:20,272 --> 00:22:26,744
+00:22:20,272 --> 00:22:27,359
 und halt Sachen im Detail wissen wollten und die jeweiligen Polizei- oder Geheimdienstchefs darauf nicht Antwort geben konnten
 
 235
-00:22:26,744 --> 00:22:34,444
+00:22:27,728 --> 00:22:34,444
 und sie dann nach hinten ins Publikum fragten, ob denn mal ein Praktiker da sei - also ein Techniker, der da aus der Praxis kam.
 
 236
@@ -967,11 +967,11 @@ Und wie wir wissen: Ingenieure lügen nicht. Und die haben dann halt manchmal ei
 [Gelächter]
 
 238
-00:22:43,092 --> 00:22:44,594
+00:22:43,092 --> 00:22:45,024
 Das waren dann so die interessanten Details.
 
 239
-00:22:44,594 --> 00:22:48,542
+00:22:45,024 --> 00:22:48,542
 Dann ging's dann zum Beispiel darum, wie gelöscht wird oder ob gelöscht werden kann und ähnliche Dinge.
 
 240
@@ -984,7 +984,7 @@ Da gab's dann mal so einen klitzekleinen Einblick, der dann schon zeigte,
 
 242
 00:22:56,573 --> 00:23:02,627
-dass die Abweichung gegenüber den politisch abgesegneten Statements schon relativ groß war.
+dass die Abweichung gegenüber den politisch abgesegneten Statements doch relativ groß war.
 
 243
 00:23:02,627 --> 00:23:08,450
@@ -1036,7 +1036,7 @@ sondern auch durchaus im Bereich des Alltags.
 
 255
 00:24:16,134 --> 00:24:20,554
-Und eine sind die No-Flight-Listen, über die wir jetzt viel gelesen haben.
+Und eine sind die No-Fly-Listen, über die wir jetzt viel gelesen haben.
 
 256
 00:24:20,554 --> 00:24:24,116
@@ -1052,7 +1052,7 @@ Es gibt gerade einen interessanten Fall in der Schweiz, wo ein Iraner versucht m
 
 259
 00:24:33,264 --> 00:24:37,663
-Wer hat eigentlich diesen Eintrag in der No-Flight-Liste generiert? Warum darf ich nicht mehr reisen?
+Wer hat eigentlich diesen Eintrag in der No-Fly-Liste generiert? Warum darf ich nicht mehr reisen?
 
 260
 00:24:37,663 --> 00:24:40,416
@@ -1136,11 +1136,11 @@ Also was wäre, wenn jetzt irgendwie ein schrecklicher Anschlag mit irgendwie hu
 und wir dürfen diese Antwort nicht geben und das geht ja überhaupt nicht.
 
 280
-00:26:17,537 --> 00:26:25,001
+00:26:19,198 --> 00:26:25,416
 Es gibt da halt quasi kein ernsthaftes Bewusstsein, dass gerade dieser internationale Austausch
 
 281
-00:26:25,001 --> 00:26:29,742
+00:26:25,416 --> 00:26:29,742
 möglicherweise Leuten zu physischem Schaden gereichen kann.
 
 282
@@ -1158,18 +1158,18 @@ Und die Frage, was passiert denn nun eigentlich, wenn auf der Basis von Daten vo
 
 285
 00:26:45,073 --> 00:26:51,119
-halt Leute irgendwo in solchen Saaten gefoltert werden - da wollte halt niemand so richtig drüber reden.
+halt Leute irgendwo in solchen Staaten gefoltert werden - da wollte halt niemand so richtig drüber reden.
 
 286
 00:26:51,119 --> 00:26:59,376
 Also genauso wenig, wie über die Frage: Fließen denn eigentlich in diese Antiterrordatei Erkenntnisse ein, die aus Folterstaaten kommen?
 
 287
-00:26:59,376 --> 00:27:02,229
+00:27:00,052 --> 00:27:02,229
 Das zählt ja auch zum internationalen Transfer.
 
 288
-00:27:02,229 --> 00:27:08,106
+00:27:03,105 --> 00:27:08,106
 Vielleicht noch... es gib eine andere Entwicklung in Deutschland, die parallel verläuft.
 
 289
@@ -1177,7 +1177,7 @@ Vielleicht noch... es gib eine andere Entwicklung in Deutschland, die parallel v
 Die mir auch so nicht bewusst war, bevor wir angefangen haben uns auch mit dem Thema ein bisschen intensiver zu befassen.
 
 290
-00:27:13,457 --> 00:27:20,811
+00:27:15,226 --> 00:27:20,811
 Es gibt eine gewisse Weitergabe dieser Informationen auch in den privaten Bereich. Warum?
 
 291
@@ -1190,12 +1190,12 @@ Die Großveranstaltungen in Deutschland, besonders die... Was war das? EM? Ich b
 [Gelächter]
 
 293
-00:27:32,209 --> 00:27:36,221
+00:27:32,209 --> 00:27:36,959
 Ähm, ja.
 [Applaus]
 
 294
-00:27:36,221 --> 00:27:39,618
+00:27:36,959 --> 00:27:39,618
 Ich hab doch auch keine Ahnung von.
 
 295
@@ -1204,7 +1204,7 @@ Da läuft das dann auch so, dass zum Beispiel die Unternehmen, die da ihre Würs
 
 296
 00:27:47,020 --> 00:27:50,900
-die stellen dann diese Überprüfungsfragen an die Behörden.
+die stellen dann diese Sicherheits-Überprüfungsfragen an die Behörden.
 
 297
 00:27:50,900 --> 00:27:58,598
@@ -1259,11 +1259,11 @@ Das heißt, es gibt in diesem Antiterrordatei-Gesetz keine Definition, was Terro
 Was wir natürlich einigermaßen bizarr finden.
 
 310
-00:28:50,794 --> 00:28:53,877
+00:28:50,794 --> 00:28:53,400
 Das wäre im technischen Bereich etwa wie...?
 
 311
-00:28:53,877 --> 00:28:58,632
+00:28:55,015 --> 00:28:58,632
 Tja, weiß ich nicht. Fällt mir irgendwie so nichts ein, weil Technik ohne Definition geht ja nicht.
 
 312
@@ -1272,7 +1272,7 @@ Ist das ein Linux ohne Kernel?
 
 313
 00:29:00,878 --> 00:29:05,163
-Also in der Juristerei geht das natürlich schon. Da kann man halt irgendwie sozusagen versuchen, sich auf's...
+Also in der Juristerei geht das natürlich schon. Da kann man halt irgendwie sozusagen versuchen, sich auf...
 
 314
 00:29:05,163 --> 00:29:09,657
@@ -1316,7 +1316,7 @@ Also das heißt, es gibt nicht wirklich eine Definition in Deutschland.
 
 324
 00:29:48,806 --> 00:29:57,570
-In der Regel bezieht man sich auf den 129 a. Also "Bildung terroristischer Vereinigungen".
+In der Regel bezieht man sich auf den [StGB §]129 a. Also "Bildung terroristischer Vereinigungen".
 
 325
 00:29:57,570 --> 00:30:02,145
@@ -1328,7 +1328,7 @@ aber die natürlich dort besprochen wurden und auch Teil der Beschwerdeschrift s
 
 327
 00:30:06,673 --> 00:30:14,859
-Nämlich, ist denn Extremismus inbegriffen und wie ist Extremismus definiert? Und wie ist der Gewaltbegriff eigentlich definiert?
+Nämlich: ist denn Extremismus inbegriffen und wie ist Extremismus definiert? Und wie ist der Gewaltbegriff eigentlich definiert?
 
 328
 00:30:14,859 --> 00:30:20,565
@@ -1344,7 +1344,7 @@ Und man dadurch sozusagen in den Terror-Verdächtigen-Bereich rutschen würde,
 
 331
 00:30:30,308 --> 00:30:34,577
-wenn man zum Beispiel an der Organisation dieser Sitzblockade beteiligt ist.
+wenn man zum Beispiel an der Organisation dieser Sitzdemo beteiligt ist.
 
 332
 00:30:34,577 --> 00:30:38,312
@@ -1439,27 +1439,27 @@ Und dann waren es irgendwie plötzlich nur noch 13. Also die Zahlen fliegen da s
 Wobei die eh keiner überprüfen kann, also...
 
 355
-00:32:11,381 --> 00:32:12,728
+00:32:11,381 --> 00:32:12,358
 Genau.
 
 356
-00:32:12,728 --> 00:32:18,648
+00:32:13,835 --> 00:32:18,940
 Aber ansonsten haben die halt immer intensiv versucht den Eindruck zu erwecken, sie benutzen ja den Spielraum des Gesetzes nicht.
 
 357
-00:32:18,648 --> 00:32:22,215
+00:32:18,940 --> 00:32:22,584
 Und da wurde es auch schon wieder interessant was den Ausblick auf das Urteil angeht,
 
 358
-00:32:22,215 --> 00:32:25,611
+00:32:22,584 --> 00:32:25,718
 weil die Richter dann teilweise anfingen explizit zu fragen:
 
 359
-00:32:25,611 --> 00:32:29,663
+00:32:25,718 --> 00:32:30,016
 Okay, na gut, also wenn Sie diese undolosen Kontaktpersonen sowieso nicht brauchen, dann können wir die ja streichen, oder?
 
 360
-00:32:29,663 --> 00:32:37,151
+00:32:31,246 --> 00:32:37,151
 [Applaus]
 
 361
@@ -1467,11 +1467,11 @@ Okay, na gut, also wenn Sie diese undolosen Kontaktpersonen sowieso nicht brauch
 Also, das war auch ungewöhnlich für diese Art der Verhandlung.
 
 362
-00:32:40,863 --> 00:32:44,437
+00:32:40,863 --> 00:32:45,129
 Weil normalerweise läuft so etwas ein bisschen indirekter und nicht <i>so</i> direkt ab.
 
 363
-00:32:44,437 --> 00:32:48,921
+00:32:45,589 --> 00:32:48,921
 Also dieses Gefeilsche: Was brauchen Sie denn jetzt eigentlich wirklich?
 
 364
@@ -1479,12 +1479,12 @@ Also dieses Gefeilsche: Was brauchen Sie denn jetzt eigentlich wirklich?
 Welchen Umfang von Befugnissen und Speichermöglichkeiten braucht man denn, um diese Aufgabe wirklich zu erfüllen?
 
 365
-00:32:55,108 --> 00:33:05,681
+00:32:55,938 --> 00:33:05,681
 Also jetzt muss ich aber auch mal sagen: Wir sind da natürlich auch nicht hingefahren, um da so eine Maximalforderung der Sicherheitsbehörden zu unterstützen.
 
 366
 00:33:05,681 --> 00:33:14,762
-Sondern natürlich war unser Ziel, dieses Gesetz wie andere zuvor - 14 sind es glaube ich jetzt in Folge - als verfassungswidrig erklärt zu sehen.
+Sondern natürlich war unser Ziel, dieses Gesetz wie Andere zuvor - 14 sind es glaube ich jetzt in Folge - als verfassungswidrig erklärt zu sehen.
 
 367
 00:33:14,762 --> 00:33:21,662
@@ -1517,22 +1517,22 @@ Nämlich zu sagen: Hier können alle auf alle zugreifen. Und sogar noch im Geset
 
 374
 00:33:50,805 --> 00:33:55,690
-Ihr seid eure Daten danach zu flöhen, ob sie in diese Antiterrordatei rein sollen.
+Ihr seid gezwungen eure Daten danach zu flöhen, ob sie in diese Antiterrordatei rein sollen.
 
 375
-00:33:55,690 --> 00:34:00,006
-Wir sollten vielleicht auch mal unseren Innenminister erwähnen - wie der argumentiert hat.
+00:33:55,690 --> 00:34:00,406
+Wir sollten vielleicht auch mal unseren Innenminister erwähnen - wie <i>er</i> argumentiert hat?
 
 376
-00:34:00,006 --> 00:34:02,739
+00:34:00,759 --> 00:34:02,739
 Na, möchte jemand raten?
 
 377
-00:34:02,739 --> 00:34:05,448
-Er hat natürlich am Anfang gesprochen und gesagt: Vertraut uns doch.
+00:34:02,739 --> 00:34:05,786
+Er hat natürlich am Anfang gesprochen und gesagt: "Vertraut uns doch."
 
 378
-00:34:05,448 --> 00:34:08,207
+00:34:05,786 --> 00:34:08,207
 [Gelächter]
 
 379
@@ -1573,7 +1573,7 @@ also rhetorisch umzudrehen - und zu sagen: Wenn wir sowas wie so eine Rechtsextr
 
 387
 00:34:45,324 --> 00:34:47,254
-Alle klar, oder?
+Alles klar, oder?
 
 388
 00:34:47,254 --> 00:34:50,102
@@ -1596,7 +1596,7 @@ Irgendwie erinnert uns das doch an diese NSU-Geschichte.
 Und das kam auch bei den Richtern glaube ich nicht so richtig gut rüber, dieses Argument.
 
 393
-00:35:08,956 --> 00:35:14,675
+00:35:10,063 --> 00:35:14,675
 Klar war jedenfalls so, dieses "vertraut uns doch" klang schon so ein wenig hohl.
 
 394
@@ -1604,7 +1604,7 @@ Klar war jedenfalls so, dieses "vertraut uns doch" klang schon so ein wenig hohl
 Ja also, was die Technik angeht haben wir uns versucht, mal ein bisschen kundig zu machen.
 
 395
-00:35:20,066 --> 00:35:23,048
+00:35:20,973 --> 00:35:23,048
 Was passiert denn da tatsächlich?
 
 396
@@ -1644,19 +1644,19 @@ Und tatsächlich ist es auch nicht so. Was wir gefunden haben ist,
 dass die Software, die die meisten deutschen Polizei und Geheimdienstbehörden verwenden um ihre Fälle elektronisch zu verwalten -
 
 405
-00:36:03,843 --> 00:36:09,235
+00:36:03,843 --> 00:36:09,711
 das wird von einer deutschen Firma namens rola hergestellt - die hat so ein System namens "rsCASE".
 
 406
-00:36:09,235 --> 00:36:15,712
+00:36:09,711 --> 00:36:15,712
 Von dem werden so die diversen Polizei- und Geheimdienst-Softwaresysteme abgeleitet.
 
 407
-00:36:15,712 --> 00:36:19,867
+00:36:15,712 --> 00:36:20,051
 Das ist halt so ein modulares Baukastensystem, was man zusammensteckt und es hat Schnittstellen.
 
 408
-00:36:19,867 --> 00:36:23,463
+00:36:20,481 --> 00:36:23,463
 Und eine dieser Schnittstellen ist für die Antiterrordatei.
 
 409
@@ -1709,7 +1709,7 @@ von wegen "es sind ja alles getrennte Dateien, die bei getrennten Behörden geha
 
 421
 00:37:27,470 --> 00:37:34,736
-und die halt irgendwie hübsch voneinander weg sortiert sind und nur im Einzelfall per Telefonanruf mal aufgetrennt werden,
+und die halt irgendwie hübsch voneinander weg sortiert sind und nur im Einzelfall per Telefonanruf mal aufgetrennt werden",
 
 422
 00:37:34,736 --> 00:37:40,306
@@ -1796,15 +1796,15 @@ Das war in der Darstellung in den Schriftsätzen einfach extrem verharmlosend.
 Und übrigens auch in einer ganz merkwürdigen Sprache,
 
 443
-00:39:17,528 --> 00:39:22,693
+00:39:17,528 --> 00:39:21,585
 die man ja sonst nicht so ließt. So, naja.
 
 444
-00:39:22,693 --> 00:39:26,550
+00:39:22,693 --> 00:39:26,765
 Wir wollen nochmal zusammenfassen, wie unsere Argumentation letztlich war
 
 445
-00:39:26,550 --> 00:39:28,664
+00:39:26,765 --> 00:39:28,664
 und wo wir auch die Knackpunkte gesehen haben.
 
 446
@@ -1816,15 +1816,15 @@ Wir sollten dabei mal erwähnen: Wir hatten ja gesagt, die Regierungsseite war d
 und nicht gähnende Leere. Aber auf der anderen Seite waren natürlich auch eine Menge Vertreter da.
 
 448
-00:39:38,067 --> 00:39:45,238
+00:39:38,067 --> 00:39:45,745
 Also es war natürlich nicht nur der CCC, sondern in erster Linie auch der Beschwerdeführer und der Anwalt von ihm.
 
 449
-00:39:45,238 --> 00:39:50,249
+00:39:45,745 --> 00:39:50,849
 Der allerdings aus meiner Sicht nur eine sehr marginale Rolle spielte.
 
 450
-00:39:50,249 --> 00:39:54,959
+00:39:50,849 --> 00:39:54,959
 Der hat tatsächlich nur eingangs ein Statement gehalten, was aber ziemlich großartig war.
 
 451
@@ -1845,7 +1845,7 @@ dann haben die sich auch mal <i>zu Wort gemeldet</i> und zwischendurch ein orden
 
 455
 00:40:08,747 --> 00:40:12,499
-Das hat er gar nicht gemacht. Aber er hat am Anfang natürlich den vollen Reiser gelandet,
+Das hat er gar nicht gemacht. Aber er hat am Anfang natürlich den vollen Reißer gelandet,
 
 456
 00:40:12,499 --> 00:40:17,706
@@ -1936,7 +1936,7 @@ Also insbesondere Alexander Dix...
 die vor allen Dingen aber auch betont haben, wie es mit ihren Kontrollmöglichkeiten aussieht.
 
 477
-00:41:20,784 --> 00:41:22,978
+00:41:21,881 --> 00:41:22,978
 Die sind nämlich relativ <i>begrenzt<i>.</i></i>
 
 478
@@ -1965,7 +1965,7 @@ Die darf der Schaar natürlich nicht prüfen.
 
 484
 00:41:44,314 --> 00:41:45,790
-Na, an sich das BKA.
+Nach, ansicht des BKA.
 
 485
 00:41:45,790 --> 00:41:51,578
@@ -2133,7 +2133,7 @@ Also wir wollen nochmal ganz kurz zusammenfassen, wie wir argumentiert haben.
 
 525
 00:44:16,619 --> 00:44:20,278
-Da haben wir auch noch ein Paar Punkte, die wir jetzt noch nicht erwähnt haben, die wir zwischendurch vergessen hatten.
+Da haben wir auch noch ein paar Punkte, die wir jetzt noch nicht erwähnt haben, die wir zwischendurch vergessen hatten.
 
 526
 00:44:20,278 --> 00:44:24,758
@@ -2372,7 +2372,7 @@ Nämlich die Tatsache, dass man diese Daten zentralisiert zusammen holt,
 
 584
 00:48:18,092 --> 00:48:22,644
-ist natürlich ein mundgerechtes Angriffsziel - sowohl für Innen und für Außentäter.
+ist natürlich ein mundgerechtes Angriffsziel - sowohl für Innen- und für Außentäter.
 
 585
 00:48:22,644 --> 00:48:26,395
@@ -2416,8 +2416,8 @@ Und wir bedanken uns!
 [Applaus]
 
 595
-00:49:12,911 --> 00:49:16,985
-Vielen Dank an Frank uns Konstanze für ihren Vortrag.
+00:49:13,341 --> 00:49:16,985
+Vielen Dank an Frank uns Constanze für ihren Vortrag.
 
 596
 00:49:16,985 --> 00:49:19,704
@@ -2440,15 +2440,15 @@ Bitte sprecht deutlich und direkt in die Mikrofone,
 damit auch die Leute zuhause an den Streams euch verstehen können.
 
 601
-00:49:32,117 --> 00:49:35,356
+00:49:32,117 --> 00:49:33,648
 Danke.
 
 602
-00:49:35,356 --> 00:49:38,882
+00:49:35,540 --> 00:49:38,020
 Haben wir Fragen?
 
 603
-00:49:42,913 --> 00:49:49,322
+00:49:43,559 --> 00:49:47,491
 Wer eine Frage hat, bitte <i>kurz</i> den Arm heben.
 
 604
@@ -2456,11 +2456,11 @@ Wer eine Frage hat, bitte <i>kurz</i> den Arm heben.
 Nein?
 
 605
-00:49:53,555 --> 00:49:58,265
+00:49:53,555 --> 00:49:57,157
 Ja? Eine Frage da vorne.
 
 606
-00:50:00,096 --> 00:50:05,848
+00:50:00,834 --> 00:50:05,848
 Ich sehe das also richtig, dass dadurch dass die Informationshoheit jeweils bei den einzelnen
 
 607
@@ -2469,10 +2469,10 @@ Einstellparteien liegt, es überhaupt keine Chance gibt, jemals einen Eintrag da
 
 608
 00:50:12,453 --> 00:50:15,883
-man nicht herausfindet, wer die einstellende Partei war?
+weil man nicht herausfindet, wer die einstellende Partei war?
 
 609
-00:50:15,883 --> 00:50:17,504
+00:50:15,883 --> 00:50:17,288
 Korrekt.
 
 610
@@ -2513,7 +2513,7 @@ Nee. Also das wäre... <i>erwarteten</i> wir. Das, denke ich mal, dürfte eines 
 
 619
 00:50:49,642 --> 00:50:54,680
-dass es halt so eine Kontrollinstanz schaffen wird oder halt eine Kontrollmöglichkeit geschaffen wird.
+dass es halt so eine Kontrollinstanz geschaffen wird oder halt eine Kontrollmöglichkeit geschaffen wird.
 
 620
 00:50:54,680 --> 00:50:58,205
@@ -2553,7 +2553,7 @@ Und trotzdem haben dann eben alle Behörden bundesweit Zugriff darauf.
 
 629
 00:51:32,900 --> 00:51:37,026
-Und ich denke mal, da wird sich vermutlich was bewegen im Urteil. Ja.
+Und ich denke mal, da wird sich vermutlich was bewegen im Urteil.
 
 630
 00:51:37,026 --> 00:51:41,734
@@ -2584,11 +2584,11 @@ Und zwar muss man sie explizieren, muss sagen: Dieses Grundrecht schränke ich e
 Das haben sie vergessen bei Terrordatei-Gesetz.Fand ich auch sehr...
 
 637
-00:52:01,293 --> 00:52:03,363
+00:52:01,293 --> 00:52:02,178
 Fefe?
 
 638
-00:52:03,363 --> 00:52:04,789
+00:52:03,363 --> 00:52:04,619
 Oh, Fefe!
 
 639
@@ -2624,7 +2624,7 @@ Ja. Schön, dass du schon an der Optimierung arbeitest.
 [Gelächter]
 
 647
-00:52:29,998 --> 00:52:35,512
+00:52:29,998 --> 00:52:35,081
 Immer diese Hacker.
 [Applaus]
 
@@ -2663,11 +2663,11 @@ wenn immer mit einem rein zufällig gewähltem Beispiel argumentiert wird.
 Jaaa.
 
 656
-00:52:58,714 --> 00:53:01,586
+00:52:58,714 --> 00:53:01,770
 Also diese dolos und undolos-Entscheidung trifft die einstellende Behörde.
 
 657
-00:53:01,586 --> 00:53:04,387
+00:53:01,770 --> 00:53:04,387
 Nein, nein. Da ist so ein großes Orakel im BKA.
 
 658
@@ -2812,7 +2812,7 @@ dass bestimmte Aspekte überhaupt nicht zu Sprache kamen, weil...
 690
 00:54:30,897 --> 00:54:34,175
 Weil irgendwann die Zeit...
-- Weil damit hat er auch viel ??? auch, in vielerlei Hinsicht.
+- Weil damit hat er auch filibustert eigentlich, in vielerlei Hinsicht.
 
 691
 00:54:34,175 --> 00:54:37,507
@@ -2972,11 +2972,11 @@ an Konstanze und Frank.
 [Applaus]
 
 728
-00:56:18,684 --> 00:56:20,986
+00:56:18,684 --> 00:56:20,201
 Eine Runde Applaus!
 
 729
-00:56:20,986 --> 00:56:24,888
+00:56:20,201 --> 00:56:24,888
 [Applaus]
 
 730
@@ -2993,5 +2993,5 @@ Organized by: CCC e.V.
 Video recording supported by: FEM, Forschungsgemeinschaft elektronischer Medien e.V.
 
 733
-00:56:33,665 --> 99:59:59,000
+00:56:33,665 --> 00:56:37,665
 Creative Commons
