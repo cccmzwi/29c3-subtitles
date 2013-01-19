@@ -1,0 +1,967 @@
+1
+99:59:59,000 --> 99:59:59,000
+[Applaus]
+
+2
+99:59:59,000 --> 99:59:59,000
+Ok, thank you!
+
+3
+99:59:59,000 --> 99:59:59,000
+I don't like crowded slides, so this is the most crowded slice I have.
+
+4
+99:59:59,000 --> 99:59:59,000
+What I'm gonna talk about is the telephony industry.
+
+5
+99:59:59,000 --> 99:59:59,000
+And what we know about the telephony industry is,
+
+6
+99:59:59,000 --> 99:59:59,000
+that it has been a long time been a closed sector.
+
+7
+99:59:59,000 --> 99:59:59,000
+And for fixed lines, and now we have the internet, there's voice-over-IP,
+
+8
+99:59:59,000 --> 99:59:59,000
+things are going better.
+
+9
+99:59:59,000 --> 99:59:59,000
+But this is not the case for mobile.
+
+10
+99:59:59,000 --> 99:59:59,000
+And one of the things, that is really changing the landscape,
+
+11
+99:59:59,000 --> 99:59:59,000
+is voice-over-IP, the Session Initiation Protocol and things like that.
+
+12
+99:59:59,000 --> 99:59:59,000
+And there are some kinds of extraordinary open source projects going on;
+
+13
+99:59:59,000 --> 99:59:59,000
+like OpenMoko.
+
+14
+99:59:59,000 --> 99:59:59,000
+What they are doing is, they want to create open source software
+
+15
+99:59:59,000 --> 99:59:59,000
+to run on your cell phone to get rid of all the closed-source things that are in there.
+
+16
+99:59:59,000 --> 99:59:59,000
+And on the network side people are working on projects like OpenBTC and OpenBDSC to create,
+
+17
+99:59:59,000 --> 99:59:59,000
+actually, the infrastucture you can use to build a network, based on open-source software.
+
+18
+99:59:59,000 --> 99:59:59,000
+Ahm..., at this conference we have one of those networks running, actually.
+
+19
+99:59:59,000 --> 99:59:59,000
+But there's still something missing.
+
+20
+99:59:59,000 --> 99:59:59,000
+Who of you is using a cell phone right now?
+
+21
+99:59:59,000 --> 99:59:59,000
+[Murmurs in the Audience]
+
+22
+99:59:59,000 --> 99:59:59,000
+Ok, so who of you have completly open-sourced the network and the, the hardware?
+
+23
+99:59:59,000 --> 99:59:59,000
+I see nobody
+
+24
+99:59:59,000 --> 99:59:59,000
+There isone particular reason: There is one thing we are missing,
+
+25
+99:59:59,000 --> 99:59:59,000
+and that's national coverage.
+
+26
+99:59:59,000 --> 99:59:59,000
+And there's the ease of use: That you can be anywhere in this country,
+
+27
+99:59:59,000 --> 99:59:59,000
+or in another country, you can pick up your cell phone and you can call.
+
+28
+99:59:59,000 --> 99:59:59,000
+You can reach anybody, you can be connected anywhere you are.
+
+29
+99:59:59,000 --> 99:59:59,000
+And that's what we where missing. And that's why we started the project Limesco.
+
+30
+99:59:59,000 --> 99:59:59,000
+Our aim is to be a network operator, or a phone operator.
+
+31
+99:59:59,000 --> 99:59:59,000
+Not completely open-source yet, that's the long term goal,
+
+32
+99:59:59,000 --> 99:59:59,000
+but that's not where we are right now.
+
+33
+99:59:59,000 --> 99:59:59,000
+But we want to go there.
+
+34
+99:59:59,000 --> 99:59:59,000
+We're three founders.
+
+35
+99:59:59,000 --> 99:59:59,000
+I'm just one of them.
+
+36
+99:59:59,000 --> 99:59:59,000
+The other two are sitting in the front row;
+
+37
+99:59:59,000 --> 99:59:59,000
+they deserve an applause anyway.
+
+38
+99:59:59,000 --> 99:59:59,000
+[Applause]
+
+39
+99:59:59,000 --> 99:59:59,000
+I'm only doing the scary part here.
+
+40
+99:59:59,000 --> 99:59:59,000
+But it started about two years ago
+
+41
+99:59:59,000 --> 99:59:59,000
+and we were just chatting in IRC about, well,
+
+42
+99:59:59,000 --> 99:59:59,000
+there are some things we don't like.
+
+43
+99:59:59,000 --> 99:59:59,000
+There are roaming charges.
+
+44
+99:59:59,000 --> 99:59:59,000
+And sometimes they're ridiculous.
+
+45
+99:59:59,000 --> 99:59:59,000
+And once we started the project, we actually learned there were charges far higher, than we even knew.
+
+46
+99:59:59,000 --> 99:59:59,000
+There are providers, when you roam in -for example- Australia, you pay 80€ per megabyte for data.
+
+47
+99:59:59,000 --> 99:59:59,000
+But there was a lot of lack of transparancy.
+
+48
+99:59:59,000 --> 99:59:59,000
+Or actually there is a lot of lack of transparency.
+
+49
+99:59:59,000 --> 99:59:59,000
+One of the things whe noticed in the Netherlands is, that if you have SIM-only packages,
+
+50
+99:59:59,000 --> 99:59:59,000
+and you have package deals, were you get SIM-cards and a phone with it.
+
+51
+99:59:59,000 --> 99:59:59,000
+But these are incomparable.
+
+52
+99:59:59,000 --> 99:59:59,000
+For Example: When you want to get a package deal, you can choose for a package
+
+53
+99:59:59,000 --> 99:59:59,000
+with 400, 600, 800 or 1000 minutes.
+
+54
+99:59:59,000 --> 99:59:59,000
+But if you want a SIM-only, you can choose for 250, 450, 670 and...
+
+55
+99:59:59,000 --> 99:59:59,000
+So, what I want to do is, I want to calculate my total cost of ownwership over two, or maybe three years,
+
+56
+99:59:59,000 --> 99:59:59,000
+given in to account my calling, my texting, my data uses and the device I have.
+
+57
+99:59:59,000 --> 99:59:59,000
+This isn't easy.
+
+58
+99:59:59,000 --> 99:59:59,000
+There a lot of other things, that I'm not going to dive into that in this presentation.
+
+59
+99:59:59,000 --> 99:59:59,000
+But one of the things that keeps getting back is supscription bundles.
+
+60
+99:59:59,000 --> 99:59:59,000
+They rock and they suck!
+
+61
+99:59:59,000 --> 99:59:59,000
+But they are a perfect marketing tool.
+
+62
+99:59:59,000 --> 99:59:59,000
+Because this is what you can say:
+
+63
+99:59:59,000 --> 99:59:59,000
+"You can call using our plan from 3.4 ct/min"
+
+64
+99:59:59,000 --> 99:59:59,000
+which is actually true, you can do the maths.
+
+65
+99:59:59,000 --> 99:59:59,000
+But this is only true if you call for exactly 550 minutes.
+
+66
+99:59:59,000 --> 99:59:59,000
+If you pay half of it one month, you pay actually 7 ct/min.
+
+67
+99:59:59,000 --> 99:59:59,000
+So, OK.
+
+68
+99:59:59,000 --> 99:59:59,000
+But... [pause], what if you pay more?
+
+69
+99:59:59,000 --> 99:59:59,000
+Out of bundle charges?
+
+70
+99:59:59,000 --> 99:59:59,000
+Well, then we just charge 30 ct/min.
+
+71
+99:59:59,000 --> 99:59:59,000
+And we can do that, because it is written in small letters, in small print
+
+72
+99:59:59,000 --> 99:59:59,000
+and nobody ever reads it.
+
+73
+99:59:59,000 --> 99:59:59,000
+Ahm, but there is another trick.
+
+74
+99:59:59,000 --> 99:59:59,000
+And that is unitization.
+
+75
+99:59:59,000 --> 99:59:59,000
+And in the Netherlands it's getting a hot topic.
+
+76
+99:59:59,000 --> 99:59:59,000
+In the telephony industry it is very used to pay per second and a start-fee for a single connection.
+
+77
+99:59:59,000 --> 99:59:59,000
+So for example, and this is something from our price sheet, there is a cost per call of 4ct,
+
+78
+99:59:59,000 --> 99:59:59,000
+which means you pay the 4ct, no matter what the length of your... ahm, the duration of your call is.
+
+79
+99:59:59,000 --> 99:59:59,000
+And you pay 10 ct. per minute.
+
+80
+99:59:59,000 --> 99:59:59,000
+Your cost per minute.
+
+81
+99:59:59,000 --> 99:59:59,000
+Now, if you're doing this and you're going to call for two minutes and ten seconds,
+
+82
+99:59:59,000 --> 99:59:59,000
+you can do the maths.
+
+83
+99:59:59,000 --> 99:59:59,000
+It's 26 ct.
+
+84
+99:59:59,000 --> 99:59:59,000
+OK, cool!
+
+85
+99:59:59,000 --> 99:59:59,000
+Now, ahm, there is something of a start fee, and we could do marketing again:
+
+86
+99:59:59,000 --> 99:59:59,000
+"We don't have a start-fee! Cool!"
+
+87
+99:59:59,000 --> 99:59:59,000
+What we don't say is, we also, ah, we let you pay per minute, and not per second.
+
+88
+99:59:59,000 --> 99:59:59,000
+So the same conversation is again now to minutes and ten seconds.
+
+89
+99:59:59,000 --> 99:59:59,000
+And we do it three times ten cents, and it's more!
+
+90
+99:59:59,000 --> 99:59:59,000
+It's just the simple things, and if you don't compute the details, then you are going to pay more.
+
+91
+99:59:59,000 --> 99:59:59,000
+Now, then there is another trick:
+
+92
+99:59:59,000 --> 99:59:59,000
+Because, hey, because we don't want to round by minute, but, we do the first.
+
+93
+99:59:59,000 --> 99:59:59,000
+I'm not going to do the maths, it's actually better than to round everything.
+
+94
+99:59:59,000 --> 99:59:59,000
+But with data sessions there is another trick in the sleeves.
+
+95
+99:59:59,000 --> 99:59:59,000
+Let's say we do 20 ct/MB when you're roaming within the EU, OK?
+
+96
+99:59:59,000 --> 99:59:59,000
+It's. it's fair.
+
+97
+99:59:59,000 --> 99:59:59,000
+Ahm, we unitize by blocks of a 100kB, ok that's fair, I've seen worse.
+
+98
+99:59:59,000 --> 99:59:59,000
+Ten megabytes for example. Per session!
+
+99
+99:59:59,000 --> 99:59:59,000
+Which means if you are in a train, and the session is dropped for a moment and a in a couple of seconds
+
+100
+99:59:59,000 --> 99:59:59,000
+you get a new session, we start counting towards the 100kB.
+
+101
+99:59:59,000 --> 99:59:59,000
+And for youTube, which you should not do when you're aborad and you are roaming,
+
+102
+99:59:59,000 --> 99:59:59,000
+this might not be a problem, but when you're doing SSH and you are just doing little data.
+
+103
+99:59:59,000 --> 99:59:59,000
+But if you spread it over sessions it will get a lot of blocks.
+
+104
+99:59:59,000 --> 99:59:59,000
+Now, my Android-phone can measure my usage, but you're operator may measure data usage differently.
+
+105
+99:59:59,000 --> 99:59:59,000
+For example: Per session.
+
+106
+99:59:59,000 --> 99:59:59,000
+Now when we're talking about what is in the industry in the Netherlands, ahm,
+
+107
+99:59:59,000 --> 99:59:59,000
+what companies are involved, there are actually three types of companies we're ´going to look at.
+
+108
+99:59:59,000 --> 99:59:59,000
+And fist there are the MNO's, which are the MObile Network Operators.
+
+109
+99:59:59,000 --> 99:59:59,000
+And in the Netherlands, we have three of them at the moment.
+
+110
+99:59:59,000 --> 99:59:59,000
+The largest is KPN, it is a former state-controlled company.
+
+111
+99:59:59,000 --> 99:59:59,000
+They have about 50% market-share in mobile.
+
+112
+99:59:59,000 --> 99:59:59,000
+The second is Vodafone.
+
+113
+99:59:59,000 --> 99:59:59,000
+They have about 25% of market-share, and they are from britain.
+
+114
+99:59:59,000 --> 99:59:59,000
+The german T-Mobile, which has the remainder 25%.
+
+115
+99:59:59,000 --> 99:59:59,000
+And we just had an auction for frequencies and Tele2 is going to join them soon.
+
+116
+99:59:59,000 --> 99:59:59,000
+2013
+
+117
+99:59:59,000 --> 99:59:59,000
+So things might change soon.
+
+118
+99:59:59,000 --> 99:59:59,000
+And another thing, that might be interesting for people in Germany too:
+
+119
+99:59:59,000 --> 99:59:59,000
+E-Plus actually is KPN.
+
+120
+99:59:59,000 --> 99:59:59,000
+Now those are the three MNO's, and they have a network.
+
+121
+99:59:59,000 --> 99:59:59,000
+They have antennas.
+
+122
+99:59:59,000 --> 99:59:59,000
+And they have an infrastructure to connect antennas to the remainder of the telephone industry.
+
+123
+99:59:59,000 --> 99:59:59,000
+But those are not the only companies, where you can buy your plan, your subscription, from.
+
+124
+99:59:59,000 --> 99:59:59,000
+And that's what we call "Vitual Mobile Network Operators".
+
+125
+99:59:59,000 --> 99:59:59,000
+They are virtual, because they don't need to have their own infrastructure.
+
+126
+99:59:59,000 --> 99:59:59,000
+And in the Netherlands we have around 50.
+
+127
+99:59:59,000 --> 99:59:59,000
+Ahm..., some of them are actually brands of the larger companies.
+
+128
+99:59:59,000 --> 99:59:59,000
+Some of them are small, targeted towards a niche.
+
+129
+99:59:59,000 --> 99:59:59,000
+For example, there is an operator specifically targeting people from Surinam.
+
+130
+99:59:59,000 --> 99:59:59,000
+But they are the brands you can see in a store, that you can buy.
+
+131
+99:59:59,000 --> 99:59:59,000
+One of them is "SpeakUp". It's a little less known, ahm, one.
+
+132
+99:59:59,000 --> 99:59:59,000
+This is the one I'm going to talk about in a moment again.
+
+133
+99:59:59,000 --> 99:59:59,000
+SpeakUp is the one we're working together with.
+
+134
+99:59:59,000 --> 99:59:59,000
+Limesco officially is not an MVNO,
+
+135
+99:59:59,000 --> 99:59:59,000
+because if we say we are we're getting in a fight, and we don't like that.
+
+136
+99:59:59,000 --> 99:59:59,000
+So, officially we are a reseller of SpeakUp, and Speak-Up is an MVNO.
+
+137
+99:59:59,000 --> 99:59:59,000
+And SpeakUp is using the network of T-Mobile, the antennas of T-Mobile.
+
+138
+99:59:59,000 --> 99:59:59,000
+But there is a company inbetween.
+
+139
+99:59:59,000 --> 99:59:59,000
+And this is called a MVNE.
+
+140
+99:59:59,000 --> 99:59:59,000
+A Mobile Virtual Network Enabler.
+
+141
+99:59:59,000 --> 99:59:59,000
+And we have four of them in the Netherlands.
+
+142
+99:59:59,000 --> 99:59:59,000
+There were five, but one of them went broke last year.
+
+143
+99:59:59,000 --> 99:59:59,000
+Aspider Solutions which offer services using the KPN Network.
+
+144
+99:59:59,000 --> 99:59:59,000
+There's Teleena, which have a nice network all IP-based.
+
+145
+99:59:59,000 --> 99:59:59,000
+They're offering services using Vodafone network.
+
+146
+99:59:59,000 --> 99:59:59,000
+And on the T-Mobile network we have two:
+
+147
+99:59:59,000 --> 99:59:59,000
+ElephantTalk and NarrowMinds
+
+148
+99:59:59,000 --> 99:59:59,000
+[laugher from the audience]
+
+149
+99:59:59,000 --> 99:59:59,000
+So, when you're a subscriber of Limesco actually this is the chain of companies involved.
+
+150
+99:59:59,000 --> 99:59:59,000
+T-Mobile is the one that owns and operates the antennas,
+
+151
+99:59:59,000 --> 99:59:59,000
+ElephantTalk has quite a bit of infrastructure in the middle
+
+152
+99:59:59,000 --> 99:59:59,000
+and SpeakUp and Limesco, we together, take care that you as the customer get your bill.
+
+153
+99:59:59,000 --> 99:59:59,000
+So, the most important thing MNO's are doing is taking care of antennas.
+
+154
+99:59:59,000 --> 99:59:59,000
+And the most important thing an MVNO is doing is subscribers and marketing,
+
+155
+99:59:59,000 --> 99:59:59,000
+and everything inbetween you can shift around.
+
+156
+99:59:59,000 --> 99:59:59,000
+So, going a little more into technical details, a HLR, a Home Location Register,
+
+157
+99:59:59,000 --> 99:59:59,000
+which in GSM is a compontent which is actually a database,
+
+158
+99:59:59,000 --> 99:59:59,000
+where all customers are listed with their SIM-card number and their key...,
+
+159
+99:59:59,000 --> 99:59:59,000
+encryption keys to communicate and perform authentication.
+
+160
+99:59:59,000 --> 99:59:59,000
+In our case this is shared between T-Mobile and Elephant Talk.
+
+161
+99:59:59,000 --> 99:59:59,000
+VLR is the Visitor Location Register.
+
+162
+99:59:59,000 --> 99:59:59,000
+When you're roaming to another country or to another operator,
+
+163
+99:59:59,000 --> 99:59:59,000
+you're subscribed into VLR.
+
+164
+99:59:59,000 --> 99:59:59,000
+So the network knows what to do.
+
+165
+99:59:59,000 --> 99:59:59,000
+Ahem, this is actually not important to us, because we don't actually have our own network.
+
+166
+99:59:59,000 --> 99:59:59,000
+But T-Mobile has a VLR, so iwhen you, as a Limesco Subscriber or from an other customer goal
+
+167
+99:59:59,000 --> 99:59:59,000
+are travelling to Germany and log on to the T-Mobile network,
+
+168
+99:59:59,000 --> 99:59:59,000
+you'll be subscribed in the VLR.
+
+169
+99:59:59,000 --> 99:59:59,000
+The SMS-Center also is managed by Elephant-Talk,
+
+170
+99:59:59,000 --> 99:59:59,000
+and the GPRS-Gateway-Support-Node, which is actually the gateway to the internet,
+
+171
+99:59:59,000 --> 99:59:59,000
+is also managed by Elephant-Talk in our situation.
+
+172
+99:59:59,000 --> 99:59:59,000
+But this can move, so for other MVNOs it may mean, that they're handling the SMS-Center themselves or something.
+
+173
+99:59:59,000 --> 99:59:59,000
+What we have as ambition, is that we want to do more ourselves.
+
+174
+99:59:59,000 --> 99:59:59,000
+For example the GGSN.
+
+175
+99:59:59,000 --> 99:59:59,000
+Because if we have control to the gatway of the internet, we can give more control to the end user.
+
+176
+99:59:59,000 --> 99:59:59,000
+Another thing which you can shift around is number blocks.
+
+177
+99:59:59,000 --> 99:59:59,000
+Ahm, alot of brands that are operated by KPN have one huge number block,
+
+178
+99:59:59,000 --> 99:59:59,000
+which is by KPN and is just shared among them.
+
+179
+99:59:59,000 --> 99:59:59,000
+While at the other side, in our case we make use of a number block whisch is registered to SpeakUp.
+
+180
+99:59:59,000 --> 99:59:59,000
+And [inaudible] routing.
+
+181
+99:59:59,000 --> 99:59:59,000
+This is one... This is very interesting in our case.
+
+182
+99:59:59,000 --> 99:59:59,000
+You can leave things higher up in the network,
+
+183
+99:59:59,000 --> 99:59:59,000
+you can let T-Mobile do the interconnection and you can make routing decisions and you can say to T-Mobile:
+
+184
+99:59:59,000 --> 99:59:59,000
+"Just route it to there!"
+
+185
+99:59:59,000 --> 99:59:59,000
+But in our case, what we're doing is: "Just route every call to us!"
+
+186
+99:59:59,000 --> 99:59:59,000
+And then we can make the dicisions in the end.
+
+187
+99:59:59,000 --> 99:59:59,000
+Which I'm going to do in ahh, tell a little more in a [incomprehensable] at the end of the presentation.
+
+188
+99:59:59,000 --> 99:59:59,000
+But one of the interesting things we've been investigating in the last to years is pricing.
+
+189
+99:59:59,000 --> 99:59:59,000
+Pricing is different for MNOs, MVNEs and MVNOs.
+
+190
+99:59:59,000 --> 99:59:59,000
+So let's star with MNOs.
+
+191
+99:59:59,000 --> 99:59:59,000
+What is the situtation for an MNO?
+
+192
+99:59:59,000 --> 99:59:59,000
+You have a couple of costs.
+
+193
+99:59:59,000 --> 99:59:59,000
+So first of all you have a lot of antennas, and you have infrastructure.
+
+194
+99:59:59,000 --> 99:59:59,000
+And these two tend to be expensive.
+
+195
+99:59:59,000 --> 99:59:59,000
+Because they are closed source under a lot of support contracts, and everything involved.
+
+196
+99:59:59,000 --> 99:59:59,000
+But this is equity.
+
+197
+99:59:59,000 --> 99:59:59,000
+You own them as  a network operator, or you lease them.
+
+198
+99:59:59,000 --> 99:59:59,000
+And when you lease them, you don't need to have a large upfront payment to buy all the antenna's to create national coverage.
+
+199
+99:59:59,000 --> 99:59:59,000
+But they are owned by a network supplier or by the manufacturer.
+
+200
+99:59:59,000 --> 99:59:59,000
+And you lease them and pay by month.
+
+201
+99:59:59,000 --> 99:59:59,000
+Which is cool as an operator, because know you know you have a certain amount of costs every months,
+
+202
+99:59:59,000 --> 99:59:59,000
+and you must make sure you have income to cover those costs.
+
+203
+99:59:59,000 --> 99:59:59,000
+Now if you choose as an operator to own them, to own the hardware,
+
+204
+99:59:59,000 --> 99:59:59,000
+you have a lot of upfront costs and you use armotization to, ahem,
+
+205
+99:59:59,000 --> 99:59:59,000
+in accounting to spread the cost over a longer period.
+
+206
+99:59:59,000 --> 99:59:59,000
+Ahem, this is somthing that happens in accounting for every company,
+
+207
+99:59:59,000 --> 99:59:59,000
+the cost for the network operators is just a little higher than for a small company.
+
+208
+99:59:59,000 --> 99:59:59,000
+You have now, in your books, a certain amount of money you have to pay every month,
+
+209
+99:59:59,000 --> 99:59:59,000
+so you have to get income.
+
+210
+99:59:59,000 --> 99:59:59,000
+The easiest thing you can do is just: Charge your MVNE per month.
+
+211
+99:59:59,000 --> 99:59:59,000
+And that's nice, because you can say: Whatever happens, you need to pay me 1 million Euro's every month anyway.
+
+212
+99:59:59,000 --> 99:59:59,000
+If people are calling it or not, I don't care, you need to pay.
+
+213
+99:59:59,000 --> 99:59:59,000
+That's happening.
+
+214
+99:59:59,000 --> 99:59:59,000
+The next at, ahem, next is there are some administrative tasks.
+
+215
+99:59:59,000 --> 99:59:59,000
+And depending on how things are arranged, there are more or less of them,
+
+216
+99:59:59,000 --> 99:59:59,000
+but porting a number, transferring it from one provider to another provider,
+
+217
+99:59:59,000 --> 99:59:59,000
+and [incomprehensible] task,
+
+218
+99:59:59,000 --> 99:59:59,000
+ahem, ah, calling people in bad.. when you have bad tempts,
+
+219
+99:59:59,000 --> 99:59:59,000
+calling people to get those, ahem, to get your money.
+
+220
+99:59:59,000 --> 99:59:59,000
+It's all administrative actions which you want to do.
+
+221
+99:59:59,000 --> 99:59:59,000
+And they raise a charge for usage.
+
+222
+99:59:59,000 --> 99:59:59,000
+By the way, you can make up any way, as an MNO, you can make up any way of
+
+223
+99:59:59,000 --> 99:59:59,000
+charging your MVNE.
+
+224
+99:59:59,000 --> 99:59:59,000
+The thing is: It must be reasonable, because if it is not, they will not accept it.
+
+225
+99:59:59,000 --> 99:59:59,000
+But you're free to do.
+
+226
+99:59:59,000 --> 99:59:59,000
+What you're actually do is spreading the cost of your hardware over a large customer base.
+
+227
+99:59:59,000 --> 99:59:59,000
+Now, if you're going to do that, you can set up a cost per call, and a cost per minute.
+
+228
+99:59:59,000 --> 99:59:59,000
+We have already seen those.
+
+229
+99:59:59,000 --> 99:59:59,000
+But the interesting thing is, what you're selling is airtime, acces to the frequencies.
+
+230
+99:59:59,000 --> 99:59:59,000
+So you can do it in both directions, both for outgoing and incoming calls.
+
+231
+99:59:59,000 --> 99:59:59,000
+And we call that by the way, mobile originated, when your mobile starts it.
+
+232
+99:59:59,000 --> 99:59:59,000
+And we're used to pay as a customer, when we start a call,
+
+233
+99:59:59,000 --> 99:59:59,000
+but also network initiated, so going from the network to the mobile.
+
+234
+99:59:59,000 --> 99:59:59,000
+The MNO just charges an MVNE when that happens.
+
+235
+99:59:59,000 --> 99:59:59,000
+just using minutes or seconds, how you see it.
+
+236
+99:59:59,000 --> 99:59:59,000
+So looking at an MVNE, they have a different structure.
+
+237
+99:59:59,000 --> 99:59:59,000
+They have monthly cost, we have seen them,
+
+238
+99:59:59,000 --> 99:59:59,000
+and they have usuage related costs, we have seen them,
+
+239
+99:59:59,000 --> 99:59:59,000
+and besides that we have some administrative costs,
+
+240
+99:59:59,000 --> 99:59:59,000
+and we can have some infrastructure.
+
+241
+99:59:59,000 --> 99:59:59,000
+And we can, as an MVNE, choose how much we want.
+
+242
+99:59:59,000 --> 99:59:59,000
+So getting income now again, is the same like an MNO.
