@@ -1,0 +1,615 @@
+1
+99:59:59,000 --> 99:59:59,000
+The name of my talk is
+
+2
+99:59:59,000 --> 99:59:59,000
+"Just because you are paranoid doesn't mean your phone isn't listening to everyword you say"
+
+3
+99:59:59,000 --> 99:59:59,000
+And I want to show you guys my greates technologic archivement in the entire presentation
+
+4
+99:59:59,000 --> 99:59:59,000
+I created a 1.9GB powerpoint presentation
+
+5
+99:59:59,000 --> 99:59:59,000
+and <i>audience starts laughing</i>
+
+6
+99:59:59,000 --> 99:59:59,000
+<i>applaus</i>
+
+7
+99:59:59,000 --> 99:59:59,000
+So
+
+8
+99:59:59,000 --> 99:59:59,000
+if this thing finishes and we can
+
+9
+99:59:59,000 --> 99:59:59,000
+power threw the powerpoint without my laptop bursting into flame
+
+10
+99:59:59,000 --> 99:59:59,000
+I thing we have really acomplished something
+
+11
+99:59:59,000 --> 99:59:59,000
+and as last time I come bearing gifts
+
+12
+99:59:59,000 --> 99:59:59,000
+We gona donate all of the hardware we pressend to the horror hacking area outside
+
+13
+99:59:59,000 --> 99:59:59,000
+so after this presentation, if you want to play with
+
+14
+99:59:59,000 --> 99:59:59,000
+the CISCO phone we are talking about
+
+15
+99:59:59,000 --> 99:59:59,000
+you can absolutely do that
+
+16
+99:59:59,000 --> 99:59:59,000
+The hardware is yours!
+
+17
+99:59:59,000 --> 99:59:59,000
+And we also are giving away one SuperSnazzy
+
+18
+99:59:59,000 --> 99:59:59,000
+partially assembled
+
+19
+99:59:59,000 --> 99:59:59,000
+Thing<u>Powner-Kit</u>
+
+20
+99:59:59,000 --> 99:59:59,000
+to somebody in the audience
+
+21
+99:59:59,000 --> 99:59:59,000
+who answers a question during the presentation
+
+22
+99:59:59,000 --> 99:59:59,000
+and we will talk about what this thingreally does.
+
+23
+99:59:59,000 --> 99:59:59,000
+in a little bit
+
+24
+99:59:59,000 --> 99:59:59,000
+but a little bit about who I am
+
+25
+99:59:59,000 --> 99:59:59,000
+and what I do
+
+26
+99:59:59,000 --> 99:59:59,000
+I am now a 5th year Phd candidate
+
+27
+99:59:59,000 --> 99:59:59,000
+at Colombia University Intrusion Detektions Lab
+
+28
+99:59:59,000 --> 99:59:59,000
+and here are some of my puplications
+
+29
+99:59:59,000 --> 99:59:59,000
+that I have put out in the last five years.
+
+30
+99:59:59,000 --> 99:59:59,000
+What I do, I spend the last 5 yeas thinking about ways to defent embedded systems
+
+31
+99:59:59,000 --> 99:59:59,000
+agaisnt exploaitation.
+
+32
+99:59:59,000 --> 99:59:59,000
+And threw out that time, you know, sometimes I talk to a person and they really get what I am saying,
+
+33
+99:59:59,000 --> 99:59:59,000
+they understands why we need to secrue this things
+
+34
+99:59:59,000 --> 99:59:59,000
+but other times, you know, the folks I talk to have this glaze overlook
+
+35
+99:59:59,000 --> 99:59:59,000
+yeah, I know they are thinking: "This guy is a conspiricy nut. What do you mean?
+
+36
+99:59:59,000 --> 99:59:59,000
+Somebody can hack my printer and lsiten to me threw it or what?"
+
+37
+99:59:59,000 --> 99:59:59,000
+So the last few years I spend some time comming up with examples of
+
+38
+99:59:59,000 --> 99:59:59,000
+exploitations agaisnt embbedded systems you find everywhere
+
+39
+99:59:59,000 --> 99:59:59,000
+that have real world consequences
+
+40
+99:59:59,000 --> 99:59:59,000
+So for example, I came here last year and they presented the APR vulnerability
+
+41
+99:59:59,000 --> 99:59:59,000
+, the firmware modification vulnerability which essentialy allows you to change the firmware on HP printers without you
+
+42
+99:59:59,000 --> 99:59:59,000
+doing any much besides printing to the device.
+
+43
+99:59:59,000 --> 99:59:59,000
+The attac itself was fairly simpel to make, all it took was a lot of monkey
+
+44
+99:59:59,000 --> 99:59:59,000
+soldering, some reverse engeineereing and a arduino and soem duck tape
+
+45
+99:59:59,000 --> 99:59:59,000
+but, you know I thing we had, well, impact because this year HP released firmware updates to more then 60 models of there firmware
+
+46
+99:59:59,000 --> 99:59:59,000
+to their printers all fixing this vulnerability so because of the presentation and because of a comunnity
+
+47
+99:59:59,000 --> 99:59:59,000
+like this one, that cares about embbeded sesurity we made some actual positive influence in the world.
+
+48
+99:59:59,000 --> 99:59:59,000
+That thing is a good thing.
+
+49
+99:59:59,000 --> 99:59:59,000
+<i>applaus</i> year! Thank you!
+
+50
+99:59:59,000 --> 99:59:59,000
+And we reasons why I care about embedded security is, you know, this:
+
+51
+99:59:59,000 --> 99:59:59,000
+In the olden days, you had your big bad internet but you were okay because you had this thign called the firewall
+
+52
+99:59:59,000 --> 99:59:59,000
+which protected your server against hax0r kitten on the internet, right?
+
+53
+99:59:59,000 --> 99:59:59,000
+And hax0r kitten sucks because, you know, once they take all your marbles and break into your server
+
+54
+99:59:59,000 --> 99:59:59,000
+and the longest time the name of the game was to get threw or around the firewall
+
+55
+99:59:59,000 --> 99:59:59,000
+so you could get access to the server and compromise it and have it do some intreseting thing
+
+56
+99:59:59,000 --> 99:59:59,000
+And maybe even extract some information
+
+57
+99:59:59,000 --> 99:59:59,000
+And thats what the netwrok looked like but if you paid attention to what is
+
+58
+99:59:59,000 --> 99:59:59,000
+really on this network, it's not just the server or this firewall.
+
+59
+99:59:59,000 --> 99:59:59,000
+You have this thigns that look like computers but, you know, we call them printers, right, and phones
+
+60
+99:59:59,000 --> 99:59:59,000
+So in 2000 now, if I were to go after this network I would directly go to the printer
+
+61
+99:59:59,000 --> 99:59:59,000
+For example use APR vulnerability that I talked about last year
+
+62
+99:59:59,000 --> 99:59:59,000
+Send a very nice resume which would change the firmware on the printer
+
+63
+99:59:59,000 --> 99:59:59,000
+And once I get controll of this device, I could, you know, steal all your super secret sensitivy information
+
+64
+99:59:59,000 --> 99:59:59,000
+your print out of the thing but really, that is not my end goal.
+
+65
+99:59:59,000 --> 99:59:59,000
+My goal is to use this as a launching of point so I can compromise other computers on your network
+
+66
+99:59:59,000 --> 99:59:59,000
+like this phone and once I have access to all of this embedded systems
+
+67
+99:59:59,000 --> 99:59:59,000
+I can the nsue these guys to then attac the general purpose computer on your network
+
+68
+99:59:59,000 --> 99:59:59,000
+And now if you come along and you notice that I owned your server
+
+69
+99:59:59,000 --> 99:59:59,000
+you probably wipe the server and, you know, I come back the next day and own you threw the phone again, as an example.
+
+70
+99:59:59,000 --> 99:59:59,000
+And I can also use this devices to extract sensitive information out of the network
+
+71
+99:59:59,000 --> 99:59:59,000
+So, I saw this in an newspaper article, this is an wired article that I saw, I think in february or march
+
+72
+99:59:59,000 --> 99:59:59,000
+and the story was that some guy broke into this waterpump station in texas
+
+73
+99:59:59,000 --> 99:59:59,000
+It turned out to be not the case but you know, this guy is really serious about pointing at his computer saying
+
+74
+99:59:59,000 --> 99:59:59,000
+"I am gona look this system down! No hacker is gona get inside here!"
+
+75
+99:59:59,000 --> 99:59:59,000
+But when I saw this article I realized that he is not even looking into the direction he should be
+
+76
+99:59:59,000 --> 99:59:59,000
+because behind his arm is the device I would go after if I was able to get into this network
+
+77
+99:59:59,000 --> 99:59:59,000
+I thought it was a cisco phone but I got this very nice email yesterday saying:
+
+78
+99:59:59,000 --> 99:59:59,000
+"Based on the carvature of the device, it probabably is an avire(??)
+
+79
+99:59:59,000 --> 99:59:59,000
+I do not know.
+
+80
+99:59:59,000 --> 99:59:59,000
+You know, this peaked my intrest and I started looking into at places where CISCO phones are being used
+
+81
+99:59:59,000 --> 99:59:59,000
+turns out, they are used everywhere
+
+82
+99:59:59,000 --> 99:59:59,000
+Right? So this is Dwight(?) from the office
+
+83
+99:59:59,000 --> 99:59:59,000
+this is the very typical corporate phone
+
+84
+99:59:59,000 --> 99:59:59,000
+ahm, I guess we are in Germany so this is Dwichts analog <i>laughter</i> from Germany
+
+85
+99:59:59,000 --> 99:59:59,000
+I find these phones all about the place in hospitals
+
+86
+99:59:59,000 --> 99:59:59,000
+Here is a picture of Obama in the oval office, on his desk is a CISCO phone
+
+87
+99:59:59,000 --> 99:59:59,000
+and next to him is Byden(?), he gets nothing because he is Byden(?)
+
+88
+99:59:59,000 --> 99:59:59,000
+And here is Obama again with a CISCO phone, you can't really see but you notice the windows are a bit cureved in this picture
+
+89
+99:59:59,000 --> 99:59:59,000
+and this is bcause this is a CISCO phone on Airforce One, right, this is Obamas presedential plane.
+
+90
+99:59:59,000 --> 99:59:59,000
+So these things are all over the place
+
+91
+99:59:59,000 --> 99:59:59,000
+And I showed this picture off at a DARPA meeting a few weeks ago and I guess it was not so funny to them but I think it is really funny
+
+92
+99:59:59,000 --> 99:59:59,000
+This is the Ex-director of the CIA, right? And next to him, right? And he is very happy
+
+93
+99:59:59,000 --> 99:59:59,000
+because behind him you see three CISCO phones. And he is really happy because he knows something what I do not know.
+
+94
+99:59:59,000 --> 99:59:59,000
+He knows these phones are really secure. So I look at the vendor documentation.
+
+95
+99:59:59,000 --> 99:59:59,000
+There is a really thick book about why this phone and the voip enterprise solution is very secure.
+
+96
+99:59:59,000 --> 99:59:59,000
+It has 202 pages to convice you of that.
+
+97
+99:59:59,000 --> 99:59:59,000
+It says:
+
+98
+99:59:59,000 --> 99:59:59,000
+Everything is signed firmware, so you get a check for that
+
+99
+99:59:59,000 --> 99:59:59,000
+Everything has FIPS certified crypto on this phone, whatever that means, so thats another check.
+
+100
+99:59:59,000 --> 99:59:59,000
+There is a secure operating system, undisclosed, propreatary but it is good so thats okay
+
+101
+99:59:59,000 --> 99:59:59,000
+There is Java <i>audience starts laughing</i>
+
+102
+99:59:59,000 --> 99:59:59,000
+Well, this was written 2002 so you know, having Java in the thing made it secure and it was great.
+
+103
+99:59:59,000 --> 99:59:59,000
+And you know there is a minimal attac survace and the hole thing has a secure admin interface meaning https and ssh which we will talk about.
+
+104
+99:59:59,000 --> 99:59:59,000
+But if you get past all the vendors speak, this is what you are looking at. Okay, at the hardware of the hole thing.
+
+105
+99:59:59,000 --> 99:59:59,000
+Here is not really a phone but a general purpose computer put into this plastic case that makes it look like a telephone.
+
+106
+99:59:59,000 --> 99:59:59,000
+At the heart of this computer you have two chips, on the left you have dispension(?) flash chip
+
+107
+99:59:59,000 --> 99:59:59,000
+, on the right you have the system on the chip, a SoC, rebranded by CISCO but it really is a Broadcom BCM1100 VoIP Engine
+
+108
+99:59:59,000 --> 99:59:59,000
+This was really the only image I was able to find about this chip open on the internet.
+
+109
+99:59:59,000 --> 99:59:59,000
+But if you break it down, this is what you have.
+
+110
+99:59:59,000 --> 99:59:59,000
+You have a SoC and next to the Soc you have flash, you know, they call it ROM but it is really not ROM.
+
+111
+99:59:59,000 --> 99:59:59,000
+You have soem RAM
+
+112
+99:59:59,000 --> 99:59:59,000
+and you stick a ethernet phy on it
+
+113
+99:59:59,000 --> 99:59:59,000
+and you get a computer and if you change the SoC, change it to a Marvell, this will give you the HP printer I talekd about last year
+
+114
+99:59:59,000 --> 99:59:59,000
+But what makes this thing a phone is the fact that there is a hardwire microphone attached to it
+
+115
+99:59:59,000 --> 99:59:59,000
+and there is this little switch that is here that tells than the hand held is picked up, it is called the OFFHook switch.
+
+116
+99:59:59,000 --> 99:59:59,000
+This is what the hardware look like, lets look what the software actually does.
+
+117
+99:59:59,000 --> 99:59:59,000
+it does sign everything so then the phones boots up it verifies the sigature on the loads it runs. So whats true.
+
+118
+99:59:59,000 --> 99:59:59,000
+On top of that it also checksums every file, you know, it does both things.
+
+119
+99:59:59,000 --> 99:59:59,000
+And like the name suggests, it is a unix like environment so the thing we are working with is called CNU hwich stands for
+
+120
+99:59:59,000 --> 99:59:59,000
+CISCO Native Uninx
+
+121
+99:59:59,000 --> 99:59:59,000
+and unlike the printer I talked about last year this thing has processes so we are really moving up in the world
+
+122
+99:59:59,000 --> 99:59:59,000
+It has memory isolation so different procecies have different memory spaces, right, so they are not falling over each other, hwich is good.
+
+123
+99:59:59,000 --> 99:59:59,000
+And you have non writable text sections and non executable data sections.
+
+124
+99:59:59,000 --> 99:59:59,000
+And on top of that this phone does really has a very minimal attac surfrace so all the features it runs are basically turned off at boot time
+
+125
+99:59:59,000 --> 99:59:59,000
+Although you can enable these features over TFTP which we will talk in a little bit.
+
+126
+99:59:59,000 --> 99:59:59,000
+And the system is locked down! So the only thingthat runs as root on this phone is the init process which means
+
+127
+99:59:59,000 --> 99:59:59,000
+if you find a vulnerability somewhere in a non priviledged process you will havea hard time getting root on this phone.
+
+128
+99:59:59,000 --> 99:59:59,000
+And on top of that it has SSH, HTTPS and all this good stuff.
+
+129
+99:59:59,000 --> 99:59:59,000
+And I like to point out if you want to play with the firmware images and the binaries that I am taling about
+
+130
+99:59:59,000 --> 99:59:59,000
+you can actaully go to this webside and download an unpacker that unpacks all this stuff that has been around for, I thing, 2009
+
+131
+99:59:59,000 --> 99:59:59,000
+I think the hosting company here is very teriible because half the timethe side is down but the link isn't broken so keep trying.
+
+132
+99:59:59,000 --> 99:59:59,000
+So lets talk about some of these security features and what it really means, okay?
+
+133
+99:59:59,000 --> 99:59:59,000
+It has 100% signed firmware, which is good but this thing is really only applied at boot time
+
+134
+99:59:59,000 --> 99:59:59,000
+which means after the phone boots up, you can login and download any binary you want
+
+135
+99:59:59,000 --> 99:59:59,000
+and download it to the tmp-directory over tftp and execute it
+
+136
+99:59:59,000 --> 99:59:59,000
+So you still get arbitrary execution on the phone.
+
+137
+99:59:59,000 --> 99:59:59,000
+Just not while it is booting up.
+
+138
+99:59:59,000 --> 99:59:59,000
+So that is not very useful
+
+139
+99:59:59,000 --> 99:59:59,000
+and then on top of the signature verification, all the important files are checksumed
+
+140
+99:59:59,000 --> 99:59:59,000
+but /etc/passwd is one of these files and if you have noptice, /etc/passwd contains the default
+
+141
+99:59:59,000 --> 99:59:59,000
+user, right, the password is "user", really big secret
+
+142
+99:59:59,000 --> 99:59:59,000
+that is guanrteed to be on every cisco phone ever made. If you want to disable this acount you actually cannot do it
+
+143
+99:59:59,000 --> 99:59:59,000
+because the phone would notice that you modified a file that is not supossed to be modified and it will restore the default user and password on the phone.
+
+144
+99:59:59,000 --> 99:59:59,000
+So cannot get rid of this, this is guranteed to be on every single cisco phone that you come accross
+
+145
+99:59:59,000 --> 99:59:59,000
+Can't change it!
+
+146
+99:59:59,000 --> 99:59:59,000
+And if you change it you have broken signature verification, right, that is voiding your warranty.
+
+147
+99:59:59,000 --> 99:59:59,000
+And then there is ssh. There is so much lolz in ssh that we are going to save it for a hole different independetn section of the presentation
+
+148
+99:59:59,000 --> 99:59:59,000
+But we will get back to it.
+
+149
+99:59:59,000 --> 99:59:59,000
+Just wanna say ssh here, the way it is implemented makes it actually worse then having telnet.
+
+150
+99:59:59,000 --> 99:59:59,000
+<i>laughter</i>
+
+151
+99:59:59,000 --> 99:59:59,000
+We will talk about that.
+
+152
+99:59:59,000 --> 99:59:59,000
+Okay, I am gona hand it over to Mike who is gona talk about our initial attemps
+
+153
+99:59:59,000 --> 99:59:59,000
+to break into this badboy.
+
+154
+99:59:59,000 --> 99:59:59,000
+So lets start talking about exploitation of the phone.
