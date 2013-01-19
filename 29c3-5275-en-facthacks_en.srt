@@ -1,0 +1,6319 @@
+1
+00:00:08,965 --> 00:00:11,637
+Today we have Daniel J. Bernstein,
+
+2
+00:00:11,637 --> 00:00:14,538
+Nadia Heninger,
+
+3
+00:00:14,538 --> 00:00:16,889
+and Tanja Lange.
+
+4
+00:00:16,889 --> 00:00:20,402
+And they will talk about RSA factorization in the real world.
+
+5
+00:00:20,402 --> 00:00:22,289
+Talk is called FactHacks.
+
+6
+00:00:22,289 --> 00:00:29,905
+<i>applause</i>
+
+7
+00:00:29,905 --> 00:00:31,591
+<i>Nadia<i>: Thank you.</i></i>
+
+8
+00:00:31,591 --> 00:00:37,091
+So we're going to start with a crypto lecture in 5 minutes.
+
+9
+00:00:37,091 --> 00:00:40,557
+So, just to begin, since we're talking about RSA.
+
+10
+00:00:40,557 --> 00:00:43,678
+Here is a picture of RSA for you.
+
+11
+00:00:43,678 --> 00:00:48,605
+RSA is the first published public-key cryptosystem.
+
+12
+00:00:48,605 --> 00:00:51,222
+So by a public-key cryptosystem, what I mean is
+
+13
+00:00:51,222 --> 00:00:54,169
+a cryptosystem that has two keys intead of just having
+
+14
+00:00:54,169 --> 00:00:56,886
+one key. You might think "ok you encrypt a message
+
+15
+00:00:56,886 --> 00:00:59,035
+to that key and you decrypt a message to that key"
+
+16
+00:00:59,035 --> 00:01:01,402
+That is a symmetric cryptosystem.
+
+17
+00:01:01,402 --> 00:01:03,194
+A public-key cryptosystem has two keys.
+
+18
+00:01:03,194 --> 00:01:06,042
+One is the public key and one is the private key.
+
+19
+00:01:06,042 --> 00:01:07,688
+The public key you publish to the world and
+
+20
+00:01:07,688 --> 00:01:09,509
+anyone can use that key to encrypt a message,
+
+21
+00:01:09,509 --> 00:01:10,806
+especially to you.
+
+22
+00:01:10,806 --> 00:01:14,102
+And only you, who have the private key, can decrypt that.
+
+23
+00:01:14,102 --> 00:01:18,739
+So the RSA paper was the first published public-key cryptosystem.
+
+24
+00:01:18,739 --> 00:01:20,501
+That was in 1977.
+
+25
+00:01:20,501 --> 00:01:22,757
+This revolutionized cryptography and enabled
+
+26
+00:01:22,757 --> 00:01:25,542
+the development of the Internet.
+
+27
+00:01:25,542 --> 00:01:31,568
+So 35 years later RSA is still the most commonly used public-key cryptosystem.
+
+28
+00:01:31,568 --> 00:01:35,870
+If you ever use the Internet, you probably use it every day.
+
+29
+00:01:35,870 --> 00:01:42,154
+So here is a sample SSL certificate which uses RSA.
+
+30
+00:01:42,154 --> 00:01:45,241
+If you use SSH you probably have an SSH key
+
+31
+00:01:45,241 --> 00:01:48,440
+which probably is RSA.
+
+32
+00:01:48,440 --> 00:01:51,858
+Before I launch into the math
+
+33
+00:01:51,858 --> 00:01:54,676
+I want to explain what we're doing here.
+
+34
+00:01:54,676 --> 00:01:56,742
+We wanted to, since you guys are hackers,
+
+35
+00:01:56,742 --> 00:01:59,874
+you like code instead of formulas
+
+36
+00:01:59,874 --> 00:02:02,784
+so we wanted to give you formulas in code.
+
+37
+00:02:02,784 --> 00:02:05,455
+So what we're giving you is working Python code for
+
+38
+00:02:05,455 --> 00:02:07,720
+all the math that we're going to do.
+
+39
+00:02:07,720 --> 00:02:09,976
+And in order to do that we're going to use
+
+40
+00:02:09,976 --> 00:02:12,643
+some software you call Sage.
+
+41
+00:02:12,643 --> 00:02:15,970
+Sage is free open-source mathematics software.
+
+42
+00:02:15,970 --> 00:02:20,160
+It is available at this URL sagemath.org.
+
+43
+00:02:20,160 --> 00:02:22,093
+It's based off of Python
+
+44
+00:02:22,093 --> 00:02:24,190
+so it's very simple if you know Python.
+
+45
+00:02:24,190 --> 00:02:27,904
+It has a nice sort of interpreter
+
+46
+00:02:27,904 --> 00:02:29,622
+that you can use just like Python.
+
+47
+00:02:29,622 --> 00:02:32,493
+Here an example, 2<i>3=6.</i>
+
+48
+00:02:32,493 --> 00:02:34,890
+But there are some differences.
+
+49
+00:02:34,890 --> 00:02:38,202
+For example the caret instead of in Python it's XOR
+
+50
+00:02:38,202 --> 00:02:40,155
+in Sage it's exponentiation.
+
+51
+00:02:40,155 --> 00:02:43,869
+So 2^3 is 8 in Sage.
+
+52
+00:02:43,869 --> 00:02:47,351
+The other nice thing about Sage is that
+
+53
+00:02:47,351 --> 00:02:49,703
+it has lots of useful mathematical libraries.
+
+54
+00:02:49,703 --> 00:02:53,029
+For example if I, in the Sage interpreter, say factor(15)
+
+55
+00:02:53,029 --> 00:02:55,512
+it helpfully tells me 3<i>5.</i>
+
+56
+00:02:55,512 --> 00:02:56,513
+That's pretty great.
+
+57
+00:02:56,513 --> 00:02:59,152
+It also does a lot more advanced things, for example
+
+58
+00:02:59,152 --> 00:03:00,467
+it can represent polynomials.
+
+59
+00:03:00,467 --> 00:03:03,498
+I can say factor the polynomial x^2-1
+
+60
+00:03:03,498 --> 00:03:08,127
+and it helpfully tells me the answer to that.
+
+61
+00:03:08,127 --> 00:03:12,819
+So now that we've gone through what is Sage,
+
+62
+00:03:12,819 --> 00:03:17,443
+I want to explain how to do RSA.
+
+63
+00:03:17,443 --> 00:03:21,065
+Perhaps some of you have seen this before.
+
+64
+00:03:21,065 --> 00:03:24,677
+In order to generate an RSA key, the first thing that you do
+
+65
+00:03:24,677 --> 00:03:27,435
+is you generate two large random primes.
+
+66
+00:03:27,435 --> 00:03:30,441
+So if we want a 1024 bit RSA key
+
+67
+00:03:30,441 --> 00:03:34,779
+we generate two primes of size 2^512,
+
+68
+00:03:34,779 --> 00:03:38,515
+so 512 bit primes, p and q.
+
+69
+00:03:38,515 --> 00:03:41,697
+In order to generate the public key
+
+70
+00:03:41,697 --> 00:03:44,900
+I multiply together p and q and you get some n.
+
+71
+00:03:44,900 --> 00:03:46,433
+N has 1024 bits.
+
+72
+00:03:46,433 --> 00:03:49,915
+And then you have what's known as the public exponent
+
+73
+00:03:49,915 --> 00:03:54,435
+which you can choose 3 or 65537 or 35.
+
+74
+00:03:54,435 --> 00:03:56,300
+It really doesn't matter what you choose.
+
+75
+00:03:56,300 --> 00:03:59,117
+These are some of the most commonly used values.
+
+76
+00:03:59,117 --> 00:04:03,129
+Now in order to generate a private key
+
+77
+00:04:03,129 --> 00:04:07,695
+you choose d, the decryption exponent,
+
+78
+00:04:07,695 --> 00:04:12,936
+to be the modular inverse e mod (p-1)<i>(q-1)</i>
+
+79
+00:04:12,936 --> 00:04:15,394
+It doesn't matter why so much, for this talk
+
+80
+00:04:15,394 --> 00:04:17,276
+but here is the formula
+
+81
+00:04:17,276 --> 00:04:20,295
+or here is the command to do this in Sage.
+
+82
+00:04:20,295 --> 00:04:23,150
+So now we have a public key and a private key
+
+83
+00:04:23,150 --> 00:04:24,508
+that are pairs.
+
+84
+00:04:24,508 --> 00:04:27,948
+And in RSA if you want to enrypt a message
+
+85
+00:04:27,948 --> 00:04:31,547
+you raise your message to the e'th power mod n
+
+86
+00:04:31,547 --> 00:04:34,753
+so you can do that with your public key here.
+
+87
+00:04:34,753 --> 00:04:36,776
+And similarly decryption,
+
+88
+00:04:36,776 --> 00:04:39,998
+you raise the ciphertext to the d'th power mod n
+
+89
+00:04:39,998 --> 00:04:42,835
+and that will give you the message back out again.
+
+90
+00:04:42,835 --> 00:04:45,748
+Fairly simple.
+
+91
+00:04:45,748 --> 00:04:48,731
+Now I'm lying to you slightly.
+
+92
+00:04:48,731 --> 00:04:51,088
+If you read this talk do not
+
+93
+00:04:51,088 --> 00:04:53,181
+absolutely do <b>not</b> implement RSA this way.
+
+94
+00:04:53,181 --> 00:04:54,757
+You <b>must</b> pad your message.
+
+95
+00:04:54,757 --> 00:04:57,186
+This is a public service warning.
+
+96
+00:04:57,186 --> 00:05:00,662
+We offered to tell you about factoring.
+
+97
+00:05:00,662 --> 00:05:03,941
+What is the relationship between RSA and factoring?
+
+98
+00:05:03,941 --> 00:05:08,972
+Now you can see easily from the formula
+
+99
+00:05:08,972 --> 00:05:11,760
+from the private key here
+
+100
+00:05:11,760 --> 00:05:16,337
+that if you know how to factor n into its prime factors p and q
+
+101
+00:05:16,337 --> 00:05:19,496
+then you can just compute d, the decryption exponent
+
+102
+00:05:19,496 --> 00:05:20,812
+of your private key.
+
+103
+00:05:20,812 --> 00:05:24,395
+Clearly, if you can factor n you can compute the private key.
+
+104
+00:05:24,395 --> 00:05:28,930
+But we don't actually know that factoring is the only way to break RSA.
+
+105
+00:05:28,930 --> 00:05:34,163
+There might be some way that you can compute messages from ciphertexts
+
+106
+00:05:34,163 --> 00:05:36,877
+that doesn't actually reveal the private key.
+
+107
+00:05:36,877 --> 00:05:41,545
+And there's no proof either way that this is or is not possible.
+
+108
+00:05:41,545 --> 00:05:43,478
+The last thing that I want to mention here
+
+109
+00:05:43,478 --> 00:05:45,458
+just to clarify things
+
+110
+00:05:45,458 --> 00:05:46,830
+some of you who might have taken
+
+111
+00:05:46,830 --> 00:05:51,527
+complexity or algorithms courses or a beginning CS course
+
+112
+00:05:51,527 --> 00:05:55,874
+you might have heard of NP-hardness, the P vs. NP problem.
+
+113
+00:05:55,874 --> 00:06:00,904
+And I just want to clarify that factoring is not known to be NP-hard.
+
+114
+00:06:00,904 --> 00:06:05,092
+Every computer scientist will love it if we could actually generate
+
+115
+00:06:05,092 --> 00:06:11,139
+a cryptosystem which is known to be based of average case NP-hardness.
+
+116
+00:06:11,139 --> 00:06:13,573
+We don't know how to do that.
+
+117
+00:06:13,573 --> 00:06:16,992
+RSA is not doing that.
+
+118
+00:06:16,992 --> 00:06:22,309
+In addition the factoring problem is probably not NP-hard.
+
+119
+00:06:22,309 --> 00:06:25,892
+The question is: how hard <b>is</b> factoring?
+
+120
+00:06:25,892 --> 00:06:27,474
+Since factoring is the best way that we know
+
+121
+00:06:27,474 --> 00:06:31,227
+to break the most commonly used public-key cryptosystem on the Internet.
+
+122
+00:06:31,227 --> 00:06:32,935
+Well I showed you some examples before
+
+123
+00:06:32,935 --> 00:06:37,243
+where Sage had this helpful little factor function.
+
+124
+00:06:37,243 --> 00:06:39,164
+So how well does it work?
+
+125
+00:06:39,164 --> 00:06:41,181
+How long do people think this takes?
+
+126
+00:06:41,181 --> 00:06:46,149
+two 32 bit integers multiplied together.
+
+127
+00:06:46,149 --> 00:06:48,850
+I heard it'll go a couple of seconds.
+
+128
+00:06:48,850 --> 00:06:50,098
+0.01 seconds.
+
+129
+00:06:50,098 --> 00:06:55,108
+This is on <i>this</i> computer.
+
+130
+00:06:55,108 --> 00:06:57,869
+How about 64 bit integers, two of them multiplied together?
+
+131
+00:06:57,869 --> 00:07:01,289
+So this is a 128 bit RSA modulus.
+
+132
+00:07:01,289 --> 00:07:04,382
+Any guesses?
+
+133
+00:07:04,382 --> 00:07:05,464
+One minute?
+
+134
+00:07:05,464 --> 00:07:08,235
+Nope, 0.1 seconds.
+
+135
+00:07:08,235 --> 00:07:14,521
+How about two 96 bit integers multiplied together?
+
+136
+00:07:14,521 --> 00:07:15,939
+A couple of minutes?
+
+137
+00:07:15,939 --> 00:07:18,105
+4 seconds.
+
+138
+00:07:18,105 --> 00:07:21,965
+How about two 128 bit integers multiplied together?
+
+139
+00:07:21,965 --> 00:07:28,255
+This is a 256 bit RSA modulus.
+
+140
+00:07:28,255 --> 00:07:29,300
+No guesses? Alright.
+
+141
+00:07:29,300 --> 00:07:30,430
+500 seconds.
+
+142
+00:07:30,430 --> 00:07:32,791
+So at this point it's starting to get a little bit iffy if I'm
+
+143
+00:07:32,791 --> 00:07:36,327
+sitting on a plane trying to do this on battery power.
+
+144
+00:07:36,327 --> 00:07:39,248
+<i>laughter</i>
+
+145
+00:07:39,248 --> 00:07:43,764
+Clearly this is growing faster than linear in the size of the key.
+
+146
+00:07:43,764 --> 00:07:45,597
+So what is actually going on?
+
+147
+00:07:45,597 --> 00:07:49,066
+Well.
+
+148
+00:07:49,066 --> 00:07:50,734
+<i>Dan<i>: Ok.</i></i>
+
+149
+00:07:50,734 --> 00:07:52,794
+Turns out these factoring functions
+
+150
+00:07:52,794 --> 00:07:54,597
+they do look like they're getting pretty slow but
+
+151
+00:07:54,597 --> 00:07:56,835
+wait a minute.
+
+152
+00:07:56,835 --> 00:07:59,814
+Do we actually have to use this factor function
+
+153
+00:07:59,814 --> 00:08:00,866
+if it's getting really slow?
+
+154
+00:08:00,866 --> 00:08:04,302
+Maybe instead of trying to use Sage's factor function
+
+155
+00:08:04,302 --> 00:08:08,710
+maybe we could just guess what the prime was.
+
+156
+00:08:08,710 --> 00:08:12,350
+Now as an RSA user you might not think that this is a threat
+
+157
+00:08:12,350 --> 00:08:13,928
+having somebody guess your prime
+
+158
+00:08:13,928 --> 00:08:17,114
+because there is some way to count the number of primes,
+
+159
+00:08:17,114 --> 00:08:18,719
+number of 512 bit primes and there's
+
+160
+00:08:18,719 --> 00:08:22,185
+more than 2^500 512 bit primes.
+
+161
+00:08:22,185 --> 00:08:24,011
+And if your random number generator is giving you
+
+162
+00:08:24,011 --> 00:08:27,097
+any of those 512 bit primes with the same chance
+
+163
+00:08:27,097 --> 00:08:30,829
+then any particular prime that the attacker guesses
+
+164
+00:08:30,829 --> 00:08:32,845
+and just tries dividing n by that,
+
+165
+00:08:32,845 --> 00:08:35,061
+see if it's evenly divisable, well
+
+166
+00:08:35,061 --> 00:08:39,417
+any particular prime has only a 2^(-500) chance
+
+167
+00:08:39,417 --> 00:08:41,312
+of being guessed by the attacker.
+
+168
+00:08:41,312 --> 00:08:43,319
+And even if the attacker tries a huge number of times
+
+169
+00:08:43,319 --> 00:08:44,897
+he'll never guess your prime
+
+170
+00:08:44,897 --> 00:08:47,621
+except what if your random number generator
+
+171
+00:08:47,621 --> 00:08:52,031
+is working really really badly and doesn't give you 2^500 different primes?
+
+172
+00:08:52,031 --> 00:08:55,902
+What if it only gives you, say, 2^40 different primes?
+
+173
+00:08:55,902 --> 00:08:58,055
+And then suddenly the attacker could, well,
+
+174
+00:08:58,055 --> 00:09:01,248
+try figuring out what those primes are.
+
+175
+00:09:01,248 --> 00:09:03,237
+So here's how the attacker looks at this.
+
+176
+00:09:03,237 --> 00:09:05,819
+The attacker says: ok I'm gonna target your public key.
+
+177
+00:09:05,819 --> 00:09:08,884
+I'm gonna take your big N which is your secret...
+
+178
+00:09:08,884 --> 00:09:10,912
+sorry, public key is big N,
+
+179
+00:09:10,912 --> 00:09:13,666
+your secret key p times your secret key q,
+
+180
+00:09:13,666 --> 00:09:14,920
+your private p and q.
+
+181
+00:09:14,920 --> 00:09:16,764
+He's trying to figure out the p and q, given N.
+
+182
+00:09:16,764 --> 00:09:20,169
+So what he does, he takes a bunch of devices  that are out there
+
+183
+00:09:20,169 --> 00:09:22,902
+and he looks at how they work
+
+184
+00:09:22,902 --> 00:09:25,281
+or downloads a bunch of software which generates keys
+
+185
+00:09:25,281 --> 00:09:28,904
+and then using that software, using those devices
+
+186
+00:09:28,904 --> 00:09:32,216
+he tries generating a bunch of p's and q's for himself
+
+187
+00:09:32,216 --> 00:09:34,516
+using whatever the random number generator is
+
+188
+00:09:34,516 --> 00:09:36,932
+in that device or in that software.
+
+189
+00:09:36,932 --> 00:09:38,400
+And then that's something which
+
+190
+00:09:38,400 --> 00:09:40,682
+maybe the random number generator works really badly
+
+191
+00:09:40,682 --> 00:09:42,832
+and maybe you're using that device, too.
+
+192
+00:09:42,832 --> 00:09:45,765
+So the attacker tries each of the primes that he see's
+
+193
+00:09:45,765 --> 00:09:46,918
+from this device
+
+194
+00:09:46,918 --> 00:09:50,129
+and tries seeing does that prime divide your N.
+
+195
+00:09:50,129 --> 00:09:51,400
+If you were using that device
+
+196
+00:09:51,400 --> 00:09:52,932
+and it doesn't generate very many primes
+
+197
+00:09:52,932 --> 00:09:55,835
+then maybe he gets lucky and finds your prime
+
+198
+00:09:55,835 --> 00:09:57,968
+because the device has generated the same prime for him
+
+199
+00:09:57,968 --> 00:09:59,618
+that it generated for you.
+
+200
+00:09:59,618 --> 00:10:03,216
+Now does anybody actually build devices which
+
+201
+00:10:03,216 --> 00:10:07,005
+screw up random numbers this badly?
+
+202
+00:10:07,005 --> 00:10:08,519
+<i>laughter</i>
+
+203
+00:10:08,519 --> 00:10:11,538
+As a matter of fact, yes, bears do shit in the woods.
+
+204
+00:10:11,538 --> 00:10:13,543
+So there are some famous examples.
+
+205
+00:10:13,543 --> 00:10:16,952
+We don't have a huge number of historical discussions in this talk
+
+206
+00:10:16,952 --> 00:10:18,539
+but just a few examples here.
+
+207
+00:10:18,539 --> 00:10:22,401
+Goldberg&Wagner totally broke the original Netscape
+
+208
+00:10:22,401 --> 00:10:23,989
+generation of public keys.
+
+209
+00:10:23,989 --> 00:10:26,921
+There are only something like 2^47 possible keys
+
+210
+00:10:26,921 --> 00:10:29,216
+which is a countable numbers.
+
+211
+00:10:29,216 --> 00:10:31,077
+So they could figure out all the possible keys
+
+212
+00:10:31,077 --> 00:10:34,139
+that Netscape could generate if they you knew when you generated a key
+
+213
+00:10:34,139 --> 00:10:35,802
+which was often very predictable.
+
+214
+00:10:35,802 --> 00:10:37,724
+Another example: the Debian bug,
+
+215
+00:10:37,724 --> 00:10:40,974
+the horrendous failure for SSH and lots of other applications
+
+216
+00:10:40,974 --> 00:10:42,418
+from a few years ago.
+
+217
+00:10:42,418 --> 00:10:45,692
+Debian and Ubuntu for a year and half were generating only
+
+218
+00:10:45,692 --> 00:10:48,773
+well, fewer than a million possible public keys.
+
+219
+00:10:48,773 --> 00:10:51,421
+So complete disasters of random number generation.
+
+220
+00:10:51,421 --> 00:10:53,826
+But if you want to add to this list,
+
+221
+00:10:53,826 --> 00:10:55,202
+if you want to do more and more of these
+
+222
+00:10:55,202 --> 00:10:56,974
+find bad random number generators
+
+223
+00:10:56,974 --> 00:11:00,518
+you have to say "ok what's the next device out there
+
+224
+00:11:00,518 --> 00:11:01,858
+that might have been screw up."
+
+225
+00:11:01,858 --> 00:11:03,422
+"Let's look at it, look at the code."
+
+226
+00:11:03,422 --> 00:11:05,039
+"See what kind of primes it generates."
+
+227
+00:11:05,039 --> 00:11:06,571
+"Does it do badly?"
+
+228
+00:11:06,571 --> 00:11:09,424
+It takes some real work to figure this out.
+
+229
+00:11:09,424 --> 00:11:11,801
+Wouldn't it be nice if there was a systematic way
+
+230
+00:11:11,801 --> 00:11:14,586
+to just without having to do a lot of work,
+
+231
+00:11:14,586 --> 00:11:16,576
+to look at each device, each piece of software,
+
+232
+00:11:16,576 --> 00:11:18,403
+wouldn't it be nice to just figure out
+
+233
+00:11:18,403 --> 00:11:21,568
+"oh yeah, let's just magically figure out
+
+234
+00:11:21,568 --> 00:11:23,726
+if there's any primes out there generated
+
+235
+00:11:23,726 --> 00:11:25,507
+from bad random number generators."
+
+236
+00:11:25,507 --> 00:11:28,020
+You could imagine here's the easy attack.
+
+237
+00:11:28,020 --> 00:11:29,622
+Here's the systematic way to do this.
+
+238
+00:11:29,622 --> 00:11:34,052
+You take two users, so you and you.
+
+239
+00:11:34,052 --> 00:11:35,442
+And you each have a public key.
+
+240
+00:11:35,442 --> 00:11:37,178
+We're gonna grab those public keys
+
+241
+00:11:37,178 --> 00:11:41,681
+N1 and N2
+
+242
+00:11:41,681 --> 00:11:46,983
+and then hope that this N1 and N2 share a prime.
+
+243
+00:11:46,983 --> 00:11:54,130
+N1 is some prime p times some q1 and N2 is some same prime p times a different q2.
+
+244
+00:11:54,130 --> 00:11:55,663
+Now this could happen, you could have
+
+245
+00:11:55,663 --> 00:11:59,100
+N1 and N2 sharing both primes.
+
+246
+00:11:59,100 --> 00:12:02,101
+That would be legitimate that two people who are actually
+
+247
+00:12:02,101 --> 00:12:05,645
+the same webserver sharing their keys, sharing their certificates,
+
+248
+00:12:05,645 --> 00:12:06,843
+they know they're doing this,
+
+249
+00:12:06,843 --> 00:12:09,281
+you can get the same public key from two places.
+
+250
+00:12:09,281 --> 00:12:12,183
+Google has their keys copied to tens of thousands of servers,
+
+251
+00:12:12,183 --> 00:12:13,399
+that's not a surprise.
+
+252
+00:12:13,399 --> 00:12:15,395
+But if there's a different...
+
+253
+00:12:15,395 --> 00:12:16,999
+If you have two different public keys
+
+254
+00:12:16,999 --> 00:12:18,430
+they shouldn't be sharing primes.
+
+255
+00:12:18,430 --> 00:12:19,582
+What if they do?
+
+256
+00:12:19,582 --> 00:12:21,979
+Well, here's this magic Euclid's algorithm
+
+257
+00:12:21,979 --> 00:12:24,744
+which will just print out the shared prime p.
+
+258
+00:12:24,744 --> 00:12:26,066
+This is a very simple algorithm.
+
+259
+00:12:26,066 --> 00:12:28,495
+It just takes one of the numbers, say N1
+
+260
+00:12:28,495 --> 00:12:31,961
+and let's say N1 is the smaller one and N2 is the bigger one,
+
+261
+00:12:31,961 --> 00:12:34,142
+it divides N2 by N1
+
+262
+00:12:34,142 --> 00:12:37,512
+and replaces N2 by the remainder and then switches the numbers
+
+263
+00:12:37,512 --> 00:12:39,593
+and that's exactly what this code does.
+
+264
+00:12:39,593 --> 00:12:43,111
+The N2 % N1 that's again the N2 mod N1
+
+265
+00:12:43,111 --> 00:12:45,543
+the least remainder when you divide N2 by N1.
+
+266
+00:12:45,543 --> 00:12:49,414
+And then the result once one of the numbers gets down to zero
+
+267
+00:12:49,414 --> 00:12:52,292
+the other number is exactly the shared prime.
+
+268
+00:12:52,292 --> 00:12:54,149
+So this amazing algorithm,
+
+269
+00:12:54,149 --> 00:12:57,051
+here's just a little manual example
+
+270
+00:12:57,051 --> 00:12:59,898
+not with big 512, 1024 bit keys
+
+271
+00:12:59,898 --> 00:13:04,143
+this is with just tiny little I guess 8 bit primes
+
+272
+00:13:04,143 --> 00:13:07,625
+16 bit... well looks more like 13 bit keys.
+
+273
+00:13:07,625 --> 00:13:12,375
+So two numbers coming in and one is 4187 and two is 5989.
+
+274
+00:13:12,375 --> 00:13:14,879
+You can see if you keep dividing one number by the other,
+
+275
+00:13:14,879 --> 00:13:16,162
+replacing it by the remainder,
+
+276
+00:13:16,162 --> 00:13:19,411
+do that a few times, you quickly get down to zero.
+
+277
+00:13:19,411 --> 00:13:22,774
+And the number right before the zero in the middle of the slide is 53.
+
+278
+00:13:22,774 --> 00:13:27,172
+Now 53 is a shared prime between these two small keys.
+
+279
+00:13:27,172 --> 00:13:28,772
+If you scale this up,
+
+280
+00:13:28,772 --> 00:13:32,256
+if you do this computation for bigger numbers
+
+281
+00:13:32,256 --> 00:13:34,176
+then here's another timing example.
+
+282
+00:13:34,176 --> 00:13:36,673
+It's still really really fast, in the middle of the slide.
+
+283
+00:13:36,673 --> 00:13:40,359
+This is doing 1024 bit keys that share a 512 bit prime.
+
+284
+00:13:40,359 --> 00:13:44,554
+You can figure out this 512 bit prime so quickly that the timing
+
+285
+00:13:44,554 --> 00:13:48,848
+there is 0.00 seconds, can't even see how fast it is.
+
+286
+00:13:48,848 --> 00:13:51,094
+Ok, so that's Euclid's algorithm.
+
+287
+00:13:51,094 --> 00:13:53,676
+Now you can actually do this for tons and tons of keys.
+
+288
+00:13:53,676 --> 00:13:57,695
+You download, say, millions, tens of millions of keys from the Internet,
+
+289
+00:13:57,695 --> 00:14:01,011
+all the different SSL servers, maybe go for some SSH keys,
+
+290
+00:14:01,011 --> 00:14:03,891
+you download tons and tons of public keys and then
+
+291
+00:14:03,891 --> 00:14:06,590
+you try all the pairs with Euclid's algorithm.
+
+292
+00:14:06,590 --> 00:14:09,406
+And it's so fast that you can do this but actually
+
+293
+00:14:09,406 --> 00:14:10,848
+you can do better.
+
+294
+00:14:10,848 --> 00:14:13,927
+So there's an algorithm: batch GCD algorithm
+
+295
+00:14:13,927 --> 00:14:15,396
+which takes a whole bunch of keys
+
+296
+00:14:15,396 --> 00:14:19,822
+and figures out which of those keys share primes with the others.
+
+297
+00:14:19,822 --> 00:14:22,525
+Much much faster than trying every pair.
+
+298
+00:14:22,525 --> 00:14:23,909
+So you don't have to try every pair.
+
+299
+00:14:23,909 --> 00:14:26,973
+It's kind of like sorting, it's about that kind of speed
+
+300
+00:14:26,973 --> 00:14:29,065
+instead of having to try every pair.
+
+301
+00:14:29,065 --> 00:14:30,811
+If you have tens of millions you don't have to do
+
+302
+00:14:30,811 --> 00:14:33,156
+tens of millions times tens of millions of pairs.
+
+303
+00:14:33,156 --> 00:14:35,739
+You just have to pretty much reap through the whole list once.
+
+304
+00:14:35,739 --> 00:14:38,877
+So what does this batch GCD algorithm do?
+
+305
+00:14:38,877 --> 00:14:41,447
+It's figuring out for the first N1,
+
+306
+00:14:41,447 --> 00:14:44,029
+instead of computing the greatest common divisor,
+
+307
+00:14:44,029 --> 00:14:45,908
+the Euclid result for N1 and N2
+
+308
+00:14:45,908 --> 00:14:47,846
+and for N1 and N3 and so on,
+
+309
+00:14:47,846 --> 00:14:52,340
+it figures out the product of N2, N3, N4 and so on,
+
+310
+00:14:52,340 --> 00:14:55,257
+takes the greatest common divisor of that with N1,
+
+311
+00:14:55,257 --> 00:14:57,191
+applies Euclid's algorithm to that
+
+312
+00:14:57,191 --> 00:15:00,874
+and then does a similar thing for N2 and for N3 and so on.
+
+313
+00:15:00,874 --> 00:15:05,656
+Each of those is gonna show you whether N1 or N2 or N3,
+
+314
+00:15:05,656 --> 00:15:08,148
+it's gonna show you whether they share some prime
+
+315
+00:15:08,148 --> 00:15:10,246
+with any of the other N's.
+
+316
+00:15:10,246 --> 00:15:13,326
+If you did exactly the computation
+
+317
+00:15:13,326 --> 00:15:15,248
+shown on the slide in the math formulas
+
+318
+00:15:15,248 --> 00:15:16,617
+it would still be too slow.
+
+319
+00:15:16,617 --> 00:15:20,457
+But the batch GCD algorithm finds redundancies
+
+320
+00:15:20,457 --> 00:15:23,218
+in these GCDs, and here's exactly what it does:
+
+321
+00:15:23,218 --> 00:15:25,620
+It figures out the product of all of the keys.
+
+322
+00:15:25,620 --> 00:15:29,923
+So you take, say, a million keys and you multiply them all together.
+
+323
+00:15:29,923 --> 00:15:33,534
+And that's done with the code here where you do...
+
+324
+00:15:33,534 --> 00:15:35,120
+maybe I'll just skip to the bottom.
+
+325
+00:15:35,120 --> 00:15:37,474
+You see numbers 10, 20, 30, 40.
+
+326
+00:15:37,474 --> 00:15:39,356
+You build a product tree.
+
+327
+00:15:39,356 --> 00:15:42,210
+So you take 10 times 20, compute 200.
+
+328
+00:15:42,210 --> 00:15:44,687
+Take the next pair 30 times 40, compute 1200.
+
+329
+00:15:44,687 --> 00:15:47,889
+The take the pair of products 200 times 1200.
+
+330
+00:15:47,889 --> 00:15:50,378
+If you have more numbers, you have more levels in the tree.
+
+331
+00:15:50,378 --> 00:15:55,227
+And that's exactly what the Sage code does here.
+
+332
+00:15:55,227 --> 00:15:58,924
+And then the last step of the algorithm is
+
+333
+00:15:58,924 --> 00:16:02,847
+kind of going down the tree, building a remainder tree.
+
+334
+00:16:02,847 --> 00:16:06,515
+So what's happening here to figure out the greatest common divisior
+
+335
+00:16:06,515 --> 00:16:10,013
+of N1 with the product of all the other keys,
+
+336
+00:16:10,013 --> 00:16:12,846
+the idea is to take this product
+
+337
+00:16:12,846 --> 00:16:15,807
+which is called big R on this slide,
+
+338
+00:16:15,807 --> 00:16:23,160
+take the product of all the keys and then divide that by N1^2
+
+339
+00:16:23,160 --> 00:16:26,291
+and then take the remainders, so R mod N1^2,
+
+340
+00:16:26,291 --> 00:16:31,148
+divide by N1 and then compute the greatest common divisor of N1 mod N.
+
+341
+00:16:31,148 --> 00:16:33,124
+And the amazing effect is that it's exactly the
+
+342
+00:16:33,124 --> 00:16:35,047
+greatest common divisor we were looking for.
+
+343
+00:16:35,047 --> 00:16:37,629
+And what this little Sage script does is that it takes
+
+344
+00:16:37,629 --> 00:16:42,282
+R and divides R by, well a bunch of N's in a really fast way,
+
+345
+00:16:42,282 --> 00:16:43,960
+and then at the bottom, once it has figured out
+
+346
+00:16:43,960 --> 00:16:47,227
+all mod N1^2, all mod N2^2 and so on,
+
+347
+00:16:47,227 --> 00:16:49,308
+divides those by N1 and N2,
+
+348
+00:16:49,308 --> 00:16:52,177
+takes the greatest common divisor with N1 and N2
+
+349
+00:16:52,177 --> 00:16:54,824
+and that's exactly telling you, the outputs here
+
+350
+00:16:54,824 --> 00:16:57,063
+that are different from 1, are exactly telling you
+
+351
+00:16:57,063 --> 00:17:00,398
+which N's share a prime with some others.
+
+352
+00:17:00,398 --> 00:17:04,048
+This very remarkably short little script does work quite well.
+
+353
+00:17:04,048 --> 00:17:06,524
+Here's how fast these are.
+
+354
+00:17:06,524 --> 00:17:10,248
+So I'm on some 800 MHz core.
+
+355
+00:17:10,248 --> 00:17:13,442
+If you try this for, say, a hundred numbers,
+
+356
+00:17:13,442 --> 00:17:16,608
+just hundred random 1024 bit numbers,
+
+357
+00:17:16,608 --> 00:17:20,917
+it doesn't matter what the numbers are, they always run at the same speed,
+
+358
+00:17:20,917 --> 00:17:23,198
+then that takes 0.05 seconds.
+
+359
+00:17:23,198 --> 00:17:27,249
+If you have 10 times as many numbers it takes about 20 times as long.
+
+360
+00:17:27,249 --> 00:17:31,229
+And if you have another 10 times as many numbers it takes about 20 times as long.
+
+361
+00:17:31,229 --> 00:17:33,247
+And it keeps scaling up like that.
+
+362
+00:17:33,247 --> 00:17:35,948
+So you can get to millions or tens of millions of numbers
+
+363
+00:17:35,948 --> 00:17:38,582
+and it still finishes in a reasonable amount of time.
+
+364
+00:17:38,582 --> 00:17:40,068
+So, amazingly fast algorithm.
+
+365
+00:17:40,068 --> 00:17:43,810
+You don't have to scale this up to like 2^50 or 2^100 keys.
+
+366
+00:17:43,810 --> 00:17:46,059
+There's only, say, tens of millions of keys out there
+
+367
+00:17:46,059 --> 00:17:48,330
+and this runs reasonably fast.
+
+368
+00:17:48,330 --> 00:17:50,626
+Ok.
+
+369
+00:17:50,626 --> 00:17:52,416
+Can you actually hope for this to work?
+
+370
+00:17:52,416 --> 00:17:54,629
+Are random number generators really this bad?
+
+371
+00:17:54,629 --> 00:17:55,866
+Well...
+
+372
+00:17:55,866 --> 00:18:00,478
+<i>laughs</i>
+
+373
+00:18:00,478 --> 00:18:03,435
+There's a 2012 paper from Heninger
+
+374
+00:18:03,435 --> 00:18:04,926
+that's the same Heninger we have sitting here
+
+375
+00:18:04,926 --> 00:18:06,300
+and Durumeric, Wustrow, Halderman,
+
+376
+00:18:06,300 --> 00:18:09,881
+that's got the best paper award at USENIX Security 2012.
+
+377
+00:18:09,881 --> 00:18:14,678
+What they did was they tried exactly this on tens of millions out there
+
+378
+00:18:14,678 --> 00:18:18,276
+and factored tens of thousands of keys.
+
+379
+00:18:18,276 --> 00:18:22,677
+Admittely they used a C version of this instead of this
+
+380
+00:18:22,677 --> 00:18:24,061
+Sage script but
+
+381
+00:18:24,061 --> 00:18:25,827
+the Sage script will go up to millions.
+
+382
+00:18:25,827 --> 00:18:28,359
+It's just when you get beyond that you want to write it in C
+
+383
+00:18:28,359 --> 00:18:31,009
+to deal with using a lot of memory.
+
+384
+00:18:31,009 --> 00:18:34,887
+But you can use exactly this script for pretty large chunks of keys.
+
+385
+00:18:34,887 --> 00:18:37,951
+And so they factored tens of thousands of keys and said
+
+386
+00:18:37,951 --> 00:18:42,235
+that these keys are typically not your bank keys.
+
+387
+00:18:42,235 --> 00:18:44,909
+They gonna be, say, keys for your home router.
+
+388
+00:18:44,909 --> 00:18:47,639
+So the vulnerable devices are not gonna be,
+
+389
+00:18:47,639 --> 00:18:49,893
+say, a big server out there.
+
+390
+00:18:49,893 --> 00:18:53,902
+The vulnerable devices will be your FRITZ!Box.
+
+391
+00:18:53,902 --> 00:18:57,340
+<i>applause</i>
+
+392
+00:18:57,340 --> 00:18:59,838
+Thank you, Nadia.
+
+393
+00:18:59,838 --> 00:19:06,525
+It's good to read the paper, go to factorable.net
+
+394
+00:19:06,525 --> 00:19:09,073
+and you get tons of analyses of why this happened
+
+395
+00:19:09,073 --> 00:19:12,520
+and why these devices are generated guessable numbers.
+
+396
+00:19:12,520 --> 00:19:15,020
+I mean numbers that are so non-random that they get
+
+397
+00:19:15,020 --> 00:19:18,370
+repeated between a lot of keys out there.
+
+398
+00:19:18,370 --> 00:19:20,308
+There was at the same time another team that
+
+399
+00:19:20,308 --> 00:19:23,559
+like within days announced the same result.
+
+400
+00:19:23,559 --> 00:19:27,071
+They independently did the same computation.
+
+401
+00:19:27,071 --> 00:19:28,883
+They said "yeah, we've also downloaded
+
+402
+00:19:28,883 --> 00:19:31,352
+a bunch of keys and factored as many as we could"
+
+403
+00:19:31,352 --> 00:19:32,869
+with basically the same algorithm.
+
+404
+00:19:32,869 --> 00:19:35,198
+At the end of it "yeah we factored
+
+405
+00:19:35,198 --> 00:19:36,629
+tens of thousands of keys."
+
+406
+00:19:36,629 --> 00:19:38,882
+That paper has no analysis.
+
+407
+00:19:38,882 --> 00:19:41,582
+They're like "yeah, there's keys"
+
+408
+00:19:41,582 --> 00:19:43,267
+"they share primes for some reason"
+
+409
+00:19:43,267 --> 00:19:45,915
+"I guess ecommerce is dead"
+
+410
+00:19:45,915 --> 00:19:47,536
+"go out, change your bank keys"
+
+411
+00:19:47,536 --> 00:19:48,846
+"call the New York Times"
+
+412
+00:19:48,846 --> 00:19:50,553
+There's the New York Times article:
+
+413
+00:19:50,553 --> 00:19:52,601
+"Flaw Found in an Online Encryption Method"
+
+414
+00:19:52,601 --> 00:19:54,860
+I also like the advertising on the side here.
+
+415
+00:19:54,860 --> 00:19:57,151
+Like iron key on the top and then:
+
+416
+00:19:57,151 --> 00:20:01,168
+"Encrypt, decrypt & access my secret data in real time"
+
+417
+00:20:01,168 --> 00:20:03,135
+"try it free for 30 days."
+
+418
+00:20:03,135 --> 00:20:05,199
+"I secured my cloud data. Have you?"
+
+419
+00:20:05,199 --> 00:20:06,878
+Awesome advertising there.
+
+420
+00:20:06,878 --> 00:20:12,480
+Once you found that there's a problem like this
+
+421
+00:20:12,480 --> 00:20:14,919
+then of course you start looking around for more and more places
+
+422
+00:20:14,919 --> 00:20:17,435
+where you might have some bad randomness.
+
+423
+00:20:17,435 --> 00:20:22,795
+For example there is a paper, or at least slides,
+
+424
+00:20:22,795 --> 00:20:25,395
+by Chou in Taiwan, saying
+
+425
+00:20:25,395 --> 00:20:31,857
+they took two million Taiwan Citizen Digital Certificates
+
+426
+00:20:31,857 --> 00:20:34,327
+and did some GCDs
+
+427
+00:20:34,327 --> 00:20:36,626
+and found that a 103 of those were
+
+428
+00:20:36,626 --> 00:20:37,995
+factorable.
+
+429
+00:20:37,995 --> 00:20:40,052
+So anybody who downloaded these certificates
+
+430
+00:20:40,052 --> 00:20:43,177
+which apparently are used in Taiwan for like paying your taxes,
+
+431
+00:20:43,177 --> 00:20:44,393
+talking to banks I don't know,
+
+432
+00:20:44,393 --> 00:20:46,677
+but paying taxes is one that I've checked.
+
+433
+00:20:46,677 --> 00:20:49,537
+So a 103 people out there have these Taiwan
+
+434
+00:20:49,537 --> 00:20:51,011
+Citizen Digital Certificates where
+
+435
+00:20:51,011 --> 00:20:54,121
+you're supposed to have in this database things like
+
+436
+00:20:54,121 --> 00:20:57,122
+the names of the people and their ID numbers
+
+437
+00:20:57,122 --> 00:20:59,576
+but you aren't supposed to have their secret keys.
+
+438
+00:20:59,576 --> 00:21:01,543
+The whole point is those are supposed to be private
+
+439
+00:21:01,543 --> 00:21:03,938
+kept on some smartcards that are shipped to the citizens
+
+440
+00:21:03,938 --> 00:21:05,295
+in Taiwan.
+
+441
+00:21:05,295 --> 00:21:08,706
+And the randomness generation is so bad that
+
+442
+00:21:08,706 --> 00:21:13,169
+103 of those keys have now been factored.
+
+443
+00:21:13,169 --> 00:21:15,451
+The smartcard manufacturer, I also like this quote,
+
+444
+00:21:15,451 --> 00:21:18,674
+it's a company based in Munich called
+
+445
+00:21:18,674 --> 00:21:22,315
+Giesecke & Devrient and their motto is:
+
+446
+00:21:22,315 --> 00:21:24,753
+"Creating Confidence"
+
+447
+00:21:24,753 --> 00:21:35,270
+<i>applause</i>
+
+448
+00:21:35,270 --> 00:21:37,698
+<i>Tanja<i>: There's gonna be more of Dan, don't worry.</i></i>
+
+449
+00:21:37,698 --> 00:21:39,835
+But we promised a bit more than just factoring
+
+450
+00:21:39,835 --> 00:21:43,309
+bad keys or the keys with their primes.
+
+451
+00:21:43,309 --> 00:21:46,956
+If you find another number like this one.
+
+452
+00:21:46,956 --> 00:21:49,686
+So here's coming some more of math stuff.
+
+453
+00:21:49,686 --> 00:21:52,555
+So if you see a number like this and you
+
+454
+00:21:52,555 --> 00:21:56,427
+observe this last digit, then yes.
+
+455
+00:21:56,427 --> 00:21:58,738
+It's very easy for you to see it's divisable by 5.
+
+456
+00:21:58,738 --> 00:22:01,385
+So if you find such a key that is easy to break
+
+457
+00:22:01,385 --> 00:22:03,226
+and you are a computer rather than a human being
+
+458
+00:22:03,226 --> 00:22:05,324
+you look at lots of those numbers.
+
+459
+00:22:05,324 --> 00:22:07,076
+You have a list of small primes stored
+
+460
+00:22:07,076 --> 00:22:10,037
+and what you're gonna do is just trial division.
+
+461
+00:22:10,037 --> 00:22:11,987
+So if there's any small factor
+
+462
+00:22:11,987 --> 00:22:14,092
+it's very easy to find this trial division.
+
+463
+00:22:14,092 --> 00:22:16,708
+Or what Dan showed was the remainder trees.
+
+464
+00:22:16,708 --> 00:22:20,222
+You can also do this for batch trial division.
+
+465
+00:22:20,222 --> 00:22:23,728
+So assuming that you're looking for a prime p somewhere
+
+466
+00:22:23,728 --> 00:22:26,735
+then you go linearly all the way up to the p
+
+467
+00:22:26,735 --> 00:22:30,442
+and there are about p/log(p) many primes
+
+468
+00:22:30,442 --> 00:22:32,094
+before you find this p.
+
+469
+00:22:32,094 --> 00:22:33,969
+For each of them you just do exact division.
+
+470
+00:22:33,969 --> 00:22:36,558
+If it works, fine you found a factor, otherwise not.
+
+471
+00:22:36,558 --> 00:22:39,459
+Now this is not going to work against your normal keys.
+
+472
+00:22:39,459 --> 00:22:43,624
+I know that in the example that Dan mentioned by Wagner&Goldberg
+
+473
+00:22:43,624 --> 00:22:46,625
+that they found one factor which had a 9 in there
+
+474
+00:22:46,625 --> 00:22:49,975
+but usually your keys don't have a 9.
+
+475
+00:22:49,975 --> 00:22:54,687
+For slightly larger numbers there is a method due to Pollard.
+
+476
+00:22:54,687 --> 00:22:57,460
+So if you see the respectful number here,
+
+477
+00:22:57,460 --> 00:22:59,887
+there is no obvious divisability of this one.
+
+478
+00:22:59,887 --> 00:23:03,091
+One thing you can try is
+
+479
+00:23:03,091 --> 00:23:06,660
+a walk, well we call this a walk.
+
+480
+00:23:06,660 --> 00:23:10,404
+You start with some random number smaller than N
+
+481
+00:23:10,404 --> 00:23:12,902
+and some offset here.
+
+482
+00:23:12,902 --> 00:23:17,277
+I should also say, all those scripts are available at this URL.
+
+483
+00:23:17,277 --> 00:23:22,087
+So if you go to facthacks.cr.yp.to then you'll find all the scripts
+
+484
+00:23:22,087 --> 00:23:23,879
+if you want to play with it at the same time,
+
+485
+00:23:23,879 --> 00:23:26,625
+including this one with some explanations and such.
+
+486
+00:23:26,625 --> 00:23:31,092
+So what you do is you start off two different numbers,
+
+487
+00:23:31,092 --> 00:23:34,788
+one at each step squares it and adds c.
+
+488
+00:23:34,788 --> 00:23:37,226
+And the other one squares it, adds c,
+
+489
+00:23:37,226 --> 00:23:39,886
+and squares it again and adds the c.
+
+490
+00:23:39,886 --> 00:23:41,455
+Each time computing mod N.
+
+491
+00:23:41,455 --> 00:23:44,102
+So you have two sequences running around,
+
+492
+00:23:44,102 --> 00:23:46,023
+one is twice the speed as the other.
+
+493
+00:23:46,023 --> 00:23:50,953
+At every step you check with the GCD of this number N
+
+494
+00:23:50,953 --> 00:23:52,757
+and the difference between the two walks
+
+495
+00:23:52,757 --> 00:23:55,006
+hasn't anything interested now.
+
+496
+00:23:55,006 --> 00:23:57,390
+N is an RSA modulus, the only thing interesting
+
+497
+00:23:57,390 --> 00:23:59,675
+could either be p or q.
+
+498
+00:23:59,675 --> 00:24:03,009
+So for this particular number
+
+499
+00:24:03,009 --> 00:24:04,270
+when I run this
+
+500
+00:24:04,270 --> 00:24:08,894
+I find 2053 after a few milliseconds.
+
+501
+00:24:08,894 --> 00:24:10,642
+So this is again a cooked up example.
+
+502
+00:24:10,642 --> 00:24:13,307
+You won't find such a small factor if you're trying
+
+503
+00:24:13,307 --> 00:24:16,173
+a general RSA factor, otherwise your numbers
+
+504
+00:24:16,173 --> 00:24:17,830
+would be totally busted but
+
+505
+00:24:17,830 --> 00:24:20,604
+this shows if you have a small number in there
+
+506
+00:24:20,604 --> 00:24:21,857
+it's very easy to find.
+
+507
+00:24:21,857 --> 00:24:24,357
+All later on when Dan is talking about the number field sieve
+
+508
+00:24:24,357 --> 00:24:26,157
+this is an interesting subroutine.
+
+509
+00:24:26,157 --> 00:24:28,089
+So if you ever need to find small numbers
+
+510
+00:24:28,089 --> 00:24:31,020
+then, sure trial division is very easy for
+
+511
+00:24:31,020 --> 00:24:34,080
+really small numbers taking this long,
+
+512
+00:24:34,080 --> 00:24:38,352
+this one squared with p is much faster already.
+
+513
+00:24:38,352 --> 00:24:42,070
+Now even faster than that, also due to Pollard,
+
+514
+00:24:42,070 --> 00:24:45,378
+called Pollard's p-1 method.
+
+515
+00:24:45,378 --> 00:24:47,904
+Here is again an innocent looking number N.
+
+516
+00:24:47,904 --> 00:24:49,842
+You see the numbers get larger.
+
+517
+00:24:49,842 --> 00:24:52,176
+This is a 256 bit number.
+
+518
+00:24:52,176 --> 00:24:56,744
+In order to deal with such a number there is  one step
+
+519
+00:24:56,744 --> 00:24:59,342
+which is expensive but you would do it only once
+
+520
+00:24:59,342 --> 00:25:01,208
+for all different numbers you want to try,
+
+521
+00:25:01,208 --> 00:25:05,238
+namely compute a big integer which has lots of little factors.
+
+522
+00:25:05,238 --> 00:25:06,985
+So you take the least common multiple
+
+523
+00:25:06,985 --> 00:25:09,788
+from 1, 2, 3, 4, 5...
+
+524
+00:25:09,788 --> 00:25:12,203
+Ok, once you hit the 4 you have another 2 in there.
+
+525
+00:25:12,203 --> 00:25:13,808
+So there's lots and lots of powers of 2,
+
+526
+00:25:13,808 --> 00:25:15,408
+lots and lots of powers of 3.
+
+527
+00:25:15,408 --> 00:25:19,390
+And then the larger primes only appear like once.
+
+528
+00:25:19,390 --> 00:25:23,161
+But you're not going up to 2^256 or 2^128 anywhere.
+
+529
+00:25:23,161 --> 00:25:27,005
+You're sticking here at 22 bits
+
+530
+00:25:27,005 --> 00:25:29,059
+and then use the same function that Nadia explained
+
+531
+00:25:29,059 --> 00:25:32,987
+in the RSA computation, namely the modular expansion.
+
+532
+00:25:32,987 --> 00:25:36,576
+So you take the 2^y,
+
+533
+00:25:36,576 --> 00:25:38,241
+this huge number,
+
+534
+00:25:38,241 --> 00:25:40,486
+but the whole computation mod N.
+
+535
+00:25:40,486 --> 00:25:44,633
+So this whole thing never growth beyond this 256 bit number.
+
+536
+00:25:44,633 --> 00:25:47,939
+Or for a real world example it would be a 1000 bit number.
+
+537
+00:25:47,939 --> 00:25:52,518
+And then you compute the GCD of this number and N.
+
+538
+00:25:52,518 --> 00:25:55,091
+For this particular one, again it's a cooked up example,
+
+539
+00:25:55,091 --> 00:25:56,390
+you get a factor.
+
+540
+00:25:56,390 --> 00:25:59,791
+Now this factor is actually 120 bits.
+
+541
+00:25:59,791 --> 00:26:02,369
+This is not a small factor.
+
+542
+00:26:02,369 --> 00:26:05,688
+So if you were using 256 bit numbers
+
+543
+00:26:05,688 --> 00:26:07,856
+this is something that could happen to you
+
+544
+00:26:07,856 --> 00:26:11,305
+and nevertheless this method would find it.
+
+545
+00:26:11,305 --> 00:26:13,522
+So this finds much larger factors than trial division
+
+546
+00:26:13,522 --> 00:26:15,484
+or the Rho method in the same amount of time.
+
+547
+00:26:15,484 --> 00:26:17,376
+But it doesn't work for all primes.
+
+548
+00:26:17,376 --> 00:26:20,066
+It works for primes which are kind of special.
+
+549
+00:26:20,066 --> 00:26:23,859
+Now what's special about this prime or the other factor?
+
+550
+00:26:23,859 --> 00:26:29,553
+If you take p and subtract -1, hence the name p-1 method,
+
+551
+00:26:29,553 --> 00:26:31,660
+and factor that thing,
+
+552
+00:26:31,660 --> 00:26:35,272
+that has lots, lots of small numbers.
+
+553
+00:26:35,272 --> 00:26:36,937
+So that's something we call smooth.
+
+554
+00:26:36,937 --> 00:26:40,342
+So a smooth number doesn't have big factors.
+
+555
+00:26:40,342 --> 00:26:43,868
+So a prime is like the least smooth number you can imagine.
+
+556
+00:26:43,868 --> 00:26:47,367
+And 2 to the power large is the most smooth number,
+
+557
+00:26:47,367 --> 00:26:50,007
+so lots of little factors means smooth.
+
+558
+00:26:50,007 --> 00:26:55,568
+This largest factor happens to be 21.7 bits
+
+559
+00:26:55,568 --> 00:26:58,355
+which is why I chose the 22 bits here.
+
+560
+00:26:58,355 --> 00:27:03,702
+So as soon I run over the largest prime in p-1
+
+561
+00:27:03,702 --> 00:27:06,127
+with this exponent y here
+
+562
+00:27:06,127 --> 00:27:08,653
+then I do find this factor.
+
+563
+00:27:08,653 --> 00:27:10,851
+Now if you thought this was math
+
+564
+00:27:10,851 --> 00:27:12,322
+there is even more scary math
+
+565
+00:27:12,322 --> 00:27:15,893
+namely there are methods which are generalizing
+
+566
+00:27:15,893 --> 00:27:19,319
+this p-1 method using elliptic curves.
+
+567
+00:27:19,319 --> 00:27:21,569
+If you listen to the crypto advertisement
+
+568
+00:27:21,569 --> 00:27:23,472
+elliptic curves are usually something very good,
+
+569
+00:27:23,472 --> 00:27:25,005
+something you should have on your smartcard.
+
+570
+00:27:25,005 --> 00:27:27,245
+It's faster than RSA and so on.
+
+571
+00:27:27,245 --> 00:27:29,385
+That's the same type of elliptic curve
+
+572
+00:27:29,385 --> 00:27:32,342
+but here elliptic curves come in as an attack tool.
+
+573
+00:27:32,342 --> 00:27:35,088
+There is a method called the elliptic curve method ECM
+
+574
+00:27:35,088 --> 00:27:41,255
+which is a generalization of this p-1 method and does not need anything special,
+
+575
+00:27:41,255 --> 00:27:44,708
+I mean avoiding such primes is easy.
+
+576
+00:27:44,708 --> 00:27:46,325
+If you look into older standards
+
+577
+00:27:46,325 --> 00:27:49,852
+they all warn about "make sure to use strong primes"
+
+578
+00:27:49,852 --> 00:27:53,174
+"make sure to check that your p-1 is not smooth"
+
+579
+00:27:53,174 --> 00:27:55,301
+And of course you don't want your p-1 to be smooth
+
+580
+00:27:55,301 --> 00:27:57,670
+because otherwise this attack works.
+
+581
+00:27:57,670 --> 00:28:00,760
+But if I have some elliptic curve
+
+582
+00:28:00,760 --> 00:28:03,492
+a different type of prime is weak for that curve
+
+583
+00:28:03,492 --> 00:28:06,351
+and I have many, many, many elliptic curves.
+
+584
+00:28:06,351 --> 00:28:08,617
+For each of the curves some primes are weak.
+
+585
+00:28:08,617 --> 00:28:11,161
+You can't exclude this method.
+
+586
+00:28:11,161 --> 00:28:13,573
+So the only thing you can do is just, well,
+
+587
+00:28:13,573 --> 00:28:18,035
+shoot your prime large enough and hope, well,
+
+588
+00:28:18,035 --> 00:28:20,436
+make sure p-1 doesn't get it and hope
+
+589
+00:28:20,436 --> 00:28:22,601
+that the next elliptic curves won't get it.
+
+590
+00:28:22,601 --> 00:28:24,855
+So elliptic curves are good for attacking.
+
+591
+00:28:24,855 --> 00:28:27,624
+It's still not the fastest method out there
+
+592
+00:28:27,624 --> 00:28:33,185
+but it's a good method for random factoring.
+
+593
+00:28:33,185 --> 00:28:35,917
+It's not the best method for finding RSA factors
+
+594
+00:28:35,917 --> 00:28:38,366
+but if you have a number which is most likely
+
+595
+00:28:38,366 --> 00:28:44,532
+not too non-smooth then it's a good method.
+
+596
+00:28:44,532 --> 00:28:47,234
+Now this is what you do for finding small factors.
+
+597
+00:28:47,234 --> 00:28:50,509
+To show some method for big factors,
+
+598
+00:28:50,509 --> 00:28:53,994
+now here that is a big number.
+
+599
+00:28:53,994 --> 00:28:58,978
+But this is what I would call factorization by inspection.
+
+600
+00:28:58,978 --> 00:29:07,876
+What's wrong with this number?
+
+601
+00:29:07,876 --> 00:29:10,129
+I mean this number is not small and
+
+602
+00:29:10,129 --> 00:29:13,162
+it won't have small factors, I promise you this.
+
+603
+00:29:13,162 --> 00:29:19,835
+So it's a decimal representation, so 9 is the digit before 0.
+
+604
+00:29:19,835 --> 00:29:23,246
+This looks very close to the power of 10.
+
+605
+00:29:23,246 --> 00:29:28,253
+Actually this is very close to 10^340.
+
+606
+00:29:28,253 --> 00:29:30,292
+If you take the square root of it
+
+607
+00:29:30,292 --> 00:29:34,150
+then you almost exactly hit 10^170.
+
+608
+00:29:34,150 --> 00:29:37,113
+This example was cooked up as taking two primes
+
+609
+00:29:37,113 --> 00:29:46,646
+namely 10^170-33 and 10^170+63 and multiplying them.
+
+610
+00:29:46,646 --> 00:29:48,667
+So if you see lots of 0's and lots of 9's
+
+611
+00:29:48,667 --> 00:29:50,934
+then you know that you are very close to a certain power.
+
+612
+00:29:50,934 --> 00:29:53,464
+Now in real life this wouldn't be a power of 10,
+
+613
+00:29:53,464 --> 00:29:54,817
+it would be a power of 2.
+
+614
+00:29:54,817 --> 00:29:56,179
+And there actually are some examples.
+
+615
+00:29:56,179 --> 00:29:58,817
+There's a famous story of a letter bomber in Austria
+
+616
+00:29:58,817 --> 00:30:02,650
+who wanted his message to be crackable
+
+617
+00:30:02,650 --> 00:30:06,047
+and he sent a message, well he was some right-wing asshole
+
+618
+00:30:06,047 --> 00:30:08,332
+that was letter-bombing people
+
+619
+00:30:08,332 --> 00:30:10,813
+and then he sent an encrypted message to the police.
+
+620
+00:30:10,813 --> 00:30:14,642
+And the police tried to factor it and tried to decipher it
+
+621
+00:30:14,642 --> 00:30:18,568
+hoping it would be the list of the next victims.
+
+622
+00:30:18,568 --> 00:30:20,980
+In the end it was not but
+
+623
+00:30:20,980 --> 00:30:24,419
+this person was actually using very close to a power of 2
+
+624
+00:30:24,419 --> 00:30:26,211
+in order to have people crack it.
+
+625
+00:30:26,211 --> 00:30:27,769
+In the end it was just some propaganda,
+
+626
+00:30:27,769 --> 00:30:29,462
+some right-wing stuff as well.
+
+627
+00:30:29,462 --> 00:30:32,783
+So there are people using this for breakability.
+
+628
+00:30:32,783 --> 00:30:35,499
+I'm not aware of people actually using this as an accident.
+
+629
+00:30:35,499 --> 00:30:40,437
+But what can happen to you is not using close to the power of 2
+
+630
+00:30:40,437 --> 00:30:46,200
+but saying "ok I learned I shouldn't be close to the power of 2
+
+631
+00:30:46,200 --> 00:30:48,848
+so I take some offset and take the next prime."
+
+632
+00:30:48,848 --> 00:30:51,130
+Next prime just means, add 1, check is it prime,
+
+633
+00:30:51,130 --> 00:30:53,798
+add next one, add 2, add 3
+
+634
+00:30:53,798 --> 00:30:57,082
+Just check primes linearly from then on.
+
+635
+00:30:57,082 --> 00:30:59,261
+Now if we jump to this where we finally find our prime p
+
+636
+00:30:59,261 --> 00:31:00,966
+it's a good prime.
+
+637
+00:31:00,966 --> 00:31:03,869
+It's not anywhere close to the power of 2 because my c was large enough.
+
+638
+00:31:03,869 --> 00:31:07,130
+Made it, good.
+
+639
+00:31:07,130 --> 00:31:08,562
+Now on q.
+
+640
+00:31:08,562 --> 00:31:10,776
+So again call the next<u>prime().</u>
+
+641
+00:31:10,776 --> 00:31:14,445
+So I do p+1, p+2 until I find a prime.
+
+642
+00:31:14,445 --> 00:31:17,215
+That means that if you take the product of the two
+
+643
+00:31:17,215 --> 00:31:19,469
+then this N is very close to a square.
+
+644
+00:31:19,469 --> 00:31:22,920
+So this N is cooked up with this method.
+
+645
+00:31:22,920 --> 00:31:24,412
+You don't see anything on the end,
+
+646
+00:31:24,412 --> 00:31:26,678
+there's nothing wrong there.
+
+647
+00:31:26,678 --> 00:31:29,650
+But when you compute the square of it
+
+648
+00:31:29,650 --> 00:31:33,156
+it is almost an integer, it's .99999...
+
+649
+00:31:33,156 --> 00:31:35,208
+and then some dirt here.
+
+650
+00:31:35,208 --> 00:31:39,288
+So then you'll know that your primes were to small.
+
+651
+00:31:39,288 --> 00:31:42,286
+I mean, sorry, not too small, too close to each other.
+
+652
+00:31:42,286 --> 00:31:45,483
+So if you ever an RSA factor modulus
+
+653
+00:31:45,483 --> 00:31:46,841
+and you compute the square root
+
+654
+00:31:46,841 --> 00:31:47,991
+and you see something like this
+
+655
+00:31:47,991 --> 00:31:51,885
+then you know: that user did this method.
+
+656
+00:31:51,885 --> 00:31:53,661
+You could just say, I take the number,
+
+657
+00:31:53,661 --> 00:31:56,549
+subtract 1, subtract 2, just go off from the square root.
+
+658
+00:31:56,549 --> 00:32:02,022
+All you can check how far away is it from being a square.
+
+659
+00:32:02,022 --> 00:32:03,701
+So you take the seeding,
+
+660
+00:32:03,701 --> 00:32:07,950
+that means the closest integer counting upwards.
+
+661
+00:32:07,950 --> 00:32:11,817
+Just round it to this two, here's 57, is there a 56?
+
+662
+00:32:11,817 --> 00:32:14,520
+Compute the square of that and subtract N.
+
+663
+00:32:14,520 --> 00:32:17,987
+Now in this example that is 4096
+
+664
+00:32:17,987 --> 00:32:22,595
+which itself is a square.
+
+665
+00:32:22,595 --> 00:32:26,636
+So the difference of N and a^2 is a square.
+
+666
+00:32:26,636 --> 00:32:30,915
+Then I take this 64, take a-64, divide N,
+
+667
+00:32:30,915 --> 00:32:34,413
+it's an exact division, so I found one of the factors.
+
+668
+00:32:34,413 --> 00:32:37,200
+And then there's the other factor.
+
+669
+00:32:37,200 --> 00:32:39,738
+It doesn't matter whether it's a power of 2 or a power of 10.
+
+670
+00:32:39,738 --> 00:32:42,569
+What matters is that the numbers are close.
+
+671
+00:32:42,569 --> 00:32:44,712
+Now this method actually works surprisingly well
+
+672
+00:32:44,712 --> 00:32:47,436
+even if we don't do next<u>prime().</u>
+
+673
+00:32:47,436 --> 00:32:50,332
+So here's another example where I didn't do the next<u>prime()</u>
+
+674
+00:32:50,332 --> 00:32:52,281
+but did something larger
+
+675
+00:32:52,281 --> 00:32:55,114
+so this is not really close to a square.
+
+676
+00:32:55,114 --> 00:32:57,731
+Some 9's but not too many.
+
+677
+00:32:57,731 --> 00:33:00,053
+What we did before we wrote it as a difference of squares
+
+678
+00:33:00,053 --> 00:33:04,614
+and then divided N by one of this two factors.
+
+679
+00:33:04,614 --> 00:33:10,050
+Now in this case here I would not start as a^2-N
+
+680
+00:33:10,050 --> 00:33:12,255
+but I say, well, if a^2-N is not a square
+
+681
+00:33:12,255 --> 00:33:15,997
+I try the next one, I do (a+1)^2, (a+2)^2
+
+682
+00:33:15,997 --> 00:33:20,777
+each time subtract N and check when this is a square.
+
+683
+00:33:20,777 --> 00:33:24,170
+Now for this example I get lucky after 2.
+
+684
+00:33:24,170 --> 00:33:26,331
+And this actually took me a long time to cook up this example
+
+685
+00:33:26,331 --> 00:33:28,613
+because I was starting at something which was
+
+686
+00:33:28,613 --> 00:33:31,669
+half of the bits of p were changed.
+
+687
+00:33:31,669 --> 00:33:35,872
+So I was actually starting with a cube quite a distant away.
+
+688
+00:33:35,872 --> 00:33:38,216
+Still, most of those were just giving a square.
+
+689
+00:33:38,216 --> 00:33:42,070
+They were not giving me anything larger than zero here.
+
+690
+00:33:42,070 --> 00:33:45,598
+Now for general numbers if I wouldn't do like next<u>number()</u>
+
+691
+00:33:45,598 --> 00:33:48,786
+but just, well, random prime, another random prime.
+
+692
+00:33:48,786 --> 00:33:52,687
+It still works but takes a long time
+
+693
+00:33:52,687 --> 00:33:55,488
+because I can always write it this way.
+
+694
+00:33:55,488 --> 00:33:56,786
+This is a, this is b.
+
+695
+00:33:56,786 --> 00:34:00,603
+But then usually it would take about square root of N
+
+696
+00:34:00,603 --> 00:34:03,752
+which is the same size as p until I get there.
+
+697
+00:34:03,752 --> 00:34:07,352
+This is a nice method if it looks like lots of
+
+698
+00:34:07,352 --> 00:34:13,386
+9999 and otherwise do something better as Dan will tell now.
+
+699
+00:34:13,386 --> 00:34:13,955
+<i>Dan<i>: Ok.</i></i>
+
+700
+00:34:13,955 --> 00:34:21,508
+<i>applause</i>
+
+701
+00:34:21,508 --> 00:34:23,662
+Alright, so it's bad to have p and q
+
+702
+00:34:23,662 --> 00:34:24,805
+too close to each other
+
+703
+00:34:24,805 --> 00:34:28,640
+or have a small p or to have p and q non-random.
+
+704
+00:34:28,640 --> 00:34:31,010
+So let's do everything right.
+
+705
+00:34:31,010 --> 00:34:34,236
+Let's make just independently choose some big p
+
+706
+00:34:34,236 --> 00:34:37,033
+between 2^511 and 2^512
+
+707
+00:34:37,033 --> 00:34:38,667
+and choose some big q
+
+708
+00:34:38,667 --> 00:34:42,586
+without being like the next prime or anywhere in the ballpark of p.
+
+709
+00:34:42,586 --> 00:34:47,859
+You could maybe say q has to be between 2^509 and 2^510
+
+710
+00:34:47,859 --> 00:34:49,522
+and then it's definitely nowhere near p.
+
+711
+00:34:49,522 --> 00:34:52,539
+Now you got this public key and p times q
+
+712
+00:34:52,539 --> 00:34:54,473
+which is a 1024 bit RSA key.
+
+713
+00:34:54,473 --> 00:34:58,745
+If nothing has gone wrong with your randomness generation
+
+714
+00:34:58,745 --> 00:35:00,153
+then what does the attacker do?
+
+715
+00:35:00,153 --> 00:35:04,472
+Well, we don't know anything fast.
+
+716
+00:35:04,472 --> 00:35:06,840
+So this is gonna be the one part of the talk
+
+717
+00:35:06,840 --> 00:35:08,495
+where there's these big powers of 2
+
+718
+00:35:08,495 --> 00:35:09,778
+for how fast things are
+
+719
+00:35:09,778 --> 00:35:11,139
+because they're not really fast.
+
+720
+00:35:11,139 --> 00:35:14,624
+You have to think about how much something like 2^80 is.
+
+721
+00:35:14,624 --> 00:35:15,938
+There's all these different methods,
+
+722
+00:35:15,938 --> 00:35:17,944
+I'll just skip down to the last two.
+
+723
+00:35:17,944 --> 00:35:19,999
+There's the quadratic sieve (QS),
+
+724
+00:35:19,999 --> 00:35:22,114
+the number field sieve (NFS).
+
+725
+00:35:22,114 --> 00:35:24,109
+These have been around since, well,
+
+726
+00:35:24,109 --> 00:35:29,192
+QS since the 80th, NFS since the early 90th.
+
+727
+00:35:29,192 --> 00:35:32,327
+The NFS, the general consensus is
+
+728
+00:35:32,327 --> 00:35:35,197
+it takes something like 2^80 operations.
+
+729
+00:35:35,197 --> 00:35:36,675
+Now here's something fun to try.
+
+730
+00:35:36,675 --> 00:35:38,844
+If somebody says 2^80 operations
+
+731
+00:35:38,844 --> 00:35:41,473
+and there's some cryptographer talking about the security or something,
+
+732
+00:35:41,473 --> 00:35:44,244
+ask them: what do you mean by an operation?
+
+733
+00:35:44,244 --> 00:35:45,996
+How fast is this operation?
+
+734
+00:35:45,996 --> 00:35:47,480
+And then most of the people saying this
+
+735
+00:35:47,480 --> 00:35:48,624
+will go running screaming like:
+
+736
+00:35:48,624 --> 00:35:49,850
+I don't know what an operation is,
+
+737
+00:35:49,850 --> 00:35:51,193
+don't ask me that question.
+
+738
+00:35:51,193 --> 00:35:53,382
+But still people will confidently tell you
+
+739
+00:35:53,382 --> 00:35:56,230
+that the NFS takes 2^80 operations
+
+740
+00:35:56,230 --> 00:36:00,347
+to break any 1024 bit RSA key
+
+741
+00:36:00,347 --> 00:36:02,237
+even if the user hasn't done anything wrong,
+
+742
+00:36:02,237 --> 00:36:04,047
+the implementor hasn't done anything wrong.
+
+743
+00:36:04,047 --> 00:36:05,631
+And this number, this 2^80
+
+744
+00:36:05,631 --> 00:36:07,618
+if you pin down what those operations are,
+
+745
+00:36:07,618 --> 00:36:11,100
+this is something which is doable today
+
+746
+00:36:11,100 --> 00:36:15,746
+by people with a big botnet or people with a big computer cluster.
+
+747
+00:36:15,746 --> 00:36:18,611
+I'll give some details what I mean, the size is there.
+
+748
+00:36:18,611 --> 00:36:21,797
+As your computers get cheaper and cheaper,
+
+749
+00:36:21,797 --> 00:36:23,720
+somehow chips aren't going up in clockspeed
+
+750
+00:36:23,720 --> 00:36:25,149
+but they're still getting cheaper.
+
+751
+00:36:25,149 --> 00:36:27,636
+You can get a really cheap ARM which is doing
+
+752
+00:36:27,636 --> 00:36:28,904
+the same kind of computations
+
+753
+00:36:28,904 --> 00:36:31,501
+that a pretty big CPU was doing several years ago.
+
+754
+00:36:31,501 --> 00:36:33,181
+And chips are gonna continue getting cheaper
+
+755
+00:36:33,181 --> 00:36:36,604
+for a while. These attacks against RSA 1024
+
+756
+00:36:36,604 --> 00:36:39,568
+are going to be common doable for more and more people.
+
+757
+00:36:39,568 --> 00:36:43,119
+How do these methods work?
+
+758
+00:36:43,119 --> 00:36:47,210
+I'll give one example and then one little Sage script.
+
+759
+00:36:47,210 --> 00:36:50,169
+Let's try just a really small number.
+
+760
+00:36:50,169 --> 00:36:51,717
+This will be with the quadratic sieve
+
+761
+00:36:51,717 --> 00:36:53,727
+which is not as fancy as the number field sieve
+
+762
+00:36:53,727 --> 00:36:56,395
+but it will give you some idea of how these methods work.
+
+763
+00:36:56,395 --> 00:36:59,978
+The QS starts with that Fermat method you heard about.
+
+764
+00:36:59,978 --> 00:37:04,066
+Remember, the idea there was to try to find a square
+
+765
+00:37:04,066 --> 00:37:08,574
+as a^2-N, so <i>a</i> was like the square root of N
+
+766
+00:37:08,574 --> 00:37:10,525
+or maybe the plus 1, plus 2 and so on
+
+767
+00:37:10,525 --> 00:37:13,333
+and you keep searching for a+1 and so on,
+
+768
+00:37:13,333 --> 00:37:15,933
+search for numbers that if you square them and subtract N
+
+769
+00:37:15,933 --> 00:37:17,056
+then you get a square.
+
+770
+00:37:17,056 --> 00:37:20,708
+So let's try that for 50=2759 which is not very big.
+
+771
+00:37:20,708 --> 00:37:23,975
+Then you try, 53 was the ceiling of the square root,
+
+772
+00:37:23,975 --> 00:37:27,673
+square that, subtract 2759, you get 50.
+
+773
+00:37:27,673 --> 00:37:31,171
+Well 25 would be a square, but 50 is not a square
+
+774
+00:37:31,171 --> 00:37:33,309
+it's 2 times 25, 2 times 5^2.
+
+775
+00:37:33,309 --> 00:37:37,208
+And then you try another number, 54^2-2759
+
+776
+00:37:37,208 --> 00:37:39,911
+umm 157, that's too complicated
+
+777
+00:37:39,911 --> 00:37:42,707
+I don't remember that being a square so let's just skip it.
+
+778
+00:37:42,707 --> 00:37:45,687
+And then you keep going like this, 266, 377,
+
+779
+00:37:45,687 --> 00:37:48,223
+<b>490</b>. I remember 49 is a square
+
+780
+00:37:48,223 --> 00:37:50,354
+but that doesn't mean that 490 is a square
+
+781
+00:37:50,354 --> 00:37:52,372
+cause 10, 2 times 5, that's not a square.
+
+782
+00:37:52,372 --> 00:37:55,871
+And 605, you can try...
+
+783
+00:37:55,871 --> 00:37:58,640
+We remember how to take out the 5
+
+784
+00:37:58,640 --> 00:38:01,275
+and then 60... 605 divided by 5.
+
+785
+00:38:01,275 --> 00:38:03,588
+You can figure out it's 5 times 11^2.
+
+786
+00:38:03,588 --> 00:38:05,158
+It's almost a square.
+
+787
+00:38:05,158 --> 00:38:06,774
+You keep doing this for a while
+
+788
+00:38:06,774 --> 00:38:10,534
+and it seems like Fermat's method is actually working pretty badly.
+
+789
+00:38:10,534 --> 00:38:13,754
+It does work eventually but it's taking quite a while.
+
+790
+00:38:13,754 --> 00:38:16,671
+Here's what the quadratic sieve does.
+
+791
+00:38:16,671 --> 00:38:19,527
+From the same computation you look at these
+
+792
+00:38:19,527 --> 00:38:21,585
+numbers that were not exactly squares
+
+793
+00:38:21,585 --> 00:38:23,634
+50 and 490 and 605
+
+794
+00:38:23,634 --> 00:38:27,056
+and you notice if you multiple them together
+
+795
+00:38:27,056 --> 00:38:28,472
+50 was 2 times 5^2
+
+796
+00:38:28,472 --> 00:38:30,756
+490 is 2 times 5 times 7^2
+
+797
+00:38:30,756 --> 00:38:33,068
+605 is 5 times 11^2
+
+798
+00:38:33,068 --> 00:38:34,585
+and then you multiply those together
+
+799
+00:38:34,585 --> 00:38:38,524
+you get 2^2 and 5^4 and 7^2 and 11^2
+
+800
+00:38:38,524 --> 00:38:41,123
+and that's exactly the square of something.
+
+801
+00:38:41,123 --> 00:38:44,592
+The square of 2^1 times 5^2 times 7 times 11.
+
+802
+00:38:44,592 --> 00:38:48,175
+Then the quadratic sieve is taking the square root of that number
+
+803
+00:38:48,175 --> 00:38:52,553
+and subtracting that from the product of the fifty-somethings
+
+804
+00:38:52,553 --> 00:38:53,953
+that were on the left side
+
+805
+00:38:53,953 --> 00:38:56,826
+and taking the greatest common divisor of that with N
+
+806
+00:38:56,826 --> 00:38:59,787
+and amazingly that produces a factor of N.
+
+807
+00:38:59,787 --> 00:39:02,289
+And it's not just some random accident that
+
+808
+00:39:02,289 --> 00:39:04,370
+if you had tried the greatest common divisor of
+
+809
+00:39:04,370 --> 00:39:06,085
+"write down some hocuspocus then"
+
+810
+00:39:06,085 --> 00:39:08,803
+"you eventually get 31 coming out"
+
+811
+00:39:08,803 --> 00:39:10,576
+"every 31 times you write down a random number"
+
+812
+00:39:10,576 --> 00:39:13,020
+"it will have this 31 dividing it"
+
+813
+00:39:13,020 --> 00:39:15,347
+No, you can try this for bigger and bigger numbers
+
+814
+00:39:15,347 --> 00:39:17,038
+and actually this keeps working.
+
+815
+00:39:17,038 --> 00:39:18,663
+As soon as you find a square product
+
+816
+00:39:18,663 --> 00:39:23,212
+then half of those square products are gonna  factor N.
+
+817
+00:39:23,212 --> 00:39:25,365
+So that's how the quadratic sieve works.
+
+818
+00:39:25,365 --> 00:39:28,915
+Here's a more systematic script with a much bigger number
+
+819
+00:39:28,915 --> 00:39:31,300
+which if it were just hocuspocus this wouldn't work.
+
+820
+00:39:31,300 --> 00:39:32,616
+But this does work.
+
+821
+00:39:32,616 --> 00:39:36,834
+So there's a number from my computer's random number generator
+
+822
+00:39:36,834 --> 00:39:41,661
+31415926... <i>laughter</i>
+
+823
+00:39:41,661 --> 00:39:45,099
+You try writing down a bunch of squares...
+
+824
+00:39:45,099 --> 00:39:48,285
+maybe I should get my computer's random number generator checked.
+
+825
+00:39:48,285 --> 00:39:50,636
+It is this two year old laptop you heard about before
+
+826
+00:39:50,636 --> 00:39:52,202
+so I'm not sure it's working properly.
+
+827
+00:39:52,202 --> 00:39:55,599
+You take a bunch of a^2-N and then
+
+828
+00:39:55,599 --> 00:39:57,414
+let's make a list of those called X.
+
+829
+00:39:57,414 --> 00:40:00,752
+You can see the range, there is up to 500.000 numbers.
+
+830
+00:40:00,752 --> 00:40:02,948
+It's a pretty big list we're talking about.
+
+831
+00:40:02,948 --> 00:40:05,749
+And then search through those elements,
+
+832
+00:40:05,749 --> 00:40:08,538
+search through those a^2-N, those differences,
+
+833
+00:40:08,538 --> 00:40:09,504
+the elements in this list,
+
+834
+00:40:09,504 --> 00:40:12,985
+to see which ones have easy factorizations.
+
+835
+00:40:12,985 --> 00:40:15,445
+Now a lot of numbers like that 157
+
+836
+00:40:15,445 --> 00:40:16,970
+I know what the factorization of that is
+
+837
+00:40:16,970 --> 00:40:19,846
+but there is function which you can find on our website
+
+838
+00:40:19,846 --> 00:40:22,696
+easyfactorizations() which looks through the list X
+
+839
+00:40:22,696 --> 00:40:25,251
+and if it finds numbers that are easy to factor
+
+840
+00:40:25,251 --> 00:40:27,935
+then it quickly writes down the factorizations
+
+841
+00:40:27,935 --> 00:40:30,482
+using the small prime techniques you heard about.
+
+842
+00:40:30,482 --> 00:40:33,169
+And then makes a list of those easy factorizations,
+
+843
+00:40:33,169 --> 00:40:34,396
+puts those into F.
+
+844
+00:40:34,396 --> 00:40:37,600
+And then there's a big chunk which I won't try to explain
+
+845
+00:40:37,600 --> 00:40:39,986
+which is called linear algebra mod 2.
+
+846
+00:40:39,986 --> 00:40:42,586
+And that somehow figures out a square
+
+847
+00:40:42,586 --> 00:40:45,697
+that comes from the factorizations,
+
+848
+00:40:45,697 --> 00:40:48,363
+somehow looks through this list of factorizations
+
+849
+00:40:48,363 --> 00:40:50,803
+and magically applies some linear algebra stuff.
+
+850
+00:40:50,803 --> 00:40:52,612
+Well ok, I won't go through that.
+
+851
+00:40:52,612 --> 00:40:54,071
+It's something doable
+
+852
+00:40:54,071 --> 00:40:58,604
+and this is using some standard Sage functions to do it pretty easily.
+
+853
+00:40:58,604 --> 00:41:01,738
+There's all sorts of things that
+
+854
+00:41:01,738 --> 00:41:03,664
+in the interest of time I won't get into
+
+855
+00:41:03,664 --> 00:41:05,867
+like how this easyfactorizations() works.
+
+856
+00:41:05,867 --> 00:41:07,603
+And this is something where people write papers
+
+857
+00:41:07,603 --> 00:41:09,801
+and papers and papers talking about trying to make this
+
+858
+00:41:09,801 --> 00:41:11,603
+go as quickly as possible.
+
+859
+00:41:11,603 --> 00:41:14,737
+I do want to emphasize one fact about these methods:
+
+860
+00:41:14,737 --> 00:41:17,484
+the bold-faced <b>very small memory requirements</b>.
+
+861
+00:41:17,484 --> 00:41:20,038
+You can use the elliptic curve method
+
+862
+00:41:20,038 --> 00:41:21,531
+that you heard about before
+
+863
+00:41:21,531 --> 00:41:24,882
+you can use that to figure out easy factorizations
+
+864
+00:41:24,882 --> 00:41:27,063
+using very little memory.
+
+865
+00:41:27,063 --> 00:41:28,503
+That means you can build a chip
+
+866
+00:41:28,503 --> 00:41:30,471
+like a FPGA, a special purpose ASIC,
+
+867
+00:41:30,471 --> 00:41:33,285
+you can have thousands of little ECM units
+
+868
+00:41:33,285 --> 00:41:35,066
+running in parallel, so you can really
+
+869
+00:41:35,066 --> 00:41:38,153
+massively parallelize this easyfactorizations() function.
+
+870
+00:41:38,153 --> 00:41:40,187
+So if people tell you "oh you need tons of
+
+871
+00:41:40,187 --> 00:41:43,386
+memory for sieving to find easy factorizations"
+
+872
+00:41:43,386 --> 00:41:45,868
+then you should tell them "no no, that's not true"
+
+873
+00:41:45,868 --> 00:41:47,979
+"ECM you can do with very little memory
+
+874
+00:41:47,979 --> 00:41:50,351
+running massively parallelizable"
+
+875
+00:41:50,351 --> 00:41:52,802
+And then there's other things which,
+
+876
+00:41:52,802 --> 00:41:54,490
+I suppose if we had another hour
+
+877
+00:41:54,490 --> 00:41:56,432
+then we could get into all these details
+
+878
+00:41:56,432 --> 00:41:59,117
+of like how the number field sieve goes beyond this.
+
+879
+00:41:59,117 --> 00:42:01,970
+It's a similar kind of method but gets more complicated.
+
+880
+00:42:01,970 --> 00:42:05,181
+I do want to emphasize again thing in bold-face here
+
+881
+00:42:05,181 --> 00:42:06,946
+which is that if somebody tells you
+
+882
+00:42:06,946 --> 00:42:10,438
+"oh 2^80 operations, the attacker wouldn't do
+
+883
+00:42:10,438 --> 00:42:13,796
+that because the target isn't worth that much to them"
+
+884
+00:42:13,796 --> 00:42:18,284
+Well, <b>Batch NFS</b> is a way to take a bunch of N's
+
+885
+00:42:18,284 --> 00:42:20,566
+and like the batch techniques before
+
+886
+00:42:20,566 --> 00:42:23,516
+there's some magic ways to find redundancies
+
+887
+00:42:23,516 --> 00:42:25,884
+between doing factorizations of those N's.
+
+888
+00:42:25,884 --> 00:42:26,937
+So somebody tells you:
+
+889
+00:42:26,937 --> 00:42:30,000
+"oh 2^80, that isn't worth it for the attacker."
+
+890
+00:42:30,000 --> 00:42:33,296
+Well, <b>Batch NFS</b> reduces the cost quite a bit
+
+891
+00:42:33,296 --> 00:42:34,821
+for factoring each key.
+
+892
+00:42:34,821 --> 00:42:36,846
+If the attacker has a lot of keys to target
+
+893
+00:42:36,846 --> 00:42:39,852
+they can factor all of them in not much more cost
+
+894
+00:42:39,852 --> 00:42:41,396
+than just factoring one.
+
+895
+00:42:41,396 --> 00:42:43,734
+So don't believe people who take an economic view
+
+896
+00:42:43,734 --> 00:42:46,987
+how much the number field sieve is worth.
+
+897
+00:42:46,987 --> 00:42:49,416
+Alright, what does this mean?
+
+898
+00:42:49,416 --> 00:42:52,118
+Can the attacker actually do the NFS
+
+899
+00:42:52,118 --> 00:42:54,134
+once they've put in all these optimizations?
+
+900
+00:42:54,134 --> 00:42:59,064
+Well if you look carefully at the analyses of the NFS
+
+901
+00:42:59,064 --> 00:43:02,416
+there are only about 2^70 differences.
+
+902
+00:43:02,416 --> 00:43:04,149
+Things like these a^2-N's.
+
+903
+00:43:04,149 --> 00:43:08,862
+If you look through 2^70 of those and scan them properly,
+
+904
+00:43:08,862 --> 00:43:10,773
+find easy factorizations, do linear algebra,
+
+905
+00:43:10,773 --> 00:43:13,669
+you will factor any 1024 bit key.
+
+906
+00:43:13,669 --> 00:43:16,314
+And 2^70, how big is that number?
+
+907
+00:43:16,314 --> 00:43:20,820
+It's actually small enough that you can do this computation on
+
+908
+00:43:20,820 --> 00:43:22,469
+your favorite botnet.
+
+909
+00:43:22,469 --> 00:43:25,749
+Say, Conficker is shrinking, still
+
+910
+00:43:25,749 --> 00:43:27,947
+and it will probably be wiped out at some point
+
+911
+00:43:27,947 --> 00:43:29,488
+but it's an example of what you can do
+
+912
+00:43:29,488 --> 00:43:32,468
+using any of these security problems that are deployed
+
+913
+00:43:32,468 --> 00:43:33,632
+on enough machines.
+
+914
+00:43:33,632 --> 00:43:35,398
+You can break into a bunch of machines,
+
+915
+00:43:35,398 --> 00:43:36,521
+millions of machines.
+
+916
+00:43:36,521 --> 00:43:40,296
+Conficker estimates vary between 7 million and 12 million machines.
+
+917
+00:43:40,296 --> 00:43:44,320
+So use your, say, 2^23, that's 8 million machines.
+
+918
+00:43:44,320 --> 00:43:46,519
+Count how many seconds there are in a year
+
+919
+00:43:46,519 --> 00:43:48,553
+and then, say, ok that means we have to do
+
+920
+00:43:48,553 --> 00:43:52,070
+2^22 differences per second machine.
+
+921
+00:43:52,070 --> 00:43:56,902
+And that is slower than state of the art factorization code already runs.
+
+922
+00:43:56,902 --> 00:43:59,231
+So it's actually a pretty easy computation.
+
+923
+00:43:59,231 --> 00:44:02,334
+You don't even need that many millions of computers to do this.
+
+924
+00:44:02,334 --> 00:44:04,470
+If people tell you "wait a minute"
+
+925
+00:44:04,470 --> 00:44:06,120
+"you can't just use a bunch of machines"
+
+926
+00:44:06,120 --> 00:44:08,073
+"there's all this work for linear algebra"
+
+927
+00:44:08,073 --> 00:44:09,966
+Then I'll just skip this.
+
+928
+00:44:09,966 --> 00:44:12,882
+Be aware that linear algebra is not as much of a problem
+
+929
+00:44:12,882 --> 00:44:15,334
+as some people would say.
+
+930
+00:44:15,334 --> 00:44:18,872
+If you use a big botnet there's one little problem.
+
+931
+00:44:18,872 --> 00:44:21,053
+For an attacker who breaks into a bunch of machines
+
+932
+00:44:21,053 --> 00:44:23,903
+and then starts spinning them up, heating up the CPU,
+
+933
+00:44:23,903 --> 00:44:25,921
+the fan starts running, the user starts wondering
+
+934
+00:44:25,921 --> 00:44:28,017
+"why is my machine running so slowly?"
+
+935
+00:44:28,017 --> 00:44:30,133
+Maybe only use half of the CPU
+
+936
+00:44:30,133 --> 00:44:33,570
+but still it has still got a good chance of getting you detected
+
+937
+00:44:33,570 --> 00:44:35,202
+and kicked off the machines.
+
+938
+00:44:35,202 --> 00:44:37,266
+Users are gonna shut you down if you're doing a
+
+939
+00:44:37,266 --> 00:44:39,463
+say, year of computation on your botnet.
+
+940
+00:44:39,463 --> 00:44:42,883
+So what do you do instead?
+
+941
+00:44:42,883 --> 00:44:45,021
+Well you build a little computer cluster.
+
+942
+00:44:45,021 --> 00:44:49,354
+Now yesterday we heard about a big building
+
+943
+00:44:49,354 --> 00:44:51,164
+in Bluffdale, Utah, that apparently
+
+944
+00:44:51,164 --> 00:44:54,832
+is going to store all of the data collected by
+
+945
+00:44:54,832 --> 00:44:57,171
+the NSA for the next hundred years
+
+946
+00:44:57,171 --> 00:44:58,854
+or maybe forever.
+
+947
+00:44:58,854 --> 00:45:00,914
+But something that I didn't hear emphasized yesterday
+
+948
+00:45:00,914 --> 00:45:04,916
+was that this building also has a new power substation
+
+949
+00:45:04,916 --> 00:45:08,150
+which is drawing 65 megawatts,
+
+950
+00:45:08,150 --> 00:45:10,155
+well generating 65 megawatts.
+
+951
+00:45:10,155 --> 00:45:13,999
+Now what are we doing with 65 megawatts?
+
+952
+00:45:13,999 --> 00:45:15,308
+Is that the kind of power that you need to
+
+953
+00:45:15,308 --> 00:45:17,490
+store a bunch of data on tapes?
+
+954
+00:45:17,490 --> 00:45:21,175
+No, that's the kind of power you need to do computations.
+
+955
+00:45:21,175 --> 00:45:24,725
+So what is NSA doing with 2^26 watts?
+
+956
+00:45:24,725 --> 00:45:26,955
+Or maybe even with more watts.
+
+957
+00:45:26,955 --> 00:45:30,909
+You shouldn't actually think that 2^26 is such a big number.
+
+958
+00:45:30,909 --> 00:45:33,526
+Here's a little table with, well,
+
+959
+00:45:33,526 --> 00:45:36,573
+2^57 admittedly is pushing it a little bit.
+
+960
+00:45:36,573 --> 00:45:40,620
+This is the total power that the earth gets from the sun
+
+961
+00:45:40,620 --> 00:45:43,207
+of which about half gets to the earth's surface.
+
+962
+00:45:43,207 --> 00:45:47,610
+2^44 is the amount the human is using right now.
+
+963
+00:45:47,610 --> 00:45:50,888
+Varies a little bit but I mean this is the average power
+
+964
+00:45:50,888 --> 00:45:53,427
+including cars and such.
+
+965
+00:45:53,427 --> 00:45:56,446
+If you have the botnet that breaks into millions of machines
+
+966
+00:45:56,446 --> 00:45:59,944
+and runs in flat-out that's about 2^30 watts.
+
+967
+00:45:59,944 --> 00:46:01,610
+And actually if you think about it, wait a minute,
+
+968
+00:46:01,610 --> 00:46:02,575
+there's a lot of machines out there.
+
+969
+00:46:02,575 --> 00:46:07,270
+This means the 2^26 is not actually that much power.
+
+970
+00:46:07,270 --> 00:46:11,456
+It's just one dinky little Bluffdale 65 MW computer center
+
+971
+00:46:11,456 --> 00:46:14,594
+and actually if you're a government agency
+
+972
+00:46:14,594 --> 00:46:16,138
+you probably have more than one of those.
+
+973
+00:46:16,138 --> 00:46:19,273
+As you heard yesterday in the context of data storage
+
+974
+00:46:19,273 --> 00:46:21,292
+but again, it's not just data storage.
+
+975
+00:46:21,292 --> 00:46:26,492
+You don't make a 65 MW power station to just store data.
+
+976
+00:46:26,492 --> 00:46:30,207
+Ok, if you just take standard graphics processing units
+
+977
+00:46:30,207 --> 00:46:33,223
+and run 2^26 watts to those that will do about
+
+978
+00:46:33,223 --> 00:46:36,446
+2^84 floating point multiplications per year.
+
+979
+00:46:36,446 --> 00:46:39,827
+You have to figure out, ok, what are exactly the operations involved here.
+
+980
+00:46:39,827 --> 00:46:44,829
+This should be enough to break 1024 bit RSA
+
+981
+00:46:44,829 --> 00:46:48,088
+and if NSA is not just buying GPU's off-the-shelves
+
+982
+00:46:48,088 --> 00:46:50,226
+but really tuning chips that they build
+
+983
+00:46:50,226 --> 00:46:57,409
+using IBM to manufacture their chips at the moment.
+
+984
+00:46:57,409 --> 00:47:01,626
+Apparently it wasn't cost-effective for NSA to manufacture their own chips
+
+985
+00:47:01,626 --> 00:47:04,475
+so in 2005 they started subcontracting for IBM
+
+986
+00:47:04,475 --> 00:47:08,153
+but presumably through that fabrication IBM is building chips
+
+987
+00:47:08,153 --> 00:47:11,073
+that NSA wants and those should be about 10 times faster
+
+988
+00:47:11,073 --> 00:47:13,025
+than what GPU's can do.
+
+989
+00:47:13,025 --> 00:47:18,362
+So it should be possible with this little 65 MW computer cluster
+
+990
+00:47:18,362 --> 00:47:21,476
+to factor at least 1, maybe even 10,
+
+991
+00:47:21,476 --> 00:47:23,478
+and then with batch NFS maybe even more
+
+992
+00:47:23,478 --> 00:47:30,010
+1024 bit RSA keys in a year.
+
+993
+00:47:30,010 --> 00:47:38,229
+<i>applause</i>
+
+994
+00:47:38,229 --> 00:47:41,130
+<i>Nadia<i>: So to conclude things up here I want to</i></i>
+
+995
+00:47:41,130 --> 00:47:43,290
+explain how you can use
+
+996
+00:47:43,290 --> 00:47:46,057
+from the comfort of your very own home
+
+997
+00:47:46,057 --> 00:47:52,242
+a distributed, a massive scale distributed cloud computing service
+
+998
+00:47:52,242 --> 00:47:57,142
+to calculate private keys on your own.
+
+999
+00:47:57,142 --> 00:48:00,313
+So many of you may be familiar with Amazon EC2
+
+1000
+00:48:00,313 --> 00:48:04,635
+but it turns out Google also has a large amount of computing infrastructure
+
+1001
+00:48:04,635 --> 00:48:07,339
+and they actually have a very convenient web interface
+
+1002
+00:48:07,339 --> 00:48:08,446
+to access it.
+
+1003
+00:48:08,446 --> 00:48:12,978
+<i>laugther</i>
+
+1004
+00:48:12,978 --> 00:48:21,677
+<i>applause</i>
+
+1005
+00:48:21,677 --> 00:48:23,961
+It's amazing what you can find on the Internet.
+
+1006
+00:48:23,961 --> 00:48:26,143
+<i>laughter</i>
+
+1007
+00:48:26,143 --> 00:48:29,393
+So ok, here's some keys except, you know,
+
+1008
+00:48:29,393 --> 00:48:30,578
+if you look at these carefully
+
+1009
+00:48:30,578 --> 00:48:33,277
+not all of these are sort of obviously RSA keys.
+
+1010
+00:48:33,277 --> 00:48:35,204
+There are some problems here
+
+1011
+00:48:35,204 --> 00:48:40,704
+like the second to last one on the bottom.
+
+1012
+00:48:40,704 --> 00:48:41,688
+So...
+
+1013
+00:48:41,688 --> 00:48:43,338
+<i>laughter</i>
+
+1014
+00:48:43,338 --> 00:48:49,820
+After doing this search we found this key and
+
+1015
+00:48:49,820 --> 00:48:55,279
+someone seems to have pasted a private key into pastebin
+
+1016
+00:48:55,279 --> 00:49:00,491
+and someone came along and interrupted part of it
+
+1017
+00:49:00,491 --> 00:49:04,759
+with some profanity.
+
+1018
+00:49:04,759 --> 00:49:07,387
+This is an interesting problem.
+
+1019
+00:49:07,387 --> 00:49:08,812
+What do we do with this key?
+
+1020
+00:49:08,812 --> 00:49:12,310
+Clearly this is an interesting key, we must have this key.
+
+1021
+00:49:12,310 --> 00:49:14,204
+<i>laughter</i>
+
+1022
+00:49:14,204 --> 00:49:24,847
+<i>applause</i>
+
+1023
+00:49:24,847 --> 00:49:26,046
+Step 1... yeah?
+
+1024
+00:49:26,046 --> 00:49:29,572
+<i>indiscernible comment from audience</i>
+
+1025
+00:49:29,572 --> 00:49:31,204
+<i>Nadia<i>: Well, we'll discuss this.</i></i>
+
+1026
+00:49:31,204 --> 00:49:34,308
+<i>Angel<i>: Questions will be later, after the talk please.</i></i>
+
+1027
+00:49:34,308 --> 00:49:39,368
+<i>Nadia<i>: So yeah, we've removed the obvious problems here.</i></i>
+
+1028
+00:49:39,368 --> 00:49:41,636
+But there's still an issue which is that
+
+1029
+00:49:41,636 --> 00:49:43,844
+we're missing hundreds and hundreds of bits of key.
+
+1030
+00:49:43,844 --> 00:49:45,940
+We can't brute force-this.
+
+1031
+00:49:45,940 --> 00:49:47,658
+What are we gonna do?
+
+1032
+00:49:47,658 --> 00:49:51,327
+Well, let's look at what RSA keys actually are.
+
+1033
+00:49:51,327 --> 00:49:53,509
+I introduced RSA keys and I was, like,
+
+1034
+00:49:53,509 --> 00:49:56,786
+it's a d and d has like a thosand of bits.
+
+1035
+00:49:56,786 --> 00:50:00,671
+And if we don't know p and q
+
+1036
+00:50:00,671 --> 00:50:02,608
+how are we gonna get this d?
+
+1037
+00:50:02,608 --> 00:50:07,923
+Here is the storage format for an RSA key.
+
+1038
+00:50:07,923 --> 00:50:11,258
+Public key is the modulus N, the public exponent e.
+
+1039
+00:50:11,258 --> 00:50:14,710
+Ok, private key has version, N, e,
+
+1040
+00:50:14,710 --> 00:50:16,536
+d the decryption exponent,
+
+1041
+00:50:16,536 --> 00:50:20,273
+p, q, d mod (p-1), d mod (q-1),
+
+1042
+00:50:20,273 --> 00:50:22,975
+the inverse of q mod p,
+
+1043
+00:50:22,975 --> 00:50:25,305
+this is all useful information if you want to
+
+1044
+00:50:25,305 --> 00:50:26,960
+speed up your calculation and not have to
+
+1045
+00:50:26,960 --> 00:50:29,405
+compute everything every time you use your key.
+
+1046
+00:50:29,405 --> 00:50:32,493
+Okay.
+
+1047
+00:50:32,493 --> 00:50:35,952
+What did we see here then?
+
+1048
+00:50:35,952 --> 00:50:40,975
+Here is the key broken up into all of the difference pieces.
+
+1049
+00:50:40,975 --> 00:50:44,804
+So we have: the red bit is approximately where N is sitting.
+
+1050
+00:50:44,804 --> 00:50:46,754
+We've got e in orange.
+
+1051
+00:50:46,754 --> 00:50:50,569
+We've got part of d in yellow.
+
+1052
+00:50:50,569 --> 00:50:52,372
+We seem to be missing p
+
+1053
+00:50:52,372 --> 00:50:54,656
+but we've got part of q
+
+1054
+00:50:54,656 --> 00:50:56,791
+and then here's d mod p-1
+
+1055
+00:50:56,791 --> 00:51:02,408
+and d mod q-1 and q inverse mod p.
+
+1056
+00:51:02,408 --> 00:51:07,712
+There's also a little problem before the red here
+
+1057
+00:51:07,712 --> 00:51:08,436
+<i>laughter</i>
+
+1058
+00:51:08,436 --> 00:51:10,504
+in addition.
+
+1059
+00:51:10,504 --> 00:51:13,561
+You might call this the private part of the private key.
+
+1060
+00:51:13,561 --> 00:51:15,936
+<i>laughter</i>
+
+1061
+00:51:15,936 --> 00:51:21,391
+<i>applause</i>
+
+1062
+00:51:21,391 --> 00:51:23,859
+Fortunately this is just sitting in an encoding of the length
+
+1063
+00:51:23,859 --> 00:51:30,275
+and the version. <i>laughter</i>
+
+1064
+00:51:30,275 --> 00:51:33,151
+Alright, so what do we do with this information?
+
+1065
+00:51:33,151 --> 00:51:36,673
+Basically given any part of this private key
+
+1066
+00:51:36,673 --> 00:51:38,910
+we can easily compute all of the other parts.
+
+1067
+00:51:38,910 --> 00:51:40,257
+Simple formulas:
+
+1068
+00:51:40,257 --> 00:51:48,938
+q will be 2^(e times d mod p-1) - 1 and GCD that with N
+
+1069
+00:51:48,938 --> 00:51:51,872
+then we get q and then
+
+1070
+00:51:51,872 --> 00:51:54,455
+we can figure out what p was by dividing
+
+1071
+00:51:54,455 --> 00:51:56,393
+and figure out what d is
+
+1072
+00:51:56,393 --> 00:51:57,953
+and so on and so forth.
+
+1073
+00:51:57,953 --> 00:52:02,460
+You can do this even if you have a part of a single value
+
+1074
+00:52:02,460 --> 00:52:04,109
+from the private key.
+
+1075
+00:52:04,109 --> 00:52:08,195
+You can still compute the rest of the private key from that.
+
+1076
+00:52:08,195 --> 00:52:12,338
+We don't have time to get into this but it's online.
+
+1077
+00:52:12,338 --> 00:52:16,557
+You've seen a little bit of math.
+
+1078
+00:52:16,557 --> 00:52:18,060
+Single formulas, typed into Sage.
+
+1079
+00:52:18,060 --> 00:52:22,591
+We can reconstruct the private key here.
+
+1080
+00:52:22,591 --> 00:52:29,487
+<i>applause</i>
+
+1081
+00:52:29,487 --> 00:52:32,941
+So, what are the lessons that we can learn
+
+1082
+00:52:32,941 --> 00:52:35,554
+from everything that we've done today.
+
+1083
+00:52:35,554 --> 00:52:38,945
+The first one is: stop using 1024 bit RSA
+
+1084
+00:52:38,945 --> 00:52:41,010
+if you haven't already.
+
+1085
+00:52:41,010 --> 00:52:43,386
+I have looked at the keys that are out there on the Internet
+
+1086
+00:52:43,386 --> 00:52:45,941
+and you are still using 1024 bit RSA.
+
+1087
+00:52:45,941 --> 00:52:48,463
+<i>laughter</i>
+
+1088
+00:52:48,463 --> 00:52:51,790
+Second: make sure your primes are big enough.
+
+1089
+00:52:51,790 --> 00:52:54,227
+Don't try to be clever about how you're generating them.
+
+1090
+00:52:54,227 --> 00:52:58,025
+Make sure your primes are random.
+
+1091
+00:52:58,025 --> 00:52:59,303
+You guys have some problems
+
+1092
+00:52:59,303 --> 00:53:01,394
+especially in hardware.
+
+1093
+00:53:01,394 --> 00:53:03,621
+Also...
+
+1094
+00:53:03,621 --> 00:53:04,921
+<i>laughter</i>
+
+1095
+00:53:04,921 --> 00:53:09,091
+"FUCK A DUCK" is not good crypto.
+
+1096
+00:53:09,091 --> 00:53:11,545
+Pastebin is not a secure cloud store.
+
+1097
+00:53:11,545 --> 00:53:13,874
+<i>laughter</i>
+
+1098
+00:53:13,874 --> 00:53:20,289
+<i>applause</i>
+
+1099
+00:53:20,289 --> 00:53:22,657
+And you probably shouldn't put your private key
+
+1100
+00:53:22,657 --> 00:53:24,778
+in a secure cloud store anyway.
+
+1101
+00:53:24,778 --> 00:53:25,862
+<i>laughter</i>
+
+1102
+00:53:25,862 --> 00:53:31,396
+<i>applause</i>
+
+1103
+00:53:31,396 --> 00:53:32,577
+And lastly...
+
+1104
+00:53:32,577 --> 00:53:34,211
+<i>laughter</i>
+
+1105
+00:53:34,211 --> 00:53:40,427
+<i>applause</i>
+
+1106
+00:53:40,427 --> 00:53:41,625
+Thank you.
+
+1107
+00:53:41,625 --> 00:53:43,894
+<i>applause</i>
+
+1108
+00:53:43,894 --> 00:53:44,804
+<i>Angel<i>: Give them an applause.</i></i>
+
+1109
+00:53:44,804 --> 00:54:05,937
+<i>applause</i>
+
+1110
+00:54:05,937 --> 00:54:11,379
+<i>Angel<i>: So questions will be taken at the numbered microphones.</i></i>
+
+1111
+00:54:11,379 --> 00:54:14,962
+So anyone who has a question please line up at a microphone
+
+1112
+00:54:14,962 --> 00:54:16,959
+and we will start by the signal angel
+
+1113
+00:54:16,959 --> 00:54:19,528
+who has a question from IRC.
+
+1114
+00:54:19,528 --> 00:54:23,628
+<i>Signal Angel<i>: IRC has a lot of punch lines involving penisses</i></i>
+
+1115
+00:54:23,628 --> 00:54:26,040
+and some questions.
+
+1116
+00:54:26,040 --> 00:54:31,445
+First question is: would you recommend more using
+
+1117
+00:54:31,445 --> 00:54:37,640
+elliptic curves or RSA with multiple primes...
+
+1118
+00:54:37,640 --> 00:54:41,659
+using proper primes.
+
+1119
+00:54:41,659 --> 00:54:47,192
+<i>Dan<i>: There are ways to do elliptic curves wrong,</i></i>
+
+1120
+00:54:47,192 --> 00:54:48,854
+there are ways to do RSA wrong.
+
+1121
+00:54:48,854 --> 00:54:53,806
+In general if you've got a particular performance requirement
+
+1122
+00:54:53,806 --> 00:54:55,625
+then elliptic curves are gonna meet that
+
+1123
+00:54:55,625 --> 00:54:57,861
+with a much higher security level
+
+1124
+00:54:57,861 --> 00:55:00,208
+than RSA is gonna meet that.
+
+1125
+00:55:00,208 --> 00:55:03,005
+Of course you can do RSA securely,
+
+1126
+00:55:03,005 --> 00:55:04,928
+you can do elliptic curves securely
+
+1127
+00:55:04,928 --> 00:55:07,153
+but if you've got some performance limitation
+
+1128
+00:55:07,153 --> 00:55:08,613
+as many applications do
+
+1129
+00:55:08,613 --> 00:55:13,043
+then elliptic curves tend to be a better choice.
+
+1130
+00:55:13,043 --> 00:55:14,429
+<i>Nadia<i>: I also want to clarify</i></i>
+
+1131
+00:55:14,429 --> 00:55:17,826
+the other most commonly used public-key cryptosystem
+
+1132
+00:55:17,826 --> 00:55:19,979
+is DSA, the Digital Signature Algorithm.
+
+1133
+00:55:19,979 --> 00:55:21,426
+There's also elliptic curve DSA
+
+1134
+00:55:21,426 --> 00:55:23,291
+which is probably what you're thinking about
+
+1135
+00:55:23,291 --> 00:55:25,570
+with elliptic curve cryptography.
+
+1136
+00:55:25,570 --> 00:55:31,207
+DSA is in my opinion actually much worse
+
+1137
+00:55:31,207 --> 00:55:34,395
+than RSA in terms of randomness failures.
+
+1138
+00:55:34,395 --> 00:55:36,246
+In the paper that Dan referenced
+
+1139
+00:55:36,246 --> 00:55:39,377
+we also talk about randomness failures in DSA
+
+1140
+00:55:39,377 --> 00:55:40,993
+and it's horrifying.
+
+1141
+00:55:40,993 --> 00:55:44,521
+If you ever ever screw up randomness in a single signature
+
+1142
+00:55:44,521 --> 00:55:48,354
+your entire public key is lost.
+
+1143
+00:55:48,354 --> 00:55:50,761
+<i>Angel:</i> We will take the next question from microphone nr 4
+
+1144
+00:55:50,761 --> 00:55:53,072
+to the right of the seat.
+
+1145
+00:55:53,072 --> 00:55:53,824
+<i>Jake<i>: Hey guys.</i></i>
+
+1146
+00:55:53,824 --> 00:55:56,277
+Sorry I didn't mention the computing power of Bluffdale.
+
+1147
+00:55:56,277 --> 00:56:02,072
+That said, when we want to transition from 1024 bit RSA
+
+1148
+00:56:02,072 --> 00:56:05,339
+to something else, what do you think is a good idea?
+
+1149
+00:56:05,339 --> 00:56:10,028
+So for example, in Tor we do use 1024 bit RSA for TLS.
+
+1150
+00:56:10,028 --> 00:56:12,528
+<i>laughter</i> Yeah I know, right?
+
+1151
+00:56:12,528 --> 00:56:15,592
+So the thing is we're working on changing these things
+
+1152
+00:56:15,592 --> 00:56:17,079
+but what is...
+
+1153
+00:56:17,079 --> 00:56:19,766
+I mean Zooko has this 100 year crypto project.
+
+1154
+00:56:19,766 --> 00:56:21,806
+What is the real thing that we should,
+
+1155
+00:56:21,806 --> 00:56:23,910
+like if we could switch tomorrow to something,
+
+1156
+00:56:23,910 --> 00:56:26,595
+what's the useful that we can live with for 5 or 10 years?
+
+1157
+00:56:26,595 --> 00:56:28,795
+Is 2048 going to be useful?
+
+1158
+00:56:28,795 --> 00:56:31,179
+Is 4096 where we should go tomorrow?
+
+1159
+00:56:31,179 --> 00:56:32,780
+Cause there is a trade-off between
+
+1160
+00:56:32,780 --> 00:56:34,588
+performance and forward secrecy
+
+1161
+00:56:34,588 --> 00:56:37,962
+and there are a lot of things to think about.
+
+1162
+00:56:37,962 --> 00:56:40,078
+<i>Tanja<i>: If you tell me 5 to 10 years</i></i>
+
+1163
+00:56:40,078 --> 00:56:42,360
+I would be still comfortable with elliptic curves.
+
+1164
+00:56:42,360 --> 00:56:44,773
+If you talk 100 years
+
+1165
+00:56:44,773 --> 00:56:47,691
+and then there's all these worse quantum computers around
+
+1166
+00:56:47,691 --> 00:56:51,143
+then I would go for something which is worse in performance
+
+1167
+00:56:51,143 --> 00:56:52,829
+like code-based cryptography
+
+1168
+00:56:52,829 --> 00:56:54,043
+or for signatures hashing
+
+1169
+00:56:54,043 --> 00:56:55,738
+but if you'd say in 5 to 10 years
+
+1170
+00:56:55,738 --> 00:56:57,411
+I'm very comfortable recommending to you
+
+1171
+00:56:57,411 --> 00:56:59,941
+elliptic curves with 256 bits.
+
+1172
+00:56:59,941 --> 00:57:02,160
+<i>Jake<i>: Ok, thanks.</i></i>
+
+1173
+00:57:02,160 --> 00:57:04,878
+<i>Herald<i>: Signal angel?</i></i>
+
+1174
+00:57:04,878 --> 00:57:07,190
+<i>Signal Angel<i>: Yeah, another question from IRC.</i></i>
+
+1175
+00:57:07,190 --> 00:57:11,028
+If you avoid all the easy primes
+
+1176
+00:57:11,028 --> 00:57:14,227
+does this shrink the search space such that
+
+1177
+00:57:14,227 --> 00:57:17,862
+it becomes easier to crack the remaining keys?
+
+1178
+00:57:17,862 --> 00:57:20,161
+Or asked another way:
+
+1179
+00:57:20,161 --> 00:57:25,146
+can you quantify the ratio of easy primes very hard primes?
+
+1180
+00:57:25,146 --> 00:57:26,287
+<i>Dan<i>: Yeah, that's a good question.</i></i>
+
+1181
+00:57:26,287 --> 00:57:28,573
+The answer is: yes, it can be quantified
+
+1182
+00:57:28,573 --> 00:57:32,829
+and once you're up to about to the 1024 bit RSA key level
+
+1183
+00:57:32,829 --> 00:57:35,306
+then there's very very few weak primes.
+
+1184
+00:57:35,306 --> 00:57:37,078
+So if you have a random number,
+
+1185
+00:57:37,078 --> 00:57:38,593
+you just generate a random primes
+
+1186
+00:57:38,593 --> 00:57:40,238
+then your chance of bumping into something weak
+
+1187
+00:57:40,238 --> 00:57:42,793
+is so small that you just don't have to worry about it.
+
+1188
+00:57:42,793 --> 00:57:44,862
+It is one of those much less frequent than
+
+1189
+00:57:44,862 --> 00:57:46,580
+being hit by a lightning kind of events.
+
+1190
+00:57:46,580 --> 00:57:49,210
+It is something that have been quantified
+
+1191
+00:57:49,210 --> 00:57:52,244
+and it is an issue for smaller RSA keys
+
+1192
+00:57:52,244 --> 00:57:54,872
+back when people were using, say, 512 bit RSA
+
+1193
+00:57:54,872 --> 00:57:56,754
+then it was actually a noticable issue.
+
+1194
+00:57:56,754 --> 00:57:59,123
+But once you're at 1024 or above then
+
+1195
+00:57:59,123 --> 00:58:00,694
+the issue is basically gone.
+
+1196
+00:58:00,694 --> 00:58:03,831
+It's something where you can and you should
+
+1197
+00:58:03,831 --> 00:58:06,097
+look at exactly what the chance is of bumping into a weak
+
+1198
+00:58:06,097 --> 00:58:08,828
+but it's not reallistically something
+
+1199
+00:58:08,828 --> 00:58:13,259
+you're gonna encounter with 1024 bit RSA.
+
+1200
+00:58:13,259 --> 00:58:16,542
+<i>Herald<i>: We're gonna take the next question from nr 1.</i></i>
+
+1201
+00:58:16,542 --> 00:58:19,313
+Just one notice: we don't have a lot of time left
+
+1202
+00:58:19,313 --> 00:58:23,546
+so even though there is a talk in one hour
+
+1203
+00:58:23,546 --> 00:58:25,078
+just ask.
+
+1204
+00:58:25,078 --> 00:58:28,165
+<i>Male<i>: There is a devastating attack that can break AES,</i></i>
+
+1205
+00:58:28,165 --> 00:58:31,872
+SHA2, most probably SHA3 and DES.
+
+1206
+00:58:31,872 --> 00:58:33,758
+It's called a biclique attack.
+
+1207
+00:58:33,758 --> 00:58:35,664
+Are you concerned that it might break RSA
+
+1208
+00:58:35,664 --> 00:58:37,281
+with any key size and even ECC
+
+1209
+00:58:37,281 --> 00:58:39,988
+and even any public-key crypto?
+
+1210
+00:58:39,988 --> 00:58:41,660
+<i>Dan<i>: No.</i></i>
+
+1211
+00:58:41,660 --> 00:58:43,594
+<i>laughter</i>
+
+1212
+00:58:43,594 --> 00:58:46,675
+Bicliques are something which are certainly interesting
+
+1213
+00:58:46,675 --> 00:58:49,590
+and I think about it as a way to speed up brute force
+
+1214
+00:58:49,590 --> 00:58:52,508
+and it speeds up brute force by a noticable factor,
+
+1215
+00:58:52,508 --> 00:58:55,148
+often makes attacks, say, twice as fast.
+
+1216
+00:58:55,148 --> 00:58:58,523
+But with public-key crypto we attacks that are
+
+1217
+00:58:58,523 --> 00:59:00,760
+much much faster than brute force to begin with
+
+1218
+00:59:00,760 --> 00:59:04,209
+so that kind of speed-up of brute force won't competitive
+
+1219
+00:59:04,209 --> 00:59:08,226
+with things like the number field sieve.
+
+1220
+00:59:08,226 --> 00:59:12,964
+<i>Herald<i>: Next is from number 3.</i></i>
+
+1221
+00:59:12,964 --> 00:59:16,824
+<i>Male<i>: Me not coming from the dark side of mathematics,</i></i>
+
+1222
+00:59:16,824 --> 00:59:20,923
+how do I know that my random number generators are fine
+
+1223
+00:59:20,923 --> 00:59:23,661
+for generating keys?
+
+1224
+00:59:23,661 --> 00:59:26,223
+<i>laughter</i>
+
+1225
+00:59:26,223 --> 00:59:31,354
+<i>Nadia<i>: Seed them.</i></i>
+
+1226
+00:59:31,354 --> 00:59:37,042
+Basically the things that are out there if you're using
+
+1227
+00:59:37,042 --> 00:59:40,613
+a standard random number generator like in Linux,
+
+1228
+00:59:40,613 --> 00:59:44,441
+actually Linux has added patches to the kernel
+
+1229
+00:59:44,441 --> 00:59:48,022
+to fix some of the problems that we've found.
+
+1230
+00:59:48,022 --> 00:59:50,431
+If you want to know that you're keys are good:
+
+1231
+00:59:50,431 --> 00:59:54,694
+if you generate them on a general purpose computer
+
+1232
+00:59:54,694 --> 00:59:56,600
+after it has been running for a long time
+
+1233
+00:59:56,600 --> 00:59:59,559
+you're probably fine.
+
+1234
+00:59:59,559 --> 01:00:04,793
+I would not generate very important or long-term keys
+
+1235
+01:00:04,793 --> 01:00:09,707
+on low-power hardware devices where you can't tell...
+
+1236
+01:00:09,707 --> 01:00:11,910
+<i>laughter</i>
+
+1237
+01:00:11,910 --> 01:00:15,758
+<i>Male<i>: Thank you.</i></i>
+
+1238
+01:00:15,758 --> 01:00:18,341
+<i>Herald<i>: Next question will be taken from number 4.</i></i>
+
+1239
+01:00:18,341 --> 01:00:19,394
+<i>Male<i>: Hi.</i></i>
+
+1240
+01:00:19,394 --> 01:00:23,690
+It's just a remark, not really a question.
+
+1241
+01:00:23,690 --> 01:00:25,407
+I work in high performance computing.
+
+1242
+01:00:25,407 --> 01:00:26,910
+I was at the supercomputing conference
+
+1243
+01:00:26,910 --> 01:00:29,376
+a couple of weeks ago.
+
+1244
+01:00:29,376 --> 01:00:31,931
+They're presenting large-scale installations
+
+1245
+01:00:31,931 --> 01:00:35,863
+and dealing with problems of power.
+
+1246
+01:00:35,863 --> 01:00:38,927
+They want to build petaflops and exaflops systems
+
+1247
+01:00:38,927 --> 01:00:42,262
+that are in a range of 20 MW.
+
+1248
+01:00:42,262 --> 01:00:47,316
+So I'm wondering what NSA is doing with 53 megawatts
+
+1249
+01:00:47,316 --> 01:00:53,815
+in a data center because no storage takes that much capacity.
+
+1250
+01:00:53,815 --> 01:00:58,976
+I think it's really something we should think about.
+
+1251
+01:00:58,976 --> 01:01:03,266
+So thanks, nice talk.
+
+1252
+01:01:03,266 --> 01:01:04,883
+<i>Herald<i>: Next question from...</i></i>
+
+1253
+01:01:04,883 --> 01:01:06,961
+does the signal angel have one?
+
+1254
+01:01:06,961 --> 01:01:08,679
+<i>Signal angel<i>: Ok, another question is:</i></i>
+
+1255
+01:01:08,679 --> 01:01:11,845
+How big do you estimate the effort to
+
+1256
+01:01:11,845 --> 01:01:17,308
+exchange keys and certificates involving 1024 bit primes
+
+1257
+01:01:17,308 --> 01:01:22,782
+let's say worldwide at the moment?
+
+1258
+01:01:22,782 --> 01:01:24,502
+<i>Dan<i>: I wasn't getting what the question was.</i></i>
+
+1259
+01:01:24,502 --> 01:01:25,642
+Could you repeat the question?
+
+1260
+01:01:25,642 --> 01:01:27,344
+<i>Signal angel<i>: I don't really understand it myself.</i></i>
+
+1261
+01:01:27,344 --> 01:01:28,875
+<i>laughter</i>
+
+1262
+01:01:28,875 --> 01:01:33,181
+<i>Herald<i>: Ok, let's switch to 1.</i></i>
+
+1263
+01:01:33,181 --> 01:01:37,009
+<i>Male<i>: My question goes back to the idea</i></i>
+
+1264
+01:01:37,009 --> 01:01:42,876
+of how can we know how good the private keys are?
+
+1265
+01:01:42,876 --> 01:01:50,227
+Is there something like a keygen evaluation tool?
+
+1266
+01:01:50,227 --> 01:01:56,567
+Or can the quality of a key generator be estimated
+
+1267
+01:01:56,567 --> 01:01:58,544
+from a sample of keys?
+
+1268
+01:01:58,544 --> 01:02:01,827
+Like a public tool that you can throw keys on
+
+1269
+01:02:01,827 --> 01:02:05,565
+and it will tell me a bias of my keygen?
+
+1270
+01:02:05,565 --> 01:02:09,091
+<i>Nadia<i>: If you go to factorable.net</i></i>
+
+1271
+01:02:09,091 --> 01:02:12,574
+my co-authors and I have made a key check tool
+
+1272
+01:02:12,574 --> 01:02:14,728
+which will tell you if your key is in the
+
+1273
+01:02:14,728 --> 01:02:17,528
+list of keys that we scraped of the Internet
+
+1274
+01:02:17,528 --> 01:02:19,296
+that we were able to compromise.
+
+1275
+01:02:19,296 --> 01:02:21,249
+That's a first check.
+
+1276
+01:02:21,249 --> 01:02:24,449
+It's not a positive verification that your key is good
+
+1277
+01:02:24,449 --> 01:02:26,544
+but it will tell you if it is very bad.
+
+1278
+01:02:26,544 --> 01:02:28,863
+<i>laughter</i>
+
+1279
+01:02:28,863 --> 01:02:36,811
+If you want to check your generator,
+
+1280
+01:02:36,811 --> 01:02:40,827
+if you're worried about the factorization problems
+
+1281
+01:02:40,827 --> 01:02:43,242
+we have fast code on the website in C
+
+1282
+01:02:43,242 --> 01:02:45,715
+that will do the GCD calculation for you
+
+1283
+01:02:45,715 --> 01:02:50,201
+if you just dump a gigantic collection of keys at it.
+
+1284
+01:02:50,201 --> 01:02:54,375
+If you might have other problems like you are
+
+1285
+01:02:54,375 --> 01:02:56,993
+not sure whether it's factorable like those don't come up
+
+1286
+01:02:56,993 --> 01:03:00,497
+the experiment that you might want to do is
+
+1287
+01:03:00,497 --> 01:03:04,211
+sort of restart the process in realistic conditions
+
+1288
+01:03:04,211 --> 01:03:06,179
+and generate a gigantic quantity of keys
+
+1289
+01:03:06,179 --> 01:03:08,981
+and just check for repeats.
+
+1290
+01:03:08,981 --> 01:03:12,378
+The sort of obvious stress testings.
+
+1291
+01:03:12,378 --> 01:03:16,375
+If you have a device you want to boot it up in realistic conditions
+
+1292
+01:03:16,375 --> 01:03:18,048
+and then check them
+
+1293
+01:03:18,048 --> 01:03:19,798
+and this is painstaking work
+
+1294
+01:03:19,798 --> 01:03:22,327
+but I don't think there's any realistic way
+
+1295
+01:03:22,327 --> 01:03:25,546
+of doing better than that.
+
+1296
+01:03:25,546 --> 01:03:28,396
+Or inspect the code, the obvious thing.
+
+1297
+01:03:28,396 --> 01:03:30,924
+Make sure you're seeding anything.
+
+1298
+01:03:30,924 --> 01:03:33,463
+<i>Male<i>: Ok, thank you.</i></i>
+
+1299
+01:03:33,463 --> 01:03:35,993
+<i>Herald<i>: Next question will be from mic number 4.</i></i>
+
+1300
+01:03:35,993 --> 01:03:37,045
+<i>Male<i>: Hi.</i></i>
+
+1301
+01:03:37,045 --> 01:03:40,745
+If I got your numbers correctly so you said something like
+
+1302
+01:03:40,745 --> 01:03:45,450
+it would take 8 million machines a year to factor 1024
+
+1303
+01:03:45,450 --> 01:03:48,976
+so I was wondering what if I would like to factor like
+
+1304
+01:03:48,976 --> 01:03:52,243
+800 bits or 900 bits which is,
+
+1305
+01:03:52,243 --> 01:03:55,149
+as I understand, way easier than 1024
+
+1306
+01:03:55,149 --> 01:03:57,042
+but was never done publicly.
+
+1307
+01:03:57,042 --> 01:04:00,259
+So are you saying that would take like a day or something?
+
+1308
+01:04:00,259 --> 01:04:02,581
+<i>Dan<i>: It depends on the size of cluster you have.</i></i>
+
+1309
+01:04:02,581 --> 01:04:07,064
+The RSA 768 factorization a couple of years ago
+
+1310
+01:04:07,064 --> 01:04:11,423
+used something on the scale of a 1500 computers
+
+1311
+01:04:11,423 --> 01:04:14,130
+for a year.
+
+1312
+01:04:14,130 --> 01:04:15,729
+And those were normal kind of computers,
+
+1313
+01:04:15,729 --> 01:04:19,475
+Desktop kind of computers with, I think, typically 2 cores.
+
+1314
+01:04:19,475 --> 01:04:24,240
+Nowadays, if you have some faster, say, 3 GHz 4-core machines,
+
+1315
+01:04:24,240 --> 01:04:27,446
+I think those were typically 2 GHZ 2-core, nowadays...
+
+1316
+01:04:27,446 --> 01:04:30,582
+Tanja's mentioning you of course want to use GPUs
+
+1317
+01:04:30,582 --> 01:04:31,725
+to speed things up.
+
+1318
+01:04:31,725 --> 01:04:33,397
+And there's many ways to take advantage of
+
+1319
+01:04:33,397 --> 01:04:35,393
+computer technology moving forward.
+
+1320
+01:04:35,393 --> 01:04:39,998
+To get careful estimates: for going from 768 to 800,
+
+1321
+01:04:39,998 --> 01:04:42,192
+that's a short enough extrapolation
+
+1322
+01:04:42,192 --> 01:04:44,113
+that people are pretty confident about that.
+
+1323
+01:04:44,113 --> 01:04:48,014
+Getting to 900 starts getting iffy what exactly the cost would be
+
+1324
+01:04:48,014 --> 01:04:50,951
+and 1024 there's a fair amount of guess works.
+
+1325
+01:04:50,951 --> 01:04:53,796
+There is some consensus on rougly what the costs are
+
+1326
+01:04:53,796 --> 01:04:55,429
+but it's hard to say exactly.
+
+1327
+01:04:55,429 --> 01:04:58,059
+But again, to give you a scale of it:
+
+1328
+01:04:58,059 --> 01:04:59,675
+you were saying like 900 or 800.
+
+1329
+01:04:59,675 --> 01:05:03,213
+Well, 768 RSA challenge was done
+
+1330
+01:05:03,213 --> 01:05:07,228
+and that one was 1500 machine years.
+
+1331
+01:05:07,228 --> 01:05:08,501
+<i>Male<i>: Ok, thank you.</i></i>
+
+1332
+01:05:08,501 --> 01:05:10,260
+<i>Herald<i>: We'll take four more questions.</i></i>
+
+1333
+01:05:10,260 --> 01:05:12,357
+Signal angel first.
+
+1334
+01:05:12,357 --> 01:05:16,676
+<i>Signal angel<i>: It's a clarification of the question I asked before.</i></i>
+
+1335
+01:05:16,676 --> 01:05:22,278
+The actual question is: how big will be the effort
+
+1336
+01:05:22,278 --> 01:05:32,129
+to upgrade existing keys from 1024 to 4K or 8K bits?
+
+1337
+01:05:32,129 --> 01:05:35,984
+Considering that the keys are currently in use
+
+1338
+01:05:35,984 --> 01:05:37,910
+how much effort worldwide would it be to
+
+1339
+01:05:37,910 --> 01:05:41,608
+upgrade all that to something more secure?
+
+1340
+01:05:41,608 --> 01:05:43,559
+<i>Tanja<i>: I mean, for the private user if you're running</i></i>
+
+1341
+01:05:43,559 --> 01:05:46,447
+SSH on the laptop you can just generate a new key.
+
+1342
+01:05:46,447 --> 01:05:47,876
+Doesn't take you much time.
+
+1343
+01:05:47,876 --> 01:05:50,345
+You will notice maybe some degradation of performance
+
+1344
+01:05:50,345 --> 01:05:52,193
+if you're running it on a netbook
+
+1345
+01:05:52,193 --> 01:05:54,755
+but going to 2048 is not a big deal.
+
+1346
+01:05:54,755 --> 01:05:57,710
+However, there is a recommendation of the
+
+1347
+01:05:57,710 --> 01:06:01,932
+US government to stop using 1024 bit RSA as of 2010
+
+1348
+01:06:01,932 --> 01:06:05,211
+and we still see it everywhere.
+
+1349
+01:06:05,211 --> 01:06:07,563
+Apparently it is bigger effort than just
+
+1350
+01:06:07,563 --> 01:06:10,743
+everybody spending 10 minutes on the laptop.
+
+1351
+01:06:10,743 --> 01:06:13,635
+<i>Dan<i>: Maybe part of the problem is thins like</i></i>
+
+1352
+01:06:13,635 --> 01:06:16,997
+everybody says "yeah, use 2048 or bigger"
+
+1353
+01:06:16,997 --> 01:06:18,884
+and there's some financial standard
+
+1354
+01:06:18,884 --> 01:06:21,157
+which says you can use any key size you want
+
+1355
+01:06:21,157 --> 01:06:23,943
+up to 1984 bits.
+
+1356
+01:06:23,943 --> 01:06:25,631
+I have no idea how they came up with this
+
+1357
+01:06:25,631 --> 01:06:27,208
+but then they run into some other standard
+
+1358
+01:06:27,208 --> 01:06:29,284
+which says use 2048 and they just can't
+
+1359
+01:06:29,284 --> 01:06:33,345
+implement it on the smartcards which only support up to 1984.
+
+1360
+01:06:33,345 --> 01:06:36,467
+Now if you get the standards people talking to each other for several years
+
+1361
+01:06:36,467 --> 01:06:39,258
+then they agree on using 1984.
+
+1362
+01:06:39,258 --> 01:06:41,796
+It's just about as good as 2048
+
+1363
+01:06:41,796 --> 01:06:44,746
+but realistically when you have these conflicts
+
+1364
+01:06:44,746 --> 01:06:47,128
+in standards then it takes a while to work out.
+
+1365
+01:06:47,128 --> 01:06:48,742
+And when you have a busy server
+
+1366
+01:06:48,742 --> 01:06:51,233
+that's trying to do 2048 bit RSA
+
+1367
+01:06:51,233 --> 01:06:53,126
+it doesn't matter what the standard says
+
+1368
+01:06:53,126 --> 01:06:55,449
+if you got a ton of load you just can't handle that load
+
+1369
+01:06:55,449 --> 01:06:58,341
+if you're spending a ton of time on cryptography.
+
+1370
+01:06:58,341 --> 01:07:00,460
+And that again is where we like elliptic curves
+
+1371
+01:07:00,460 --> 01:07:02,560
+because they give you for whatever your
+
+1372
+01:07:02,560 --> 01:07:05,341
+performance constraints are much better security.
+
+1373
+01:07:05,341 --> 01:07:07,309
+So if you're trying a given security level
+
+1374
+01:07:07,309 --> 01:07:09,831
+the speed is much better.
+
+1375
+01:07:09,831 --> 01:07:12,807
+<i>Herald<i>: Next question will be from number 2.</i></i>
+
+1376
+01:07:12,807 --> 01:07:14,642
+<i>Female<i>: So you've had two developers stand up</i></i>
+
+1377
+01:07:14,642 --> 01:07:17,459
+and ask how to verify whether or not their
+
+1378
+01:07:17,459 --> 01:07:19,726
+key generation is correct and whether or not their
+
+1379
+01:07:19,726 --> 01:07:21,490
+random numbers are correct.
+
+1380
+01:07:21,490 --> 01:07:23,887
+And I think that you give coding recommendations
+
+1381
+01:07:23,887 --> 01:07:27,441
+like seed rand() but coming from the development
+
+1382
+01:07:27,441 --> 01:07:29,539
+perspective I like to unit test my code
+
+1383
+01:07:29,539 --> 01:07:31,789
+and specifically I like to write my unit tests
+
+1384
+01:07:31,789 --> 01:07:33,043
+before I write my code,
+
+1385
+01:07:33,043 --> 01:07:34,709
+it's called test-driven development.
+
+1386
+01:07:34,709 --> 01:07:38,175
+So if I'm going about creating an algorithm to
+
+1387
+01:07:38,175 --> 01:07:39,994
+encrypt something or whatever
+
+1388
+01:07:39,994 --> 01:07:42,771
+what are the steps that I need to do
+
+1389
+01:07:42,771 --> 01:07:46,653
+when I'm writing my unit test?
+
+1390
+01:07:46,653 --> 01:07:51,939
+Has there been some kind of effort in that way
+
+1391
+01:07:51,939 --> 01:07:54,911
+like what goes into unit test for determining that
+
+1392
+01:07:54,911 --> 01:07:56,606
+your random number is correct?
+
+1393
+01:07:56,606 --> 01:07:59,091
+I mean there's algorithms for determining
+
+1394
+01:07:59,091 --> 01:08:00,562
+whether your random number generator is
+
+1395
+01:08:00,562 --> 01:08:02,773
+operating correctly, right?
+
+1396
+01:08:02,773 --> 01:08:05,160
+<i>Dan<i>: This is something where there is,</i></i>
+
+1397
+01:08:05,160 --> 01:08:07,775
+if you look at how the random number  generators work,
+
+1398
+01:08:07,775 --> 01:08:10,209
+there was just a NIST workshop
+
+1399
+01:08:10,209 --> 01:08:11,975
+and there's some NIST standards
+
+1400
+01:08:11,975 --> 01:08:12,742
+which are telling you
+
+1401
+01:08:12,742 --> 01:08:15,709
+here's what to do to test your random number generators.
+
+1402
+01:08:15,709 --> 01:08:17,796
+So you have a hardware random number generator,
+
+1403
+01:08:17,796 --> 01:08:19,589
+some post-processing, and they say
+
+1404
+01:08:19,589 --> 01:08:22,406
+"ok here's the standard for how to test those pieces"
+
+1405
+01:08:22,406 --> 01:08:24,704
+Now that's not the same as testing the cryptography
+
+1406
+01:08:24,704 --> 01:08:26,335
+that's using those pieces
+
+1407
+01:08:26,335 --> 01:08:28,994
+and it's very helpful if there's a clear separation there.
+
+1408
+01:08:28,994 --> 01:08:30,463
+So you have your cryptography
+
+1409
+01:08:30,463 --> 01:08:32,746
+which is doing deterministic stuff
+
+1410
+01:08:32,746 --> 01:08:34,452
+and says you have to have some randomness coming
+
+1411
+01:08:34,452 --> 01:08:37,806
+from a totally separate unit where the only job
+
+1412
+01:08:37,806 --> 01:08:40,460
+of that separate unit is do the randomness properly.
+
+1413
+01:08:40,460 --> 01:08:42,146
+And then the NIST test will tell you
+
+1414
+01:08:42,146 --> 01:08:43,324
+what the randomness does
+
+1415
+01:08:43,324 --> 01:08:45,938
+and then deterministic cryptographic testing
+
+1416
+01:08:45,938 --> 01:08:48,391
+will tell you that the other pieces are working correctly
+
+1417
+01:08:48,391 --> 01:08:50,211
+for all sorts of inputs.
+
+1418
+01:08:50,211 --> 01:08:53,892
+Where it goes wrong is something like the ECDSA standard
+
+1419
+01:08:53,892 --> 01:08:55,394
+that Nadia was mentioning before
+
+1420
+01:08:55,394 --> 01:08:56,696
+and that's one that says that
+
+1421
+01:08:56,696 --> 01:08:59,210
+you don't just deterministically generate a signature
+
+1422
+01:08:59,210 --> 01:09:01,410
+you make some new randomness every time you generate
+
+1423
+01:09:01,410 --> 01:09:03,705
+a signature and that's what goes horribly wrong.
+
+1424
+01:09:03,705 --> 01:09:05,670
+So that's something where we need standards
+
+1425
+01:09:05,670 --> 01:09:07,790
+which say instead of doing what ECDSA does
+
+1426
+01:09:07,790 --> 01:09:09,741
+we have a clear separation between
+
+1427
+01:09:09,741 --> 01:09:12,192
+the cryptography always does the same thing
+
+1428
+01:09:12,192 --> 01:09:15,043
+making it testable, and then randomness is centralized
+
+1429
+01:09:15,043 --> 01:09:17,541
+in one spot which hopefully the NIST standards
+
+1430
+01:09:17,541 --> 01:09:19,840
+do a good enough job of testing.
+
+1431
+01:09:19,840 --> 01:09:23,508
+<i>Female<i>: So there's something that says here's what determines...</i></i>
+
+1432
+01:09:23,508 --> 01:09:26,946
+I guess what I'm asking is do you know of any algorithms
+
+1433
+01:09:26,946 --> 01:09:30,139
+that can be used for determining whether something
+
+1434
+01:09:30,139 --> 01:09:32,248
+is a good random number and whether your random
+
+1435
+01:09:32,248 --> 01:09:34,525
+number generator is generating things properly?
+
+1436
+01:09:34,525 --> 01:09:37,027
+<i>Tanja<i>: Well, there are a bunch of tests for.</i></i>
+
+1437
+01:09:37,027 --> 01:09:39,307
+There's hardware random number generators
+
+1438
+01:09:39,307 --> 01:09:42,126
+you can run them through the diehard tests.
+
+1439
+01:09:42,126 --> 01:09:44,710
+There's certificates by FIPS.
+
+1440
+01:09:44,710 --> 01:09:48,526
+In general I would recommend implementing all those steps
+
+1441
+01:09:48,526 --> 01:09:50,811
+but the smartcards that have been mentioned by Dan earlier
+
+1442
+01:09:50,811 --> 01:09:52,742
+from the Taiwan citizen card
+
+1443
+01:09:52,742 --> 01:09:55,445
+those are actually FIPS-certified.
+
+1444
+01:09:55,445 --> 01:09:58,942
+So even though, these go through what is the industry standard
+
+1445
+01:09:58,942 --> 01:10:00,922
+of doing random number generation on smartcards
+
+1446
+01:10:00,922 --> 01:10:03,622
+which everybody thought was good enough,
+
+1447
+01:10:03,622 --> 01:10:04,979
+apparently they're not.
+
+1448
+01:10:04,979 --> 01:10:06,477
+So randomness is a total mess.
+
+1449
+01:10:06,477 --> 01:10:08,613
+I mean after the paper by Nadia and
+
+1450
+01:10:08,613 --> 01:10:10,410
+also when the paper by the Lausanne team came out,
+
+1451
+01:10:10,410 --> 01:10:12,692
+there is no some more movement in finding
+
+1452
+01:10:12,692 --> 01:10:14,023
+better random number generators.
+
+1453
+01:10:14,023 --> 01:10:18,659
+At this moment, well, hope for the best.
+
+1454
+01:10:18,659 --> 01:10:20,625
+<i>laughter</i>
+
+1455
+01:10:20,625 --> 01:10:22,178
+Implement the standards, yes.
+
+1456
+01:10:22,178 --> 01:10:24,672
+If you have some source of randomness
+
+1457
+01:10:24,672 --> 01:10:28,424
+try to stretch it with a stream cipher or something like that.
+
+1458
+01:10:28,424 --> 01:10:31,296
+<i>Nadia<i>: I want to tell a little story.</i></i>
+
+1459
+01:10:31,296 --> 01:10:33,227
+After we published the paper
+
+1460
+01:10:33,227 --> 01:10:35,643
+I heard some very interesting things from some of the vendors.
+
+1461
+01:10:35,643 --> 01:10:39,329
+I think one of the things that makes randomness
+
+1462
+01:10:39,329 --> 01:10:42,206
+and cryptography a difficult problem is that
+
+1463
+01:10:42,206 --> 01:10:44,612
+this kind of issue is something that
+
+1464
+01:10:44,612 --> 01:10:46,808
+crosses a lot of the abstraction boundaries
+
+1465
+01:10:46,808 --> 01:10:48,546
+that you're used to in coding.
+
+1466
+01:10:48,546 --> 01:10:50,525
+You want to have the clean unit test that you know
+
+1467
+01:10:50,525 --> 01:10:52,343
+that this piece works, and this piece works,
+
+1468
+01:10:52,343 --> 01:10:53,923
+and this piece works, and this piece works,
+
+1469
+01:10:53,923 --> 01:10:57,777
+and you put them all together and it will all work flawlessly.
+
+1470
+01:10:57,777 --> 01:11:00,297
+Somehow this kind of problem is something that
+
+1471
+01:11:00,297 --> 01:11:02,898
+happens at the boundaries of each unit test.
+
+1472
+01:11:02,898 --> 01:11:05,223
+We know that the operating system is like
+
+1473
+01:11:05,223 --> 01:11:08,431
+"ok I'm getting my proper inputs from the hardware
+
+1474
+01:11:08,431 --> 01:11:11,297
+and I'm correctly generating my randomness from there"
+
+1475
+01:11:11,297 --> 01:11:12,840
+and then the application says
+
+1476
+01:11:12,840 --> 01:11:15,023
+"I'm getting my randomness from the operating system,
+
+1477
+01:11:15,023 --> 01:11:16,310
+it's good randomness"
+
+1478
+01:11:16,310 --> 01:11:19,605
+and then the application uses the correct crypto algorithms
+
+1479
+01:11:19,605 --> 01:11:21,927
+to then do good cryptography.
+
+1480
+01:11:21,927 --> 01:11:24,495
+And at the very beginning of that stage
+
+1481
+01:11:24,495 --> 01:11:27,777
+there was something broken and it translated  all the way
+
+1482
+01:11:27,777 --> 01:11:29,526
+through all of these pieces of software
+
+1483
+01:11:29,526 --> 01:11:31,532
+that were working correctly.
+
+1484
+01:11:31,532 --> 01:11:35,415
+Testing this holistically was the only way
+
+1485
+01:11:35,415 --> 01:11:37,312
+to find this kind of error.
+
+1486
+01:11:37,312 --> 01:11:41,241
+One story that I heard from a vendor was that
+
+1487
+01:11:41,241 --> 01:11:43,911
+they ran into randomness problems.
+
+1488
+01:11:43,911 --> 01:11:45,745
+They developed some device.
+
+1489
+01:11:45,745 --> 01:11:47,325
+It was working perfectly
+
+1490
+01:11:47,325 --> 01:11:51,478
+and on the assembly line they were being turned on
+
+1491
+01:11:51,478 --> 01:11:55,497
+and run through the checks.
+
+1492
+01:11:55,497 --> 01:11:57,807
+You boot it up it checks the integrity
+
+1493
+01:11:57,807 --> 01:12:00,641
+on the assembly line and it was continuing on.
+
+1494
+01:12:00,641 --> 01:12:06,390
+If you exactly booted them up at the exact same time
+
+1495
+01:12:06,390 --> 01:12:10,129
+in the exact same conditions
+
+1496
+01:12:10,129 --> 01:12:13,221
+then all of the inputs to the random number generator
+
+1497
+01:12:13,221 --> 01:12:16,323
+would be the same and they would generate the same keys
+
+1498
+01:12:16,323 --> 01:12:17,743
+and then these keys would be,
+
+1499
+01:12:17,743 --> 01:12:19,721
+you know, they already generated the keys,
+
+1500
+01:12:19,721 --> 01:12:21,197
+so they wouldn't generate them again after
+
+1501
+01:12:21,197 --> 01:12:25,397
+they went to the consumer.
+
+1502
+01:12:25,397 --> 01:12:27,145
+I don't know how to unit test that
+
+1503
+01:12:27,145 --> 01:12:29,976
+except take the entire device, turn it on,
+
+1504
+01:12:29,976 --> 01:12:32,589
+and take multiple of them and make sure the devices
+
+1505
+01:12:32,589 --> 01:12:35,396
+as they're coming out of the production process
+
+1506
+01:12:35,396 --> 01:12:39,596
+are working correctly.
+
+1507
+01:12:39,596 --> 01:12:41,477
+<i>Herald<i>: So we will take 2 more questions.</i></i>
+
+1508
+01:12:41,477 --> 01:12:46,692
+One from number 4 first and then number 1 at the last.
+
+1509
+01:12:46,692 --> 01:12:48,005
+<i>Male<i>: How good, do you think,</i></i>
+
+1510
+01:12:48,005 --> 01:12:52,544
+hardware-supported random number generators are
+
+1511
+01:12:52,544 --> 01:12:53,432
+after what you've just said?
+
+1512
+01:12:53,432 --> 01:12:55,806
+I think they're probably not good anymore?
+
+1513
+01:12:55,806 --> 01:13:01,566
+<i>Dan<i>: Intel has their RdRand instruction in some of the newer chips</i></i>
+
+1514
+01:13:01,566 --> 01:13:04,979
+and they say that they've gone through
+
+1515
+01:13:04,979 --> 01:13:06,957
+a reasonable number of evaluation steps.
+
+1516
+01:13:06,957 --> 01:13:09,442
+It sounds like they're trying.
+
+1517
+01:13:09,442 --> 01:13:11,826
+Whether they're successful is a different question.
+
+1518
+01:13:11,826 --> 01:13:13,661
+Something I don't like about the API is
+
+1519
+01:13:13,661 --> 01:13:16,392
+RdRand gives you no way to test the pieces.
+
+1520
+01:13:16,392 --> 01:13:18,798
+You can only test the post-processed output.
+
+1521
+01:13:18,798 --> 01:13:22,157
+So nobody else is able to test the actual
+
+1522
+01:13:22,157 --> 01:13:24,276
+randomness generation part of the hardware.
+
+1523
+01:13:24,276 --> 01:13:26,543
+You can only get a filtered version of that.
+
+1524
+01:13:26,543 --> 01:13:29,245
+So Intel and people who are contracted by Intel
+
+1525
+01:13:29,245 --> 01:13:30,628
+to see what's going on inside
+
+1526
+01:13:30,628 --> 01:13:32,829
+are the only people who can run these tests.
+
+1527
+01:13:32,829 --> 01:13:35,874
+It's not open in a way that allows the community
+
+1528
+01:13:35,874 --> 01:13:37,377
+to see if there's further problems.
+
+1529
+01:13:37,377 --> 01:13:38,756
+But at least they're trying
+
+1530
+01:13:38,756 --> 01:13:41,423
+and maybe with enough effort the hardware manufacturers
+
+1531
+01:13:41,423 --> 01:13:43,458
+will get randomness generation right.
+
+1532
+01:13:43,458 --> 01:13:47,579
+Of course if you can generate any sort of secret once
+
+1533
+01:13:47,579 --> 01:13:50,462
+if you have enough of a secret to start with
+
+1534
+01:13:50,462 --> 01:13:52,328
+then you can use things like AES to
+
+1535
+01:13:52,328 --> 01:13:53,944
+generate any number of secrets
+
+1536
+01:13:53,944 --> 01:13:55,494
+and you can put those secrets into
+
+1537
+01:13:55,494 --> 01:13:57,296
+any number of devices you want.
+
+1538
+01:13:57,296 --> 01:13:59,594
+If you use AES in counter mode with
+
+1539
+01:13:59,594 --> 01:14:02,123
+encrypting 1, encrypting 2, encrypting 3...
+
+1540
+01:14:02,123 --> 01:14:04,981
+you get totally unpredictable, unrelated outputs
+
+1541
+01:14:04,981 --> 01:14:07,378
+and then use those, burn those into some hardware.
+
+1542
+01:14:07,378 --> 01:14:09,979
+But where do you get that initial randomness from?
+
+1543
+01:14:09,979 --> 01:14:12,830
+Are you going through a trustworthy process there?
+
+1544
+01:14:12,830 --> 01:14:16,308
+It's a hard problem.
+
+1545
+01:14:16,308 --> 01:14:18,198
+<i>Signal angel<i>: Next question from number 1.</i></i>
+
+1546
+01:14:18,198 --> 01:14:19,729
+And that's the last question.
+
+1547
+01:14:19,729 --> 01:14:21,379
+<i>Male<i>: You said something about</i></i>
+
+1548
+01:14:21,379 --> 01:14:24,799
+you dropped this group-based cryptography word.
+
+1549
+01:14:24,799 --> 01:14:28,111
+Most of the stuff I've encountered under that heading
+
+1550
+01:14:28,111 --> 01:14:30,008
+kind of sounded like snake oil
+
+1551
+01:14:30,008 --> 01:14:32,898
+just cause they're using non-abelian groups and stuff.
+
+1552
+01:14:32,898 --> 01:14:35,832
+Is there anything here that isn't?
+
+1553
+01:14:35,832 --> 01:14:38,280
+<i>Tanja<i>: Ok, I did not say group-based crypto.</i></i>
+
+1554
+01:14:38,280 --> 01:14:38,914
+<i>Male<i>: Ok.</i></i>
+
+1555
+01:14:38,914 --> 01:14:40,259
+<i>Tanja<i>: I said <b>code</b>-based cryptography.</i></i>
+
+1556
+01:14:40,259 --> 01:14:41,241
+<i>Male<i>: Sorry, thanks.</i></i>
+
+1557
+01:14:41,241 --> 01:14:42,773
+<i>Tanja<i>: So there is a class of cryptosystems</i></i>
+
+1558
+01:14:42,773 --> 01:14:44,826
+which are fine against quantum computers.
+
+1559
+01:14:44,826 --> 01:14:50,148
+For all crypto it's always up to what we know.
+
+1560
+01:14:50,148 --> 01:14:51,959
+Next day, there could be somebody with a
+
+1561
+01:14:51,959 --> 01:14:54,009
+polynomial-time factor algorithm and so on.
+
+1562
+01:14:54,009 --> 01:14:56,723
+Now there's also a group of people doing
+
+1563
+01:14:56,723 --> 01:14:59,357
+braid group cryptography, doing non-abelian groups,
+
+1564
+01:14:59,357 --> 01:15:01,764
+most of these systems have been broken.
+
+1565
+01:15:01,764 --> 01:15:07,083
+If they weren't broken by classical computers
+
+1566
+01:15:07,083 --> 01:15:10,911
+maybe they would remain secure against quantum computers.
+
+1567
+01:15:10,911 --> 01:15:13,828
+It's lots of "would"s there.
+
+1568
+01:15:13,828 --> 01:15:17,612
+Yes, they might have this on their flags as well
+
+1569
+01:15:17,612 --> 01:15:20,547
+but I wouldn't count this as a secure system.
+
+1570
+01:15:20,547 --> 01:15:23,027
+Whereas code-based cryptography or lattice-based cryptography
+
+1571
+01:15:23,027 --> 01:15:26,480
+are systems which should be fine.
+
+1572
+01:15:26,480 --> 01:15:28,646
+<i>Dan<i>: Maybe just a URL if you're interested</i></i>
+
+1573
+01:15:28,646 --> 01:15:31,939
+in post-quantum cryptography is pqcrypto.org
+
+1574
+01:15:31,939 --> 01:15:34,513
+and that keeps track of papers on the various types
+
+1575
+01:15:34,513 --> 01:15:37,227
+of cryptography that should survive for a 100 years
+
+1576
+01:15:37,227 --> 01:15:41,448
+and in particular against quantum computers.
+
+1577
+01:15:41,448 --> 01:15:42,444
+<i>Herald<i>: Ladies and gentleman, please give</i></i>
+
+1578
+01:15:42,444 --> 01:15:46,546
+Nadia, Tanja and Daniel a big round of applause.
+
+1579
+01:15:46,546 --> 01:15:47,714
+Thank you so much.
+
+1580
+01:15:47,714 --> 01:15:56,643
+<i>applause</i>
