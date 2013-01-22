@@ -8,7 +8,7 @@
 
 3
 00:00:06,500 --> 00:00:09,000
-Und die Antwort ist: ja.
+[Und die Antwort ist: ja]
 
 4
 00:00:10,600 --> 00:00:12,880
@@ -27,2378 +27,2339 @@ Ich möchte das in drei Teile teilen:
 Erst zeige ich euch, was wirklich Realität ist anhand von Bildern
 
 8
-00:00:27,500 --> 00:00:30,180
+00:00:27,500 --> 00:00:31,460
 und zwar in den drei Bereichen: Die Gewinnung der Rohstoffe,
 
 9
-00:00:30,180 --> 00:00:31,460
-die Herstellung, also Produktion der Geräte,
-und zwar in den drei Bereichen: Die Gewinnung der Rohstoffe,
-
-10
 00:00:31,460 --> 00:00:32,570
 die Herstellung, also Produktion der Geräte,
 
-11
+10
 00:00:32,570 --> 00:00:36,820
 und letztendlich auch die Verschrottung, das ist auch ein sehr wichtiger Punkt
 
-12
+11
 00:00:36,820 --> 00:00:40,020
 Im zweiten Teil ist dann das „ja“ etwas differenzierter
 
-13
+12
 00:00:41,060 --> 00:00:46,460
-insbesondere ist das „ja“ mit ein bisschen „aber“ versehen
+Insbesondere ist das „ja“ mit ein bisschen „aber“ versehen
+
+13
+00:00:46,460 --> 00:00:50,540
+Und im dritten Teil, und das ist eigentlich auch das Wichtigste:
 
 14
-00:00:46,460 --> 00:00:50,540
-Und im dritten Teil, und das ist eigentlich auch das Wichtigste
-
-15
 00:00:50,540 --> 00:00:53,500
 Was können wir tun?
 
-16
+15
 00:00:53,500 --> 00:01:03,940
 Wir als Käufer, wir als Aktive, aber auch als Informatiker oder Mitarbeiter bei Herstellern, etc.
 
-17
+16
 00:01:05,580 --> 00:01:10,700
 Ihr könnt euch jetzt zurücklehnen, es kommen eine Menge Bilder, die ich ohne Notizen versuche, zu kommentieren
 
-18
+17
 00:01:10,700 --> 00:01:16,140
 Dies ist ein Bild aus einem ziemlich guten Film
 
-19
+18
 00:01:16,140 --> 00:01:20,140
 „Blood in the Mobile“, ich habe die DVD hier
 
-20
+19
 00:01:20,140 --> 00:01:27,340
 Dort wird unter anderem von diesem Jungen berichtet, der in einer Zinnerzmine arbeitet
 
-21
+20
 00:01:27,340 --> 00:01:32,300
 Er ist angeblich 16 Jahre alt
 
-22
+21
 00:01:34,000 --> 00:01:43,940
 Das ist in der Demokratischen Republik Kongo; dort kommen einige Mineralien her, die wichtig für IT-Produkte sind
 
-23
+22
 00:01:45,080 --> 00:01:49,740
 Hier ist speziell Zinn nötig für Lötungen, wie ihr alle wisst
 
-24
+23
 00:01:52,380 --> 00:01:58,420
 Die Jungs sind mehrere Tage unten, weil es ewig dauert, nach unten zu gehen
 
-25
+24
 00:01:58,420 --> 00:02:03,460
 Sie wandern nämlich Tage zur Arbeitsstelle, das heißt, sie wohnen woanders
 
-26
-00:02:08,420 --> 00:02:12,700
+25
+00:02:07,620 --> 00:02:12,700
 Das sind Kinder, 16 Jahre alt; man sagt, unter 18 Jahren sind alles Kinder
 
-27
+26
 00:02:12,700 --> 00:02:16,700
 weil die Stollen so eng und klein sind
 
-28
+27
 00:02:16,700 --> 00:02:26,860
 Das Kritische im Kongo ist, dass dort ein Krieg herrscht
 
-29
+28
 00:02:27,420 --> 00:02:27,460
 Die ganzen Minen sind in Ostkongo
 
-30
+29
 00:02:29,660 --> 00:02:36,380
 und verdienen an diesen Mineralien und Erzen, die gewonnen werden, tun Militärs
 
-31
+30
 00:02:36,380 --> 00:02:46,660
 sowohl Regierungstruppen, als auch Milizen, also autonome Truppen
 
-32
+31
 00:02:46,660 --> 00:02:53,180
 Die stellen sich irgendwo hin und nehmen, wie hier, einfach eine Gebühr, um weitergehen zu können
 
-33
+32
 00:02:53,180 --> 00:02:56,940
-und wieder zurückgehen zu können. Das ist ein ganz einfaches Geschäftsmodellü
+und wieder zurückgehen zu können. Das ist ein ganz einfaches Geschäftsmodell:
 
-34
+33
 00:02:56,940 --> 00:03:04,140
 Wer eine Waffe hast, lässt einen nur durch, wenn er ihm Geld lässt, also mit anderen Worten: sie lassen sich bestechen
 
-35
+34
 00:03:04,140 --> 00:03:11,700
-Genau dieser Aspekt war im Jahr 2011 groß von der UN berichtet worden:
+Genau dieser Aspekt war im Jahr 2000 groß von der UN berichtet worden:
 
-36
+35
 00:03:11,700 --> 00:03:18,780
 Dass durch den Kauf der Erze der Bürgerkrieg finanziert wird
 
-37
-00:03:18,780 --> 00:03:27,420
+36
+00:03:21,097 --> 00:03:27,420
 Es wird auch ein Kampf um diese Erze bei den Minen geführt
 
-38
+37
 00:03:27,420 --> 00:03:31,500
 Diese Patronenhülsen wurden an der Schlafstätte des Jungen gefunden
 
-39
+38
 00:03:31,500 --> 00:03:35,500
 All das ist in diesem Videofilm gezeigt
 
-40
+39
 00:03:35,500 --> 00:03:43,700
 Der Mensch, der den Film gemacht hat, ist wirklich mit in die Mine runter gegangen, deshalb ist das ein ziemlich einmaliger Film
 
-41
+40
 00:03:43,700 --> 00:03:54,140
 Und die Mineralien in den weißen Säcken werden dann per Flugzeug nach Ruanda oder Uganda geschmuggelt
 
-42
-00:03:54,140 --> 00:03:56,140
+41
+00:03:55,924 --> 00:03:58,551
 denn keiner möchte aus dem Kongo Erze kaufen
 
-43
+42
 00:03:58,940 --> 00:04:03,500
 Das heißt, es sind dann offiziell Mineralien aus den Nachbarländern
 
-44
+43
 00:04:04,780 --> 00:04:08,460
 Uganda: befriedet, Ruanda: zumindest zum großen Teil befriedet
 
-45
-00:04:08,460 --> 00:04:19,660
+44
+00:04:10,540 --> 00:04:19,660
 Daher kommt das Zinn unter Anderem, und Kongo ist sehr wichtig als Zinnquelle
 
-46
+45
 00:04:19,660 --> 00:04:24,780
 Ihr kennt vielleicht noch Coltan, das ist für Tantal, für Elektrolytkondensatoren, auch aus dem Kongo
 
-47
+46
 00:04:24,780 --> 00:04:28,300
 aber dort ist im Kongo eigentlich nur ein kleiner Teil, man weiß es nicht genau
 
-48
+47
 00:04:28,300 --> 00:04:32,420
 Wegen dieser Schmuggelgeschichten kann man überhaupt nicht genau sagen, wieviel überhaupt aus dem Kongo kommt
 
-49
+48
 00:04:32,420 --> 00:04:38,380
 Die großen Coltan-Gebiete sind in Australien, also eher unkritisch
 
-50
+49
 00:04:40,140 --> 00:04:47,900
 Dies ist Wolfram für den Vibrationsalarm im Handy oder Smartphone
 
-51
+50
 00:04:47,900 --> 00:04:54,260
 Dieses Video kann man in der ARD-Mediathek sehen
 
-52
+51
 00:04:54,260 --> 00:04:58,220
 wurde, glaube ich, im Dezember gezeigt
 
-53
+52
 00:04:58,220 --> 00:05:08,220
 Dort wird ein Wolfram-Abbaugebiet in Bolivien gezeigt
 
-54
+53
 00:05:09,900 --> 00:05:13,180
 Dort ist Handarbeit angesagt
 
-55
+54
 00:05:13,180 --> 00:05:20,820
 Frauen dürfen nicht in die Stollen, aber sortieren dann oben das Gestein aus, das gefördert wurde
 
-56
+55
 00:05:20,820 --> 00:05:24,260
 nach brauchbar und nicht brauchbar
 
-57
+56
 00:05:24,260 --> 00:05:28,180
 Mit diesen Bildern aus Bolivien möchte ich zeigen
 
-58
+57
 00:05:28,180 --> 00:05:30,180
 dass das Ganze doch auf sehr großer Armut fußt
 
-59
+58
 00:05:30,180 --> 00:05:36,060
 Hier wohnt die Frau, die wohlgemerkt einen 12-Stunden-Tag hat
 
-60
+59
 00:05:36,060 --> 00:05:40,620
 mit ihren Kindern, und kriegt kaum Geld
 
-61
+60
 00:05:40,620 --> 00:05:47,500
 Fair bedeutet eigentlich: Regelmäßiges, gutes Einkommen
 
-62
+61
 00:05:47,500 --> 00:05:54,340
 Das ist hier nicht der Fall: einerseits nicht regelmäßig
 
-63
+62
 00:05:54,340 --> 00:06:02,060
 Wenn die Zwischenhändler andere Quellen auftun, geben sie ihre erste Quelle auf
 
-64
+63
 00:06:02,060 --> 00:06:07,300
 Sie sind also abhängig von Zwischenhändlern, und zweitens bekommen sie sowieso wenig Geld
 
-65
+64
 00:06:07,300 --> 00:06:11,740
 Trotz ihrer harten 12-Stunden-Schichten. So sieht das Dorf aus, wo sie leben
 
-66
+65
 00:06:11,740 --> 00:06:23,100
 Sie leben davon, dass wir Vibrationsalarme haben wollen, aber sie leben schlecht. Das ist der Punkt im Bereich des Fairen
 
-67
+66
 00:06:23,100 --> 00:06:28,260
 Das hier sind Fotos aus einem Bericht von Amnesty International in Papua-Neuguinea
 
-68
+67
 00:06:28,260 --> 00:06:34,620
 Auch diesen Aspekt gibt es im Bereich Rohstoffgewinnung
 
-69
+68
 00:06:34,620 --> 00:06:43,460
 Hier werden indigene Völker vertrieben, weil dort Gold gefunden wurde
 
-70
+69
 00:06:43,460 --> 00:06:51,100
 Das Vertreiben findet durch Abbrennen der Häuser statt, weil sie nicht von alleine gehen wollen. Das ist das Gebiet, wo sie seit Jahrhunderten wohnen
 
-71
+70
 00:06:51,100 --> 00:07:00,740
 Ein großes Bergbauunternehmen möchte dort Gold gewinnen
 
-72
+71
 00:07:00,740 --> 00:07:06,300
 Und die Polizei des Staates Papua-Neuguinea hilft, diese Menschen zu vertreiben
 
-73
+72
 00:07:06,300 --> 00:07:11,740
 Wenn man sich wehrt, dann gibt es Schläge, plump gesagt
 
-74
+73
 00:07:11,740 --> 00:07:15,620
 Auch so etwas deckt Amnesty International auf
 
-75
+74
 00:07:15,620 --> 00:07:24,540
 Gold brauchen wir auch in Computern für die etwas besseren Kontakte, in Chips ist Gold drin
 
-76
+75
 00:07:24,540 --> 00:07:28,740
 Nicht in großen Mengen, aber es gibt so viele Computer, allein in diesem Raum wird es Unmengen geben
 
-77
+76
 00:07:28,740 --> 00:07:35,820
 So dass die benötigte Menge an Gold dann doch sehr groß ist
 
-78
+77
 00:07:37,900 --> 00:07:40,700
 Das war es zur Rohstoffgewinnung
 
-79
+78
 00:07:40,700 --> 00:07:44,500
 Ich zeige wieder ein paar Bilder: Dies ist die Fertigung von Microsoft-Tastaturen
 
-80
+79
 00:07:44,500 --> 00:07:50,580
 Jede dieser Personen muss sechs bestimmte Buchstaben reindrücken
 
-81
+80
 00:07:50,580 --> 00:07:56,340
 Und zwar am Fließband: Sie haben diese sechs Buchstaben vor sich und machen das den ganzen Tag
 
-82
+81
 00:07:56,340 --> 00:07:59,260
 Diesen einen Job
 
-83
+82
 00:07:59,260 --> 00:08:01,980
 An dem Bild kann man drei Sachen ganz gut zeigen:
 
-84
+83
 00:08:01,980 --> 00:08:06,100
 Das Eine ist: Microsoft ist doch ein Softwarehersteller, was ist das denn?
 
-85
+84
 00:08:06,100 --> 00:08:13,780
 Wir wissen, die machen nicht nur Tastaturen und Mäuse, sondern auch die Xbox
 
-86
+85
 00:08:13,780 --> 00:08:21,620
 Fast kein Markenhersteller fertigt noch selbst
 
-87
+86
 00:08:21,620 --> 00:08:28,620
 Sie geben sie in Auftrag an die sogenannten Kontraktfertiger, also Vertragsfertiger
 
-88
+87
 00:08:28,620 --> 00:08:34,220
 weshalb Microsoft auch kein Problem hat, schnell mal eben Hardware anzubieten
 
-89
+88
 00:08:34,220 --> 00:08:43,620
 Das ist das Eine. Das Zweite, was man hier erkennt: Warum wird das nicht von Maschinen gemacht?
 
-90
+89
 00:08:43,620 --> 00:08:49,940
 Sehr sonderbar: so eine stupide Arbeit. Der Grund ist: Es gibt so viele verschiedene Kunden,
 
-91
+90
 00:08:49,940 --> 00:08:54,460
 die alle viele verschiedene Modelle haben,
 
-92
+91
 00:08:54,460 --> 00:09:02,540
 so dass das Neurüsten der Maschinen teurer wird als den Menschen, die viel flexibler sind, neue Aufgaben zu geben
 
-93
+92
 00:09:02,540 --> 00:09:02,780
 Die Aufgaben wechseln vielleicht täglich, vielleicht wöchentlich
 so dass das Neurüsten der Maschinen teurer wird als den Menschen, die viel flexibler sind, neue Aufgaben zu geben
 
-94
+93
 00:09:02,780 --> 00:09:05,660
 Die Aufgaben wechseln vielleicht täglich, vielleicht wöchentlich
 
+94
+00:09:05,660 --> 00:09:10,620
+Es ist viel günstiger, Menschen dort einzusetzen, als Roboter
+
 95
-00:09:05,660 --> 00:09:08,620
-Es ist viel günstiger, Menschen dort einzusetzen
-
-96
-00:09:08,620 --> 00:09:10,620
-als Roboter
-
-97
 00:09:10,620 --> 00:09:15,660
 Und der dritte Punkt ist die gesundheitliche Belastung, die ihr eventuell schon spüren könnt
 
-98
+96
 00:09:15,660 --> 00:09:19,460
 Diese drei Punkte sind sehr typisch für Kontraktfertigung
 
-99
+97
 00:09:19,460 --> 00:09:24,740
 Hier noch zwei Bilder zur gesundheitlichen Belastung
 
-100
+98
 00:09:24,740 --> 00:09:32,300
 Links aus einem Bericht – das ist alles öffentlich einsehbar –
 
-101
+99
 00:09:32,300 --> 00:09:38,500
 das sind Berichte von Nichtregierungsorganisationen, die, eigentlich verbotener Weise, Bilder machen konnten
 
-102
+100
 00:09:38,500 --> 00:09:47,380
 Links sieht man eine Fertigungslinie von HP, ich weiß nicht, bei welchem Vertragsfertiger, aber der Kunde ist HP
 
-103
+101
 00:09:47,380 --> 00:09:49,380
 Die stehen den ganzen Tag
 
-104
+102
 00:09:49,380 --> 00:09:58,660
 Und rechts Samsung, die eine Menge Krebsfälle in ihren Chip-Werken haben
 
-105
+103
 00:09:58,660 --> 00:10:05,860
 verneint aber einen Zusammenhang mit der Arbeit, aber inzwischen hat das sogar ein wissenschaftliches Journal aufgenommen
 
-106
+104
 00:10:05,860 --> 00:10:13,860
 um die Daten, die Nichtregierungsorganisationen gesammelt haben, zu präsentieren und wissenschaftlich aufzubereiten
 
-107
+105
 00:10:13,860 --> 00:10:20,860
 Inzwischen zahlt nicht Samsung – das ist ein bisschen kompliziert in Südkorea – aber die Regierung den ersten Opfern Entschädigungen
 
-108
+106
 00:10:20,860 --> 00:10:23,780
 Es gibt auch inzwischen mehrere zig Tote
 
-109
+107
 00:10:23,780 --> 00:10:27,460
 in der Chip-Fabrikation von Samsung
 
-110
+108
 00:10:27,460 --> 00:10:31,500
 wegen Krebs
 
-111
+109
 00:10:36,420 --> 00:10:41,580
 Hier verschiedene Stellen von Foxconn und was sie verdienen
 
+110
+00:10:41,580 --> 00:10:54,100
+Es gibt in China einen Minimallohn, im Gegensatz zu Deutschland
+
+111
+00:10:54,100 --> 00:10:58,820
+Das ist regional verschieden: an den Küsten verdient man deutlich mehr, als im Inneren des Landes
+
 112
-00:10:41,580 --> 00:10:49,660
-Es gibt in China einen Minimallohn
+00:10:58,820 --> 00:11:09,900
+Foxconn zahlt mehr als diesen Lohn: 900 ist der Minimallohn, 950 Yuan zahlt Foxconn
 
 113
-00:10:49,660 --> 00:10:51,140
-im Gegensatz zu Deutschland
-
-114
-00:10:51,140 --> 00:10:58,820
-Das ist regional verschieden: an den Küsten verdient man deutlich mehr, als im Inneren des Landes
-im Gegensatz zu Deutschland
-
-115
-00:10:58,820 --> 00:11:02,620
-Foxconn zahlt mehr als diesen Lohn
-Das ist regional verschieden: an den Küsten verdient man deutlich mehr, als im Inneren des Landes
-im Gegensatz zu Deutschland
-
-116
-00:11:02,620 --> 00:11:09,660
-900 ist der Minimallohn, 950 Yuan zahlt Foxconn
-Foxconn zahlt mehr als diesen Lohn
-Das ist regional verschieden: an den Küsten verdient man deutlich mehr, als im Inneren des Landes
-im Gegensatz zu Deutschland
-
-117
-00:11:09,660 --> 00:11:09,900
-900 ist der Minimallohn, 950 Yuan zahlt Foxconn
-
-118
 00:11:09,900 --> 00:11:14,580
 Aber davon werden schon allein 470 für das Essen ausgegeben
 
-119
+114
 00:11:14,580 --> 00:11:23,540
 und die vermuteten Lebenshaltungskosten in dieser Stadt liegen deutlich höher
 
-120
+115
 00:11:23,540 --> 00:11:28,980
 Da wird eingerechnet, dass die Menschen auch etwas für ihre Freizeit haben wollen, dass sie eine Familie haben wollen, etc.
 
-121
+116
 00:11:28,980 --> 00:11:33,580
 Mit anderen Worten: Die Arbeiter dort haben überhaupt keine Chance, sesshaft zu werden
 
-122
+117
 00:11:33,580 --> 00:11:36,300
 sie können auch keine Familie gründen
 
-123
+118
 00:11:36,300 --> 00:11:41,780
 Das ist durchgängig seit Jahren so. Foxconn zahlt relativ gut, muss man dazu sagen
 
-124
+119
 00:11:41,780 --> 00:11:45,780
 Foxconn ist ein sehr beliebter Arbeitgeber, zuverlässig und recht gut zahlend
 
-125
+120
 00:11:45,780 --> 00:11:53,700
 Das ist ein bisschen verwirrend: Hier ist eine Aufstellung, was ein iPhone 5 kostet
 
-126
+121
 00:11:53,700 --> 00:11:56,380
 Nicht von Apple: Apple würde das niemals verraten
 
-127
+122
 00:11:56,380 --> 00:12:04,460
 Aber es gibt iSuppli, die ein Gerät aufschrauben und abschätzen, wie viel das Zusammenbauen kostet
 
-128
+123
 00:12:04,460 --> 00:12:13,660
 Und das rot Eingerahmte zeigt, dass von dem Gerät, das für 649 Dollar verkauft wird,
 
-129
+124
 00:12:13,660 --> 00:12:18,900
 8 Dollar die Produktionskosten sind
 
-130
+125
 00:12:18,900 --> 00:12:21,740
 die letztendlich in China landen
 
-131
+126
 00:12:21,740 --> 00:12:25,300
 in diesem Fall tatsächlich bei Foxconn
 
-132
+127
 00:12:25,300 --> 00:12:32,460
 Wenn man daraus jetzt 9 Dollar draus machen und sozusagen das Trinkgeld weitergeben würde
 
-133
+128
 00:12:32,460 --> 00:12:35,100
 würden die Leute dort schon einiges mehr verdienen
 
-134
+129
 00:12:37,820 --> 00:12:45,620
 Arbeitszeiten: eine Tabelle über einen anderen Kontraktfertiger
 
-135
+130
 00:12:45,620 --> 00:12:50,980
 Klassischerweise gibt es 12-Stunden-Schichten mit – tagsüber – zwei halbstündigen Pausen
 
-136
+131
 00:12:50,980 --> 00:12:52,980
 Ergibt einen 13-Stunden-Tag
 
-137
-00:12:52,980 --> 00:12:55,140
-In der Nachtschicht ist dann die Pause nicht mal drin
+132
+00:12:52,980 --> 00:12:57,780
+In der Nachtschicht ist dann die Pause nicht mal drin, nur eine 10-Minuten-Pause
 
-138
-00:12:55,140 --> 00:12:57,780
-nur eine 10-Minuten-Pause
-
-139
+133
 00:12:57,780 --> 00:13:01,700
 Nur als Dokumentation, was üblich ist und vorgefunden wurde
 
-140
+134
 00:13:01,700 --> 00:13:08,740
 Und außerhalb der Arbeitszeiten brauchen die Leute auch noch Zeit, um von dem Heim, das sie gestellt bekommen,
 
-141
+135
 00:13:08,740 --> 00:13:11,300
 was die meisten auch nehmen, weil sie das umsonst bekommen,
 
-142
+136
 00:13:11,300 --> 00:13:15,740
 zum Arbeitsplatz zu gelangen
 
-143
+137
 00:13:15,740 --> 00:13:21,460
 das kostet sie auch noch viel Zeit. Und allmählich geht der Tag verloren
 
-144
+138
 00:13:21,460 --> 00:13:23,180
 Die haben nicht sehr viel Freizeit
 
-145
-00:13:23,180 --> 00:13:31,940
+139
+00:13:23,180 --> 00:13:35,620
 So wohnen sie: das ist wieder der Kontraktfertiger, der die Microsoft-Tastaturen macht
 
-146
-00:13:31,940 --> 00:13:38,020
+140
+00:13:35,620 --> 00:13:38,020
 Privatsphäre kann man vergessen
 
-147
+141
 00:13:40,820 --> 00:13:47,660
 Und was jüngst aufgedeckt wurde: Hier wieder ein Kontraktfertiger von Samsung
 
-148
+142
 00:13:47,660 --> 00:13:51,740
 Dass Schüler quasi rekrutiert werden
 
-149
+143
 00:13:51,740 --> 00:13:55,260
 um ein Praktikum zu machen. Die haben allerdings auch 12-Stunden-Schichten
 
-150
+144
 00:13:55,260 --> 00:13:56,580
 und auch Nachtschicht
 
-151
+145
 00:13:56,580 --> 00:14:01,300
 Und das sind auch Studierende von medizinischen Berufen
 
-152
+146
 00:14:01,300 --> 00:14:07,860
 Trotzdem sind sie bei Foxconn beschäftigt und machen den gleichen Job wie alle anderen auch
 
-153
+147
 00:14:07,860 --> 00:14:10,380
 Sie lernen nichts von ihrem eigentlichen Job
 
-154
+148
 00:14:10,380 --> 00:14:16,380
 und sind, da es Schüler sind, vielfach unter 18, unter 16
 
-155
+149
 00:14:16,380 --> 00:14:19,580
 teilweise wurden dort 14-Jährige interviewt
 
-156
-00:14:19,580 --> 00:14:24,340
+150
+00:14:19,580 --> 00:14:23,240
 Und 14 Jahre ist weltweit nicht erlaubt
 
-157
-00:14:24,340 --> 00:14:29,900
+151
+00:14:23,240 --> 00:14:29,900
 Samsung hat erst abgewiesen, aber letztendlich sagen die Markenhersteller:
 
-158
+152
 00:14:29,900 --> 00:14:34,220
-Ja, OK, dieser Kontraktfertiger ist schuld
+„Ja, OK, dieser Kontraktfertiger ist schuld“
 
-159
+153
 00:14:34,220 --> 00:14:37,260
-Er muss dafür sorgen, dass das nicht passiert
+„Er muss dafür sorgen, dass das nicht passiert“
 
-160
+154
 00:14:37,260 --> 00:14:40,740
 Die Markenhersteller sind somit sozusagen aus der Verantwortung raus
 
-161
+155
 00:14:40,740 --> 00:14:45,300
 Samsung ist eine Besonderheit: Sie haben viel eigene Produktion
 
-162
+156
 00:14:45,300 --> 00:14:47,300
 Die haben nicht alles outgesourcet
 
-163
+157
 00:14:47,300 --> 00:14:49,740
 Bei weitem nicht alles
 
-164
+158
 00:14:52,380 --> 00:14:55,540
 Hier noch ein Bisschen zur Entsorgung: Das ist in China
 
-165
+159
 00:14:55,540 --> 00:15:00,740
 Eine sehr effiziente Entsorgung von Platinen
 
-166
+160
 00:15:00,740 --> 00:15:05,700
 mit Chips, Widerständen und Kondensatoren drauf, die werden einzeln ausgelötet und dort verkauft
 
-167
+161
 00:15:05,700 --> 00:15:13,460
 Ein durchaus einträgliches Geschäft für die Leute
 
-168
+162
 00:15:13,460 --> 00:15:23,780
 Die Platine selbst wird dann gekokelt, verbrannt, so dass zum Schluss einzelne Kupferstücke herausgenommen werden können
 
-169
+163
 00:15:23,780 --> 00:15:26,940
 Nach China wird viel aus USA exportiert
 
-170
+164
 00:15:26,940 --> 00:15:34,580
 Die Leute aus den USA bekommen Geld dafür; die Chinesen, die das organisieren, zahlen Geld für den Elektroschrott
 
-171
+165
 00:15:34,580 --> 00:15:42,060
 Hier sehen wir, dass auch Schrott aus Europa in Afrika landet
 
-172
+166
 00:15:42,060 --> 00:15:45,060
 Das hier ist Ghana, praktisch mitten in der Stadt
 
-173
-00:15:45,060 --> 00:15:50,380
+167
+00:15:45,060 --> 00:15:48,520
 Das was übrig geblieben ist, was nicht mehr verwertbar ist
 
-174
-00:15:50,380 --> 00:15:52,220
-Dieses Bild stammt aus einem weiteren Film, „Behind the Screen“
+168
+00:15:48,520 --> 00:15:54,020
+Dieses Bild stammt aus einem weiteren Film, „Behind the Screen“, den ich empfehlen kann
 
-175
-00:15:52,220 --> 00:15:54,020
-den ich empfehlen kann
-
-176
+169
 00:15:54,020 --> 00:15:58,340
 Der FIfF-Stand ist übrigens hier rechts, man kann ihn von hier aus quasi sehen
 
-177
+170
 00:15:58,340 --> 00:16:02,540
 Ihr könnt dann gerne nach dem Vortrag noch kommen
 
-178
+171
 00:16:02,540 --> 00:16:05,740
 Das ist der Stand der Dinge, den ich zeigen wollte
 
-179
+172
 00:16:09,620 --> 00:16:14,860
 Jeder muss für sich die Frage beantworten, ob es unfair ist,
 
-180
+173
 00:16:14,860 --> 00:16:16,860
 was wir gerade gesehen haben, oder nicht
 
-181
+174
 00:16:16,860 --> 00:16:21,300
 Ich denke, es gibt zwei Aspekte
 
-182
+175
 00:16:21,300 --> 00:16:26,580
 In China sind einige Arbeitsplätze entstanden, weil wir so viele Computer kaufen
 
-183
+176
 00:16:26,580 --> 00:16:28,780
 Keine Frage
 
-184
+177
 00:16:28,780 --> 00:16:37,060
 Die Leute reisen von weit her zu den Foxconn und den anderen Produktionsstätten
 
-185
+178
 00:16:37,060 --> 00:16:39,060
 um dort Geld zu verdienen
 
-186
+179
 00:16:41,500 --> 00:16:46,660
 Aus meiner persönlichen Sicht hätten sie aber für ihre Arbeit viel mehr Geld verdient
 
-187
+180
 00:16:48,820 --> 00:16:56,540
 [Applaus]
 
-188
+181
 00:16:59,340 --> 00:17:03,660
 Ist das denn fairer möglich?
 
-189
-00:17:03,660 --> 00:17:11,860
-Das hier sind eine Menge Logos von Kampagnen, Nichtregierungsorganisationen, zivilgesellschaftlichen Organisationen
+182
+00:17:03,660 --> 00:17:15,420
+Das hier sind eine Menge Logos von Kampagnen, Nichtregierungsorganisationen, zivilgesellschaftlichen Organisationen, die für faire IT arbeiten
 
-190
-00:17:11,860 --> 00:17:17,380
-die für faire IT arbeiten. Es sind weltweit sehr viele
+183
+00:17:15,420 --> 00:17:17,380
+Es sind weltweit sehr viele
 
-191
+184
 00:17:17,380 --> 00:17:25,140
-Es gibt welche, die vor Ort recherchieren und die Berichte machen, die wie gerade gesehen haben
+Es gibt welche, die vor Ort recherchieren und die Berichte machen, die wir gerade gesehen haben
 
-192
+185
 00:17:27,740 --> 00:17:37,620
 es gibt vor allem in Europa welche, die Lobbyarbeit machen, um die Situation zu verbessern
 
-193
+186
 00:17:37,620 --> 00:17:42,460
-und welche, die so wie wir hier, Informationsveranstaltungen dazu machen
+und welche, die, so wie wir hier, Informationsveranstaltungen dazu machen
 
-194
+187
 00:17:43,860 --> 00:17:49,220
 Diese Folie zeigt die Anbieter fairer IT
 
-195
+188
 00:17:50,620 --> 00:17:56,660
 Diese Folie hat sich in der Tat ein wenig verändert, und zwar Anfang diesen Monats
 
-196
+189
 00:17:56,660 --> 00:18:00,420
 ist eine Sache hinzugekommen, die ich gleich vorstelle
 
-197
+190
 00:18:02,860 --> 00:18:09,740
 Ansonsten gibt es kein einziges Angebot, wir können also nicht wählen. Diese schlechte Nachricht habt ihr wahrscheinlich vermutet
 
-198
+191
 00:18:09,740 --> 00:18:16,860
 Wir als Konsumenten haben nicht die Macht, den Besseren vom Schlechteren zu unterscheiden
 
-199
+192
 00:18:16,860 --> 00:18:22,500
 Ich möchte erklären, wieso es schwierig ist, faire IT zu machen
 
-200
+193
 00:18:22,500 --> 00:18:29,060
 Apple veröffentlicht jährlich, wen sie beauftragen, ihre Geräte zu bauen
 
-201
+194
 00:18:29,060 --> 00:18:34,660
 Das ist ein Teil dieser Liste, den ich einfach beliebig ausgeschnitten habe
 
-202
+195
 00:18:34,660 --> 00:18:43,620
 Sie sagen übrigens nur, welche Firma das ist, nicht was sie tut und wo die Produktionsstandorte sind, was sehr wichtig wäre
 
-203
+196
 00:18:43,620 --> 00:18:46,300
 für die Beurteilung, ob etwas fair ist oder nicht
 
-204
+197
 00:18:46,300 --> 00:18:51,060
 Apple sagt nur: Diesen Leuten geben wir Geld für ihre Arbeit
 
-205
+198
 00:18:51,060 --> 00:18:56,220
 Man sieht: Es sind sehr viele, und wir sehen hier nur ein Drittel der ganzen Liste
 
-206
+199
 00:18:56,220 --> 00:18:58,700
 Das ist ein Problem
 
-207
-00:18:58,700 --> 00:19:09,860
-Lass die Hälfte dieser Firmen für das iPhone zuständig sein, die alle fair agieren müssten
+200
+00:18:58,700 --> 00:19:06,040
+Lass die Hälfte dieser Firmen für das iPhone zuständig sein
 
-208
-00:19:09,860 --> 00:19:11,860
-damit das Komplettgerät fair zu nennen wäre
+201
+00:19:06,040 --> 00:19:11,860
+Die müssten alle fair agieren, damit das Komplettgerät fair zu nennen wäre
 
-209
+202
 00:19:11,860 --> 00:19:18,140
 Bekanntermaßen ist ein Computer ein komplexes Gerät, und hier sind auch viele Akteure beteiligt
 
-210
+203
 00:19:19,660 --> 00:19:29,820
-Nächste Herausforderung: Allein eine Leiterplatte oder Platine hat mindestens 10 verschieden Stoffe in sich
+Nächste Herausforderung: Allein eine Leiterplatte oder Platine hat mindestens 10 verschieden Rohstoffe in sich
 
-211
-00:19:29,820 --> 00:19:34,420
-also Rohstoffe
-
-212
+204
 00:19:34,420 --> 00:19:42,420
 Damit allein die Platine fair zu nennen wäre, müsste man für jeden einzelnen dieser Rohstoffe ein Urteil bilden
 
-213
+205
 00:19:42,420 --> 00:19:44,420
 Und das war nur die Leiterplatte
 
-214
+206
 00:19:44,420 --> 00:19:52,780
 Diese Herausforderung ist im Vergleich zum fairen Kaffee wirklich heftig: Kaffee ist genau so ein Rohstoff
 
-215
+207
 00:19:52,780 --> 00:19:56,540
 Das macht es beim Kaffee sehr einfach, diesen Rohstoff zu sehen
 
-216
+208
 00:19:56,540 --> 00:19:59,620
 Klar, er wird verarbeitet, und mehrere Menschen sind damit beschäftigt
 
-217
+209
 00:19:59,620 --> 00:20:01,620
 aber es gibt nur diesen einen Rohstoff
 
-218
+210
 00:20:01,620 --> 00:20:06,220
 Das ist beim Computer leider nicht der Fall
 
-219
+211
 00:20:06,220 --> 00:20:10,180
 Nächste Herausforderung: Das Ganze ist global
 
-220
+212
 00:20:10,180 --> 00:20:15,420
 Das wäre eigentlich animiert gewesen, aber wegen des Computerwechsels bewegt sich jetzt nichts
 
-221
+213
 00:20:15,420 --> 00:20:17,940
 Immerhin habe ich das Bild
 
-222
+214
 00:20:17,940 --> 00:20:24,820
 Es sind sehr viele Akteure beteiligt: In Afrika haben wir ein Schiff für die Verschrottung und auch für die Rohstoffe
 
-223
+215
 00:20:24,820 --> 00:20:28,260
 Südamerika ist ein wichtiges Gebiet für die Rohstoffe
 
-224
+216
 00:20:28,260 --> 00:20:34,420
 In Fernost wird zusammengebaut; erst die Komponenten, die Chips, Transistoren, Kondensatoren, was auch immer da drin ist
 
-225
+217
 00:20:34,420 --> 00:20:37,620
 Dann bei den Kontraktfertigern zusammengebaut
 
-226
+218
 00:20:37,620 --> 00:20:42,060
 und zum Beispiel nach Europa geliefert
 
-227
+219
 00:20:42,060 --> 00:20:46,620
 Mit anderen Worten: sehr viele Länder sind beteiligt, in denen die Gesetze zu beachten sind
 
-228
+220
 00:20:46,620 --> 00:20:48,620
 Für ein einzelnes Gerät
 
-229
+221
 00:20:50,420 --> 00:20:58,540
 Und ohne Zweifel ein echtes Problem ist: Wir haben kaum die Möglichkeit, eine Graswurzelbewegung zu machen
 
-230
+222
 00:20:58,540 --> 00:21:03,340
 Fairer Kaffee, Bananen, Schokolade, alles das ist entstanden,
 
-231
+223
 00:21:03,340 --> 00:21:11,180
 weil Menschen eine Plantage besaßen und dort aktiv fair herstellen wollten
 
-232
-00:21:12,020 --> 00:21:15,980
-Aber niemand von uns kann einen Computer bauen
+224
+00:21:12,020 --> 00:21:18,720
+Aber niemand von uns kann einen Computer bauen, komplett mit Chips und allem Drumherum
 
-233
-00:21:15,980 --> 00:21:21,020
-komplett mit Chips und allem Drumherum: Wir sind völlig von der Industrie abhängig
+225
+00:21:18,720 --> 00:21:22,920
+Wir sind völlig von der Industrie abhängig
 
-234
-00:21:23,100 --> 00:21:26,100
+226
+00:21:22,920 --> 00:21:26,100
 Das heißt, die Markenhersteller müssen aktiv werden
 
-235
+227
 00:21:26,100 --> 00:21:31,420
 Sie müssen verlangen, das Ganze fairer zu gestalten
 
-236
+228
 00:21:33,340 --> 00:21:38,540
 Meine Antwort ist also: Faire Computer sind im Prinzip möglich, aber einfach wird es nicht
 
-237
+229
 00:21:43,660 --> 00:21:50,980
 Eine Lösung ist sicherlich: Es muss nicht das ganze Gerät fair sein; lass uns einzelne Teile fair machen
 
-238
+230
 00:21:50,980 --> 00:21:56,540
 Das ist die Entwicklung, die wir in diesem und vor allem auch im nächsten Jahr sehen
 
-239
+231
 00:21:56,540 --> 00:22:03,020
 Dass wir allmählich dazu übergehen, dass es Initiativen gibt, die auch ein Angebot schaffen
 
-240
+232
 00:22:03,020 --> 00:22:08,300
 Dass einzelne Teile fair hergestellt werden. Das ist immer nur ein kleiner Teil
 
-241
+233
 00:22:08,300 --> 00:22:10,700
 Aber die Machbarkeit alleine ist sehr wichtig
 
-242
+234
 00:22:13,620 --> 00:22:19,260
 Das hier habe ich „Ursuppe von Aktivitäten“ genannt
 
-243
+235
 00:22:19,260 --> 00:22:23,100
 Ich habe recherchiert, was alles gemacht wird
 
-244
+236
 00:22:23,100 --> 00:22:30,060
 in Richtung einer faireren IT-Produktion
 
-245
+237
 00:22:30,060 --> 00:22:34,100
 Ich möchte ein paar Sachen rausstellen
 
-246
+238
 00:22:34,100 --> 00:22:39,580
 Das Eine ist: Ein Angebot schaffen, also wir fangen einfach mal an
 
-247
+239
 00:22:42,540 --> 00:22:49,900
 Das Andere ist, Siegel zu machen: wir kennen das Fairtrade-Siegel
 
-248
+240
 00:22:49,900 --> 00:22:53,420
-zum Beispiel am Kaffee
+zum Beispiel vom Kaffee
 
-249
-00:22:53,420 --> 00:22:58,580
+241
+00:22:53,420 --> 00:22:57,560
 Wir sehen an einem Siegel: Das wollen wir haben, das ist fair
 
-250
-00:22:58,580 --> 00:23:01,340
+242
+00:22:57,560 --> 00:23:01,340
 Wenn Einzelteile zertifiziert werden könnten, wäre das ein Riesenfortschritt
 
-251
+243
 00:23:02,620 --> 00:23:07,420
 Ranking ist sehr hilfreicht
 
-252
+244
 00:23:07,420 --> 00:23:18,700
 damit ich als Käufer auswählen kann, welcher Markenhersteller für mich der Beste ist, wenn ich ein faires Produkt haben möchte
 
-253
+245
 00:23:18,700 --> 00:23:22,780
 ein mehr oder weniger faires Produkt
 
-254
+246
 00:23:22,780 --> 00:23:24,620
-In diese Richtung wird gearbeitet
+Auch in diese Richtung wird gearbeitet
 
-255
+247
 00:23:24,620 --> 00:23:28,060
 Und, sehr wichtig auch: Gesetzgebung
 
-256
+248
 00:23:28,060 --> 00:23:33,220
 Dazu werde ich auch ein paar Beispiele zeigen
 
-257
+249
 00:23:35,420 --> 00:23:43,500
 Genau das hier möchten wir sehen: Ein iPhone CF für Conflict-Free
 
-258
+250
 00:23:43,500 --> 00:23:52,300
 Konfliktfrei, das heißt, kein Militär verdient Geld mit dem Abbau von Erzen
 
-259
+251
 00:23:52,300 --> 00:23:59,260
 Das habe ich am Beispiel des Kongo zu Anfang gezeigt. Wohlgemerkt ist das ein kleiner Aspekt des Fairen
 
-260
+252
 00:23:59,260 --> 00:24:07,140
 Es geht nicht um Geld, sondern darum, dass die Regierungstruppen und Milizen nicht noch Geld mit dem Handel der Erze verdienen
 
-261
+253
 00:24:07,140 --> 00:24:11,300
 und damit die Situation der Bevölkerung vor Ort verschlechtert wird
 
-262
+254
 00:24:11,300 --> 00:24:15,100
 Das hier war ein Fake der Yes Men,
 
-263
+255
 00:24:15,100 --> 00:24:26,380
 die eine Webseite für ein konfliktfreies iPhone gemacht haben, die genauso aussah, wie die Apple-Website
 
-264
+256
 00:24:26,380 --> 00:24:34,580
 [Applaus]
 
-265
+257
 00:24:35,620 --> 00:24:40,540
 und das Angebot gemacht haben, man könnte bei Apple das alte iPhone gegen dieses eintauschen
 
-266
+258
 00:24:40,540 --> 00:24:48,300
 In der Tat hat Apple eine Menge Mails bekommen und innerhalb von 24 Stunden diese Webseite verbieten lassen
 
-267
+259
 00:24:48,300 --> 00:24:51,380
 Die war schnell offline
 
-268
+260
 00:24:51,380 --> 00:24:54,780
 Und dieser Capture wurde zum Glück rechtzeitig gemacht
 
-269
+261
 00:24:54,780 --> 00:24:58,300
 Das war eine Aktion, aber leider gibt es das nicht. Es war ein Fake
 
-270
+262
 00:24:59,540 --> 00:25:08,980
 Was wir haben, ist das einzige mir bekannte Projekt, wo explizit Fairness reingebaut wurde
 
-271
+263
 00:25:08,980 --> 00:25:15,100
 Es geht um eine Maus; sie sieht so aus, wie eine Maus halt aussieht
 
-272
+264
 00:25:15,100 --> 00:25:19,500
 Ihr könnt sie auch gleich am FIfF-Stand noch angucken
 
-273
+265
 00:25:19,500 --> 00:25:28,940
 Hier wurde in einem Laienprojekt mehrere Jahre recherchiert, welche Teile einer Maus man fair herstellen kann
 
-274
+266
 00:25:29,900 --> 00:25:34,540
 Das ist als Einstiegsprojekt gedacht, eine Maus ist da aus vielerlei Hinsicht sehr praktisch
 
-275
+267
 00:25:34,540 --> 00:25:40,380
 Es wurde immerhin eine Teilfairness erzeugt
 
-276
+268
 00:25:40,380 --> 00:25:48,100
 Die Widerstände, Kondensatoren, Leiterplatte und die Schalter sind in Deutschland produziert worden
 
-277
+269
 00:25:48,100 --> 00:25:51,780
 Und das wird automatisch als „fair“ angenommen
 
-278
+270
 00:25:55,420 --> 00:26:00,580
 Ich bezweifle ja schon, ob überhaupt zum Beispiel die Jobs bei Saturn fair sind
 
-279
+271
 00:26:00,580 --> 00:26:11,300
 Was nicht geschafft wurde, sind der Chip, Linse, Scrollrad, Kabel, Drehgeber: Die sind noch aus Fernost
 
-280
+272
 00:26:11,300 --> 00:26:18,300
 und die Arbeitsbedingungen sind dort nicht bekannt, also ist anzunehmen, dass sie so sind, wie ich es eben dokumentiert habe
 
-281
+273
 00:26:18,300 --> 00:26:26,060
 Was auch in Deutschland passiert ist: Die Bestückung der Leiterplatte, Montage, Herstellung des Gehäuses und Verpackung
 
-282
+274
 00:26:26,060 --> 00:26:35,940
 Der Gedanke war also: Ich schaffe es, möglichst viele Produkte aus Deutschland zu holen
 
-283
+275
 00:26:35,940 --> 00:26:40,140
 Was ich dort nicht bekomme, hole ich noch aus Fernost, aber ich versuche, es immer besser zu machen
 
-284
+276
 00:26:40,140 --> 00:26:44,540
 Jetzt ist so ein Meilenstein erreicht und man kann das Gerät kaufen
 
-285
+277
 00:26:44,540 --> 00:26:50,380
 für 26,90 Euro plus Versand unter dieser Web-Adresse
 
-286
+278
 00:26:52,340 --> 00:26:58,980
 Der Kritikpunkt allenfalls – ich finde das Projekt ziemlich klasse und habe es lange beobachtet und begleitet –
 
-287
+279
 00:26:58,980 --> 00:27:06,300
 es ist ein Laienprojekt, wurde also in der Freizeit gemacht und die gute Frau kann davon definitiv nicht leben
 
-288
+280
 00:27:06,300 --> 00:27:15,260
 Der einzige Kritikpunkt, den man nennen kann, ist, dass der Aspekt der Entwicklungszusammenarbeit nicht mehr vorhanden ist
 
-289
+281
 00:27:15,260 --> 00:27:29,580
 Das heißt, niemand in China, Vietnam oder sonstwo wurde gefunden, die etwas herstellen konnte, was man fair nennen kann
 
-290
+282
 00:27:29,580 --> 00:27:38,180
 Es wurde alles in Deutschland gemacht und zum Beispiel in China keine Arbeitsplätze geschaffen
 
-291
+283
 00:27:38,180 --> 00:27:45,380
 Das ist der einzige Grund, weshalb man hier den Begriff „fair“ recht allgemein sehen muss
 
-292
+284
 00:27:45,380 --> 00:27:50,060
 Ansonsten ist das aus meiner Sicht ein Riesenschritt, auch wenn es nur eine Computermaus ist
 
-293
+285
 00:27:52,380 --> 00:27:59,460
 [Applaus]
 
-294
+286
 00:27:59,460 --> 00:28:04,700
 Die nächsten Pläne sind das Scrollrad und Kabel; selbst für das Kabel gab es keinen fairen Hersteller
 
-295
+287
 00:28:08,220 --> 00:28:15,060
 Das zweite Projekt, das ich vorstellen möchte, wo es noch nichts zu kaufen gibt, weshalb es auf meiner Anbieterfolie noch nicht drauf ist, ist das FairPhone
 
-296
+288
 00:28:15,060 --> 00:28:25,620
 Das hat derzeit zum Ziel, Smartphones zu produzieren, die immerhin mit konfliktfreiem Zinn gelötet wurden
 
-297
+289
 00:28:25,620 --> 00:28:30,420
 Das ist schon der erste Stand des Projekts
 
-298
+290
 00:28:30,420 --> 00:28:36,460
 Konfliktfrei, wir erinnern uns: Kongo, der Junge unten und die Militärs die draußen waren
 
-299
+291
 00:28:36,460 --> 00:28:38,740
 Daher soll das Zinn nicht kommen
 
-300
+292
 00:28:38,740 --> 00:28:46,980
 Sondern von beobachteten Minen, wo keine Militärs Geld verdienen
 
-301
+293
 00:28:48,140 --> 00:28:56,500
 Es gibt inzwischen zertifiziertes Zinn, dazu komme ich gleicht noch, das ist auch ganz frisch
 
-302
+294
 00:28:56,500 --> 00:29:00,940
 Die Frauen und Männer von FairPhone sind darauf dann aufgesprungen
 
-303
+295
 00:29:00,940 --> 00:29:03,620
 Die sitzen in Amsterdam
 
-304
+296
 00:29:03,620 --> 00:29:11,380
 und suchen jetzt einen Hersteller, der aus diesem Zinnerz – erstmal ist das ja nur ein Erz –
 
-305
+297
 00:29:11,380 --> 00:29:16,340
 Zinn liegt nicht so in der Erde, das muss man noch aus dem Stein gewinnen
 
-306
+298
 00:29:16,340 --> 00:29:23,700
 der das verarbeitet, dann daraus Lötzinn gemacht wird, und das wird in eine Produktionsstätte gegeben
 
-307
+299
 00:29:23,700 --> 00:29:28,540
 wo Smartphones hergestellt werden, aber genau dieses Zinn eingesetzt wird
 
-308
+300
 00:29:28,540 --> 00:29:33,980
 Bäppel drauf, und schon ist es das FairPhone, erster Schritt
 
-309
+301
 00:29:36,020 --> 00:29:51,660
 Es gibt Überlegungen zur Zusammenarbeit mit Geeksphone und Vodafone, aber das ist alles noch nicht in trockenen Tüchern
 
-310
-00:29:51,660 --> 00:29:54,460
+302
+00:29:51,660 --> 00:29:56,680
 Also die wollen das schon etwas größer aufsetzen, als dieses Laienprojekt mit der Maus
 
-311
+303
 00:29:59,140 --> 00:30:05,220
 Das Ziel ist, im nächsten Jahr voraussichtlich 10.000 Geräte herzustellen
 
-312
+304
 00:30:05,220 --> 00:30:07,740
 und das Gerät wird 250–300 Euro kosten
 
-313
+305
 00:30:07,740 --> 00:30:11,820
 Da bin ich neugierig, was dabei rauskommt und insbesondere, ob das gekauft wird
 
-314
+306
 00:30:11,820 --> 00:30:19,340
 Beim Smartphone beginne ich langsam ein bisschen, zu zweifeln, die Leute wollen die Technik und die neuesten Features haben
 
-315
+307
 00:30:21,980 --> 00:30:28,220
 Das könnt ihr alles unter fairphone.com beobachten
 
-316
+308
 00:30:36,380 --> 00:30:41,060
 Ranking: Hier ist ein berühmtes Ranking von Greenpeace
 
-317
+309
 00:30:41,060 --> 00:30:46,380
 Da geht es, weil es Greenpeace ist, nicht um Fairness
 
-318
+310
 00:30:46,380 --> 00:30:54,260
 ein bisschen um konfliktfrei, aber vor allem um Green-IT-Aspekte: Wie grün ist die Herstellung?
 
-319
+311
 00:30:54,260 --> 00:30:57,940
 Aber so etwas hätte man ganz gerne. Das ist relativ aktuell
 
-320
+312
 00:30:57,940 --> 00:31:02,620
 Es gibt einen Super-Gewinner, Wipro, die ich allerdings nicht kenne
 
-321
+313
 00:31:02,620 --> 00:31:10,620
 Alle anderen sind bekannt: Apple und Samsung im Mittelfeld, Research in Motion traditionell im roten Bereich
 
-322
+314
 00:31:10,620 --> 00:31:14,100
 Es gibt ein Ranking für die Konfliktfreiheit
 
-323
+315
 00:31:16,580 --> 00:31:27,860
 Das heißt, die Organisation Enough, die sich damit auskennt und jahrelang in diesem Bereich arbeitet, bewertet das Engagement der Markenfirmen im Bereich Konfliktfreiheit
 
-324
+316
 00:31:27,860 --> 00:31:32,460
 Dort ist glücklicherweise Intel ganz oben
 
-325
+317
 00:31:32,460 --> 00:31:36,300
 Das freut uns, weil es ein Komponentenhersteller, ein Chiphersteller ist
 
-326
+318
 00:31:36,300 --> 00:31:41,620
 der das Rohmaterial direkt verarbeitet
 
-327
+319
 00:31:41,620 --> 00:31:48,260
 Hewlett-Packard auch traditionellerweise sehr weit oben
 
-328
+320
 00:31:48,260 --> 00:31:56,540
 und die 0 bei Nintendo, die haben überhaupt keine Informationen rausgegeben in dem Bereich
 
-329
+321
 00:31:56,540 --> 00:32:01,140
 Das gibt traditionellerweise auch immer 0 Punkte
 
-330
+322
 00:32:01,140 --> 00:32:05,380
 Wer völlig intransparent ist, ist im Ranking grundsätzlich unten
 
-331
-00:32:05,380 --> 00:32:09,860
-Apple und Microsoft sind in der Mitte, Samsung etwas weiter unten
+323
+00:32:05,380 --> 00:32:11,640
+Apple und Microsoft sind in der Mitte, Samsung etwas weiter unten. An so etwas kann man sich orientieren
 
-332
-00:32:09,860 --> 00:32:16,180
-An so etwas kann man sich orientieren. Hier ist Rank-A-Brand, eine Community-Plattform
+324
+00:32:11,640 --> 00:32:19,580
+Hier ist Rank-A-Brand, eine Community-Plattform, das auch Ranking aufgrund der Informationen der Firmen rausbringt
 
-333
-00:32:16,180 --> 00:32:23,100
-auch ein Ranking aufgrund der Informationen, die Firmen rausbringen, Nintendo wieder unten, Philips in diesem Fall oben
+325
+00:32:19,580 --> 00:32:23,100
+Nintendo wieder unten, Philips in diesem Fall oben
 
-334
+326
 00:32:23,100 --> 00:32:26,420
 Das hat alles diverse Gründe
 
-335
+327
 00:32:26,420 --> 00:32:31,380
 Es gibt auch professionelle Rankings, hier Fujitsu
 
-336
+328
 00:32:31,380 --> 00:32:39,980
 Fujitsu ist Mainstream im Bereich Nachhaltigkeit allgemein
 
-337
+329
 00:32:39,980 --> 00:32:43,380
 Das beinhaltet allerdings auch Umweltaspekte
 
-338
+330
 00:32:43,380 --> 00:32:49,100
 Im Bereich Zulieferer gibt es ein D-, die schlechteste Note überhaupt
 
-339
+331
 00:32:49,100 --> 00:32:57,660
 und zwar, weil es einen Bericht über einen Zulieferer gibt, bei dem Arbeitsrechtsverletzungen festgestellt wurden
 
-340
+332
 00:32:57,660 --> 00:33:05,540
 Hier einige Siegel, die wir kennen
 
-341
+333
 00:33:05,540 --> 00:33:07,780
 Auch da gibt es drei Initiativen, die ich kenne
 
-342
+334
 00:33:07,780 --> 00:33:15,180
 Eine ist das Zinn, was ich schon erwähnt habe
 
-343
+335
 00:33:15,180 --> 00:33:20,340
 Wir kaufen Rohzinn nicht im Laden, deshalb gibt es kein Siegel wie „transfair“ darauf
 
-344
+336
 00:33:20,340 --> 00:33:31,820
 Aber die Zinnerz-Säcke werden mit einem Bäppel versehen, und dann kann man zurückverfolgen, welchen Weg sie gegangen sind
 
-345
+337
 00:33:31,820 --> 00:33:34,820
 Das ist ein Riesenfortschritt, alles Andere als selbstverständlich
 
-346
+338
 00:33:34,820 --> 00:33:43,820
 Über Jahre aufgebaut und hat noch einen Projektlauf von mehreren Jahren, und dann wird geschaut, ob das alles auch lange tragen wird
 
-347
+339
 00:33:43,820 --> 00:33:49,340
 Was wir wirklich kaufen können ist faires Gold
 
-348
+340
 00:33:49,340 --> 00:33:57,460
 Das setzt jedoch kein einziger Komponentenhersteller für Elektronik ein, sondern es wird für Schmuck benutzt
 
-349
+341
 00:33:58,780 --> 00:34:06,220
 Und was ich gehört habe und sicherheitshalber hinzufügen wollte, obwohl ich noch nicht genug darüber weiß
 
-350
+342
 00:34:06,220 --> 00:34:14,780
 Das bekannte TCO-Label, das man oft auf Monitoren sieht und das eigentlich ein Ergonomiestandard ist
 
-351
+343
 00:34:14,780 --> 00:34:18,460
 dass die auch soziale Kriterien hinzufügen wollten
 
-352
+344
 00:34:18,460 --> 00:34:24,100
 Das muss ich mir noch mal angucken; so ganz glaube ich das nicht, weil das Ranking vieler Firmen nach unten gehen müsste
 
-353
+345
 00:34:24,100 --> 00:34:33,460
 Das sind die einzigen Sachen, die ich kenne mit dem Ziel, ein Siegel zu machen
 
-354
+346
 00:34:37,780 --> 00:34:42,020
 Zu den Gesetzen:
 
-355
+347
 00:34:42,020 --> 00:34:49,460
 In den USA gibt es ein Gesetz, das sagt, jede Firma, die im Kongo kauft, muss das veröffentlichen
 
-356
+348
 00:34:49,460 --> 00:34:50,900
 Ganz plump gesagt
 
-357
+349
 00:34:50,900 --> 00:34:57,580
 Allein diese Tatsache hat viele Firmen davon abgehalten, im Kongo zu kaufen
 
-358
+350
 00:34:57,580 --> 00:35:06,860
 Das Gesetz hat also in der Tat erst einmal deutlich weniger Absatz im Kongo verursacht
 
-359
+351
 00:35:06,860 --> 00:35:11,060
 und gleichzeitig mehr illegalen Schmuggel über Ruanda
 
-360
+352
 00:35:11,060 --> 00:35:19,580
 Aber: dieses konfliktfreie Zinn mit der Zertifizierung, das ich davor gezeigt habe, ist letztendlich auch nur wegen dieses Gesetzes entstanden
 
-361
+353
 00:35:19,580 --> 00:35:21,580
 Das heißt, die Leute wollen schon das Zeug aus dem Kongo haben
 
-362
+354
 00:35:21,580 --> 00:35:26,340
 Die Arbeitskraft im Kongo ist so günstig, dass das schon eine feine Sache ist
 
-363
+355
 00:35:26,340 --> 00:35:30,140
 Und jetzt versuchen sie eben, konfliktfreies Zinn daher zu bekommen
 
-364
+356
 00:35:30,140 --> 00:35:33,820
 Konfliktfrei ist wie gesagt nur ein kleiner Aspekt des gesamten Fairen
 
-365
+357
 00:35:37,900 --> 00:35:50,900
 Was noch wichtig ist an Gesetzen ist die Richtlinie für Elektroaltgeräte in der EU
 
-366
+358
 00:35:50,900 --> 00:35:59,420
 so dass wir den Aspekt des Exports von Schrott in Entwicklungsländer, den ich auch in Bildern gezeigt hatte
 
-367
+359
 00:35:59,420 --> 00:36:03,780
 per Gesetz nicht mehr möglich ist, aber illegal wird es trotzdem gemacht
 
-368
+360
 00:36:03,780 --> 00:36:12,300
 Hier in Hamburg sind eine Menge Container mit Elektroschrott, die offiziell deklariert sind als funktionierende Geräte
 
-369
+361
 00:36:12,300 --> 00:36:15,540
 Die werden zum Beispiel nach Ghana verschifft
 
-370
+362
 00:36:15,540 --> 00:36:18,340
 Das Problem bei diesem Gesetz ist die Kontrolle
 
-371
+363
 00:36:18,340 --> 00:36:28,380
 Sie kostet Unmengen Geld, wird nicht gemacht, weshalb dann doch viele Altgeräte nach Afrika kommen
 
-372
+364
 00:36:28,380 --> 00:36:31,980
 Was kann jeder tun? Meine Tipps:
 
-373
+365
 00:36:31,980 --> 00:36:37,460
 Bleibt informiert und sagt weiter, was Sache ist und was es gibt
 
-374
+366
 00:36:37,460 --> 00:36:45,420
-Oft hört man den Tipp: Sagt den Händlern und Herstellern, was ihr haben wollt, wie fair das Gerät ist, das ihr gekauft habt
+Oft hört man den Tipp: Sagt den Händlern und Herstellern, was ihr haben wollt, und fragt, wie fair das Gerät ist, das ihr gekauft habt
 
-375
+367
 00:36:45,420 --> 00:36:48,460
-Ich bin Kunde bei euch und möchte Informationen von euch haben
+„Ich bin Kunde bei euch und möchte Informationen von euch haben“
 
-376
+368
 00:36:48,460 --> 00:36:52,740
 Ich habe das einmal bei Samsung versucht und habe natürlich keine Antwort bekommen
 
-377
+369
 00:36:52,740 --> 00:37:01,300
 Aber vielleicht bewegt mein Brief als einer von tausend Briefen, die sie vielleicht bekommen haben, dann doch ein wenig
 
-378
+370
 00:37:01,300 --> 00:37:06,180
 Und auch: Kauft bitte, wenn ein faires Angebot vorhanden ist
 
-379
+371
 00:37:06,180 --> 00:37:10,220
 Zumindest die Maus ist es glaube ich wert
 
-380
+372
 00:37:10,220 --> 00:37:12,100
 Schönen Dank!
 
-381
+373
 00:37:12,100 --> 00:37:31,420
 [Applaus]
 
-382
+374
 00:37:31,420 --> 00:37:36,380
 Danke, Sebastian. Wir haben relativ großzügig Zeit für Fragen
 
-383
+375
 00:37:36,380 --> 00:37:39,700
 Wenn ihr jetzt schon gehen wollt, tut es bitte leise
 
-384
+376
 00:37:42,420 --> 00:37:44,380
 Da ist die erste Frage
 
-385
+377
 00:37:44,380 --> 00:37:47,500
-Es ist weniger eine Frage, sondern eher eine Anmerkung
+- Es ist weniger eine Frage, sondern eher eine Anmerkung
 
-386
+378
 00:37:47,500 --> 00:37:52,140
 Ich finde es ein bisschen schwierig zu sagen: Kauft fair,
 
-387
+379
 00:37:52,140 --> 00:37:56,420
 aber das einzige, was ihr halb-fair kaufen könnt, ist eine Maus
 
-388
+380
 00:37:58,500 --> 00:38:02,540
 Ich glaube, die meisten Leute, die hier drin sitzen, würden gerne fair kaufen
 
-389
+381
 00:38:02,540 --> 00:38:05,660
 Aber es gibt schlicht und einfach nichts
 
-390
+382
 00:38:05,660 --> 00:38:13,740
 Jedenfalls nichts wirklich Faires, denn spätestens bei den Leiterkarten sitzen wir sowieso wieder bei Huawei, mit Allem
 
-391
+383
 00:38:13,740 --> 00:38:18,820
 Also: Gibt es überhaupt eine Chance, außer freundlichen Briefen?
 
-392
+384
 00:38:20,660 --> 00:38:23,140
 Du hast völlig Recht: Den Tipp habe ich für die Zukunft gegeben
 
-393
+385
 00:38:23,140 --> 00:38:26,940
 Wir werden langsam eine Entwicklung in die Richtung bekommen
 
-394
+386
 00:38:26,940 --> 00:38:32,700
 Das heißt, dieser Merksatz gilt für die Zukunft, und irgendwann haben wir die Wahl
 
-395
-00:38:32,700 --> 00:38:43,700
-So, wie wir bei Bioerzeugnissen oder fairem Kaffee die Wahl haben, werden wir es in was weiß ich wie vielen Jahren zumindest in einem graduellen Anteil auch bei Elektronikprodukten haben
+387
+00:38:32,700 --> 00:38:37,480
+So, wie wir bei Bioerzeugnissen oder fairem Kaffee die Wahl haben
 
-396
+388
+00:38:37,480 --> 00:38:39,480
+werden wir es in was weiß ich wie vielen Jahren zumindest in einem graduellen Anteil auch bei Elektronikprodukten haben
+
+389
 00:38:45,340 --> 00:38:49,140
-Hat der Signalengel etwas?
+- Hat der Signalengel etwas?
 
-397
+390
 00:38:52,780 --> 00:38:55,900
-Das sollte nicht falsch verstanden werden, aber:
+- Das sollte nicht falsch verstanden werden, aber:
 
-398
+391
 00:38:55,900 --> 00:39:03,100
 Wie viel teurer sind denn die fairen Produkte – Gold und Zinn – auf dem Markt?
 
-399
+392
 00:39:03,100 --> 00:39:06,580
 Das ist ja auch ein Anreiz für die Hersteller, wie gut es sich dann verkauft
 
-400
+393
 00:39:06,580 --> 00:39:09,780
-Selbstverständlich: Faire Produkte sind teurer
+- Selbstverständlich: Faire Produkte sind teurer
 
-401
+394
 00:39:09,780 --> 00:39:18,780
 Ich kann jetzt kein Beispiel geben, weil es noch kein Produkt gibt; die Maus ist schon teurer als die 5-Euro-Maus vom Mediamarkt, keine Frage
 
-402
+395
 00:39:21,180 --> 00:39:24,420
 Das ist eine Abwägung. Also: Es wird teurer, das kann ich versichern
 
-403
+396
 00:39:24,420 --> 00:39:27,420
 - Aber das faire Zinn und Gold, wie viel teurer ist das?
 
-404
+397
 00:39:27,420 --> 00:39:29,900
 - Da muss ich passen, tut mir leid
 
-405
+398
 00:39:32,340 --> 00:39:36,620
-Danke für den Vortrag. Ich fand das Thema und die Initiative sehr interessant
+- Danke für den Vortrag. Ich fand das Thema und die Initiative sehr interessant
 
-406
-00:39:36,620 --> 00:39:42,020
-Ich sehe aber die große Gefahr, dass durch dieses Label „conflict-free“
+399
+00:39:36,620 --> 00:39:43,340
+Ich sehe aber die große Gefahr, dass durch dieses Label „conflict-free“ oder sogar „fair“
 
-407
-00:39:42,020 --> 00:39:43,340
-oder sogar „fair“
-
-408
+400
 00:39:43,340 --> 00:39:51,740
 möglicherweise, also wenn wir von Metallen sprechen, Produkte eine Kaufempfehlung bekommen
 
-409
+401
 00:39:51,740 --> 00:40:05,020
 wo die Metalle recycelt werden, daher also conflict-free sind, die dann aber doch von Menschen jeden Alters einfach auf brennenden Müllhalden recycelt werden
 
-410
+402
 00:40:05,020 --> 00:40:08,180
 unter krassesten Gesundheitsbedingungen
 
-411
+403
 00:40:08,180 --> 00:40:16,940
 Ist da nicht eine große Gefahr, dass über das Label „conflict-free“ schlechte Entwicklungen noch befördert und unterstützt werden?
 
-412
+404
 00:40:16,940 --> 00:40:18,940
 Und wie kann man das umgehen?
 
-413
+405
 00:40:20,620 --> 00:40:23,300
-Den Punkt habe ich leider nur halb verstanden
+- Den Punkt habe ich leider nur halb verstanden
 
-414
+406
 00:40:23,300 --> 00:40:31,580
 Bei „Conflict-free“ geht es nur um die Gewinnung von Zinn, wirklich aus dem Berg heraus
 
-415
+407
 00:40:31,580 --> 00:40:38,500
 Das wird zertifiziert; das Produkt, in dem es landet, bekommt dann das Label
 
-416
+408
 00:40:38,500 --> 00:40:40,940
 Und deine Befürchtung war jetzt welche?
 
-417
+409
 00:40:40,940 --> 00:40:47,100
 - Dass aus schon bestehender Elektronik, die als Schrott in die dritte Welt geliefert wird
 
-418
+410
 00:40:47,100 --> 00:40:49,460
 Ob erlaubt oder nicht, gegebenenfalls eben über Umwege
 
-419
+411
 00:40:49,460 --> 00:40:56,540
 dann recycelt und daher als conflict-free und vielleicht sogar umweltfreundlich verkauft werden
 
-420
+412
 00:40:56,540 --> 00:41:05,220
 und damit sogar ein Anreiz geschaffen wird, dass dieses gesundheitsgefährdende „Recycling“ beibehalten oder sogar ausgebaut wird
 
-421
+413
 00:41:05,220 --> 00:41:10,620
 - Solche recycelten Materialien würde man nicht als konfliktfrei labeln
 
-422
+414
 00:41:10,620 --> 00:41:16,980
 Das ist nicht der Gedanke. Konfliktfrei ist wirklich die Neugewinnung von Rohstoffen
 
-423
+415
 00:41:16,980 --> 00:41:21,660
 Aber der Aspekt des Recyclings ist natürlich wichtig. Man kann Zinn recyceln, keine Frage
 
-424
+416
 00:41:21,660 --> 00:41:24,340
 Das wird in China gemacht, wir haben es gesehen
 
-425
+417
 00:41:25,020 --> 00:41:27,900
 Man kann es unfair, aber auch fair machen
 
-426
+418
 00:41:28,820 --> 00:41:32,300
 Das müsste man dann auch entsprechend labeln
 
-427
+419
 00:41:33,180 --> 00:41:35,500
 - Es gibt eine Frage aus dem Internet
 
-428
+420
 00:41:36,220 --> 00:41:44,500
 - Gibt es auch hierzulande Non-Profit-Organisationen, die sich mit dem Thema befassen und bei denen man sich am besten engagieren kann, wenn man etwas bewegen will?
 
-429
+421
 00:41:47,100 --> 00:41:51,620
-Ich hole mir mal die Folie
+- Ich hole mir mal die Folie
 
-430
+422
 00:41:53,900 --> 00:42:02,140
 Engagieren kann man sich natürlich bei uns, beim FIfF
 
-431
+423
 00:42:02,140 --> 00:42:08,260
 FIfF macht im Wesentlichen Informationsveranstaltungen wie diese hier, veröffentlicht Artikel, etc.
 
-432
+424
 00:42:08,260 --> 00:42:11,020
 Sachen, die andere herausgefunden haben
 
-433
+425
 00:42:11,020 --> 00:42:13,900
 Wir haben hier Germanwatch, klingt schon sehr deutsch
 
-434
+426
 00:42:13,900 --> 00:42:24,820
 Die gehen zu den Unternehmen und verlangen von denen Zusagen, dass sie auf Sozialkriterien achten
 
-435
+427
 00:42:24,820 --> 00:42:33,900
 oder gehen zu den Regierungen und sagen: Schafft doch Gesetze, die Unternehmen verpflichten, etwas zu tun
 
-436
+428
 00:42:33,900 --> 00:42:37,300
 Germanwatch ist also eine Option
 
-437
+429
 00:42:37,860 --> 00:42:43,900
 Als sonstige Deutsche haben wir hier noch weed
 
-438
+430
 00:42:43,900 --> 00:42:54,980
 Die arbeiten mit vielen anderen europäischen Organisationen zusammen und finanzieren unter Anderem Recherchen, die vor Ort gemacht werden
 
-439
+431
 00:42:54,980 --> 00:42:58,340
 Man kann sicherlich bei Germanwatch, FIfF und weed aktiv werden
 
-440
+432
 00:42:58,340 --> 00:43:03,340
 makeITfair ist eine europäische Geschichte, es passiert europäisch auch recht viel
 
-441
+433
 00:43:03,340 --> 00:43:05,380
 Aber das sind die drei Anlaufstellen, die ich so sehe
 
-442
+434
 00:43:07,820 --> 00:43:15,660
 - Zwei Sachen. Erst einmal vielen Dank für deinen Vortrag, der war wirklich sehr gut
 
-443
+435
 00:43:15,660 --> 00:43:26,780
 Werden diese Unternehmen, die versuchen, faire Produkte herzustellen, staatliche Unterstützung bekommen?
 
-444
+436
 00:43:26,780 --> 00:43:35,620
 Wie du ja schon vorhin sagtest, werden die Produkte teuer, und das sieht man ja auch schon an der Maus, obwohl nur relativ kleine Teile der Maus in Deutschland produziert wurden
 
-445
+437
 00:43:35,620 --> 00:43:40,980
 ist diese schon erheblich teurer als eine normale Maus mit wahrscheinlich gleicher Qualität
 
-446
+438
 00:43:40,980 --> 00:43:47,260
 Dass dann für den Käufer diese Hürde nicht da ist
 
-447
+439
 00:43:47,260 --> 00:43:56,060
 Für eine komplett faire Maus vielleicht 55 Euro zu bezahlen, oder eben 5 Euro für eine unfair produzierte
 
-448
+440
 00:43:56,060 --> 00:44:00,060
 Dass dann diese Hürde genommen werden könnte
 
-449
+441
 00:44:00,060 --> 00:44:03,100
 Eine andere Sache ist:
 
-450
+442
 00:44:03,100 --> 00:44:06,460
 Du sagtest ja, wir sollten alle fair kaufen
 
-451
+443
 00:44:06,460 --> 00:44:11,380
 Aber die Entwicklung läuft ja gerade ganz woanders hin, sogar extrem
 
-452
+444
 00:44:11,380 --> 00:44:17,140
 Zum Beispiel haben Laptops immer weniger austauschbare Akkus
 
-453
+445
 00:44:17,140 --> 00:44:20,540
 Dass man vielleicht schon darauf achtet, nicht solche Produkte zu kaufen
 
-454
+446
 00:44:20,540 --> 00:44:26,620
 bei denen man sozusagen keine Gerätehoheit mehr hat, also keinen Akku und keine Teile mehr austauschen kann
 
-455
+447
 00:44:26,620 --> 00:44:33,860
 sondern dann komplette Produkte entsorgen müsste, was dem Umweltschutz auch nicht gerade förderlich ist
 
-456
+448
 00:44:35,020 --> 00:44:40,620
 [Applaus]
 
-457
+449
 00:44:40,620 --> 00:44:45,140
 Für diesen Vortrag habe ich es mir einfach gemacht und die Umweltaspekte rausgenommen
 
-458
+450
 00:44:45,140 --> 00:44:51,140
 Aber FairPhone z. B., das Projekt, das nächstes Jahr hoffentlich losrockt
 
-459
+451
 00:44:51,140 --> 00:45:02,580
 hat auch den Aspekt, ein sehr modulares System zu haben, so dass man nachträglich noch etwas austauschen kann, zum Beispiel die Batterien
 
-460
+452
 00:45:03,420 --> 00:45:07,020
 und es so eher komponentenorientierter gedacht ist
 
-461
+453
 00:45:07,820 --> 00:45:12,100
 Das ist ein guter Aspekt, da stimme ich dir zu
 
-462
+454
 00:45:14,420 --> 00:45:17,460
-Ich interessiere mich für die Entsorgung
+- Ich interessiere mich für die Entsorgung
 
-463
+455
 00:45:17,460 --> 00:45:25,060
 Es gibt diese Richtlinien, aber nach dem, was ich bisher mitbekommen habe, ist die einzige Frage, ob man richtig entsorgt oder nicht
 
-464
+456
 00:45:25,060 --> 00:45:30,300
 wie viele Zwischenhändler dazwischen sind, bis es irgendwo in Nigeria im Fluss landet
 
-465
+457
 00:45:30,300 --> 00:45:35,660
 - Es landet bei Weitem nicht alles dort
 
-466
+458
 00:45:35,660 --> 00:45:41,020
 Die übliche Entsorgung, wenn man sein Altgerät zum Wertstoffhof bringt
 
-467
+459
 00:45:41,020 --> 00:45:51,780
 Da wird in Europa ein Recyclingunternehmen beauftragt, die schreddern das und holen nach physikalisch-chemischen Aspekten die Rohstoffe wieder raus
 
-468
+460
 00:45:51,780 --> 00:46:01,140
 Aber: wer sein Gerät dem Menschen vor diesem Wertstoffhof für einen Euro verkauft
 
-469
+461
 00:46:01,140 --> 00:46:05,500
 der kann davon ausgehen, dass das Gerät illegal exportiert wird
 
-470
+462
 00:46:05,500 --> 00:46:13,820
 Deswegen hat jeder von uns dort etwas zu tun: Verkauft euren Schrott nicht an zweifelhafte Leute
 
-471
+463
 00:46:13,820 --> 00:46:15,820
 Die werden das illegal exportieren
 
-472
+464
 00:46:16,980 --> 00:46:22,020
 [Applaus]
 
-473
+465
 00:46:22,020 --> 00:46:24,020
 Noch eine Frage aus dem Internet
 
-474
+466
 00:46:24,580 --> 00:46:28,060
 - Hersteller bewegt man ja am ehesten über Nachfrage
 
-475
+467
 00:46:29,020 --> 00:46:35,460
 Hast du schon konkrete Ideen, wie man Nachfrage kommunizieren kann, um die Hersteller zu motivieren?
 
-476
+468
 00:46:36,860 --> 00:46:43,620
 - Der übliche Gedanke ist: Warum nicht im wahrsten Sinne des Wortes fragen?
 
-477
+469
 00:46:43,620 --> 00:46:54,780
 Ich denke, gerade auch Artikel in Zeitungen, euer Interesse beim Lesen von Artikeln auf heise, in den Foren
 
-478
+470
 00:46:54,780 --> 00:47:02,060
 Aktiv werden, hier im Vortrag sitzen, etc.: All das ist schon eine Nachfrage, auf die die Markenhersteller achten
 
-479
+471
 00:47:02,060 --> 00:47:05,820
 Wenn etwas passiert, dann wird in der Tat eine Nachfrage bedient
 
-480
+472
 00:47:05,820 --> 00:47:07,820
 So funktioniert unser System
 
-481
+473
 00:47:07,820 --> 00:47:16,540
 Laut rufen, auf welchen Kanälen auch immer: Ich warte drauf, ich würde kaufen, wenn es nur gäbe
 
-482
+474
 00:47:16,540 --> 00:47:21,380
 Da gibt es reichlich Kanäle, das kann sich Jeder überlegen
 
-483
+475
 00:47:24,260 --> 00:47:29,500
-Hallo, mein Name ist Heike. Ich bin vom Verein Medien und Technik für Kinder und Jugendliche e.V.
+- Hallo, mein Name ist Heike. Ich bin vom Verein Medien und Technik für Kinder und Jugendliche e.V.
 
-484
+476
 00:47:29,500 --> 00:47:32,340
 Ich bedanke mich für diesen absolut genialen Vortrag
 
-485
+477
 00:47:32,340 --> 00:47:36,780
 Ich bin seit einem Jahr auf der Suche nach einem solchen Vortrag für Kinder
 
-486
+478
 00:47:36,780 --> 00:47:48,420
 weil wir in unserem Projekt pb.re.pc gebrauchte PCs mit Linux edubuntu bespielt nach einer medientechnischen Schulung an minderbemittelte Kinder und Jugendliche weitergeben
 
-487
+479
 00:47:48,420 --> 00:47:52,740
 Und es hat noch keiner an diesen Aspekt gedacht
 
-488
+480
 00:47:52,740 --> 00:47:58,060
 Ich bin jetzt endlich fündig geworden nach einem Jahr
 
-489
+481
 00:47:58,060 --> 00:48:05,460
 Meine Meinung ist: Du hast bei den Vorschlägen vergessen, dass man die PCs vielleicht erst mal länger nutzen sollte
 
-490
+482
 00:48:05,460 --> 00:48:11,260
 Wenn ich zum Beispiel sehe, was wir kriegen: Das ist kein Schrott, das ist einwandfrei
 
-491
+483
 00:48:11,260 --> 00:48:14,660
 Und es wird nur weggeschmissen, weil nicht mehr das neueste Spiel darauf läuft
 
-492
+484
 00:48:14,660 --> 00:48:22,700
 Oder wenn ich sehe, dass Dell, wenn der neue PC ausgeliefert wird, eine Tastatur und Maus mitgibt, obwohl man die gar nicht gebrauchen kann
 
-493
+485
 00:48:22,700 --> 00:48:27,500
 dann werde ich wahnsinnig. Das ist schlimm für mich
 
-494
+486
 00:48:27,500 --> 00:48:35,740
 [Applaus]
 
-495
+487
 00:48:50,260 --> 00:48:56,580
 - Gibt es denn schon Ansätze für Qualitätssiegel und Zertifizierungen, wie bei Bio-Lebensmitteln?
 
-496
+488
 00:48:56,580 --> 00:49:00,580
-So allgemein nicht, da sind wir weit, weit, weit von entfernt
+- So allgemein nicht, da sind wir weit, weit, weit von entfernt
 
-497
+489
 00:49:00,580 --> 00:49:06,420
-- Wie gesagt: einzelne Stoffe. Aber alle, die ich kenne, habe ich hier aufgeführt.
+Wie gesagt: einzelne Stoffe. Aber alle, die ich kenne, habe ich hier aufgeführt.
 
-498
+490
 00:49:07,700 --> 00:49:10,900
 - Das mit den Zertifikaten war auch meine Frage
 
-499
+491
 00:49:10,900 --> 00:49:16,300
 Ich kenne aus der Fischereiwirtschaft das MSC-Siegel, was, wie ich finde, sehr gut funktioniert
 
-500
+492
 00:49:16,300 --> 00:49:21,540
 wo im Grunde die gesamte Produktkette untersucht und zertifiziert wird
 
-501
+493
 00:49:21,540 --> 00:49:28,140
 Und ich würde mir wünschen, dass man so etwas nachfragt und sagt, wir wollen so ein Label haben
 
-502
+494
 00:49:28,140 --> 00:49:34,060
 Ob man das nun über WWF oder Greenpeace oder wer auch immer sich da berufen fühlt, oder der CCC
 
-503
+495
 00:49:34,060 --> 00:49:41,100
 Dass man so ein Siegel entwickelt, was ein Hersteller dann benutzen kann
 
-504
+496
 00:49:41,100 --> 00:49:43,940
 Dass es so etwas geben würde, würde ich mir wünschen
 
-505
+497
 00:49:43,940 --> 00:49:47,180
 - Das ist in der Tat der häufigste Wunsch, das hätte ich auch gerne
 
-506
+498
 00:49:47,180 --> 00:49:51,260
 - Wie kann ich das unterstützen, wie kann ich das machen?
 
-507
+499
 00:49:51,740 --> 00:49:57,580
 - Vielleicht finanziell: einer entsprechenden Organisation etwas spenden
 
-508
+500
 00:49:57,580 --> 00:50:05,300
 Wenn du persönlich aktiv werden möchtest, muss ich zugeben, dass ich nicht weiß, wo du hingehen solltest
 
-509
+501
 00:50:05,300 --> 00:50:09,740
 Das läuft derzeit alles auf Herstellerebene
 
-510
+502
 00:50:09,740 --> 00:50:16,140
 Die Hersteller selbst versuchen, so etwas zu machen, weil sie die Nachfrage hören, aber ich nehme an, dass du dort keine Aktien drin hast
 
-511
+503
 00:50:16,140 --> 00:50:20,340
 Vielleicht Aktien, aber deine Hände nicht im Spiel hast
 
-512
+504
 00:50:20,340 --> 00:50:25,500
 Da fehlt mir in der Tat auch die Stelle, wo man hinlaufen kann
 
-513
+505
 00:50:25,500 --> 00:50:27,980
 - Das wäre aber ein super Ansatz
 
-514
+506
 00:50:27,980 --> 00:50:29,980
 - Ja, volle Zustimmung
 
-515
+507
 00:50:32,180 --> 00:50:37,540
 - Eine Frage zum Recycling, das ja auch oft unter unmöglichen Bedingungen stattfindet
 
-516
+508
 00:50:37,540 --> 00:50:44,780
 Gibt es schon Ansätze, die Materialien, die seltenen Erden und so, aus den Platinen maschinell zurück zu gewinnen?
 
-517
+509
 00:50:44,780 --> 00:50:55,500
 - Ja. Wie gesagt, die professionellen Recyclingunternehmen holen eine Menge aus dem Elektroschrott heraus
 
-518
+510
 00:50:55,500 --> 00:50:59,900
 Sie schreddern das und nach diversen Methoden werden Sachen extrahiert
 
-519
+511
 00:50:59,900 --> 00:51:05,140
 Perfekt kann man Kupfer wiedergewinnen, zu einem recht guten Anteil Gold
 
-520
+512
 00:51:05,140 --> 00:51:08,220
 Da gibt es einiges
 
-521
+513
 00:51:08,220 --> 00:51:15,420
 Ein kleines Missverständnis übrigens: Seltene Erden sind in Computern gar nicht so häufig, die werden dafür eher selten gebraucht
 
-522
+514
 00:51:15,420 --> 00:51:21,580
 Coltan und Zinn sind zum Beispiel keine seltenen Erden
 
-523
+515
 00:51:24,100 --> 00:51:30,380
 - Du hattest ja vorhin darauf hingewiesen, dass man ja auch einfach an die Hersteller appelieren könnte
 
-524
+516
 00:51:30,380 --> 00:51:32,100
 „Macht das doch mal ein bisschen ethischer“
 
-525
+517
 00:51:32,100 --> 00:51:37,860
 Ein Trick, den ich gehört habe, der auch manchmal verwendet wird, um Gehör zu finden
 
-526
+518
 00:51:37,860 --> 00:51:43,620
 ist, Aktien bei den entsprechenden Unternehmen einzukaufen und dann auf der Aktionärsversammlung aufzutauchen
 
-527
+519
 00:51:43,620 --> 00:51:47,660
 wo dann hingehört werden muss, man kriegt gleich Feedback
 
-528
+520
 00:51:47,660 --> 00:51:53,900
 man zwingt sie dazu, eine Aussage zu treffen, das kann man vielleicht auch öffentlichkeitsmäßig ein bisschen weiter verarbeiten
 
-529
+521
 00:51:53,900 --> 00:51:58,060
 - Danke für den Gedanken. Ich habe das versucht, das kann ich kurz berichten
 
-530
+522
 00:51:58,060 --> 00:52:02,500
 Ich habe mich auf deutsche Hersteller beschränkt
 
-531
+523
 00:52:02,500 --> 00:52:06,540
 und da gibt es leider gar nichts mehr
 
-532
+524
 00:52:06,540 --> 00:52:12,140
 Siemens ist inzwischen komplett in Fujitsu aufgegangen
 
-533
+525
 00:52:12,140 --> 00:52:16,300
 das ist jetzt japanisch geworden; ich fahre nicht zur Hauptversammlung nach Japan
 
-534
+526
 00:52:16,300 --> 00:52:22,300
 Es gibt Medion, das ist gerade im Aufkaufprozess durch Lenovo
 
-535
+527
 00:52:22,300 --> 00:52:30,540
 Lenovo möchte meine Aktie haben, ich wehre mich noch, aber irgendwann wird sie mir wahrscheinlich genommen, ich weiß nicht, wie das abläuft
 
-536
+528
 00:52:30,540 --> 00:52:35,260
 Aber ich hatte eine Einladung zu einer Medion-Hauptversammlung
 
-537
+529
 00:52:35,260 --> 00:52:39,260
 Ich bin dort nicht hingegangen, ich bin berufstätig und das war natürlich mitten in der Woche
 
-538
+530
 00:52:39,260 --> 00:52:44,140
 in, ich glaube, Bochum; ich habe niemanden gefunden, der dort hingeht
 
-539
+531
 00:52:44,140 --> 00:52:52,660
 Und dann müsste man in der Tat noch die Frechheit besitzen, dort wirklich das Thema draufzumachen und das muss dann auch noch irgendwie wirtschaftlich relevant sein
 
-540
+532
 00:52:52,660 --> 00:53:00,860
 Es muss also etwas sein, was auf die Bilanz Einfluss hat; eine Frage, die irgendwie auf die Bilanz eingeht
 
-541
+533
 00:53:00,860 --> 00:53:06,340
 Das kann man machen; es gibt einen Verein der kritischen Aktionäre, die so etwas machen
 
-542
+534
 00:53:06,340 --> 00:53:10,820
 Recht bekannt ist das bei Bayer
 
-543
+535
 00:53:13,100 --> 00:53:14,780
 Die haben so etwas gemacht
 
-544
+536
 00:53:14,780 --> 00:53:20,020
 Ich habe wie gesagt eine Medion-Aktie, also wenn jemand Interesse hat…
 
-545
+537
 00:53:20,020 --> 00:53:28,100
 Ich schicke das über einen internen FIfF-Mailverteiler; wer da drauf möchte, kann sich auch beim FIfF-Stand eintragen lassen
 
-546
+538
 00:53:28,100 --> 00:53:34,020
 Dort würde ich es dann rüberschicken: „Ich habe wieder eine Einladung zur Hauptversammlung bei Medion, wer möchte hin?“
 
-547
+539
 00:53:34,020 --> 00:53:36,020
 Aber wie gesagt, Medion ist bald komplett chinesisch
 
-548
+540
 00:53:36,020 --> 00:53:39,780
 Und dann gibt es irgendwie keine deutschen Hersteller mehr; ich möchte mich wie gesagt auf Deutschland beschränken
 
-549
+541
 00:53:45,740 --> 00:53:50,740
-Es würde sich anbieten, das koordiniert im Rahmen einer Organisation zu machen
+- Es würde sich anbieten, das koordiniert im Rahmen einer Organisation zu machen
 
-550
+542
 00:53:59,900 --> 00:54:02,980
 - Entschuldigung, dass ich vorhin dazwischengefallen bin
 
-551
+543
 00:54:02,980 --> 00:54:06,620
 Ein ganz wichtiger Aspekt ist geplante Obsoleszenz
 
-552
+544
 00:54:06,620 --> 00:54:16,660
 Das heißt, ein Produkt wird von Ingenieuren so konstruiert, dass es nach einer bestimmten Lebenszeit einfach kaputtgehen muss, nicht reparabel ist und ein neues Produkt gekauft werden muss
 
-553
+545
 00:54:16,660 --> 00:54:21,580
 Das ist das, was von unseren Politikern als Wirtschaftswachstum deklariert wird
 
-554
+546
 00:54:23,900 --> 00:54:27,220
 [Applaus]
 
-555
+547
 00:54:27,220 --> 00:54:33,060
 Und 26 Euro für eine simple Maus, die normal irgendwo 5 Euro kostet
 
-556
+548
 00:54:33,060 --> 00:54:43,260
 Uns muss bewusst sein: Wenn wir wirklich etwas ändern wollen, dann kostet ein iPhone 3000 Euro
 
-557
+549
 00:54:43,260 --> 00:54:46,820
 Wir als Gesellschaft müssen uns ändern
 
-558
+550
 00:54:46,820 --> 00:54:51,100
 In der Art, wie wir konsumieren, wie wir Produkte designen
 
-559
+551
 00:54:51,100 --> 00:54:54,860
 Und als Ingenieure; hier sind die meisten Leute irgendwie Ingenieure
 
-560
+552
 00:54:54,860 --> 00:55:00,820
 Wir müssen uns weigern, unserer Firma ein Produkt zu bauen, das kaputtgeht
 
-561
+553
 00:55:00,820 --> 00:55:03,260
 Ein Produkt muss so lange wie möglich leben
 
-562
+554
 00:55:03,260 --> 00:55:10,260
 [Applaus]
 
-563
+555
 00:55:10,260 --> 00:55:17,660
 Da sind Energie und Ressourcen reingeflossen, die teilweise nicht wieder rausgeholt werden können
 
-564
+556
 00:55:17,660 --> 00:55:20,140
 Und das ist schlecht
 
-565
+557
 00:55:27,620 --> 00:55:34,740
 - Nochmal zum Thema Second Hand: Ich finde es extrem wichtig, Second Hand-Produkte zu kaufen
 
-566
+558
 00:55:34,740 --> 00:55:40,060
 weil dieser Wahnsinn mit alle 2 Jahre ein neues iPhone absolut nicht nötig ist
 
-567
+559
 00:55:40,060 --> 00:55:43,700
 Es gibt kaum noch großartige Veränderungen in der Technik
 
-568
+560
 00:55:43,700 --> 00:55:47,900
 Die letzten paar Jahre vielleicht schon, aber mittlerweile ist es doch eher ein Stillstand geworden
 
-569
+561
 00:55:47,900 --> 00:55:58,140
 Dementsprechend ist es wichtig, auch Produkte zu kaufen, wo man darauf achtet, dass sie etwas haltbarer sind und dass man auch viele Ersatzteile und Einzelteile bekommt
 
-570
+562
 00:55:58,140 --> 00:56:04,540
 In meinem Freundeskreis ist es zum Beispiel so, dass mehr Leute sich ein Thinkpad X60 gekauft haben
 
-571
+563
 00:56:04,540 --> 00:56:09,620
 Ein antikes Modell, aber wir können, wenn etwas kaputt ist, schnell Ersatzteile kaufen
 
-572
+564
 00:56:09,620 --> 00:56:13,180
 Während man bei einem Aldi-Computer das Problem hat, dass man nichts mehr kriegt
 
-573
+565
 00:56:13,180 --> 00:56:19,780
 Und zur Entsorgung finde ich ganz wichtig: Wenn man dafür sorgen will, dass der Schrott nicht in Ghana landet
 
-574
+566
 00:56:19,780 --> 00:56:26,980
 Wenn das Gerät wirklich nicht mehr nutzbar ist, dieses so zerlegen, dass es wirklich nicht mehr brauchbar aussieht
 
-575
+567
 00:56:26,980 --> 00:56:31,540
 Es reicht, die Hülle abzumachen und so weiter, das ist wirklich sehr hilfreich
 
-576
+568
 00:56:34,300 --> 00:56:38,020
 [Applaus]
 
-577
+569
 00:56:39,340 --> 00:56:44,820
 - Ich möchte noch darauf eingehen: Es haben so viele Leute danach gefragt, wie sie sich engagieren können
 
-578
+570
 00:56:44,820 --> 00:56:49,740
 Ich habe einen Klimaschutzverein, Silent Climate Parade e.V.
 
-579
+571
 00:56:49,740 --> 00:56:56,780
 Wir sind in Berlin unterwegs, und wer etwas für Klimaschutz, das fängt ja überall an, auch bei Elektronik
 
-580
+572
 00:56:56,780 --> 00:57:01,620
 Und deswegen freue ich mich auch, dass mal gezeigt wird, was es eigentlich gerade so gibt
 
-581
+573
 00:57:01,620 --> 00:57:08,580
 Ich habe die Mäuse übrigens auch live gesehen und habe auch echt überlegt, aber bei dem Preis für eine Maus ist mir schwindlig geworden
 
-582
+574
 00:57:08,580 --> 00:57:12,380
 Leider ist es noch so; die Dinger müssen halt billiger werden
 
-583
+575
 00:57:12,380 --> 00:57:16,420
 Wir müssen das unterstützen, mehr Werbung dafür machen und vielleicht auch dafür auf die Straße gehen
 
-584
+576
 00:57:16,420 --> 00:57:23,620
 Wer wissen will, was die Silent Climate Parade ist, kann zu mir kommen, ich habe ein paar Flyer
 
-585
+577
 00:57:24,820 --> 00:57:29,180
 [Applaus]
 
-586
+578
 00:57:34,660 --> 00:57:38,660
 - Ich wollte noch mal etwas zum Preis sagen
 
-587
+579
 00:57:38,660 --> 00:57:42,380
 Er hat gesagt, dann würde ein iPhone 3000 Euro kosten
 
-588
+580
 00:57:42,380 --> 00:57:50,460
 Wir haben ja gesehn, die Löhne für die Produktion haben beim iPhone gerade 8 Dollar ausgemacht
 
-589
+581
 00:57:50,460 --> 00:57:58,900
 Wenn wir sagen, wir wollen die Löhne verdreifachen, dann müsste jeder für sein iPhone, das 800 Euro kostet, 16 Dollar mehr bezahlen
 
-590
+582
 00:57:58,900 --> 00:58:03,860
 Ich glaube, das ist etwas, das wir uns alle noch leisten könnten
 
-591
+583
 00:58:04,460 --> 00:58:09,220
 [Applaus]
 
-592
+584
 00:58:18,060 --> 00:58:23,300
 - Was haltet ihr von der Idee, bei eurem Siegel ein Rating einzubauen?
 
-593
+585
 00:58:23,300 --> 00:58:29,540
 Also eine Art Punktesystem, dass man vergleichen kann, wie fair das ist
 
-594
+586
 00:58:29,540 --> 00:58:33,020
 Das wäre dann für die Hersteller einfacher, mit einem niedrigen Punktewert einzusteigen und sich dann zu verbessern
 
-595
+587
 00:58:35,540 --> 00:58:40,980
 - Ja. Wie gesagt, ich habe ein paar Rankings vorgestellt, das ist ja der Gedanke
 
-596
+588
 00:58:40,980 --> 00:58:45,180
 Dass man von denen die besseren nimmt. Ob das im Siegel drin ist…
 
-597
+589
 00:58:45,180 --> 00:58:51,420
 - Ich war in einem anderen Vortrag drin, wo es viele unterschiedliche Label gibt, und das wird dann wieder sehr verwirrend
 
-598
+590
 00:58:51,420 --> 00:58:53,700
 Um ein einfaches System zu haben
 
-599
+591
 00:58:56,380 --> 00:59:00,540
 - Vielen Dank Sebastian, das war ein toller Vortrag
 
